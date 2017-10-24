@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#writingModal .modal-dialog {
+	width:90%;
+	max-width:800px;
+}
+
+#update-info {
+	display:none;
+	margin:20px 0px 0px 0px;
+}
+
+#update-info p {
+	margin:0px;
+}
+
+#update-wordcount {
+	text-align:right;
+	margin:20px 0px 0px 0px;
+}
+
+#update-wordcount p {
+	margin:0px;
+}
+
+.answer_input {
+	border: 1px #d1004e solid;
+	min-height: 200px;
+	padding: 5px;
+	margin-bottom: 15px;
+}
+
+#editzone {
+	margin-top:30px;
+}
+
+.TES-multi-check {
+	float:right;
+}
+
+.TES-feedback {
+	margin-bottom:40px;
+	display:none;
+}

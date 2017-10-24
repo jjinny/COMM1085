@@ -1,0 +1,76 @@
+{
+  "General": {
+    "QuizName": "What do you think?",
+    "HeadingLevel": 3,
+    "instructions": "none",
+    "feedBackType": "continuous",
+    "forceCorrect": false,
+    "repeatOnComplete": false,
+    "allowNone": false,
+    "allowPrevious": true,
+    "showHints": true,
+    "allowPartial": true,
+    "randomize": true,
+    "subtractWrong": false,
+    "preQuizText": "<p>What value is there to clearn communication in the workplace? Take this quiz to find out.</p> \n <p>For each statement, choose whether the statement is likely or unlikely for you.</p>",
+    "preQuizMedia": "none",
+    "postQuizText": "<p class=\"lead\">If you would like to review the feedback for the reverse case of what you selected for each question, feel free to Reset the Activity.</p>",
+    "postQuizMedia": "none"
+  },
+  "Questions": [
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 0,
+      "questionText": "<p>In my future career, I will be asked to read various kinds of text.</p>",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Likely",
+          "feedBack": "You're not alone. Most jobs in today's information economy require us to read a variety of written styles. You may be asked read a patient's medica history, a memo from the company president on policy changes, or an instructional document outlineing expectations and plans for a project you are working on.",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Unlikely",
+          "feedBack": "<p>Although many jobs rely on primarily on a set of practical skills, most also have a reading component embedded somewhere in the workday.</p> \n <p>Can you imagine being asked to read a patient's medical history, a memo from the company president on policy change, or an instructional document outlining expectations and plans for a project you are working on?</p> \n <p>Even if you are not likely to encounter an academic essay or full-length book in the course of your job, you are likely to call upon your critical reading skills in a variety of situations.</p> \n"
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 0,
+      "questionText": "When I am employed in my career of choice, I will be asked to communicate my point of view.",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Likely",
+          "feedBack": "<p>Indeed, it is likely that you will be asked to communicate what you thinkn about a variety of situations.</p> \n <p>As you have perhaps imagines, you might be asked to report on why a client was unhappy with a service proved, email your boss to discuss your thoughts on upcoming Human Resouces policy changes, or create a proposal for a future client to entice them to work with your firm. If you want your opinion to count, clear communcation will help you.</p> \n",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Unlikely",
+          "feedBack": "<p>More than ever before, employees are being asked to add value to their organizations by communicating their insights, opinions, and suggestions. You might be asked to report on why a client was unhappy  with a service provided, email your manager to discuss your thoughts on upcoming Human Resources policy chanes, or create a proposal for a future client to entice them to work with your firm.</p> \n <p>Strong communication skills will help you make a wide variety of contributions in the workplace.</p> \n"
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 0,
+      "questionText": "When I am working, I will need to thinkn about what is being communciated to me, why i have been given this information, and how it can be applied into my work.",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Likely",
+          "feedBack": "<p>Yes, these crticial thinking skills are increasingly essential in today's workplace &mdash; not only for success in your current role, but also for advancement.</p> \n <p>For example you may have an opportunity to question why your benefit plans are changing and how that will impact you and your family.</p> \n <p>Or you may work within a professional designation such as the College of Nurses or the College of Trades and have to read, understand, and perhaps challenge changes that these governing bodies would like to make to your field of employement.</p> \n",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Unlikely",
+          "feedBack": "<p>Maybe this skill-set is hidden beneath the surface of your immediate job description.</p> \n <p>Is it possible that you will have to ask follow-up questions to better understand the requirements of a particular assignment?</p> \n <p>Can you imagine a situation where your organization implements new policies and procedures that could affect you personall &mdash; say, for example, a change to  your benefit plans?</p> \n <p>Or perhaps you'll be working within a professional designation such as the College of Nurses or the College of Trades. Communication from these governing bodies will require you to read, understand and perhaps even question their content.</p> \n"
+            }
+          ]
+        }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "FieldID": 1000012,
+  "FieldName": "COMM1085-Polling",
+  "Polls": [
+    {
+      "PollID": 1,
+      "PollContainer": "poll1",
+      "Title": "High School and Academic Reading and Writing",
+      "Description": "Did you feel that reading fiction, such as novels and short stories, and discussing literary themes and techniques in your English classes were relevant?",
+      "GraphType": "pie",
+      "PollType": "Single",
+      "MaxSelections": 1,
+      "Scale": [
+        {
+          "Id": 1,
+          "Container": "ratingscale1",
+          "Color": "#2d112b",
+          "Descriptor": "Not At All",
+          "ImageFile": "05_sm_awful.png"
+        },
+        {
+          "Id": 9,
+          "Container": "ratingscale1",
+          "Color": "#ca293e",
+          "Descriptor": "Not Much",
+          "ImageFile": "04_sm_not_good.png"
+        },
+        {
+          "Container": "ratingscale1",
+          "Id": 2,
+          "Color": "#ff583d",
+          "Descriptor": "Neutral",
+          "ImageFile": "03_sm_not_bad.png"
+        },
+        {
+          "Container": "ratingscale1",
+          "Id": 10,
+          "Color": "#a01865",
+          "Descriptor": "Somewhat",
+          "ImageFile": "02_sm_good.png"
+        },
+        {
+          "Id": 3,
+          "Container": "ratingscale1",
+          "Color": "#067f0f",
+          "Descriptor": "Very Much",
+          "ImageFile": "01_sm_great.png"
+        }
+      ],
+      "Feedback": "COMM1085 asks students to engage with non-fiction material such as newspaper articles, opinion columns, trade journals, and academic journals. The readings are contemporary and relevant. Some of the readings are specific to your school. Meaningful readings with a view of workplace skills can help you achieve clarity and effectiveness in your written communication and accuracy in reading for meaning. There is no creative writing or discussion of literary themes in COMM1085.",
+      "Features": {}
+    },
+    {
+      "PollID": 2,
+      "PollContainer": "poll2",
+      "Title": "High School Assignment Preparation",
+      "Description": "How much did you feel like in-class activities prepared you for success on the assignments?",
+      "GraphType": "pie",
+      "PollType": "Single",
+      "MaxSelections": 1,
+      "Scale": [
+        {
+          "Id": 1,
+          "Container": "ratingscale2",
+          "Color": "#2d112b",
+          "Descriptor": "Not At All",
+          "ImageFile": "05_sm_awful.png"
+        },
+        {
+          "Id": 9,
+          "Container": "ratingscale2",
+          "Color": "#ca293e",
+          "Descriptor": "Not Much",
+          "ImageFile": "04_sm_not_good.png"
+        },
+        {
+          "Container": "ratingscale2",
+          "Id": 2,
+          "Color": "#ff583d",
+          "Descriptor": "Neutral",
+          "ImageFile": "03_sm_not_bad.png"
+        },
+        {
+          "Container": "ratingscale2",
+          "Id": 10,
+          "Color": "#a01865",
+          "Descriptor": "Somewhat",
+          "ImageFile": "02_sm_good.png"
+        },
+        {
+          "Id": 3,
+          "Container": "ratingscale2",
+          "Color": "#067f0f",
+          "Descriptor": "Very Much",
+          "ImageFile": "01_sm_great.png"
+        }
+      ],
+      "Feedback": "Online activities and discussions in COMM1085 have been designed to target specifically those skills and concepts that students will need to use on their assignments. You’ll work with readings that have been chosen for their relevance, practice questions that match the style of the online quizzes, and examples of student work that were completed for the same type of assignments you’ll be expected to complete.",
+      "Features": {}
+    },
+    {
+      "PollID": 3,
+      "PollContainer": "poll3",
+      "Title": "High School Career Relevance",
+      "Description": "How relevant did you feel the writing assignments were to the direction you saw your career headed?",
+      "GraphType": "pie",
+      "PollType": "Single",
+      "MaxSelections": 1,
+      "Scale": [
+        {
+          "Id": 1,
+          "Container": "ratingscale3",
+          "Color": "#2d112b",
+          "Descriptor": "Not At All",
+          "ImageFile": "05_sm_awful.png"
+        },
+        {
+          "Id": 9,
+          "Container": "ratingscale3",
+          "Color": "#ca293e",
+          "Descriptor": "Not Much",
+          "ImageFile": "04_sm_not_good.png"
+        },
+        {
+          "Container": "ratingscale3",
+          "Id": 2,
+          "Color": "#ff583d",
+          "Descriptor": "Neutral",
+          "ImageFile": "03_sm_not_bad.png"
+        },
+        {
+          "Container": "ratingscale3",
+          "Id": 10,
+          "Color": "#a01865",
+          "Descriptor": "Somewhat",
+          "ImageFile": "02_sm_good.png"
+        },
+        {
+          "Id": 3,
+          "Container": "ratingscale3",
+          "Color": "#067f0f",
+          "Descriptor": "Very Much",
+          "ImageFile": "01_sm_great.png"
+        }
+      ],
+      "Feedback": "The assignments in this course have been designed to target specific communication and critical thinking skills that are necessary for success across the workplace spectrum. We also designed online activities and discussions to target specifically those skills and concepts that students will need to use on their assignments.",
+      "Features": {}
+    },
+    {
+      "PollID": 4,
+      "PollContainer": "poll4",
+      "Title": "High School Feedback Efficacy",
+      "Description": "How helpful was the feedback you received in guiding your future work?",
+      "GraphType": "pie",
+      "PollType": "Single",
+      "MaxSelections": 1,
+      "Scale": [
+        {
+          "Id": 1,
+          "Container": "ratingscale4",
+          "Color": "#2d112b",
+          "Descriptor": "Not At All",
+          "ImageFile": "05_sm_awful.png"
+        },
+        {
+          "Id": 9,
+          "Container": "ratingscale4",
+          "Color": "#ca293e",
+          "Descriptor": "Not Much",
+          "ImageFile": "04_sm_not_good.png"
+        },
+        {
+          "Container": "ratingscale4",
+          "Id": 2,
+          "Color": "#ff583d",
+          "Descriptor": "Neutral",
+          "ImageFile": "03_sm_not_bad.png"
+        },
+        {
+          "Container": "ratingscale4",
+          "Id": 10,
+          "Color": "#a01865",
+          "Descriptor": "Somewhat",
+          "ImageFile": "02_sm_good.png"
+        },
+        {
+          "Id": 3,
+          "Container": "ratingscale4",
+          "Color": "#067f0f",
+          "Descriptor": "Very Much",
+          "ImageFile": "01_sm_great.png"
+        }
+      ],
+      "Feedback": "Your instructor will use detailed rubrics to assess all of your assignments in this course; these rubrics are visible to you before you complete the assignment so you can see exactly how you will be assessed. Also, your instructor will use software to make detailed comments on your work, so this feedback can be more extensive, easier to read, and easier to access than traditional “pen and paper” comments.",
+      "Features": {}
+    }
+  ],
+  "Roles": {
+    "ModeratorView": [
+      101,
+      102,
+      126
+    ],
+    "ParticipantView": [
+      103
+    ]
+  }
+}

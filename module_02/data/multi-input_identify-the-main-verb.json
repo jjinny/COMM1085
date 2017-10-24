@@ -1,0 +1,192 @@
+{
+  "Questions": [
+    {
+      "Text": "The students seem ready to present their group work.",
+      "Fields": [
+        {
+          "AnswerType": "text",
+          "MinAccepted": 1,
+          "MaxAccepted": 20,
+          "PreText": "none",
+          "Units": "",
+          "Answer": {
+            "CaseSensitive": false,
+            "AutoDisplay": false,
+            "FeedbackText": "Seem is the main verb.",
+            "HasRange": false,
+            "Correct": [
+              "seem"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "We have not finished our discussion yet.",
+      "Fields": [
+        {
+          "AnswerType": "text",
+          "MinAccepted": 1,
+          "MaxAccepted": 20,
+          "PreText": "none",
+          "Units": "",
+          "Answer": {
+            "CaseSensitive": false,
+            "AutoDisplay": true,
+            "FeedbackText": "&quot;Have not finished&quot; is the main verb.",
+            "HasRange": false,
+            "Correct": [
+              "have not finished"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "Sunny took the bus yesterday.",
+      "Fields": [
+        {
+          "AnswerType": "text",
+          "MinAccepted": 1,
+          "MaxAccepted": 20,
+          "PreText": "none",
+          "Units": "",
+          "Answer": {
+            "CaseSensitive": false,
+            "AutoDisplay": true,
+            "FeedbackText": "Took is the main verb.",
+            "HasRange": false,
+            "Correct": [
+              "took"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "He is exhausted after a long night of studying.",
+      "Fields": [
+        {
+          "AnswerType": "text",
+          "MinAccepted": 1,
+          "MaxAccepted": 20,
+          "PreText": "none",
+          "Units": "",
+          "Answer": {
+            "CaseSensitive": false,
+            "AutoDisplay": true,
+            "FeedbackText": "&quot;Is&quot; is the main verb.",
+            "HasRange": false,
+            "Correct": [
+              "is"            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "The course will end at the end of April.",
+      "Fields": [
+        {
+          "AnswerType": "text",
+          "MinAccepted": 1,
+          "MaxAccepted": 50,
+          "PreText": "none",
+          "Units": "",
+          "Answer": {
+            "CaseSensitive": false,
+            "AutoDisplay": true,
+            "FeedbackText": "&quot;Will end&quot; is the main verb.",
+            "HasRange": false,
+            "Correct": [
+              "will end"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "Don't forget your toolbox!",
+      "Fields": [
+        {
+          "AnswerType": "text",
+          "MinAccepted": 1,
+          "MaxAccepted": 50,
+          "PreText": "none",
+          "Units": "",
+          "Answer": {
+            "CaseSensitive": false,
+            "AutoDisplay": true,
+            "FeedbackText": "&quot;Don't forget&quot; is the main verb.",
+            "HasRange": false,
+            "Correct": [
+              "Don't forget"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "Preparing for an interview is taken seriously by successful candidates.",
+      "Fields": [
+        {
+          "AnswerType": "text",
+          "MinAccepted": 1,
+          "MaxAccepted": 50,
+          "PreText": "none",
+          "Units": "",
+          "Answer": {
+            "CaseSensitive": false,
+            "AutoDisplay": true,
+            "FeedbackText": "&quot;Is taken&quot; is the main verb.",
+            "HasRange": false,
+            "Correct": [
+              "is taken"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "Hoping for a lucky break, she attended the interview without preparing.",
+      "Fields": [
+        {
+          "AnswerType": "text",
+          "MinAccepted": 1,
+          "MaxAccepted": 50,
+          "PreText": "none",
+          "Units": "",
+          "Answer": {
+            "CaseSensitive": false,
+            "AutoDisplay": true,
+            "FeedbackText": "Attended is the main verb.",
+            "HasRange": false,
+            "Correct": [
+              "attended"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "The committee could have been more impressed.",
+      "Fields": [
+        {
+          "AnswerType": "text",
+          "MinAccepted": 1,
+          "MaxAccepted": 50,
+          "PreText": "none",
+          "Units": "",
+          "Answer": {
+            "CaseSensitive": false,
+            "AutoDisplay": true,
+            "FeedbackText": "&quot;Could have been&quot; is the main verb.",
+            "HasRange": false,
+            "Correct": [
+              "could have been"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

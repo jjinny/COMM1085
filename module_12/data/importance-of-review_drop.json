@@ -1,0 +1,197 @@
+{
+  "Randomize": true,
+  "Questions": [
+    {
+      "Text": "It is important to review written work because missing or\nincorrect citation could be considered a form of plagiarism. ",
+      "Options": [
+        {
+          "Val": "A",
+          "Text": "1"
+        },
+        {
+          "Val": "B",
+          "Text": "2"
+        },
+        {
+          "Val": "C",
+          "Text": "3"
+        },
+        {
+          "Val": "D",
+          "Text": "4"
+        },
+        {
+          "Val": "E",
+          "Text": "5"
+        }
+      ],
+      "Answer": {
+        "AutoDisplay": false,
+        "FeedbackText": "Academic writing does require you to ensure that your\nwork is documented according to the appropriate style guide. Although these\ncitation appear in parenthesis or at the end of the document, and may therefore\nseem like small or minor aspects of\nyour overall document, they are nevertheless an important and consequential\ncomponent. ",
+        "Correct": [
+          ""
+        ]
+      }
+    },
+    {
+      "Text": "Reviewing written work is important because the standards of\nmy future profession will make incomplete, inaccurate, or messy work\nunacceptable.",
+      "Options": [
+        {
+          "Val": "A",
+          "Text": "1"
+        },
+        {
+          "Val": "B",
+          "Text": "2"
+        },
+        {
+          "Val": "C",
+          "Text": "3"
+        },
+        {
+          "Val": "D",
+          "Text": "4"
+        },
+        {
+          "Val": "E",
+          "Text": "5"
+        }
+      ],
+      "Answer": {
+        "AutoDisplay": false,
+        "FeedbackText": "Most industries value and expect written document to\nportray a professional level of quality. All business writing aimed at\ncustomers or clients, for example, should appear complete, correct, and clean,\nand internal memos and documents are likely to be subject to the same standard.",
+        "Correct": [
+          "F"
+        ]
+      }
+    },
+    {
+      "Text": "It is important to review written work because the\nevaluation rubric explicitly considers the overall clarity, accuracy, and\nprecision of both content and grammar / mechanics.",
+      "Options": [
+        {
+          "Val": "A",
+          "Text": "1"
+        },
+        {
+          "Val": "B",
+          "Text": "2"
+        },
+        {
+          "Val": "C",
+          "Text": "3"
+        },
+        {
+          "Val": "D",
+          "Text": "4"
+        },
+        {
+          "Val": "E",
+          "Text": "5"
+        }
+      ],
+      "Answer": {
+        "AutoDisplay": false,
+        "FeedbackText": "In an academic context, it’s reasonable to identify\n“getting a good grade on the assignment” as one “purpose” of your writing. From\nthis perspective, it’s worthwhile to review your written work for clarity and\nprecision because you know that the instructor will be assessing these features. ",
+        "Correct": [
+          "A"
+        ]
+      }
+    },
+    {
+      "Text": "It is important to review written work because it feels good\nto submit a polished version of my work that feels like it represents the best\nof what I’m able to do.",
+      "Options": [
+        {
+          "Val": "A",
+          "Text": "1"
+        },
+        {
+          "Val": "B",
+          "Text": "2"
+        },
+        {
+          "Val": "C",
+          "Text": "3"
+        },
+        {
+          "Val": "D",
+          "Text": "4"
+        },
+        {
+          "Val": "E",
+          "Text": "5"
+        }
+      ],
+      "Answer": {
+        "AutoDisplay": false,
+        "FeedbackText": "It can be easy to overlook the importance of our own\n“pride of work” when our work is assessed and these assessments are documented\nin official ways, like grades or performance reviews. However, students and\nprofessionals alike know how good it can feel to stand behind their work and\nknow that they’ve done the best they can do.",
+        "Correct": [
+          "E"
+        ]
+      }
+    },
+    {
+      "Text": "It is important to review written work because imprecise or\nincorrect technical details could cause significant harm, e.g., a machine could\nbegin to work improperly or unsafely, or a business could lose a client or\naccount.",
+      "Options": [
+        {
+          "Val": "A",
+          "Text": "1"
+        },
+        {
+          "Val": "B",
+          "Text": "2"
+        },
+        {
+          "Val": "C",
+          "Text": "3"
+        },
+        {
+          "Val": "D",
+          "Text": "4"
+        },
+        {
+          "Val": "E",
+          "Text": "5"
+        }
+      ],
+      "Answer": {
+        "AutoDisplay": false,
+        "FeedbackText": "Although your work might not require you to read or\nwrite long-form documents, you might still be required to read and write\ntechnical documents or care instructions that require a high-degree of\nprecision. For example, people working in the health care field will interact\nwith documents that could affect patient care, while people working in the\nengineering field will encounter documents that ensure the safe operation of\npowerful machines. ",
+        "Correct": [
+          "C"
+        ]
+      }
+    },
+    {
+      "Text": "It is important to review written work because the content\nof my writing might be included in a legal proceeding, such as a trial, and\ncould affect the outcome of the ruling.",
+      "Options": [
+        {
+          "Val": "A",
+          "Text": "1"
+        },
+        {
+          "Val": "B",
+          "Text": "2"
+        },
+        {
+          "Val": "C",
+          "Text": "3"
+        },
+        {
+          "Val": "D",
+          "Text": "4"
+        },
+        {
+          "Val": "E",
+          "Text": "5"
+        }
+      ],
+      "Answer": {
+        "AutoDisplay": false,
+        "FeedbackText": "Students in community service fields such as security,\npolice, and investigation might find that this applies to them, as their\nwritten notes and observations can indeed be called upon in legal proceedings.\nIn addition, people working in social work and early childhood education may\nfind that they are required to produce or share documentation that will be used\nin legal matters. ",
+        "Correct": [
+          "B"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>Practice Exercise: Tone</title>
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Bootstrap core CSS -->
+<link href="../css/bootstrap.css" rel="stylesheet">
+
+<!-- Material Design Bootstrap -->
+<link href="../css/mdb.min.css" rel="stylesheet">
+<link href="../css/style.css" rel="stylesheet">
+<link rel="stylesheet" href="../facilitator_tools/WritingActivity/thirdpartylib/Trumbowyg-master/dist/ui/trumbowyg.css">
+<link rel="stylesheet" href="../facilitator_tools/WritingActivity/css/texteditsave.css">
+</head>
+
+<body>
+<div class="container-fluid">
+
+<!-- Header Area -->
+<header id="textEdit">
+  <div class="row">
+    <div class="col-sm-12 prime-bg header z-depth-1-half">
+      <div class="headerMod"></div>
+      <p class="animated flipInX text-accent-4 c">Tone and Direct Approach</p>
+    </div>
+  </div>
+</header>
+<!-- /Header Area --> 
+
+<!-- Main Content Area -->
+<main>
+  <div class="col-sm-12 content">
+    <h1 class="animated bounceInLeft"><i class="fa fa-pencil-square-o fa-2x text-fourth" aria-hidden=""></i><span class="sr-only">Practice Exercise: </span>Tone</h1>
+
+  <div class="clearfix"></div>
+  
+  <div id="editzone" class="animated fadeInUpBig">
+  	
+  	
+  </div>
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="writingModal" tabindex="-1" role="dialog" aria-labelledby="writingModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="writingModalLabel">Modal title</h4>
+        </div>
+        <div class="modal-body"> ... </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</main>
+<!-- /Main Content Area -->
+<footer>
+  <div class="row">
+    <div class="col-sm-12 footer">
+      <p>© 2017 Conestoga College. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+</div>
+<!-- SCRIPTS --> 
+
+<!-- JQuery --> 
+<script type="text/javascript" src="../js/jquery-3.1.1.min.js"></script> 
+
+<!-- Tooltips --> 
+<script type="text/javascript" src="../js/tether.min.js"></script> 
+
+<!-- Bootstrap core JavaScript --> 
+<script type="text/javascript" src="../js/bootstrap.js"></script> 
+
+<!-- MDB core JavaScript 
+<script type="text/javascript" src="../js/mdb.min.js"></script> --> 
+
+<!-- Open-Close Collapse --> 
+<script src="../js/plugins/open_close_all.js"></script> 
+
+<!-- OLC Custom JS --> 
+<script src="../facilitator_tools/WritingActivity/thirdpartylib/Trumbowyg-master/dist/trumbowyg.js"></script>
+<script>
+	var jsonfilename = "data/99_activity_multi_input_textedit_prepopulated.txt";
+</script> 
+<script src="../facilitator_tools/WritingActivity/thirdpartylib/valence/global-superagent-d2l-session-auth.min.js"></script> 
+<script src="../facilitator_tools/WritingActivity/thirdpartylib/valence/csval-lib.js"></script> 
+<script src="../facilitator_tools/WritingActivity/js/texteditsave-multi.js"></script>
+
+
+<script>
+$(document).ready(function(){
+    $("#showInstructions").click(function(){
+        $("div#instructions").show();
+    });
+		
+    $("#hideInstructions").click(function(){
+        $("div#instructions").hide();
+    });
+});
+</script>
+</body>
+</html>

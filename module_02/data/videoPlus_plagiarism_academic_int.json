@@ -1,0 +1,114 @@
+{
+  "Video": {
+    "ContainID": "vpcontain",
+    "VideoID": "video0",
+    "Width": 800,
+    "Height": 450,
+    "Controls": true,
+    "StartTime": 0,
+    "Type": "YouTube",
+    "PreviewImage": {
+      "HasImage": true,
+      "FileName": "plagiarism_academic_int.jpg"
+    },
+    "SourceData": {
+      "FolderPath": "",
+      "Sources": []
+    },
+    "YouTubeData": {
+      "videoId": "Km9itlrh_5U"
+    }
+  },
+  "Popups": [
+    {
+      "Type": "Question",
+      "StartTime": 80,
+      "PauseVideo": true,
+      "Enforce": true,
+      "MustRetry": false,
+      "ViewLater": true,
+      "ShortTitle": "Question 1",
+      "Question": {
+        "activityType": "MC",
+        "title": "Knowledge Check",
+        "questionText": "If you accidentally forget to tell your reader that you used information from another source, it doesn't count as plagiarims.",
+        "feedbacktext": true,
+        "feedbackicons": false,
+        "key": "",
+        "answers": [
+          {
+            "answerText": "True",
+            "correct": true,
+            "feedback": "All writiers have a responsibility to be honest and clear with their readers when they have included words, ideas, and/or images from another source. Therefore, plagiarism can be accidental or deliberate."
+          },
+          {
+            "answerText": "False",
+            "correct": false,
+            "feedback": "That's correct! All writiers have a responsibility to be honest and clear with their readers when they have included words, ideas, and/or images from another source. Therefore, plagiarism can be accidental or deliberate."
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Question",
+      "StartTime": 153,
+      "PauseVideo": true,
+      "Enforce": true,
+      "MustRetry": false,
+      "ViewLater": true,
+      "ShortTitle": "Question 2",
+      "Question": {
+        "activityType": "MC",
+        "title": "Knowledge Check",
+        "questionText": "It's not necessary to indicate that you have included information from unpublished sources like class lectures and slides.",
+        "feedbacktext": true,
+        "feedbackicons": false,
+        "key": "",
+        "answers": [
+          {
+            "answerText": "True",
+            "correct": true,
+            "feedback": "It's necessary to identify the source of all borrowed information, even if it is unpublished."
+          },
+          {
+            "answerText": "False",
+            "correct": false,
+            "feedback": "That's correct! It's necessary to identify the source of all borrowed information, even if it is unpublished."
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Question",
+      "StartTime": 190,
+      "PauseVideo": true,
+      "Enforce": true,
+      "MustRetry": false,
+      "ViewLater": true,
+      "ShortTitle": "Question 3",
+      "Question": {
+        "activityType": "MC",
+        "title": "Knowledge Check",
+        "questionText": "It's not necessary to indicate when you have captured the main idea from another source &mdash; only when you have borrowed someone else's exact words.",
+        "feedbacktext": true,
+        "feedbackicons": false,
+        "key": "",
+        "answers": [
+          {
+            "answerText": "True",
+            "correct": true,
+            "feedback": "You are required to indicate to the reader whenever you have included someone else's ideas, even if you have captured this idea in your own words &mdash; called &lsquo;paraphrasing&rsquo;."
+          },
+          {
+            "answerText": "False",
+            "correct": false,
+            "feedback": "You're right! You are required to indicate to the reader whenever you have included someone else's ideas, even if you have captured this idea in your own words &mdash; called &lsquo;paraphrasing&rsquo;."
+          }
+        ]
+      }
+    }
+  ],
+  "Bullets": {
+    "Lists": []
+  }
+}

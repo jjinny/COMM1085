@@ -1,0 +1,173 @@
+{
+  "Questions": [
+    {
+      "Text": "Malik is the project manager for this project.",
+      "Fields": [
+        {
+          "AnswerType": "text",
+          "MinAccepted": 1,
+          "MaxAccepted": 20,
+          "PreText": "none",
+          "Units": "",
+          "Answer": {
+            "CaseSensitive": false,
+            "AutoDisplay": false,
+            "FeedbackText": "Malik is the subject and is a person.",
+            "HasRange": false,
+            "Correct": [
+              "Malik",
+              "Malek"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "He will give us our assignments.",
+      "Fields": [
+        {
+          "AnswerType": "text",
+          "MinAccepted": 1,
+          "MaxAccepted": 20,
+          "PreText": "none",
+          "Units": "",
+          "Answer": {
+            "CaseSensitive": false,
+            "AutoDisplay": true,
+            "FeedbackText": "He is the subject ad replaces a noun that is a person.",
+            "HasRange": false,
+            "Correct": [
+              "He"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "The computer lab is where we will work.",
+      "Fields": [
+        {
+          "AnswerType": "text",
+          "MinAccepted": 1,
+          "MaxAccepted": 40,
+          "PreText": "none",
+          "Units": "",
+          "Answer": {
+            "CaseSensitive": false,
+            "AutoDisplay": true,
+            "FeedbackText": "Lab is the subject and is a place. Computer, in this sentence, describes the type of lab.",
+            "HasRange": false,
+            "Correct": [
+              "Lab"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "It will be open 24 hours a day.",
+      "Fields": [
+        {
+          "AnswerType": "text",
+          "MinAccepted": 1,
+          "MaxAccepted": 20,
+          "PreText": "none",
+          "Units": "",
+          "Answer": {
+            "CaseSensitive": false,
+            "AutoDisplay": true,
+            "FeedbackText": "It is the subject.",
+            "HasRange": false,
+            "Correct": [
+              "It"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "The project will run for three weeks.",
+      "Fields": [
+        {
+          "AnswerType": "text",
+          "MinAccepted": 1,
+          "MaxAccepted": 50,
+          "PreText": "none",
+          "Units": "",
+          "Answer": {
+            "CaseSensitive": false,
+            "AutoDisplay": true,
+            "FeedbackText": "Project is the subject and is a thing.",
+            "HasRange": false,
+            "Correct": [
+              "Project"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "It will have a quick turnaround",
+      "Fields": [
+        {
+          "AnswerType": "text",
+          "MinAccepted": 1,
+          "MaxAccepted": 50,
+          "PreText": "none",
+          "Units": "",
+          "Answer": {
+            "CaseSensitive": false,
+            "AutoDisplay": true,
+            "FeedbackText": "It is the subject.",
+            "HasRange": false,
+            "Correct": [
+              "It"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "Expectations are high.",
+      "Fields": [
+        {
+          "AnswerType": "text",
+          "MinAccepted": 1,
+          "MaxAccepted": 50,
+          "PreText": "none",
+          "Units": "",
+          "Answer": {
+            "CaseSensitive": false,
+            "AutoDisplay": true,
+            "FeedbackText": "Expectations is the subject and is an idea.",
+            "HasRange": false,
+            "Correct": [
+              "Expectations"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "They will be hard to meet.",
+      "Fields": [
+        {
+          "AnswerType": "text",
+          "MinAccepted": 1,
+          "MaxAccepted": 50,
+          "PreText": "none",
+          "Units": "",
+          "Answer": {
+            "CaseSensitive": false,
+            "AutoDisplay": true,
+            "FeedbackText": "They is the subject.",
+            "HasRange": false,
+            "Correct": [
+              "They"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

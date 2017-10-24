@@ -1,0 +1,39 @@
+{
+  "Questions": [
+    {
+      "QuestionText": "What did you do this weekend?",
+      "InputType": "text",
+      "MinCharacters": 20,
+      "ButtonText": "Reveal Answer",
+      "AnswerText": "Something Cool",
+      "KeyWords": [
+        "Bowling",
+        "Tennis"
+      ]
+    },
+    {
+      "QuestionText": "What will you do next weekend?",
+      "InputType": "text",
+      "MinCharacters": 20,
+      "ButtonText": "Reveal Answer",
+      "AnswerText": "Something Else",
+      "KeyWords": []
+    },
+    {
+      "QuestionText": "What will you do the weekend after that?",
+      "InputType": "text",
+      "MinCharacters": 0,
+      "ButtonText": "Reveal Answer",
+      "AnswerText": "Something Else",
+      "KeyWords": []
+    },
+    {
+      "QuestionText": "How many hours did you spend doing errands this weekened?",
+      "InputType": "number",
+      "MinCharacters": -1,
+      "ButtonText": "Reveal Answer",
+      "AnswerText": "That's too many!",
+      "KeyWords": []
+    }
+  ]
+}

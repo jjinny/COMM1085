@@ -1,0 +1,1388 @@
+{
+  "Questions": [
+    {
+      "Text": "How wide is a standard interior door?",
+      "Fields": [
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": true,
+            "FeedbackText": "none",
+            "HasRange": true,
+            "Correct": [
+              30,
+              32
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "How tall is a standard interior door?",
+      "Fields": [
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": true,
+            "FeedbackText": "none",
+            "HasRange": false,
+            "Correct": [
+              80
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "How wide is average trim around a door or window?",
+      "Fields": [
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": true,
+            "FeedbackText": "none",
+            "HasRange": false,
+            "Correct": [
+              3,
+              4,
+              6
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "How high are standard baseboards?",
+      "Fields": [
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": true,
+            "FeedbackText": "none",
+            "HasRange": true,
+            "Correct": [
+              3,
+              6
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "What is a standard ceiling height?",
+      "Fields": [
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "feet",
+          "Answer": {
+            "AutoDisplay": true,
+            "FeedbackText": "none",
+            "HasRange": false,
+            "Correct": [
+              8
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "What is the popular new height for ceilings?",
+      "Fields": [
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "feet",
+          "Answer": {
+            "AutoDisplay": true,
+            "FeedbackText": "none",
+            "HasRange": false,
+            "Correct": [
+              9
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "How wide is a standard hallway to bedrooms?",
+      "Fields": [
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "feet",
+          "Answer": {
+            "AutoDisplay": true,
+            "FeedbackText": "none",
+            "HasRange": false,
+            "Correct": [
+              4
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "How high is a standard single step? (Rise of the step)",
+      "Fields": [
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": true,
+            "FeedbackText": "none",
+            "HasRange": false,
+            "Correct": [
+              7.5
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "How deep is a step?",
+      "Fields": [
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": true,
+            "FeedbackText": "none",
+            "HasRange": true,
+            "Correct": [
+              10,
+              12
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "How wide is an average staircase?",
+      "Fields": [
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "feet",
+          "Answer": {
+            "AutoDisplay": true,
+            "FeedbackText": "Note that this is a minimum width.",
+            "HasRange": false,
+            "Correct": [
+              3
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "How high is a kitchen counter?",
+      "Fields": [
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": true,
+            "FeedbackText": "none",
+            "HasRange": false,
+            "Correct": [
+              36
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "How deep is a kitchen counter?",
+      "Fields": [
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": true,
+            "FeedbackText": "none",
+            "HasRange": false,
+            "Correct": [
+              25
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "How high is an average backsplash?",
+      "Fields": [
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": true,
+            "FeedbackText": "none",
+            "HasRange": true,
+            "Correct": [
+              18,
+              24
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "How high is a kick plate under the kitchen cabinets?",
+      "Fields": [
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": true,
+            "FeedbackText": "none",
+            "HasRange": true,
+            "Correct": [
+              4,
+              6
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "How high does the bottom of kitchen cabinets hang in a room?",
+      "Fields": [
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": true,
+            "FeedbackText": "none",
+            "HasRange": false,
+            "Correct": [
+              54
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "How wide is an average 4 burner stove?",
+      "Fields": [
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": true,
+            "FeedbackText": "none",
+            "HasRange": false,
+            "Correct": [
+              30
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "How wide is a dishwasher?",
+      "Fields": [
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": true,
+            "FeedbackText": "none",
+            "HasRange": false,
+            "Correct": [
+              24
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "How much space do you need for a microwave shelf?",
+      "Fields": [
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": true,
+            "FeedbackText": "none",
+            "HasRange": false,
+            "Correct": [
+              24
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "How wide is a standard fridge?",
+      "Fields": [
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": true,
+            "FeedbackText": "Note that this is a minimum.",
+            "HasRange": false,
+            "Correct": [
+              36
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "How much space do you need as a minimum traffic area in a kitchen work space?",
+      "Fields": [
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "feet",
+          "Answer": {
+            "AutoDisplay": true,
+            "FeedbackText": "none",
+            "HasRange": false,
+            "Correct": [
+              3
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "How high is a bathroom counter?",
+      "Fields": [
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": true,
+            "FeedbackText": "none",
+            "HasRange": false,
+            "Correct": [
+              33
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "How deep is a bathroom counter top?",
+      "Fields": [
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": true,
+            "FeedbackText": "none",
+            "HasRange": false,
+            "Correct": [
+              21
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "What are the standard dimensions of a toilet? (W x L x H) ",
+      "Fields": [
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "none",
+            "HasRange": false,
+            "Correct": [
+              20
+            ]
+          }
+        },
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "none",
+            "HasRange": false,
+            "Correct": [
+              27
+            ]
+          }
+        },
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "The correct answer is 20”W x 27”L x 19”H.",
+            "HasRange": false,
+            "Correct": [
+              19
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "What are the dimensions of a standard tub? (W x L x H)",
+      "Fields": [
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "none",
+            "HasRange": false,
+            "Correct": [
+              32
+            ]
+          }
+        },
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "none",
+            "HasRange": false,
+            "Correct": [
+              60
+            ]
+          }
+        },
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "The correct answer is 32”W x 60”L x 17”H.",
+            "HasRange": false,
+            "Correct": [
+              17
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "How wide is a dining/kitchen chair?",
+      "Fields": [
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": true,
+            "FeedbackText": "none",
+            "HasRange": false,
+            "Correct": [
+              18
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "How deep is a standard dining/kitchen chair?",
+      "Fields": [
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": true,
+            "FeedbackText": "none",
+            "HasRange": false,
+            "Correct": [
+              18
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "How deep is a standard club chair?",
+      "Fields": [
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": true,
+            "FeedbackText": "none",
+            "HasRange": false,
+            "Correct": [
+              36
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "How long is an average loveseat?",
+      "Fields": [
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": true,
+            "FeedbackText": "none",
+            "HasRange": false,
+            "Correct": [
+              60
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "How long is an average sofa?",
+      "Fields": [
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": true,
+            "FeedbackText": "none",
+            "HasRange": true,
+            "Correct": [
+              83,
+              87
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "How long is an demi sofa?",
+      "Fields": [
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": true,
+            "FeedbackText": "none",
+            "HasRange": true,
+            "Correct": [
+              72,
+              74
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "What is the average height of a sofa/loveseat from the floor to the top of the back?",
+      "Fields": [
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": true,
+            "FeedbackText": "none",
+            "HasRange": true,
+            "Correct": [
+              32,
+              36
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "What is the cushion height of an average sofa/loveseat?",
+      "Fields": [
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": true,
+            "FeedbackText": "none",
+            "HasRange": true,
+            "Correct": [
+              18,
+              19
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "What size is a sofa table? (L x D x H)",
+      "Fields": [
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "none",
+            "HasRange": false,
+            "Correct": [
+              48
+            ]
+          }
+        },
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "none",
+            "HasRange": false,
+            "Correct": [
+              14
+            ]
+          }
+        },
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "The correct answer is 48”L x 14”D x 30”H.",
+            "HasRange": false,
+            "Correct": [
+              30
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "What is the standard size of a rectangular end table? (L x D)",
+      "Fields": [
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "none",
+            "HasRange": false,
+            "Correct": [
+              24
+            ]
+          }
+        },
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "The correct answer is 24”L x 20”D.",
+            "HasRange": false,
+            "Correct": [
+              20
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "What is the standard size of a square end table? (L x D)",
+      "Fields": [
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "none",
+            "HasRange": false,
+            "Correct": [
+              24
+            ]
+          }
+        },
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "The correct answer is 24”x24”.",
+            "HasRange": false,
+            "Correct": [
+              24
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "How tall is an average end table?",
+      "Fields": [
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": true,
+            "FeedbackText": "none",
+            "HasRange": false,
+            "Correct": [
+              24
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "How tall is an average coffee table/cocktail table?",
+      "Fields": [
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": true,
+            "FeedbackText": "none",
+            "HasRange": true,
+            "Correct": [
+              18,
+              21
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "What is the size of an upright piano, depth and length? (W x D x H)",
+      "Fields": [
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "none",
+            "HasRange": true,
+            "Correct": [
+              48,
+              60
+            ]
+          }
+        },
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "none",
+            "HasRange": false,
+            "Correct": [
+              24
+            ]
+          }
+        },
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "The correct answer is 48-60”W x 24”D x 58”H.",
+            "HasRange": false,
+            "Correct": [
+              58
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "What is a baby grand piano, depth and length? (L x W x H)",
+      "Fields": [
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "none",
+            "HasRange": true,
+            "Correct": [
+              60,
+              72
+            ]
+          }
+        },
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "none",
+            "HasRange": false,
+            "Correct": [
+              59
+            ]
+          }
+        },
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "The correct answer is 60”-72”L x 59”W x 40”H.",
+            "HasRange": false,
+            "Correct": [
+              40
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "What is the standard size of a desk? (L x D x H)",
+      "Fields": [
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "none",
+            "HasRange": false,
+            "Correct": [
+              48
+            ]
+          }
+        },
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "none",
+            "HasRange": false,
+            "Correct": [
+              24
+            ]
+          }
+        },
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "The correct answer is 48”L x 24”D x 30”H.",
+            "HasRange": false,
+            "Correct": [
+              30
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "What is the average size of a rectangular dining table? (L x W)",
+      "Fields": [
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 200,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "none",
+            "HasRange": true,
+            "Correct": [
+              72,
+              110
+            ]
+          }
+        },
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "The correct answer is 72”x36” up to 110”x42”.",
+            "HasRange": true,
+            "Correct": [
+              36,
+              42
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "How long and deep is a small buffet? (L x D)",
+      "Fields": [
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "none",
+            "HasRange": false,
+            "Correct": [
+              56
+            ]
+          }
+        },
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "The correct answer is 56”L x 18”D.",
+            "HasRange": false,
+            "Correct": [
+              18
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "How long and deep is a large buffet? (L x D)",
+      "Fields": [
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "none",
+            "HasRange": true,
+            "Correct": [
+              60,
+              72
+            ]
+          }
+        },
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "The correct answer is 60-72”L x 18”D.",
+            "HasRange": false,
+            "Correct": [
+              18
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "What is the size of a cube ottoman? (L x D)",
+      "Fields": [
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "none",
+            "HasRange": true,
+            "Correct": [
+              18,
+              20
+            ]
+          }
+        },
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "The correct answer is 18” x 18” – 20” x 20”.",
+            "HasRange": true,
+            "Correct": [
+              18,
+              20
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "What is the size of a standard upholstered ottoman? (L x W)",
+      "Fields": [
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "none",
+            "HasRange": false,
+            "Correct": [
+              20
+            ]
+          }
+        },
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "The correct answer is 24” x 20”.",
+            "HasRange": false,
+            "Correct": [
+              20
+            ]
+          }
+        }
+      ]
+    },
+    {
+  "Text": "What is an average length and depth of a fireplace? (L X D)",
+      "Fields": [
+	{
+	  "AnswerType": "number",
+	  "MinAccepted": 1,
+	  "MaxAccepted": 99,
+	  "PreText": "none",
+	  "Units": "feet",
+	  "Answer": {
+		"AutoDisplay": true,
+		"FeedbackText": "none",
+		"HasRange": false,
+		"Correct": [
+		  6
+		]
+	  }
+	},
+  	{
+	  "AnswerType": "number",
+	  "MinAccepted": 1,
+	  "MaxAccepted": 99,
+	  "PreText": "none",
+	  "Units": "inches",
+	  "Answer": {
+		"AutoDisplay": true,
+		"FeedbackText": "none",
+		"HasRange": false,
+		"Correct": [
+	  16
+		]
+	  }
+	}
+]
+    },
+    {
+      "Text": "What is the average depth of a bookcase?",
+      "Fields": [
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": true,
+            "FeedbackText": "none",
+            "HasRange": false,
+            "Correct": [
+              12
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "What is the size of a single bed? (L x W)",
+      "Fields": [
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "none",
+            "HasRange": false,
+            "Correct": [
+              78
+            ]
+          }
+        },
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "The correct answer is 78”L x 39”W.",
+            "HasRange": false,
+            "Correct": [
+              39
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "What is the size of a queen bed? (L x W)",
+      "Fields": [
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "none",
+            "HasRange": false,
+            "Correct": [
+              80
+            ]
+          }
+        },
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "The correct answer is 80”L x 60”W.",
+            "HasRange": false,
+            "Correct": [
+              60
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "What is the average size of a night table? (L x D)",
+      "Fields": [
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "none",
+            "HasRange": false,
+            "Correct": [
+              24
+            ]
+          }
+        },
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "inches",
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "The correct answer is 24”L x 18”D.",
+            "HasRange": false,
+            "Correct": [
+              18
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "What is the depth of a standard closet?",
+      "Fields": [
+        {
+          "AnswerType": "number",
+          "MinAccepted": 1,
+          "MaxAccepted": 99,
+          "PreText": "none",
+          "Units": "feet",
+          "Answer": {
+            "AutoDisplay": true,
+            "FeedbackText": "Note that this is the minimum value measured from inside the closet.",
+            "HasRange": false,
+            "Correct": [
+              2
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

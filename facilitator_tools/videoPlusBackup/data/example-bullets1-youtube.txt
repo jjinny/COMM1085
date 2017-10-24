@@ -1,0 +1,88 @@
+{
+  "Video": {
+    "ContainID": "vpcontain",
+    "VideoID": "video0",
+    "Width": 800,
+    "Height": 450,
+    "Controls": true,
+    "StartTime": 0,
+    "Type": "YouTube",
+    "SourceData": {
+      "FolderPath": "",
+      "Sources": [
+        {
+          "Type": "MP4",
+          "Filename": "CreativeServices_v5_Final_1.mp4"
+        },
+        {
+          "Type": "WEBM",
+          "Filename": "CreativeServices_v5_Final_1.webm"
+        }
+      ]
+    },
+    "YouTubeData": {
+      "videoId": "NsYA1oW8Ijg"
+    }
+  },
+  "Popups": [],
+  "Bullets": {
+    "Lists": [
+      {
+        "ContainID": "vpbullets1",
+        "ListType": "unordered",
+        "DisplayType": "appear",
+        "HighlightCol": "none",
+        "Items": [
+          {
+            "StartTime": 37,
+            "EndTime": "none",
+            "Text": "Part of Professional Services"
+          },
+          {
+            "StartTime": 48,
+            "EndTime": "none",
+            "Text": "Courseware and Multimedia Teams"
+          },
+          {
+            "StartTime": 62,
+            "EndTime": "none",
+            "Text": "Courseware: Learning Solution Design, Instructional Design, Courseware Development"
+          },
+          {
+            "StartTime": 85,
+            "EndTime": "none",
+            "Text": "Multimedia: Multimedia Development, Web Development, and Graphic Design"
+          },
+          {
+            "StartTime": 91,
+            "EndTime": "none",
+            "Text": "Project Management"
+          }
+        ]
+      },
+      {
+        "ContainID": "vpbullets2",
+        "ListType": "ordered",
+        "DisplayType": "appear",
+        "HighlightCol": "#FF0000",
+        "Items": [
+          {
+            "StartTime": 42,
+            "EndTime": "none",
+            "Text": "Work with new and existing clients"
+          },
+          {
+            "StartTime": 54,
+            "EndTime": "none",
+            "Text": "Design and Development Solutions"
+          },
+          {
+            "StartTime": 73,
+            "EndTime": "none",
+            "Text": "Web Applications and Learning Objects"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "Video": {
+    "ContainID": "vpcontain",
+    "VideoID": "video0",
+    "Width": 800,
+    "Height": 450,
+    "Controls": true,
+    "StartTime": 0,
+    "Type": "YouTube",
+    "PreviewImage": {
+      "HasImage": true,
+      "FileName": "plagiarism_quoting_paraphrasing.jpg"
+    },
+    "SourceData": {
+      "FolderPath": "",
+      "Sources": []
+    },
+    "YouTubeData": {
+      "videoId": "CG0cWY3X5XY"
+    }
+  },
+  "Popups": [
+    {
+      "Type": "Question",
+      "StartTime": 72,
+      "PauseVideo": true,
+      "Enforce": true,
+      "MustRetry": false,
+      "ViewLater": true,
+      "ShortTitle": "Question 1",
+      "Question": {
+        "activityType": "MC",
+        "title": "Knowledge Check",
+        "questionText": "Which of the following statements about quotations is true?",
+        "feedbacktext": true,
+        "feedbackicons": false,
+        "key": "",
+        "answers": [
+          {
+            "answerText": "Using someone's exact words in your writing can be refered to as quoting, using a direct quote, or using a quotation.",
+            "correct": true,
+            "feedback": "You're right! "
+          },
+          {
+            "answerText": "When you want to use someone else's words in your writing, you may only use exactly one sentence.",
+            "correct": false,
+            "feedback": "In fact, quotations vary in length from just a few words to several sentences. "
+          },
+          {
+            "answerText": "The length of a quotation does not matter, and all quotations are treated the same way.",
+            "correct": false,
+            "feedback": "In fact, we use short quotations and long quotations in different ways. Also, each style guide has different rules regarding the length of quotations. In APA@Conestoga, for example, a short quotations is 40 words or less &mdash; or no more than three total lines of double-spaced, 12 point Arial font."
+          }
+				]
+			}
+		},
+    {
+      "Type": "Question",
+      "StartTime": 132,
+      "PauseVideo": true,
+      "Enforce": true,
+      "MustRetry": false,
+      "ViewLater": true,
+      "ShortTitle": "Question 2",
+      "Question": {
+        "activityType": "MC",
+        "title": "Knowledge Check",
+        "questionText": "Which of the following statements is <strong>NOT</strong> true?",
+        "feedbacktext": true,
+        "feedbackicons": false,
+        "key": "",
+        "answers": [
+          {
+            "answerText": "You must start and end the quote wherever the original author began and ended the original sentence.",
+            "correct": true,
+            "feedback": "You're right! In fact, you may start the quotation in the middle of the original sentence or end the quotation before the end of the original sentence, as long as the remaining quotation still clearly says what the original author intended to say."
+          },
+          {
+            "answerText": "If you want to use the exact words that were written or spoken by somebody else, those words must be placed inside quotation marks.",
+            "correct": false,
+            "feedback": "This statement is true. "
+          },
+          {
+            "answerText": "One reason to exclude words from a quotation is you might be able to express that part of the idea in another way that is more appropriate for your audience or purpose.",
+            "correct": false,
+            "feedback": "This statement is true."
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Question",
+      "StartTime": 192,
+      "PauseVideo": true,
+      "Enforce": true,
+      "MustRetry": false,
+      "ViewLater": true,
+      "ShortTitle": "Question 3",
+      "Question": {
+        "activityType": "MC",
+        "title": "Knowledge Check",
+        "questionText": "Which of the following statements about long quotations is true?",
+        "feedbacktext": true,
+        "feedbackicons": false,
+        "key": "",
+        "answers": [
+          {
+            "answerText": "It's fine to use as many long quotations in your writing as you'd like.",
+            "correct": false,
+            "feedback": "Longer quotations are more appropriate in a longer report, where you have more time to explore more complex ideas, and the reader is already expecting to explore in-depth and technical information. Since most of the writing you'll be doing in this course is relatively short, you should try to limit or even avoid using longer quotations."
+          },
+          {
+            "answerText": "Longer quotations are formatted using a style called &quot;block style&quot;.",
+            "correct": true,
+            "feedback": "You're right! "
+          },
+          {
+            "answerText": "Longer quotations are formatted in exactly the same way as short quotations.",
+            "correct": false,
+            "feedback": "Longer quotations are formatted in a unique way, i.e., no quotation marks appear around the quotation and the quotation is indented from the left side of the page (also known as the &quot;margin&quot;)."
+          }
+				]
+			}
+    },
+    {
+      "Type": "Question",
+      "StartTime": 354,
+      "PauseVideo": true,
+      "Enforce": true,
+      "MustRetry": false,
+      "ViewLater": true,
+      "ShortTitle": "Question 4",
+      "Question": {
+        "activityType": "MC",
+        "title": "Knowledge Check",
+        "questionText": "Which of the following statements about paraphrasing is <strong>NOT</strong> true?",
+        "feedbacktext": true,
+        "feedbackicons": false,
+        "key": "",
+        "answers": [
+          {
+            "answerText": "Paraphrasing means using another person's ideas but not their exact words.",
+            "correct": false,
+            "feedback": "This statement is true."
+          },
+          {
+            "answerText": "Paraphrasing shows the reader that you understand the information you're presenting because you were able to explain it in your own words.",
+            "correct": false,
+            "feedback": "This statement is true."
+          },
+          {
+            "answerText": "Successful paraphrasing can include sections of words and phrases that were unchanged from the original text and not placed inside quottion marks.",
+            "correct": true,
+            "feedback": "You're right! Successful paraphrasing can only include individual words or words in groups of two that appeared in the original text. Also, these words should be commonly used words or technical terms, rather than phrases or words that the author created."
+          },
+					{
+						"answerText": "Successful paraphrasing should change the sentence structure used by the original author, which means &mdash; in simplified terms &mdash; presenting the original ideas in a different order or pattern than the original.",
+						"correct": false,
+						"feedback": "This statement is true."
+					}
+				]
+			}
+		},
+    {
+      "Type": "Question",
+      "StartTime": 372,
+      "PauseVideo": true,
+      "Enforce": true,
+      "MustRetry": false,
+      "ViewLater": true,
+      "ShortTitle": "Question 5",
+      "Question": {
+        "activityType": "MC",
+        "title": "Knowledge Check",
+        "questionText": "Which of the following characteristics is true of <strong>quoting</strong>?",
+        "feedbacktext": true,
+        "feedbackicons": false,
+        "key": "",
+        "answers": [
+          {
+            "answerText": "Uses different sentence structure, i.e. a different order or pattern to express original ideas.",
+            "correct": false,
+            "feedback": "This statement is not true."
+          },
+          {
+            "answerText": "Places the original author's exact words in quotation marks..",
+            "correct": true,
+            "feedback": "You're right'!"
+          },
+          {
+            "answerText": "Uses different words and phrases to express the original ideas.",
+            "correct": false,
+            "feedback": "This statement is not true."
+          },
+					{
+						"answerText": "Uses the original author's exact words",
+						"correct": false,
+						"feedback": "This statement is not true."
+					}
+				]
+			}
+		},
+    {
+      "Type": "Question",
+      "StartTime": 372,
+      "PauseVideo": true,
+      "Enforce": true,
+      "MustRetry": false,
+      "ViewLater": true,
+      "ShortTitle": "Question 6",
+      "Question": {
+        "activityType": "MC",
+        "title": "Knowledge Check",
+        "questionText": "Which of the following characteristics is true of <strong>paraphrasing</strong>?",
+        "feedbacktext": true,
+        "feedbackicons": false,
+        "key": "",
+        "answers": [
+          {
+            "answerText": "Uses different sentence structure, i.e. a different order or pattern to express original ideas.",
+            "correct": true,
+            "feedback": "That's right!."
+          },
+          {
+            "answerText": "Places the original author's exact words in quotation marks..",
+            "correct": false,
+            "feedback": "This statement is not true."
+          },
+          {
+            "answerText": "Uses different words and phrases to express the original ideas.",
+            "correct": false,
+            "feedback": "This statement is not true."
+          },
+					{
+						"answerText": "Uses the original author's exact words",
+						"correct": false,
+						"feedback": "This statement is not true."
+					}
+				]
+			}
+		}
+  ],
+  "Bullets": {
+    "Lists": []
+  }
+}

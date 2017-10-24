@@ -1,0 +1,367 @@
+{
+  "General":{
+    "QuizName": "Fill in the Blanks",
+    "HeadingLevel": 3,
+    "instructions": "none",
+    "feedBackType":"continuous",
+    "forceCorrect":false,
+    "repeatOnComplete":true,
+    "allowNone":false,
+    "allowPrevious":true,
+    "showHints": false,
+    "allowPartial": true,
+    "randomize": true,
+    "subtractWrong": false,
+    "preQuizText":"none",
+    "preQuizMedia":"none",
+    "postQuizText":"They 8 parts of speech are noun, verb, adverb, adjective, pronoun, preposition, interjection, and conjunction. Now that we are clear on the parts of speech, we can move on to sentence building sentences.",
+    "postQuizMedia":[]
+  },
+  "Questions":[
+    {
+      "questionType":"Fill In The Blank",
+      "maxScoreValue": 8,
+      "questionText":"<h4>How many parts of speech can you name?</h4> \n <p><em><strong>Note:</strong> You must put something in each blank before you can check your answers.</em></p> \n <div class=\"d-flex\"> \n <div class=\"col-sm-6\"> \n <p>BLANK1</p> \n <p>BLANK2</p> \n <p>BLANK3</p> \n <p>BLANK4</p> \n </div> \n <div class=\"col-sm-6\"> \n <p>BLANK5</p> \n <p>BLANK6</p> \n <p>BLANK7</p> \n <p>BLANK8</p> \n </div> \n </div> \n",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+        {
+          "answerText": "NOUN",
+          "feedBack": "none",
+          "scoreValue": 1,
+          "altAnswers": [
+            {
+              "answerText": "VERB",
+              "feedBack": "none",
+              "scoreValue": 1
+            },
+            {
+              "answerText": "ADJECTIVE",
+              "feedBack": "none",
+              "scoreValue": 1
+            },
+            {
+              "answerText": "ADVERB",
+              "feedBack": "none",
+              "scoreValue": 1
+            },
+            {
+              "answerText": "PRONOUN",
+              "feedBack": "none",
+              "scoreValue": 1
+            },
+            {
+              "answerText": "PREPOSITION",
+              "feedBack": "none",
+              "scoreValue": 1
+            },
+            {
+              "answerText": "CONJUNCTION",
+              "feedBack": "none",
+              "scoreValue": 1
+            },
+            {
+              "answerText": "INTERJECTION",
+              "feedBack": "none",
+              "scoreValue": 1
+            }
+          ]
+        },
+        {
+          "answerText": "VERB",
+          "feedBack": "none",
+          "scoreValue": 1,
+          "altAnswers": [
+            {
+              "answerText": "NOUN",
+              "feedBack": "none",
+              "scoreValue": 1
+            },
+            {
+              "answerText": "ADJECTIVE",
+              "feedBack": "none",
+              "scoreValue": 1
+            },
+            {
+              "answerText": "ADVERB",
+              "feedBack": "none",
+              "scoreValue": 1
+            },
+            {
+              "answerText": "PRONOUN",
+              "feedBack": "none",
+              "scoreValue": 1
+            },
+            {
+              "answerText": "PREPOSITION",
+              "feedBack": "none",
+              "scoreValue": 1
+            },
+            {
+              "answerText": "CONJUNCTION",
+              "feedBack": "none",
+              "scoreValue": 1
+            },
+            {
+              "answerText": "INTERJECTION",
+              "feedBack": "none",
+              "scoreValue": 1
+            }
+          ]
+        },
+        {
+          "answerText": "ADJECTIVE",
+          "feedBack": "none",
+          "scoreValue": 1,
+          "altAnswers": [
+            {
+              "answerText": "NOUN",
+              "feedBack": "none",
+              "scoreValue": 1
+            },
+            {
+              "answerText": "VERB",
+              "feedBack": "none",
+              "scoreValue": 1
+            },
+            {
+              "answerText": "ADVERB",
+              "feedBack": "none",
+              "scoreValue": 1
+            },
+            {
+              "answerText": "PRONOUN",
+              "feedBack": "none",
+              "scoreValue": 1
+            },
+            {
+              "answerText": "PREPOSITION",
+              "feedBack": "none",
+              "scoreValue": 1
+            },
+            {
+              "answerText": "CONJUNCTION",
+              "feedBack": "none",
+              "scoreValue": 1
+            },
+            {
+              "answerText": "INTERJECTION",
+              "feedBack": "none",
+              "scoreValue": 1
+            }
+          ]
+        },
+        {
+          "answerText": "ADVERB",
+          "feedBack": "none",
+          "scoreValue": 1,
+          "altAnswers": [
+            {
+              "answerText": "NOUN",
+              "feedBack": "none",
+              "scoreValue": 1
+            },
+            {
+              "answerText": "VERB",
+              "feedBack": "none",
+              "scoreValue": 1
+            },
+            {
+              "answerText": "ADJECTIVE",
+              "feedBack": "none",
+              "scoreValue": 1
+            },
+            {
+              "answerText": "PRONOUN",
+              "feedBack": "none",
+              "scoreValue": 1
+            },
+            {
+              "answerText": "PREPOSITION",
+              "feedBack": "none",
+              "scoreValue": 1
+            },
+            {
+              "answerText": "CONJUNCTION",
+              "feedBack": "none",
+              "scoreValue": 1
+            },
+            {
+              "answerText": "INTERJECTION",
+              "feedBack": "none",
+              "scoreValue": 1
+            }
+          ]
+        },
+        {
+          "answerText": "PRONOUN",
+          "feedBack": "none",
+          "scoreValue": 1,
+          "altAnswers": [
+            {
+              "answerText": "NOUN",
+              "feedBack": "none",
+              "scoreValue": 1
+            },
+            {
+              "answerText": "VERB",
+              "feedBack": "none",
+              "scoreValue": 1
+            },
+            {
+              "answerText": "ADJECTIVE",
+              "feedBack": "none",
+              "scoreValue": 1
+            },
+            {
+              "answerText": "ADVERB",
+              "feedBack": "none",
+              "scoreValue": 1
+            },
+            {
+              "answerText": "PREPOSITION",
+              "feedBack": "none",
+              "scoreValue": 1
+            },
+            {
+              "answerText": "CONJUNCTION",
+              "feedBack": "none",
+              "scoreValue": 1
+            },
+            {
+              "answerText": "INTERJECTION",
+              "feedBack": "none",
+              "scoreValue": 1
+            }
+          ]
+        },
+        {
+          "answerText": "PREPOSITION",
+          "feedBack": "none",
+          "scoreValue": 1,
+          "altAnswers": [
+            {
+              "answerText": "NOUN",
+              "feedBack": "none",
+              "scoreValue": 1
+            },
+            {
+              "answerText": "VERB",
+              "feedBack": "none",
+              "scoreValue": 1
+            },
+            {
+              "answerText": "ADJECTIVE",
+              "feedBack": "none",
+              "scoreValue": 1
+            },
+            {
+              "answerText": "ADVERB",
+              "feedBack": "none",
+              "scoreValue": 1
+            },
+            {
+              "answerText": "PRONOUN",
+              "feedBack": "none",
+              "scoreValue": 1
+            },
+            {
+              "answerText": "CONJUNCTION",
+              "feedBack": "none",
+              "scoreValue": 1
+            },
+            {
+              "answerText": "INTERJECTION",
+              "feedBack": "none",
+              "scoreValue": 1
+            }
+          ]
+        },
+        {
+          "answerText": "CONJUCTION",
+          "feedBack": "none",
+          "scoreValue": 1,
+          "altAnswers": [
+            {
+              "answerText": "NOUN",
+              "feedBack": "none",
+              "scoreValue": 1
+            },
+            {
+              "answerText": "VERB",
+              "feedBack": "none",
+              "scoreValue": 1
+            },
+            {
+              "answerText": "ADJECTIVE",
+              "feedBack": "none",
+              "scoreValue": 1
+            },
+            {
+              "answerText": "ADVERB",
+              "feedBack": "none",
+              "scoreValue": 1
+            },
+            {
+              "answerText": "PRONOUN",
+              "feedBack": "none",
+              "scoreValue": 1
+            },
+            {
+              "answerText": "PREPOSITION",
+              "feedBack": "none",
+              "scoreValue": 1
+            },
+            {
+              "answerText": "INTERJECTION",
+              "feedBack": "none",
+              "scoreValue": 1
+            }
+          ]
+        },
+        {
+          "answerText": "INTERJECTION",
+          "feedBack": "none",
+          "scoreValue": 1,
+          "altAnswers": [
+            {
+              "answerText": "NOUN",
+              "feedBack": "none",
+              "scoreValue": 1
+            },
+            {
+              "answerText": "VERB",
+              "feedBack": "none",
+              "scoreValue": 1
+            },
+            {
+              "answerText": "ADJECTIVE",
+              "feedBack": "none",
+              "scoreValue": 1
+            },
+            {
+              "answerText": "ADVERB",
+              "feedBack": "none",
+              "scoreValue": 1
+            },
+            {
+              "answerText": "PRONOUN",
+              "feedBack": "none",
+              "scoreValue": 1
+            },
+            {
+              "answerText": "PREPOSITION",
+              "feedBack": "none",
+              "scoreValue": 1
+            },
+            {
+              "answerText": "CONJUNCTION",
+              "feedBack": "none",
+              "scoreValue": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

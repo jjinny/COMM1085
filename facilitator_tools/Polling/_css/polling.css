@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* CSS Document */
+
+.pollcontainer .modal-dialog {
+	width:90%;
+	max-width:none;
+}
+
+.pollcontainer:last-of-type {
+	margin-bottom:150px;
+}
+
+#participantview, .participantview, #resultsview, .resultsview {
+	padding-top:10px;
+}
+
+#ratingscale, .ratingscale {
+	list-style-type:none;
+	margin-left:0px;	
+	padding-left:0px;
+}
+
+#ratingscale li a.ratingoption, .ratingscale li a.ratingoption {
+	display:block;
+	text-decoration:none;
+	min-height:43px;
+	margin:6px;
+	padding:5px;
+	border:1px solid #CCC;
+}
+
+#ratingscale li a.ratingoption.userselected, .ratingscale li a.ratingoption.userselected {
+	border:2px solid #CA293E;
+}
+
+#ratingscale li a.ratingoption p, .ratingscale li a.ratingoption p {
+}
+
+#ratingscale li a.ratingoption img, .ratingscale li a.ratingoption img {
+	width:30px;
+	height:30px;	
+	float:left; 
+	margin-right:10px;
+}
+
+#ratingscale li a.ratingoption:hover img, .ratingscale li a.ratingoption:hover img,
+#ratingscale li a.ratingoption:focus img, .ratingscale li a.ratingoption:focus img,
+#ratingscale li a.ratingoption:active img, .ratingscale li a.ratingoption:active img {
+	opacity:0.9;
+}
+
+.ratingaccent {
+	text-align:center;
+	margin-bottom:15px;
+}
+
+.ratingaccent img {
+	max-width:90%;	
+	margin:auto;
+}
+
+.totalresponses {
+	display:none;
+}
+
+img.desaturate { 
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
+#clearinput {
+	display:none;
+	text-align:right;	
+}
+
+#request_help, #ask_question {
+	text-align:center;	
+}
+
+#request_help .userbutton, #ask_question .userbutton {
+	display:inline-block;
+	cursor:pointer;
+	width:75px;
+	height:75px;
+	background-size:contain;
+	background-repeat:no-repeat;
+}
+
+#request_help .userbutton {
+	background-image:url(../_img/request_help02.png);
+}
+
+#request_help .userbutton.toggletrue {
+	background-image:url(../_img/request_help03.png);
+}
+
+
+#ask_question .userbutton {
+	background-image:url(../_img/ask_question.png);
+}
+
+#updatetext, .updatetext {
+	display:none;
+	text-align:right;	
+}
+
+.btn-primary {
+	background-color:#2e3192;	
+}
+
+.chart {
+	margin:0px auto 20px auto;
+	text-align:center;
+}
+
+.chart canvas {
+	max-width:500px;
+	margin:auto;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+#polltitle, .polltitle {
+	font-size:20px;
+	color:#282828 !important;
+	font-weight:500 !important;	
+	background-color:transparent;
+}
+.pollfeedback {
+	padding: 20px;
+}

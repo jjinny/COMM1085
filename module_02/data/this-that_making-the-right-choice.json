@@ -1,0 +1,428 @@
+{
+  "ActivityList": [
+    {
+      "ContainerID": "json-activity-box",
+      "MaxQuestions": 5,
+      "HeadingLevel": 3,
+      "IsScored": true,
+      "HasFeedback": false,
+      "Randomization": false,
+      "Layout": "stacked",
+      "PostQuiz": "",
+      "Questions": [
+        {
+          "Text": "Your manager has asked you to write a sales report for the next team meeting.",
+          "Icon": "",
+          "Image": {
+            "Path": "data/img",
+            "FileName": ""
+          },
+          "Answers": [
+            {
+              "Text": "Use verbs like will not and it will instead of contractions like won't and it'll",
+              "Image": {
+                "Path": "",
+                "FileName": ""
+              },
+              "Feedback": {
+                "Text": "That is correct!",
+                "IsCorrect": true
+              }
+            },
+            {
+              "Text": "Use all caps and emoji to emphasize enthusiasm",
+              "Image": {
+                "Path": "",
+                "FileName": ""
+              },
+              "Feedback": {
+                "Text": "That is not correct.",
+                "IsCorrect": false
+              }
+            }
+          ]
+        },
+        {
+          "Text": "You are telling your friend about the new car that another friend just bought.",
+          "Icon": "",
+          "Image": {
+            "Path": "data/img",
+            "FileName": ""
+          },
+          "Answers": [
+            {
+              "Text": "Avoid using the first-person I",
+              "Image": {
+                "Path": "",
+                "FileName": ""
+              },
+              "Feedback": {
+                "Text": "That is not correct.",
+                "IsCorrect": false
+              }
+            },
+            {
+              "Text": "Use slang terms such as sweet ride instead of excellent car",
+              "Image": {
+                "Path": "",
+                "FileName": ""
+              },
+              "Feedback": {
+                "Text": "That is correct!",
+                "IsCorrect": true
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ContainerID": "json-activity-box2",
+      "MaxQuestions": 5,
+      "HeadingLevel": 3,
+      "IsScored": true,
+      "HasFeedback": false,
+      "Randomization": false,
+      "Layout": "stacked",
+      "PostQuiz": "",
+      "Questions": [
+        {
+          "Text": "You have been asked by the charge nurse to write safe-handling instructions that will be posted above the container for used needles and other sharps.",
+          "Icon": "",
+          "Image": {
+            "Path": "data/img",
+            "FileName": ""
+          },
+          "Answers": [
+            {
+              "Text": "Use 12 point font, as proscribed by APA sstyle, and paragraphs that are at least 6 sentences long, as you were taught in school.",
+              "Image": {
+                "Path": "",
+                "FileName": ""
+              },
+              "Feedback": {
+                "Text": "That is not correct.",
+                "IsCorrect": false
+              }
+            },
+            {
+              "Text": "Use a large, bold font that everyone will be able to see and a numbered list that breaks down the process into individual steps.",
+              "Image": {
+                "Path": "",
+                "FileName": ""
+              },
+              "Feedback": {
+                "Text": "That is correct!",
+                "IsCorrect": true
+              }
+            }
+          ]
+        },
+        {
+          "Text": "Working for a mechanical engineering company, you're asked by the project manager to prepare a progress report.",
+          "Icon": "",
+          "Image": {
+            "Path": "data/img",
+            "FileName": ""
+          },
+          "Answers": [
+            {
+              "Text": "Include a title page, a table of contents, page numbers, and a references page.",
+              "Image": {
+                "Path": "",
+                "FileName": ""
+              },
+              "Feedback": {
+                "Text": "That is correct!",
+                "IsCorrect": true
+              }
+            },
+            {
+              "Text": "Use multiple exclamation marks at the end of important or interesting sentences, like this!!!!!",
+              "Image": {
+                "Path": "",
+                "FileName": ""
+              },
+              "Feedback": {
+                "Text": "That is not correct.",
+                "IsCorrect": false
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ContainerID": "json-activity-box3",
+      "MaxQuestions": 5,
+      "HeadingLevel": 3,
+      "IsScored": true,
+      "HasFeedback": false,
+      "Randomization": false,
+      "Layout": "stacked",
+      "PostQuiz": "",
+      "Questions": [
+        {
+          "Text": "You are writing an email to your team lead, accepting her invitation to lunch to celebrate your success on a recent project.",
+          "Icon": "",
+          "Image": {
+            "Path": "data/img",
+            "FileName": ""
+          },
+          "Answers": [
+            {
+              "Text": "Use multiple paragraphs to suggest possible restaurants, outline your dietary restrictions, and complain that your previous team lead never recognized your good work.",
+              "Image": {
+                "Path": "",
+                "FileName": ""
+              },
+              "Feedback": {
+                "Text": "That is not correct.",
+                "IsCorrect": false
+              }
+            },
+            {
+              "Text": "Send a short note that indicates you would be very happy to meet her for lunch.",
+              "Image": {
+                "Path": "",
+                "FileName": ""
+              },
+              "Feedback": {
+                "Text": "That is correct!",
+                "IsCorrect": true
+              }
+            }
+          ]
+        },
+        {
+          "Text": "You have been asked by your manager at an early-learning centre to design a new play-based program for children in the toddlers' group.",
+          "Icon": "",
+          "Image": {
+            "Path": "data/img",
+            "FileName": ""
+          },
+          "Answers": [
+            {
+              "Text": "Support your recommendations with detailed descriptions, references to relevant child development research, and examples of best practices used by other centres.",
+              "Image": {
+                "Path": "",
+                "FileName": ""
+              },
+              "Feedback": {
+                "Text": "That is correct!",
+                "IsCorrect": true
+              }
+            },
+            {
+              "Text": "Present your recommendations in a bullet-point list.",
+              "Image": {
+                "Path": "",
+                "FileName": ""
+              },
+              "Feedback": {
+                "Text": "That is not correct.",
+                "IsCorrect": false
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ContainerID": "json-activity-box4",
+      "MaxQuestions": 5,
+      "HeadingLevel": 3,
+      "IsScored": true,
+      "HasFeedback": false,
+      "Randomization": false,
+      "Layout": "stacked",
+      "PostQuiz": "",
+      "Questions": [
+        {
+          "Text": "Before heading into a sales presentation, you send a quick text message to your colleague at the office that you will not be available for the next hour.",
+          "Icon": "",
+          "Image": {
+            "Path": "data/img",
+            "FileName": ""
+          },
+          "Answers": [
+            {
+              "Text": "Ask someone else on your sales team to review the text message for spelling and grammar.",
+              "Image": {
+                "Path": "",
+                "FileName": ""
+              },
+              "Feedback": {
+                "Text": "That is not correct.",
+                "IsCorrect": false
+              }
+            },
+            {
+              "Text": "Hit send as soon as you finish typing the text message.",
+              "Image": {
+                "Path": "",
+                "FileName": ""
+              },
+              "Feedback": {
+                "Text": "That is correct!",
+                "IsCorrect": true
+              }
+            }
+          ]
+        },
+        {
+          "Text": "As a public relations specialist for a restaurant chain, you need to write a media release in response to a negative customer experience that has become viral on social media.",
+          "Icon": "",
+          "Image": {
+            "Path": "data/img",
+            "FileName": ""
+          },
+          "Answers": [
+            {
+              "Text": "Plan the key points of the press release before writing a first draft, and then ask members of your company's legal department to review its content before distributing a revised draft to the media.",
+              "Image": {
+                "Path": "",
+                "FileName": ""
+              },
+              "Feedback": {
+                "Text": "That is correct!",
+                "IsCorrect": true
+              }
+            },
+            {
+              "Text": "Send the release to media outlets immediately in an attempt to control the story.",
+              "Image": {
+                "Path": "",
+                "FileName": ""
+              },
+              "Feedback": {
+                "Text": "That is not correct.",
+                "IsCorrect": false
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ContainerID": "json-activity-box5",
+      "MaxQuestions": 5,
+      "HeadingLevel": 3,
+      "IsScored": true,
+      "HasFeedback": false,
+      "Randomization": false,
+      "Layout": "stacked",
+      "PostQuiz": "",
+      "Questions": [
+        {
+          "Text": "You are starting a home renovation business and your website needs text that will convince prospective clients to hire you.",
+          "Icon": "",
+          "Image": {
+            "Path": "data/img",
+            "FileName": ""
+          },
+          "Answers": [
+            {
+              "Text": "Post testimonials from former clients, as well as factual information about the projects you have handled, such as their size or cost.",
+              "Image": {
+                "Path": "",
+                "FileName": ""
+              },
+              "Feedback": {
+                "Text": "That is correct!",
+                "IsCorrect": true
+              }
+            },
+            {
+              "Text": "Use your memory of personal experiences to explain why you think you are worth hiring.",
+              "Image": {
+                "Path": "",
+                "FileName": ""
+              },
+              "Feedback": {
+                "Text": "That is not correct.",
+                "IsCorrect": false
+              }
+            }
+          ]
+        },
+        {
+          "Text": "You write a hospitality and tourism blog and you are writing a post about a new resort that you have recently visited.",
+          "Icon": "",
+          "Image": {
+            "Path": "data/img",
+            "FileName": ""
+          },
+          "Answers": [
+            {
+              "Text": "Refer to key terms and theories from a tourism management textbook to support your recommendation of the resort.",
+              "Image": {
+                "Path": "",
+                "FileName": ""
+              },
+              "Feedback": {
+                "Text": "That is not correct.",
+                "IsCorrect": false
+              }
+            },
+            {
+              "Text": "Share portions of the interviews you conducted with the resort's employees and other guests of the resort to support your recommendation.",
+              "Image": {
+                "Path": "",
+                "FileName": ""
+              },
+              "Feedback": {
+                "Text": "That is correct!",
+                "IsCorrect": true
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ContainerID": "json-activity-box6",
+      "MaxQuestions": 5,
+      "HeadingLevel": 3,
+      "IsScored": true,
+      "HasFeedback": false,
+      "Randomization": false,
+      "Layout": "stacked",
+      "PostQuiz": "",
+      "Questions": [
+        {
+          "Text": "As a project manager at an event management company, you email one of your clients to recommend that they host a Canada Day BBQ to promote their new product.",
+          "Icon": "",
+          "Image": {
+            "Path": "data/img",
+            "FileName": ""
+          },
+          "Answers": [
+            {
+              "Text": "Include a footnote in your email to the Wikipedia page for Canada, citing your reference to July 1<sup>st</sup> as Canada Day.",
+              "Image": {
+                "Path": "",
+                "FileName": ""
+              },
+              "Feedback": {
+                "Text": "That is not correct.",
+                "IsCorrect": false
+              }
+            },
+            {
+              "Text": "Do not include any citations in this initial email, but be prepared to cite sales data justifying the expense of the event if your client asks for you to follow-up with a formal presentation.",
+              "Image": {
+                "Path": "",
+                "FileName": ""
+              },
+              "Feedback": {
+                "Text": "That is correct!",
+                "IsCorrect": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "Video": {
+    "ContainID": "vpcontain",
+    "VideoID": "video0",
+    "Width": 800,
+    "Height": 450,
+    "Controls": true,
+    "StartTime": 0,
+    "Type": "Source",
+    "SourceData": {
+      "FolderPath": "data/",
+      "Sources": [
+        {
+          "Type": "MP4",
+          "Filename": "CreativeServices_v5_Final_1.mp4"
+        },
+        {
+          "Type": "WEBM",
+          "Filename": "CreativeServices_v5_Final_1.webm"
+        }
+      ]
+    }
+  },
+  "Popups": [
+    {
+      "Type": "Question",
+      "StartTime": 1,
+      "PauseVideo": true,
+      "Enforce": true,
+      "MustRetry": false,
+      "ViewLater": true,
+      "ShortTitle": "Question1",
+      "Question": {
+        "activityType": "MC",
+        "title": "Difficult Math",
+        "questionText": "What is 2 + 2?",
+        "feedbacktext": true,
+        "feedbackicons": true,
+        "key": "three",
+        "answers": [
+          {
+            "answerText": "3",
+            "correct": false,
+            "feedback": "Not quite! <a target='_blank' href='http://www.google.ca'>Go here to learn more.</a>"
+          },
+          {
+            "answerText": "2",
+            "correct": false,
+            "feedback": "Try again! <a target='_blank' href='http://www.google.ca'>Go here to learn more.</a>"
+          },
+          {
+            "answerText": "4",
+            "correct": true,
+            "feedback": "none"
+          },
+          {
+            "answerText": "That's a ridiculous question...",
+            "correct": false,
+            "feedback": "Wrong! <a target='_blank' href='http://www.google.ca'>Go here to learn more.</a>"
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Branching",
+      "PreReqIds": [],
+      "StartTime": 2,
+      "PauseVideo": true,
+      "Enforce": true,
+      "MustRetry": false,
+      "ViewLater": false,
+      "ShortTitle": "Decision1",
+      "Branching": {
+        "activityType": "MC",
+        "title": "Branching 1",
+        "questionText": "What Time Would You Like To Jump To?",
+        "feedbacktext": true,
+        "feedbackicons": false,
+        "key": "b1",
+        "answers": [
+          {
+            "answerText": "2",
+            "jumpTo": 2,
+            "feedback": "Let's see how that works out...",
+            "reqId": "b1a"
+          },
+          {
+            "answerText": "3",
+            "jumpTo": 3,
+            "feedback": "Let's see how that works out...",
+            "reqId": "b1b"
+          },
+          {
+            "answerText": "4",
+            "jumpTo": 4,
+            "feedback": "Let's see how that works out...",
+            "reqId": "b1c"
+          },
+          {
+            "answerText": 5,
+            "jumpTo": 5,
+            "feedback": "Let's see how that works out...",
+            "reqId": "b1d"
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Question",
+      "StartTime": 5,
+      "PauseVideo": true,
+      "Enforce": false,
+      "MustRetry": true,
+      "ViewLater": true,
+      "ShortTitle": "Question2",
+      "Question": {
+        "activityType": "MC",
+        "title": "Difficult Math",
+        "questionText": "What is 2 + 2?",
+        "feedbacktext": false,
+        "feedbackicons": true,
+        "key": "three",
+        "answers": [
+          {
+            "answerText": "3",
+            "correct": false,
+            "feedback": "Not quite!"
+          },
+          {
+            "answerText": "2",
+            "correct": false,
+            "feedback": "none"
+          },
+          {
+            "answerText": "4",
+            "correct": true,
+            "feedback": "none"
+          },
+          {
+            "answerText": "That's a ridiculous question...",
+            "correct": false,
+            "feedback": "Wrong!"
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Information",
+      "StartTime": 6,
+      "PauseVideo": false,
+      "Enforce": false,
+      "ViewLater": true,
+      "ShortTitle": "Info1",
+      "Information": {
+        "activityType": "Media",
+        "title": "Learning Material",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus nibh porta dui consequat, quis tempor dolor mollis.",
+        "Media": [
+          {
+            "type": "image",
+            "src": "http://fillmurray.com/400/300",
+            "description": "Bill Murray!",
+            "mediaLink": "http://en.wikipedia.org/wiki/Bill_Murray",
+            "width": "350",
+            "height": "280"
+          },
+          {
+            "type": "link",
+            "src": "https://github.com",
+            "description": "A website!"
+          }
+        ]
+      }
+    }
+  ],
+  "Bullets": {
+    "Lists": [
+      {
+        "ContainID": "vpbullets1",
+        "ListType": "ordered",
+        "DisplayType": "appear",
+        "HighlightCol": "none",
+        "Items": [
+          {
+            "StartTime": 1,
+            "EndTime": "none",
+            "Text": "Bullet 1"
+          },
+          {
+            "StartTime": 3,
+            "EndTime": "none",
+            "Text": "Bullet 3"
+          },
+          {
+            "StartTime": 5,
+            "EndTime": "none",
+            "Text": "Bullet 5"
+          },
+          {
+            "StartTime": 7,
+            "EndTime": "none",
+            "Text": "Bullet 7"
+          }
+        ]
+      },
+      {
+        "ContainID": "vpbullets2",
+        "ListType": "unordered",
+        "DisplayType": "highlight",
+        "HighlightCol": "#FF0000",
+        "Items": [
+          {
+            "StartTime": 2,
+            "EndTime": 9,
+            "Text": "Bullet 2"
+          },
+          {
+            "StartTime": 4,
+            "EndTime": 5,
+            "Text": "Bullet 4"
+          },
+          {
+            "StartTime": 6,
+            "EndTime": 7,
+            "Text": "Bullet 6"
+          },
+          {
+            "StartTime": 8,
+            "EndTime": 9,
+            "Text": "Bullet 8"
+          }
+        ]
+      }
+    ]
+  }
+}

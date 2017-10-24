@@ -1,0 +1,41 @@
+
+
+.questionblock {
+	display:none;
+}
+.questionblock p {
+	font-size: 1.3em;
+	color: #a01865;
+}
+.answerblock {
+	display:block;
+	min-height:100px;
+	border:2px solid #000;
+	font-size:1.1em;
+	color: #0b2a41;
+	padding:20px;
+	margin:20px 0;
+	text-decoration:none;
+}
+
+.answerblock:hover, .answerblock:focus {
+	border:3px solid #cb1e5d;
+	text-decoration:none;
+}
+
+.answerblock.selected {
+	border:3px solid #CB1E5D;
+}
+
+.feedbackblock {
+	margin:20px;
+}
+
+.displayed {
+	display:flex;
+}
+
+.checkanswerbtn {
+	float:right;
+	margin:20px;
+}

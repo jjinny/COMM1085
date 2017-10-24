@@ -1,0 +1,83 @@
+#wrapper{width:100%;}
+#page-wrapper{padding:0 15px;min-height:568px;background-color:#fff;}
+@media (min-width:768px){#page-wrapper{position:inherit;margin:0 0 0 250px;padding:0 30px;border-left:1px solid #e7e7e7;}
+}
+.flot-chart{display:block;height:400px;}
+.flot-chart-content{width:100%;height:100%;}
+table.dataTable thead .sorting,table.dataTable thead .sorting_asc,table.dataTable thead .sorting_desc,table.dataTable thead .sorting_asc_disabled,table.dataTable thead .sorting_desc_disabled{background:0 0;}
+table.dataTable thead .sorting_asc:after{content:"\f0de";float:right;font-family:fontawesome;}
+table.dataTable thead .sorting_desc:after{content:"\f0dd";float:right;font-family:fontawesome;}
+table.dataTable thead .sorting:after{content:"\f0dc";float:right;font-family:fontawesome;color:rgba(50,50,50,.5);}
+.show-grid [class^=col-]{padding-top:10px;padding-bottom:10px;border:1px solid #ddd;background-color:#eee!important;}
+.show-grid{margin:15px 0;}
+.huge{font-size:40px;}
+body{font-family:Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;font-size:16px;line-height:1.375em;}
+p{font-size:1em;}
+h1{color:#e08911;text-indent:5pt;font-size:3em;}
+h2{color:#e08911;text-indent:2pt;font-size:2.25em;}
+h3{color:#727272;text-indent:4.5pt;font-size:1.75em;}
+h4{text-decoration:bold;color:#0aa000;text-indent:4.5pt;font-size:1.125em;}
+h1 h2 h3 h4 small{text-transform:capitalize;}
+ul li,ol li{margin-top:5px;}
+a{color:#e08911;}
+a:hover{color:#727272;}
+blockquote{padding:5px;font-size:1em;border-left:0;border-top:5px solid #e08911;border-bottom:5px solid #e08911;}
+blockquote.pull-right{padding-right:15px;padding-left:0;border-right:0;border-left:0;text-align:right;}
+.panel-main{border-color:#e08911;}
+.panel-main .panel-heading{border-color:#e08911;color:#fff;background-color:#e08911;}
+.panel-main a{color:#e08911;}
+.panel-main a:hover{color:#3d8b3d;}
+.panel-footer-main{background-color:#e08911;padding:10px 15px;border-bottom-right-radius:3px;border-bottom-left-radius:3px;}
+.panel-secondary{border-color:#727272;}
+.panel-secondary .panel-heading{border-color:#727272;color:#fff;background-color:#727272;}
+.panel-secondary a{color:#727272;}
+.panel-secondary a:hover{color:#df8a13;}
+.panel-footer-secondary{background-color:#727272;padding:10px 15px;border-bottom-right-radius:3px;border-bottom-left-radius:3px;}
+.panel-accent1{border-color:#0aa000;}
+.panel-accent1 .panel-heading{border-color:#0aa000;color:#fff;background-color:#0aa000;}
+.panel-accent1 a{color:#0aa000;}
+.panel-accent1 a:hover{color:#b52b27;}
+.panel-footer-accent1{background-color:#0aa000;padding:10px 15px;border-bottom-right-radius:3px;border-bottom-left-radius:3px;}
+.panel-accent2{border-color:#c83000;}
+.panel-accent2 .panel-heading{border-color:#c83000;color:#fff;background-color:#c83000;}
+.panel-accent2 a{color:#c83000;}
+.panel-accent2 a:hover{color:#b52b27;}
+.panel-footer-accent2{background-color:#c83000;padding:10px 15px;border-bottom-right-radius:3px;border-bottom-left-radius:3px;}
+.panel-accent3{border-color:#005ac9;}
+.panel-accent3 .panel-heading{border-color:#005ac9;color:#fff;background-color:#005ac9;}
+.panel-accent3 a{color:#005ac9;}
+.panel-accent3 a:hover{color:#b52b27;}
+.panel-footer-accent3{background-color:#005ac9;padding:10px 15px;border-bottom-right-radius:3px;border-bottom-left-radius:3px;}
+.panel-default>.panel-heading{color:#000;background-image:-webkit-linear-gradient(top,#f5f5f5 100%,#e7e7e7 100%);background-image:-o-linear-gradient(top,#f5f5f5 100%,#e7e7e7 100%);background-image:linear-gradient(to bottom,#f5f5f5 100%,#e7e7e7 100%);}
+.jumbotron{color:#000;}
+.btn-outline{color:inherit;background-color:transparent;transition:all .5s;}
+.btn-primary.btn-outline{color:#428bca;}
+.btn-success.btn-outline{color:#5cb85c;}
+.btn-info.btn-outline{color:#5bc0de;}
+.btn-warning.btn-outline{color:#f0ad4e;}
+.btn-danger.btn-outline{color:#d9534f;}
+.btn-primary.btn-outline:hover,.btn-success.btn-outline:hover,.btn-info.btn-outline:hover,.btn-warning.btn-outline:hover,.btn-danger.btn-outline:hover{color:#fff;}
+.btn-circle{width:30px;height:30px;padding:6px 0;border-radius:15px;text-align:center;font-size:12px;line-height:1.428571429;}
+.btn-circle.btn-lg{width:50px;height:50px;padding:10px 16px;border-radius:25px;font-size:18px;line-height:1.33;}
+.btn-circle.btn-xl{width:70px;height:70px;padding:10px 16px;border-radius:35px;font-size:24px;line-height:1.33;}
+.btn-custom1{background-image:-webkit-linear-gradient(top,#1E5799 0,#7db9e8 100%);background-image:-o-linear-gradient(top,#1E5799 0,#7db9e8 100%);background-image:linear-gradient(to bottom,#1E5799 0,#7db9e8 100%);background-repeat:repeat-x;border-color:#2b669a;color:#fff;}
+.btn-custom2{background-image:-webkit-linear-gradient(top,#ed9017 0,#F4D986 100%);background-image:-o-linear-gradient(top,#ed9017 0,#F4D986 100%);background-image:linear-gradient(to bottom,#ed9017 0,#F4D986 100%);background-repeat:repeat-x;border-color:#969696;color:#fff;}
+.btn-custom3{background-image:-webkit-linear-gradient(top,#99C625 0,#99C625 100%);background-image:-o-linear-gradient(top,#99C625 0,#99C625 100%);background-image:linear-gradient(to bottom,#99C625 0,#99C625 100%);background-repeat:repeat-x;border-color:#969696;color:#fff;}
+.nav-pills>li.active>a,.nav-pills>li.active>a:hover,.nav-pills>li.active>a:focus{color:#000;background:#e08911;}
+.tooltip-inner{background:#e08911;}
+.tooltip.left .tooltip-arrow{border-left-color:#e08911;}
+.tooltip.right .tooltip-arrow{border-right-color:#e08911;}
+.tooltip.top .tooltip-arrow{border-top-color:#e08911;}
+.tooltip.bottom .tooltip-arrow{border-bottom-color:#e08911;}
+.primary-bg{background:#e08911;}
+.secondary-bg{background:#727272;}
+.accent1-bg{background:#0aa000;}
+.accent1-bg-opa{background:rgba(165,201,86,0.5);}
+.accent2-bg{background:#c83000;}
+.accent2-bg-opa{background:rgba(242,201,19,0.2);}
+.accent3-bg{background:#005ac9;}
+.accent3-bg-opa{background:rgba(151,237,128,0.2);}
+.accent4-bg{background:#00a3ae;}
+.accent4-bg-opa{background:rgba(10,160,0,0.5);}
+.opa75{opacity:0.75;filter:alpha(opacity=75);}
+.blk-font{color:#000;}

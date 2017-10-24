@@ -1,0 +1,130 @@
+{
+  "FieldID": 1000039,
+  "FieldName": "COMM1085-AcademicWriting",
+  "Polls": [
+    {
+      "PollID": 1,
+      "PollContainer": "poll1",
+      "Title": "",
+      "Description": "<h4>Which of the following categories describes the kinds of writing that you read?</h4> \n <p><em>Select all that apply</em> \n",
+      "GraphType": "pie",
+      "PollType": "Multi",
+      "MaxSelections": 6,
+      "Scale": [
+        {
+          "Id": 1,
+          "Container": "ratingscale1",
+          "Color": "#2d112b",
+          "Descriptor": "Textbook, academic journal",
+		  "ShortDesc": "Textbook, academic journal",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Id": 2,
+          "Container": "ratingscale1",
+          "Color": "#ca293e",
+          "Descriptor": "Work documents (e.g. reports, technical specifications)",
+		  "ShortDesc": "Work documents",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Container": "ratingscale1",
+          "Id": 3,
+          "Color": "#ff583d",
+          "Descriptor": "Newspaper (online or print)",
+		  "ShortDesc": "Newspaper",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Container": "ratingscale1",
+          "Id": 4,
+          "Color": "#a01865",
+          "Descriptor": "Magazine (online or print)",
+		  "ShortDesc": "Magazine",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Id": 5,
+          "Container": "ratingscale1",
+          "Color": "#abe761",
+          "Descriptor": "Social Media comments, posts, and memes (e.g. Facebook, Twitter, Reddit)",
+		  "ShortDesc": "Social Media comments, posts, and memes",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Id": 6,
+          "Container": "ratingscale1",
+          "Color": "#cb1e5d",
+          "Descriptor": "Fiction (novels, graphic novels, short stories)",
+		  "ShortDesc": "Fiction",
+          "ImageFile": "circle.png"
+        }
+      ],
+      "Feedback": "none",
+      "Features": {}
+    },
+    {
+      "PollID": 2,
+      "PollContainer": "poll2",
+      "Title": "",
+      "Description": "<h4>Which of the following categories describes the kinds of writing that you produce?</h4> \n <p><em>Select all that apply</em> \n",
+      "GraphType": "pie",
+      "PollType": "Multi",
+      "MaxSelections": 5,
+      "Scale": [
+        {
+          "Id": 1,
+          "Container": "ratingscale2",
+          "Color": "#2d112b",
+          "Descriptor": "School work",
+		  "ShortDesc": "",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Id": 2,
+          "Container": "ratingscale2",
+          "Color": "#ca293e",
+          "Descriptor": "Work documents (e.g. reports, technical specifications)",
+		  "ShortDesc": "Work documents",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Container": "ratingscale2",
+          "Id": 3,
+          "Color": "#ff583d",
+          "Descriptor": "Social Media comments, posts, and memes (e.g. Facebook, Twitter, Reddit)",
+		  "ShortDesc": "Social Media comments, posts, and memes",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Container": "ratingscale2",
+          "Id": 4,
+          "Color": "#a01865",
+          "Descriptor": "Fiction (novels, graphic novels, short stories)",
+		  "ShortDesc": "Fiction",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Id": 5,
+          "Container": "ratingscale2",
+          "Color": "#abe761",
+          "Descriptor": "Direct correspondence (emails, text messages)",
+		  "ShortDesc": "Direct correspondence",
+          "ImageFile": "circle.png"
+        }
+      ],
+      "Feedback": "none",
+      "Features": {}
+    }
+  ],
+  "Roles": {
+    "ModeratorView": [
+      101,
+      102,
+      126
+    ],
+    "ParticipantView": [
+      103
+    ]
+  }
+}

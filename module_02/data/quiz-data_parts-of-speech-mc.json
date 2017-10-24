@@ -1,0 +1,230 @@
+{
+  "General":{
+    "QuizName": "Knowledge Check",
+    "HeadingLevel": 3,
+    "instructions": "none",
+    "feedBackType":"continuous",
+    "forceCorrect":false,
+    "repeatOnComplete":true,
+    "allowNone":false,
+    "allowPrevious":true,
+    "showHints": true,
+    "allowPartial": true,
+    "randomize": true,
+    "subtractWrong": false,
+    "preQuizText":"<h4>Now that you have reviewed the parts of speech let’s practice identifying parts of speech in a sentence. For each sentence, <strong>identify the part of speech of the bolded word</strong>.</h4>",
+    "preQuizMedia":"none",
+    "postQuizText":"<h4>Well done! You have completed this knowledge check. Next, we will look at how to identify subjects.",
+    "postQuizMedia":[]
+  },
+  "Questions":[
+    {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"\"<strong>Ouch</strong>!\" cried the student, \"I cannot learn anymore about grammar.\"",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+        {
+          "answerText": "Adjective",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "Adverb",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "Interjection",
+          "feedBack": "That is correct!",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Preposition",
+          "feedBack": "That is not correct."
+        }
+      ]
+    },
+    {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"While walking down the street, the <strong>college</strong> student daydreamed about his love of grammar.",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+        {
+          "answerText": "Adjective",
+          "feedBack": "That is correct!",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Conjunction",
+          "feedBack": "That is not correct. "
+        },
+        {
+          "answerText": "Noun",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "Pronoun",
+          "feedBack": "That is not correct."
+        }
+      ]
+    },
+    {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"Learning parts of speech <strong>is</strong> a good place to begin an investigation into the English language",
+      "hintText":"none",
+      "hintMedia":[],
+      "answers": [
+        {
+          "answerText": "Conjunction",
+          "feedBack": "That is not correct"
+        },
+        {
+          "answerText": "Preposition",
+          "feedBack": "That is not correct. "
+        },
+        {
+          "answerText": "Pronoun",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "Verb",
+          "feedBack": "That is correct!",
+          "scoreValue": 1
+        }
+      ]
+    },
+    {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"<strong>Going</strong> to Conestoga College is a wonderful step in creating a bright future.",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+        {
+          "answerText": "Adjective",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "Noun",
+          "feedBack": "That is correct!",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Pronoun",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "Verb",
+          "feedBack": "That is not correct."
+        }
+      ]
+    },
+    {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"<strong>Boldly</strong>  going where no one has been before, the college student jumped at the opportunity to enhance their grammar skills.",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+        {
+          "answerText": "Adjective",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "Adverb",
+          "feedBack": "That is correct!",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Preposition",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "Verb",
+          "feedBack": "That is not correct."
+        }
+      ]
+    },
+    {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"Before I was finished with my grammar lesson, I decided that it was <strong>within</strong> my abilities to practice as much as I can.",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+        {
+          "answerText": "Adverb",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "Conjunction",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "Noun",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "Preposition",
+          "feedBack": "That is correct!",
+          "scoreValue": 1
+        }
+      ]
+    },
+    {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"Jon <strong>and</strong> Elise were excited to work together on the project.",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+        {
+          "answerText": "Adverb",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "Conjunction",
+          "feedBack": "That is correct!",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Interjection",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "Preposition",
+          "feedBack": "That is not correct."
+        }
+      ]
+    },
+    {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"My friends were impressed when <strong>they</strong> found I had could juggle while reciting the eight parts of speech.",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+        {
+          "answerText": "Adjective",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "Adverb",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "Noun",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "Pronoun",
+          "feedBack": "That is correct!",
+          "scoreValue": 1
+        }
+      ]
+    }
+  ]
+}

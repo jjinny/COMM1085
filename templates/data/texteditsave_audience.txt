@@ -1,0 +1,20 @@
+{
+  "Questions": [
+    {
+      "Title": "1. Being Positive",
+      "Text": "<p>Revise the following sentences to create a positive impression.</p><p>Sample: Because you failed to provide us with your postal code, we could not send you the estate-planning package you requested. <br>Revision: Please tell us your postal code so that we may send you your estate-planning package.</p>\r\n",
+      "MinCharacters": 50,
+      "Answer": "<ol type='a'><li>We always offer our GIC investors the most highly competitive rates.</li><li>Your e-mail message to our customer service department outlines your experience with our Dependability-Plus model printer. </li><li>Is your request for vacation time reasonable?</li><li>We can offer you model A312, which replaces model A311.</li><li>Your initial letter of January 10 does not include concerns with billing procedures.</li></ol>",
+      "PrePopulated": "<ol type='a'><li>We never fail to offer our GIC investors the most highly competitive rates.</li><li>In your e-mail message to our customer service department, you allege that our Dependability-Plus model printer is defective.</li><li>Aren’t you being unreasonable in asking for your vacation at this time of year?</li><li>It is categorically impossible for us to obtain model A311, which is no longer in production. Only model A312 is available.</li><li>In your initial letter of January 10, your failure to mention your concern over our billing procedures showed great carelessness. You were negligent in failing to mention your concern over our billing procedures.</li></ol>",
+      "Placeholder": ""
+    },
+    {
+      "Title": "2. Stressing Reader Benefits and Relevance",
+      "Text": "<p>Revise the following sentences so that they reflect the reader’s viewpoint.</p><p>Sample: We charge our guests only $175 per person for one night’s accommodation at our deluxe resort, a full spa treatment, and dinner at our award-winning restaurant.<br>Revision: For only $175 (per person), you can enjoy a night’s accommodation at our deluxe resort, a full spa treatment, and dinner at our award-winning restaurant.</p>\r\n",
+      "MinCharacters": 50,
+      "Answer": "<ol type='a'><li>You can enjoy vacation time during the last two weeks of August.</li><li>You can work with our highly focused and dedicated team.</li><li>You are guaranteed discounts on future purchases with our new rewards program.</li><li>Your educational expenses will be reimbursed when you complete the enclosed Form C52.</li><li>For your safety, avoid the front lobby while it undergoes renovation.</li></ol>",
+      "PrePopulated": "<ol type='a'><li>I will allow you to take your vacation during the last two weeks of August.</li><li>We are currently seeking individuals to be part of our highly focused and dedicated team.</li><li>We are pleased to announce a new rewards program that guarantees discounts on future purchases.</li><li>I am enclosing Form C52, which must be completed before we can reimburse you for your educational expenses.</li><li>Because we won’t assume responsibility for personal injuries that occur on our premises, we ask that you refrain from using the front lobby while it undergoes renovation.</li></ol>",
+      "Placeholder": ""
+    }
+  ]
+}

@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>Poll: Demand for Critical Thinking</title>
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="../font/fontawesome/css/fontawesome-pro-brands.css">
+<link rel="stylesheet" href="../font/fontawesome/css/fontawesome-pro-light.css">
+<link rel="stylesheet" href="../font/fontawesome/css/fontawesome-pro-regular.css">
+<link rel="stylesheet" href="../font/fontawesome/css/fontawesome-pro-core.css">
+<link rel="stylesheet" href="../font/fontawesome/css/fontawesome-pro-solid.css">
+
+<!-- Bootstrap core CSS -->
+<link href="../css/bootstrap.css" rel="stylesheet">
+
+<!-- Material Design Bootstrap -->
+<link href="../css/mdb.min.css" rel="stylesheet">
+
+<!-- Your custom styles (optional) -->
+<link href="../css/style.css" rel="stylesheet">
+<link href="../facilitator_tools/Polling/_css/polling.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="container-fluid"> 
+  
+  <!-- Header Area -->
+  <header id="polling">
+    <div class="row">
+      <div class="col-sm-12 prime-bg header z-depth-1-half">
+        <div class="headerMod"></div>
+        <p class="animated fadeIn">Introduction to College Reading and Writing</p>
+      </div>
+    </div>
+  </header>
+  <!-- /Header Area --> 
+</div>
+<!-- Main Content Area -->
+
+<main>
+  <div class="container">
+    <div class="col-sm-12 content">
+      <h1><i class="fal fa-tasks fa-lg text-second fa-pull-left" aria-hidden="true"></i><span class="sr-only">Poll:</span> Demand for Critical Thinking</h1>
+      <div class="mt-5">
+      <div class="col col-sm-5 fa-pull-right"><img src="images/einstein_quote.jpg" class="img-fluid rounded z-depth-1-half" alt="Einstein quote: Education is not the learning of facts, but training the mind to think"></div>
+      <p>In addition to communications skills, employers are also increasingly looking for job candidates to demonstrate they possess well-honed critical thinking skills &mdash; the ability to ask relevant questions, evaluate options, and read between the lines. </p>
+      <p>If you’ve experienced a job interview in recent years, you’ve likely noticed this trend in the form of interview questions that ask for increasingly complex responses. </p>
+      <p>And, for a more quantitative, “big-picture” account of this trend, we might look to a 2014 Wall Street Journal report that found &quot;mentions of critical thinking in job postings [had] doubled since 2009&quot; (Korn, 2014, para. 3).</p>
+      <p>As you can see, employers are looking for workers in the modern age to think and communicate, on top of the knowledge and skills specific to individual fields.</p>
+      <p>Let’s take a moment to see where you think you will use the skills taught in this course. Click on each title and then see how your answers compare to the rest of the class.</p>
+      <p><strong>Note:</strong> Your answers will be recorded anonymously and added to the responses of your classmates. Come back throughout the week to see how the responses grow!</p>
+			</div>
+      <div class="clearfix"></div>
+      <!--Accordion wrapper-->
+      <div class="pull-right small">
+   <a title="expand all" class="openall text-second"><span class="text-small">Expand all</span> <i class="fa fa-plus-square core-four-font"></i></a> / <a title="close all" class="closeall text-second"><span class="text-small">Collapse all</span> <i class="fa fa-minus-square core-four-font"></i></a>
+</div>
+<div class="clearfix"></div>
+<div class="accordion" id="accordion" role="tablist" aria-multiselectable="true">
+        <div class="card hoverable">
+          <div class="card-header" role="tab" id="headingOne"> <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+            <h5 class="mb-0 text-white third-bg p-3"> Use Skills and Conestoga <i class="fa fa-angle-down rotate-icon"></i></h5>
+            </a> </div>
+          <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
+            <div class="card-block">
+              <div class="pollcontainer" id="poll1">
+                <div class="row">
+                  <div class="participantview col-sm-12">
+                    <div class="widgetdetails"></div>
+                    <ul class="ratingscale" id="ratingscale1">
+                    </ul>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-6">
+                    <p class="totalresponses">Total Responses: <span class="responsenum"></span></p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn prime-bg btn-lg" data-toggle="modal" data-target="#PollOne" data-pollcontainer="poll1"> See Results </button>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="updatetext">
+                      <p>Saved...</p>
+                    </div>
+                  </div>
+                </div>
+                                
+				  <!-- Modal :: poll1-->
+				  <div class="modal fade" id="PollOne" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+					<div class="modal-dialog" role="document"> 
+					  <!--Content-->
+					  <div class="modal-content"> 
+						<!--Header-->
+						<div class="modal-header">
+						  <h4 class="modal-title w-100" id="myModalLabel">Survey Results</h4>
+						</div>
+						<!--Body-->
+						<div class="modal-body"> 
+						  <!--Panel 2-->
+						  <div class="resultsview">
+							<div class="polltitle"></div>
+							<p class="polldescription">You must submit your response before viewing class results.</p>
+							<div class="chart">
+							  <canvas id="chart1" width="400" height="300"></canvas>
+							</div>
+							<div class="legend"></div>
+							<div class="pollfeedback"></div>
+						  </div>
+						  <!--/.Panel 2--> 
+						</div>
+						<!--Footer-->
+						<div class="modal-footer">
+						  <button type="button" class="btn second-bg" data-dismiss="modal">Close</button>
+						</div>
+					  </div>
+					  <!--/.Content--> 
+					</div>
+				  </div>
+				  <!-- Modal -->                                 
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card hoverable">
+          <div class="card-header" role="tab" id="headingTwo"> <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <h5 class="mb-0  text-white third-bg p-3">Use Skills in Workplace <i class="fa fa-angle-down rotate-icon"></i> </h5>
+            </a> </div>
+          <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+            <div class="card-block">
+              <div class="pollcontainer" id="poll2">
+                <div class="row">
+                  <div class="participantview col-sm-12">
+                    <div class="widgetdetails"></div>
+                    <ul class="ratingscale" id="ratingscale2">
+                    </ul>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-6">
+                    <p class="totalresponses">Total Responses: <span class="responsenum"></span></p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn prime-bg btn-lg" data-toggle="modal" data-target="#PollTwo" data-pollcontainer="poll2"> See Results </button>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="updatetext">
+                      <p>Saved...</p>
+                    </div>
+                  </div>
+                </div>
+                
+				  <!-- Modal :: poll2 -->
+				  <div class="modal fade" id="PollTwo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+					<div class="modal-dialog" role="document"> 
+					  <!--Content-->
+					  <div class="modal-content"> 
+						<!--Header-->
+						<div class="modal-header">
+						  <h4 class="modal-title w-100" id="myModalLabel2">Survey Results</h4>
+						</div>
+						<!--Body-->
+						<div class="modal-body"> 
+						  <!--Panel 2-->
+						  <div class="resultsview">
+							<div class="polltitle"></div>
+							<p class="polldescription">You must submit your response before viewing class results.</p>
+							<div class="chart">
+							  <canvas id="chart2" width="400" height="300"></canvas>
+							</div>
+							<div class="legend"></div>
+							<div class="pollfeedback"></div>
+						  </div>
+						  <!--/.Panel 2--> 
+						</div>
+						<!--Footer-->
+						<div class="modal-footer">
+						  <button type="button" class="btn second-bg" data-dismiss="modal">Close</button>
+						</div>
+					  </div>
+					  <!--/.Content--> 
+					</div>
+				  </div>
+				  <!-- Modal -->                
+                
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--/.Accordion wrapper-->
+      <div class="clearfix mt-5"></div>
+      <p>While it’s clear that these skills are going to be useful both in academic and workplace situations, it’s also important to acknowledge that these skills can sometimes be challenging to master. </p>
+      <p>Perhaps you felt a little apprehensive about one or two of these skills when you first reviewed the list? That’s okay! Nothing worth learning comes easily.</p>
+      <p>But, to put yourself in the best possible position for success, it might be worthwhile to acknowledge those feelings. </p>
+      <div class="pollcontainer" id="poll3">
+        <div class="row">
+          <div class="participantview col-sm-12">
+            <div class="widgetdetails"></div>
+            <ul class="ratingscale" id="ratingscale3">
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <p class="totalresponses">Total Responses: <span class="responsenum"></span></p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn prime-bg btn-lg" data-toggle="modal" data-target="#Poll3" data-pollcontainer="poll3"> See Results </button>
+          </div>
+          <div class="col-sm-6">
+            <div class="updatetext">
+              <p>Saved...</p>
+            </div>
+          </div>
+        </div>
+        
+		  <!-- Modal :: poll3-->
+		  <div class="modal fade" id="PollThree" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+			<div class="modal-dialog" role="document"> 
+			  <!--Content-->
+			  <div class="modal-content"> 
+				<!--Header-->
+				<div class="modal-header">
+				  <h4 class="modal-title w-100" id="myModalLabel3">Survey Results</h4>
+				</div>
+				<!--Body-->
+				<div class="modal-body"> 
+				  <!--Panel 2-->
+				  <div class="resultsview">
+					<div class="polltitle"></div>
+					<p class="polldescription">You must submit your response before viewing class results.</p>
+					<div class="chart">
+					  <canvas id="chart3" width="400" height="300"></canvas>
+					</div>
+					<div class="legend"></div>
+					<div class="pollfeedback"></div>
+				  </div>
+				  <!--/.Panel 2--> 
+				</div>
+				<!--Footer-->
+				<div class="modal-footer">
+				  <button type="button" class="btn second-bg" data-dismiss="modal">Close</button>
+				</div>
+			  </div>
+			  <!--/.Content--> 
+			</div>
+		  </div>
+		  <!-- Modal -->         
+        
+        
+      </div>
+      <hr>
+      <div class="card-background second-bg rounded p-5 z-depth-1 border">
+        <h4 class="text-white">As we begin our journey in honing these skills, take a moment to reflect on which skills you want to develop further over the term.</h4>
+      </div>
+      <div class="citation mt-5">
+        <p><strong>Reference:</strong><br />
+          Korn, M. (2014, Octorber 21). <a href="https://www.wsj.com/articles/bosses-seek-critical-thinking-but-what-is-that-1413923730" title="link to article: Bosses seek critical thinking but what is that" target="_blank">Bosses Seek &lsaquo;Critical Thinking, &rsaquo; but What Is That?</a> <em>The Wall Street Journal.</em><br>
+        <strong>Image Copyright:</strong><br />
+          <a href="https://www.flickr.com/photos/espinosa_rosique/8534436067">“Albert Einstein for PIFAL”</a> by <i><a href="https://www.flickr.com/people/espinosa_rosique/">Arturo Espinosa</a></i> is licensed under <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a></p>
+      </div>
+    </div>
+  </div>
+</main>
+<!-- /Main Content Area -->
+<div class="container-fluid">
+  <footer>
+    <div class="row">
+      <div class="col-sm-12 footer">
+        <p>&copy; 2017 Conestoga College. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+ 
+
+</div>
+
+<!-- SCRIPTS --> 
+
+<!-- JQuery --> 
+<script type="text/javascript" src="../js/jquery-3.1.1.min.js"></script> 
+
+<!-- Tooltips --> 
+<script type="text/javascript" src="../js/tether.min.js"></script> 
+
+<!-- Bootstrap core JavaScript --> 
+<script type="text/javascript" src="../js/bootstrap.js"></script> 
+
+<!-- MDB core JavaScript --> 
+<script type="text/javascript" src="../js/mdb.min.js"></script> 
+
+<!-- Open-Close Collapse --> 
+<script src="../js/plugins/open_close_all.js"></script> 
+
+<!-- OLC Custom JS --> 
+<script src="../js/plugins/olc-custom.js"></script> 
+
+<!-- Polling --> 
+
+<!-- Chart JS --> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.bundle.js"></script> 
+<script>
+    var datafilename = "critical-thinking_poll_multi.json";  
+  </script> 
+<script src="../facilitator_tools/Polling/_js/thirdpartylib/global-superagent-d2l-session-auth.js"></script> 
+<script src="../facilitator_tools/Polling/_js/thirdpartylib/csval-lib.js"></script> 
+<script src="../facilitator_tools/Polling/_js/poll-maker-multi.js"></script>
+
+<!-- Move to bottom with scripts -->
+
+<script>
+$('.closeall').click(function(){
+  $('.panel-collapse.in')
+    .collapse('hide');
+});
+$('.openall').click(function(){
+  $('.panel-collapse:not(".in")')
+    .collapse('show');
+});
+</script>
+</body>
+</html>

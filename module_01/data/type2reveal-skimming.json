@@ -1,0 +1,53 @@
+{
+  "Questions": [
+    {
+      "QuestionText": "<h5>What are the three main elements that shape the content of a paragraph?<br><span class=\"small\"><i class=\"fa fa-lightbulb-o fa-lg text-accent-3\" aria-hidden=\"true\"></i> <em><strong>Hint:</strong> Look for a diagram.</em></span></h5>",
+      "InputType": "text",
+      "MinCharacters": 10,
+      "ButtonText": "Reveal Answer",
+      "AnswerText": "<div class=\"well\">Figure 6.1 illustrates how <em>purpose, audience, and tone</em> work together to shape content.</div> ",
+      "KeyWords": [
+        "purpose",
+        "audience",
+        "tone"
+      ]
+    },
+    {
+      "QuestionText": "<h5>The chapter identifies four common academic purposes. What are the paragraphs called?<br><span class=\"small\"><i class=\"fa fa-lightbulb-o fa-lg text-accent-3\" aria-hidden=\"true\"></i> <em><strong>Hint:</strong> Skim and look for headings and subheadings.</em></span></h5>",
+      "InputType": "text",
+      "MinCharacters": 10,
+      "ButtonText": "Reveal Answer",
+      "AnswerText": "<div class=\"well\">The four common academic purposes (<em>summary, analysis, synthesis, and evaluation</em>) are listed after the diagram of the purpose, audience, tone, and content triangle (figure 6.1).</div>",
+      "KeyWords": [
+				"summary",
+				"analysis",
+				"synthesis",
+				"evaluation"
+			]
+    },
+    {
+      "QuestionText": "<h5>The chapter provides some tips on identifying the audience and offers four traits or characteristics we can use to describe or anticipate our imaginary reader. What are the names given to these traits and characteristics?<br><span class=\"small\"><i class=\"fa fa-lightbulb-o fa-lg text-accent-3\" aria-hidden=\"true\"></i> <em><strong>Hint:</strong> Skim for a heading and then a list of traits.</em></span></h5>",
+      "InputType": "text",
+      "MinCharacters": 10,
+      "ButtonText": "Reveal Answer",
+      "AnswerText": "<div class=\"well\">At the end of the section with the heading <em>Identifying the Audience</em>, the four traits (<em>demographics, education, prior knowledge, expectations</em>) are identified in a box.</div>",
+      "KeyWords": [
+				"demographics",
+				"education",
+				"prior knowledge",
+				"expectations"
+			]
+    },
+    {
+      "QuestionText": "<h5>How many key takeaways does the text suggest you should be able to retain after reading the chapter more thoroughly?<br><span class=\"small\"><i class=\"fa fa-lightbulb-o fa-lg text-accent-3\" aria-hidden=\"true\"></i> <em><strong>Hint:</strong> This is a conclusion to the chapter, so look at the end.</em></span></h5>",
+      "InputType": "text",
+      "MinCharacters": 0,
+      "ButtonText": "Reveal Answer",
+      "AnswerText": "<div class=\"well\">At the very end of the chapter, the text identifies in a distinctive box six key takeaways from the reading.</div>",
+      "KeyWords": [
+				"6",
+				"six"
+			]
+    }
+  ]
+}

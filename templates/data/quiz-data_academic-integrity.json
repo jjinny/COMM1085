@@ -1,0 +1,94 @@
+{
+  "General":{
+    "QuizName": "Knowledge Check",
+    "HeadingLevel": 3,
+    "instructions": "none",
+    "feedBackType":"continuous",
+    "forceCorrect":false,
+    "repeatOnComplete":true,
+    "allowNone":false,
+    "allowPrevious":true,
+    "showHints": false,
+    "allowPartial": true,
+    "randomize": true,
+    "subtractWrong": false,
+    "preQuizText":"<p>Read the following scenarios and identify whether there was an academic offence or not.</p>",
+    "preQuizMedia":"none",
+    "postQuizText":"none",
+    "postQuizMedia":[]
+  },
+  "Questions":[
+    {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"Mark copied a few lines of an article into his report without identifying the writer because the author wrote exactly what Mark wanted to say. When Mark turns it in, he says to his friend &quot;It's ok. It's only an academic offense if you copy someone else's whole work and submit it as your own.&quot;",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+        {
+          "answerText": "Mark has committed an academic offense",
+          "feedBack": "That is correct! Conestoga College’s Academic Integrity Policy states that &quot;copying and submitting, as one’s own, in whole or in part in any format, the work of another/others&quot; is considered an offense. So, Mark has committed an academic offense even when copying only a few sentences and submitting them as his own.",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Mark has not committed an academic offense.",
+          "feedBack": "That is not correct. Conestoga College’s Academic Integrity Policy states that &quot;copying and submitting, as one’s own, in whole or in part in any format, the work of another/others&quot; is considered an offense. So, Mark has committed an academic offense even when copying only a few sentences and submitting them as his own."
+		}
+      ]
+    },
+    {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"Shivani is working on an assignment that confuses her. She borrows David's assignment to see how he completed the assignment. Shivani decides to copy part of David's work and submit it as her own because &quot;It's not an offense if you submit work that was done by another student. It's an academic offense only if you copy published material and submit it as your own work.&quot;",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+        {
+          "answerText": "Shivani has committed an academic offense.",
+          "feedBack": "That is correct! Conestoga College’s Academic Integrity Policy states that &quot;claiming to have completed assigned tasks that were, in fact, completed by another person&quot; is considered an offense. So Shivani committed an academic offense when she turned in David’s work as her own.",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Shivani has not committed an academic offense.",
+          "feedBack": "That is not correct. Conestoga College’s Academic Integrity Policy states that &quot;claiming to have completed assigned tasks that were, in fact, completed by another person&quot; is considered an offense. So Shivani committed an academic offense when she turned in David’s work as her own."
+		}
+      ]
+    },
+    {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"When Shivani came to David to ask if she could look at his assignment, he agreed because he thought she would simply read the assignment to see an example. Instead Shivani copied part of David's assignment and turned it in as her own.",
+      "hintText":"none",
+      "hintMedia":[],
+      "answers": [
+        {
+          "answerText": "David has committed an academic offense.",
+          "feedBack": "That is correct! Conestoga College’s Academic Integrity Policy states that &quot;aiding or abetting anyone in an act of academic dishonesty&quot; is considered an offense. So David, since he let Shivani look at his assignment and since she copied from it, has committed an academic offense.",
+		  "scoreValue": 1
+        },
+        {
+          "answerText": "David has not committed an academic offense.",
+          "feedBack": "That is not correct. Conestoga College’s Academic Integrity Policy states that &quot;aiding or abetting anyone in an act of academic dishonesty&quot; is considered an offense. So David, since he let Shivani look at his assignment and since she copied from it, has committed an academic offense."
+		}
+      ]
+    },
+    {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"Marguerite has been assigned a topic that is very similar to a report that she wrote for a different class last term. She decides to turn in the original report because she wrote the report herself. Marguerite says to a friend, &quot;How can it be an academic offense if I am submitting my own work?&quot;",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+        {
+          "answerText": "Marguerite has committed an academic offense.",
+          "feedBack": "That is correct! It’s an academic offense to submit work in one course that you’ve already submitted in another course, unless you have the permission of both instructors. In fact, all involved faculty members must agree in writing for a student to re-submit work.",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Marguerite has not committed an academic offense.",
+          "feedBack": "That is not correct. It’s an academic offense to submit work in one course that you’ve already submitted in another course, unless you have the permission of both instructors. In fact, all involved faculty members must agree in writing for a student to re-submit work."
+        }
+      ]
+    }
+  ]
+}

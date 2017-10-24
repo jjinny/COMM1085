@@ -1,0 +1,201 @@
+{
+  "Video": {
+    "ContainID": "vpcontain",
+    "VideoID": "video0",
+    "Width": 800,
+    "Height": 450,
+    "Controls": true,
+    "StartTime": 0,
+    "Type": "YouTube",
+    "PreviewImage": {
+      "HasImage": true,
+      "FileName": "plagiarism_citing_and_referencing.jpg"
+    },
+    "SourceData": {
+      "FolderPath": "",
+      "Sources": []
+    },
+    "YouTubeData": {
+      "videoId": "jS_KQSehB-o"
+    }
+  },
+  "Popups": [
+    {
+      "Type": "Question",
+      "StartTime": 38,
+      "PauseVideo": true,
+      "Enforce": true,
+      "MustRetry": false,
+      "ViewLater": true,
+      "ShortTitle": "Question 1",
+      "Question": {
+        "activityType": "MC",
+        "title": "Knowledge Check",
+        "questionText": "It’s only necessary to cite the source of a quotation. In other words, it’s not necessary to cite the source of an idea if you’re paraphrasing it.",
+        "feedbacktext": true,
+        "feedbackicons": false,
+        "key": "",
+        "answers": [
+          {
+            "answerText": "True",
+            "correct": false,
+            "feedback": "You must include an in-text citation every time you quote or paraphrase another source."
+          },
+          {
+            "answerText": "False",
+            "correct": true,
+            "feedback": "That's correct! You must include an in-text citation every time you quote or paraphrase another source."
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Question",
+      "StartTime": 49,
+      "PauseVideo": true,
+      "Enforce": true,
+      "MustRetry": false,
+      "ViewLater": true,
+      "ShortTitle": "Question 2",
+      "Question": {
+        "activityType": "MC",
+        "title": "Knowledge Check",
+        "questionText": "An in-text citation must include three pieces of information: the name(s) of the author(s), the year the source was published, and the page or paragraph number where the words or idea can be located within that source.",
+        "feedbacktext": false,
+        "feedbackicons": true,
+        "key": "",
+        "answers": [
+          {
+            "answerText": "True",
+            "correct": true,
+            "feedback": "That is correct!"
+          },
+          {
+            "answerText": "False",
+            "correct": false,
+            "feedback": "That is not correct."
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Question",
+      "StartTime": 76,
+      "PauseVideo": true,
+      "Enforce": true,
+      "MustRetry": false,
+      "ViewLater": true,
+      "ShortTitle": "Question 3",
+      "Question": {
+        "activityType": "MC",
+        "title": "Knowledge Check",
+        "questionText": "<p>The following is an example of a correctly cited paraphrase, using the &quot;standard citation technique&quot;.</p> \n <p>When resolving a conflict within a work group, it’s important to allow everyone on the team to voice his or her own opinion on the issue; this will allow for greater clarification of the issue, provide additional reasoning for each argument, and avoid the feeling of preferential treatment amongst the team (Mattson, 2015, para. 7).</p> \n",
+        "feedbacktext": false,
+        "feedbackicons": true,
+        "key": "",
+        "answers": [
+          {
+            "answerText": "True",
+            "correct": true,
+            "feedback": "You are correct!"
+          },
+          {
+            "answerText": "False",
+            "correct": false,
+            "feedback": "You are not correct."
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Question",
+      "StartTime": 106,
+      "PauseVideo": true,
+      "Enforce": true,
+      "MustRetry": false,
+      "ViewLater": true,
+      "ShortTitle": "Question 4",
+      "Question": {
+        "activityType": "MC",
+        "title": "Knowledge Check",
+        "questionText": "The following is an example of a correctly cited quotation, using the &quot;split citation&quot; technique.</p> <p>According to Mattson (2015),  &quot;coworkers may feel the need to agree with each other because they fear losing a friendship&quot; (para. 8)</p>",
+        "feedbacktext": false,
+        "feedbackicons": true,
+        "key": "",
+        "answers": [
+          {
+            "answerText": "True",
+            "correct": true,
+            "feedback": "You are correct!"
+          },
+          {
+            "answerText": "False",
+            "correct": false,
+            "feedback": "You are not correct."
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Question",
+      "StartTime": 124,
+      "PauseVideo": true,
+      "Enforce": true,
+      "MustRetry": false,
+      "ViewLater": true,
+      "ShortTitle": "Question 5",
+      "Question": {
+        "activityType": "MC",
+        "title": "Knowledge Check",
+        "questionText": "If your paper refers to a particular source more than once, you must list that source the same number of times on your references page.",
+        "feedbacktext": true,
+        "feedbackicons": false,
+        "key": "",
+        "answers": [
+          {
+            "answerText": "True",
+            "correct": false,
+            "feedback": "You are not correct. The references page lists each source only once."
+          },
+          {
+            "answerText": "False",
+            "correct": true,
+            "feedback": "You are correct! The references page lists each source only once."
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Question",
+      "StartTime": 144,
+      "PauseVideo": true,
+      "Enforce": true,
+      "MustRetry": false,
+      "ViewLater": true,
+      "ShortTitle": "Question 6",
+      "Question": {
+        "activityType": "MC",
+        "title": "Knowledge Check",
+        "questionText": "On the references page, each type of source, e.g., magazine, newspaper, website, is referenced in slightly different ways.",
+        "feedbacktext": false,
+        "feedbackicons": true,
+        "key": "",
+        "answers": [
+          {
+            "answerText": "True",
+            "correct": true,
+            "feedback": "You are correct!"
+          },
+          {
+            "answerText": "False",
+            "correct": false,
+            "feedback": "You are not correct."
+          }
+        ]
+      }
+    }
+  ],
+  "Bullets": {
+    "Lists": []
+  }
+}

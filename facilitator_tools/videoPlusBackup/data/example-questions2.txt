@@ -1,0 +1,92 @@
+{
+  "Video": {
+    "ContainID": "vpcontain",
+    "VideoID": "video0",
+    "Width": 800,
+    "Height": 450,
+    "Controls": true,
+    "StartTime": 0,
+    "Type": "Source",
+    "SourceData": {
+      "FolderPath": "data/",
+      "Sources": [
+        {
+          "Type": "MP4",
+          "Filename": "CreativeServices_v5_Final_1.mp4"
+        },
+        {
+          "Type": "WEBM",
+          "Filename": "CreativeServices_v5_Final_1.webm"
+        }
+      ]
+    }
+  },
+  "Popups": [
+    {
+      "Type": "Question",
+      "StartTime": 68.8,
+      "PauseVideo": true,
+      "Enforce": false,
+      "MustRetry": false,
+      "ViewLater": true,
+      "ShortTitle": "Question 1",
+      "Question": {
+        "activityType": "MC",
+        "title": "Courseware Roles",
+        "questionText": "Which of the following is not a Role on the within the Courseware Team?",
+        "feedbacktext": true,
+        "feedbackicons": true,
+        "key": "three",
+        "answers": [
+          {
+            "answerText": "Courseware Developer",
+            "correct": false,
+            "feedback": "Incorrect"
+          },
+          {
+            "answerText": "Instructional Designer",
+            "correct": false,
+            "feedback": "Incorrect"
+          },
+          {
+            "answerText": "Graphic Designer",
+            "correct": true,
+            "feedback": "none"
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Question",
+      "StartTime": 75.9,
+      "PauseVideo": true,
+      "Enforce": false,
+      "MustRetry": true,
+      "ViewLater": true,
+      "ShortTitle": "Question 2",
+      "Question": {
+        "activityType": "MC",
+        "title": "Game-Based Learning",
+        "questionText": "Was the Brightspace Game-Based Learning Solution developed by the Multimedia Team?",
+        "feedbacktext": true,
+        "feedbackicons": false,
+        "key": "three",
+        "answers": [
+          {
+            "answerText": "Yes",
+            "correct": true,
+            "feedback": "none"
+          },
+          {
+            "answerText": "No",
+            "correct": false,
+            "feedback": "Incorrect"
+          }
+        ]
+      }
+    }
+  ],
+  "Bullets": {
+    "Lists": []
+  }
+}

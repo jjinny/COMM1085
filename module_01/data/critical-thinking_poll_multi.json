@@ -1,0 +1,230 @@
+{
+  "FieldID": 1000038,
+  "FieldName": "COMM1085-CriticalThinking",
+  "Polls": [
+    {
+      "PollID": 1,
+      "PollContainer": "poll1",
+      "Title": "What skill will you use the most at Conestoga?",
+      "Description": "<p>The following seven statements are paraphrases of this course's learning outcomes — in other words, the skills you will learn in this course. <strong>Select the one skill that you think you will use the most in your time at Conestoga</strong>.</p> \n",
+      "GraphType": "pie",
+      "PollType": "Single",
+      "MaxSelections": 1,
+      "Scale": [
+        {
+          "Id": 1,
+          "Container": "ratingscale1",
+          "Color": "#2d112b",
+          "Descriptor": "I will use reading skills to understand the audience, purpose, and main idea of various texts.",
+		  "ShortDesc": "I will use reading skills to understand...",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Id": 2,
+          "Container": "ratingscale1",
+          "Color": "#ca293e",
+          "Descriptor": "I will use critical thinking skills to respond to questions of bias, evidence and source in a variety of texts.",
+		  "ShortDesc": "I will use critical thinking skills to respond...",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Container": "ratingscale1",
+          "Id": 3,
+          "Color": "#ff583d",
+          "Descriptor": "I will summarize video, texts, ideas or designs.",
+		  "ShortDesc": "I will summarize video, texts, ideas or designs.",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Container": "ratingscale1",
+          "Id": 4,
+          "Color": "#a01865",
+          "Descriptor": "I will give my point of view in response to a problem or question.",
+		  "ShortDesc": "I will give my point of view in response...",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Id": 5,
+          "Container": "ratingscale1",
+          "Color": "#abe761",
+          "Descriptor": "I will plan, write, and revise written pieces of work.",
+		  "ShortDesc": "I will plan, write, and revise written pieces of work.",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Id": 6,
+          "Container": "ratingscale1",
+          "Color": "#cb1e5d",
+          "Descriptor": "I will use standard Canadian English grammar in all of my communications.",
+		  "ShortDesc": "I will use standard Canadian English grammar...",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Id": 7,
+          "Container": "ratingscale1",
+          "Color": "#540431",
+          "Descriptor": "I will locate and use appropriate sources to support my opinions and reference these sources in an appropriate manner.",
+		  "ShortDesc": "I will locate and use appropriate sources...",
+          "ImageFile": "circle.png"
+        }
+      ],
+      "Feedback": "none",
+      "Features": {}
+    },
+    {
+      "PollID": 2,
+      "PollContainer": "poll2",
+      "Title": "Which skill will you use the most in your working career?",
+      "Description": "<p>The following seven statements are paraphrases of this course's learning outcomes — in other words, the skills you will learn in this course. <strong>Select the one skill that you think you will use the most in your working career</strong>.</p> \n",
+      "GraphType": "pie",
+      "PollType": "Single",
+      "MaxSelections": 1,
+      "Scale": [
+        {
+          "Id": 1,
+          "Container": "ratingscale2",
+          "Color": "#2d112b",
+          "Descriptor": "I will use reading skills to understand the audience, purpose, and main idea of various texts.",
+		  "ShortDesc": "I will use reading skills to understand...",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Id": 2,
+          "Container": "ratingscale2",
+          "Color": "#ca293e",
+          "Descriptor": "I will use critical thinking skills to respond to questions of bias, evidence and source in a variety of texts.",
+		  "ShortDesc": "I will use critical thinking skills to respond...",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Container": "ratingscale2",
+          "Id": 3,
+          "Color": "#ff583d",
+          "Descriptor": "I will summarize video, texts, ideas or designs.",
+		  "ShortDesc": "I will summarize video, texts, ideas or designs.",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Container": "ratingscale2",
+          "Id": 4,
+          "Color": "#a01865",
+          "Descriptor": "I will give my point of view in response to a problem or question.",
+		  "ShortDesc": "I will give my point of view in response...",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Id": 5,
+          "Container": "ratingscale2",
+          "Color": "#abe761",
+          "Descriptor": "I will plan, write, and revise written pieces of work.",
+		  "ShortDesc": "I will plan, write, and revise written pieces of work.",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Id": 6,
+          "Container": "ratingscale2",
+          "Color": "#cb1e5d",
+          "Descriptor": "I will use standard Canadian English grammar in all of my communications.",
+		  "ShortDesc": "I will use standard Canadian English grammar...",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Id": 7,
+          "Container": "ratingscale2",
+          "Color": "#540431",
+          "Descriptor": "I will locate and use appropriate sources to support my opinions and reference these sources in an appropriate manner.",
+		  "ShortDesc": "I will locate and use appropriate sources...",
+          "ImageFile": "circle.png"
+        }
+      ],
+      "Feedback": "none",
+      "Features": {}
+    },
+    {
+      "PollID": 3,
+      "PollContainer": "poll3",
+      "Title": "<p><strong>Select the one learning outcome in particular that you expect to find the most challenging.</strong></p>",
+      "Description": "How relevant did you feel the writing assignments were to the direction you saw your career headed?",
+      "GraphType": "pie",
+      "PollType": "Single",
+      "MaxSelections": 1,
+      "Scale": [
+        {
+          "Id": 1,
+          "Container": "ratingscale3",
+          "Color": "#2d112b",
+          "Descriptor": "I will use reading skills to understand the audience, purpose, and main idea of various texts.",
+		  "ShortDesc": "I will use reading skills to understand...",
+          "ImageFile": "circle.png",
+          "Feedback": "So, you've said you expect to find understanding the audience and purpose of a text most challenging. Not to worry. We're going to introduce this concept very early in the semester, and then, to reinforce it, we'll return to these ideas through the sememster. We'll also use this understanding as a foundation for effective writing."
+        },
+        {
+          "Id": 2,
+          "Container": "ratingscale3",
+          "Color": "#ca293e",
+          "Descriptor": "I will use critical thinking skills to respond to questions of bias, evidence and source in a variety of texts.",
+		  "ShortDesc": "I will use critical thinking skills to respond...",
+          "ImageFile": "circle.png",
+          "Feedback": "So, you've said you expect to find using critical thinking skills most challenging. Totally understandable. 'Critical thinking' is a term that's often overused and under-explained. To help you master this skill, we will make a consistent effort to explain and demonstrate what's expected in this area, and you will be provided with repeated opportunities to practice your reading of various texts."
+        },
+        {
+          "Container": "ratingscale3",
+          "Id": 3,
+          "Color": "#ff583d",
+          "Descriptor": "I will summarize video, texts, ideas or designs.",
+		  "ShortDesc": "I will summarize video, texts, ideas or designs.",
+          "ImageFile": "circle.png",
+          "Feedback": "So, you've said you expect to find summarizing most challenging. Indeed, summary writing can be deceptively tricky. To help you conquer it, we will incorporate summary writing activities in various forms throughout the course. With guidance and practice, you can become a lean, mean summarizing machine!"
+        },
+        {
+          "Container": "ratingscale3",
+          "Id": 4,
+          "Color": "#a01865",
+          "Descriptor": "I will give my point of view in response to a problem or question.",
+		  "ShortDesc": "I will give my point of view in response...",
+          "ImageFile": "circle.png",
+          "Feedback": "So, you've said you expect to find giving your point of view most challenging. It's actually quite common for students to feel more comfortable in areas like mathematics and science, where the pursuit of a 'correct' answer can provide comfort. By contrast, many sutdents feel like they're under-qualified to present their position on a topic. This course will help you to present your point of view in a professional and compelling manner by introducing you to various argumentation and research strategies."
+        },
+        {
+          "Id": 5,
+          "Container": "ratingscale3",
+          "Color": "#abe761",
+          "Descriptor": "I will plan, write, and revise written pieces of work.",
+		  "ShortDesc": "I will plan, write, and revise written pieces of work.",
+          "ImageFile": "circle.png",
+          "Feedback": "So, you've said you expect to find writing and revising your writing most challenging. Hey, even the professionals don't always get things write... I mean right! Learning to plan, write, and then revise will improve your writing skills. Better than that, it will likely save you time, improve your grades, and maybe even earn you a promotion one day."
+        },
+        {
+          "Id": 6,
+          "Container": "ratingscale3",
+          "Color": "#cb1e5d",
+          "Descriptor": "I will use standard Canadian English grammar in all of my communications.",
+		  "ShortDesc": "I will use standard Canadian English grammar...",
+          "ImageFile": "circle.png",
+          "Feedback": "So, you've said you expect to find using standard Canadian English grammar most challenging. Dont know where to place a comma? Can't remember when to use effect and when to use affect? You are not alone! Practicing proper Canadian English and grammar is something that we are going to focus on all term. We will start small and build you up to be a grammar star."
+        },
+        {
+          "Id": 7,
+          "Container": "ratingscale3",
+          "Color": "#540431",
+          "Descriptor": "I will locate and use appropriate sources to support my opinions and reference these sources in an appropriate manner.",
+		  "ShortDesc": "I will locate and use appropriate sources...",
+          "ImageFile": "circle.png",
+          "Feedback": "So, you said you expect to find locating, using, and referencing appropriate sources most challenging. This focus on research and documentation can be a particulalry stressful component of the academic writing process for developing writers. It is certainly an important skill. And because it's so important, we're going to begin working with it as early as Week 2, and we'll continue to explore and practice these skills throughout the semester. We'll provide you a range of resources, regular opportunities to practice, and steady feedback along the way to help you research and document consistently and correctly."
+        }
+      ],
+      "Feedback": "The assignments in this course have been designed to target specific communication and critical thinking skills that are necessary for success across the workplace spectrum. We also designed online activities and discussions to target specifically those skills and concepts that students will need to use on their assignments.",
+      "Features": {}
+    }
+  ],
+  "Roles": {
+    "ModeratorView": [
+      101,
+      102,
+      126
+    ],
+    "ParticipantView": [
+      103
+    ]
+  }
+}

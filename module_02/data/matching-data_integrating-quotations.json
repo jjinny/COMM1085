@@ -1,0 +1,89 @@
+{
+  "ActivityName": "",
+  "ActivityType": "sort",
+  "HeadingLevel": 3,
+  "FeedbackType": "continuous",
+  "HighlightEffect": true,
+  "QuestionColumns": "1",
+  "Randomize": true,
+  "HorizontalAlignment": true,
+  "PreActivityText": "<p>Drag the quote to the statement that describes it most accurately. Refer to the <strong>Original Text</strong> as you go through the activity.</p>",
+  "PreActivityMedia": "none",
+  "IncludePostPage": false,
+  "PostActivityText": "none",
+  "PostActivityMedia": "none",
+  "AnswerNodes": [
+    {
+      "key": "cit",
+      "title": "The writer <strong>uses quotation marks</strong> to signal words taken from the original source <strong>but fails to include a citation</strong> acknowledging the source.",
+      "color": "default",
+      "src": "#d1004e"
+    },
+    {
+      "key": "no_cit",
+      "title": "The writer includes a passage of text from the original source without including any attribution at all, i.e., <strong>no quotation marks or citation</strong>.",
+      "color": "default",
+      "src": "#71ff30"
+    },
+    {
+      "key": "no_quot",
+      "title": "The writer includes a passage of text from the original source and includes a correct citation (author's name, year of publications, page, para. #) but <strong>fails to use quotation marks around the borrowed words</strong>.",
+      "color": "default",
+      "src": "#71ff30"
+    },
+    {
+      "key": "incorrect_quot",
+      "title": "The writer <strong>includes words and information that did not appear in the original source</strong>, but claims that she did by using quotation marks and providing a citation.",
+      "color": "default",
+      "src": "#71ff30"
+    },
+    {
+      "key": "quot",
+      "title": "The writer <strong>correctly quotes and cites</strong> a passage of text from the original source.",
+      "color": "default",
+      "src": "#71ff30"
+    }
+  ],
+  "QuestionNodes": [
+    {
+      "question": "I was surprised to learn that &quot;people who read test studded with links...comprehend ess than those who read traditional linear text.&quot;",
+      "answer": "cit",
+      "type": "text",
+      "color": "default",
+      "correct": "Good job!",
+      "wrong": "Really?"
+    },
+    {
+      "question": "I was surprised to discover that people who read text studded with links comprehend less than those who read traditional linear text.",
+      "answer": "no_cit",
+      "type": "text",
+      "color": "default",
+      "correct": "Good job!",
+      "wrong": "Really?"
+    },
+    {
+      "question": "I was surprised to learn that people who read text studded with links comprehend less than those who read traditional linear text (Carr,2010, para. 2).",
+      "answer": "no_quot",
+      "type": "text",
+      "color": "default",
+      "correct": "Good job!",
+      "wrong": "Really?"
+    },
+    {
+      "question": "I was outraged to discover that reading text with links and watching multimedia presentations is &quot;more addictive than most illegal substances&quot; (Carr, 2010, para. 2).",
+      "answer": "incorrect_quot",
+      "type": "text",
+      "color": "default",
+      "correct": "Good job!",
+      "wrong": "An even number is a number that is divisible by 2."
+    },
+    {
+      "question": "I was surprised to learn that &quot;people who read text studded with links...comprehend less than those who read traditional linear text&quot (Carr, 2010, para. 2).",
+      "answer": "quot",
+      "type": "text",
+      "color": "default",
+      "correct": "Good job!",
+      "wrong": "An odd number is a number not divisible by 2."
+    }
+  ]
+}

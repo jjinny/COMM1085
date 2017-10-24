@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>Activity: Communications in the Workplace</title>
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="../font/fontawesome/css/fontawesome-pro-brands.css">
+<link rel="stylesheet" href="../font/fontawesome/css/fontawesome-pro-light.css">
+<link rel="stylesheet" href="../font/fontawesome/css/fontawesome-pro-regular.css">
+<link rel="stylesheet" href="../font/fontawesome/css/fontawesome-pro-core.css">
+<link rel="stylesheet" href="../font/fontawesome/css/fontawesome-pro-solid.css">
+
+
+<!-- Bootstrap core CSS -->
+<link href="../css/bootstrap.css" rel="stylesheet">
+
+<!-- Material Design Bootstrap -->
+<link href="../css/mdb.min.css" rel="stylesheet">
+
+<!-- Your custom styles (optional) -->
+<link href="../css/style.css" rel="stylesheet">
+<link href="../facilitator_tools/Quiz/css/quiz.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container-fluid">
+
+<!-- Header Area -->
+<header id="think">
+    <div class="row">
+      <div class="col-sm-12 prime-bg header z-depth-1-half">
+				<div class="headerMod"></div>
+        <p class="animated fadeIn">Introduction to College Reading and Writing</p>
+      </div>
+    </div>
+</header>
+<!-- /Header Area --> 
+
+<!-- Main Content Area -->
+
+<main>
+   <div class="container" style="min-height: 800px;">
+    <div class="col-sm-12 content">
+			<h1><i class="fal fa-cubes text-second fa-2x" aria-hidden="true"></i><span class="sr-only">Activity:</span> Communications in the Workplace</h1>
+      <p>What value is there to clear communication in the workplace? Take this quiz to find out. For each statement, choose whether the statement is likely or unlikely for you.</p>
+            <div class="col-md-12">
+               <section id="dbox"></section>
+            </div>
+      <div class="clearfix"></div>
+      <div class="well z-depth-1 mt-5" id="content" style="display: none;">
+				<h2>Employers on Communication Skills</h2>
+				<p>As the modern workforce moves toward more automated work done by sophisticated machines and artificial intelligence programs, well-honed communication skills become even more valuable.</p>
+				<p>According to a 2015 survey of job postings in Canada conducted by career site Workopolis, “communications is the clear stand out skill appearing in most job postings” (Workopolis, 2015, p.2). The next three most common skills sought in employees are also strongly related to communication skills: Writing, Customer relations, and Sales.</p>
+				<p>Demand for good communications skills crosses a wide range of fields (Workopolis, 2015, p.2):</p>
+				<ul>
+					<li>Over 60 per cent of <strong>Healthcare and Wellness</strong> jobs</li>
+					<li>Almost half (47 per cent) of <strong>Technology &amp; Digital Media</strong> jobs</li>
+					<li>Almost half (47 per cent) of <strong>Sales &amp; Business Development</strong> jobs</li>
+					<li>3 in 5 <strong>Marketing</strong> jobs</li>
+				</ul>
+				<p>Clearly, the modern workplace needs and expects its employees to arrive on day one with well-honed reading and writing skills. Employers are looking for candidates who can write well without errors, tell a story rather than repeat facts, and anticipate their audience’s expectations (Workopolis, 2015, pp. 4-5).</p>
+				<p>Therefore, we’ve designed this course with these employment trends in mind. COMM1085: College Reading and Writing Skills is here to help you meet the needs of the workplace!</p>
+				<hr>
+				<p class="small"><strong>References:</strong><br />
+					Workopolis. (2015). Thinkopolis VII: The Most Sought After Skills in Canada in 2015.</p>
+				</div>
+    </div>
+	</div>
+</main>
+<!-- /Main Content Area -->
+<footer>
+    <div class="row">
+      <div class="col-sm-12 footer">
+        <p>© 2017 Conestoga College. All rights reserved.</p>
+      </div>
+    </div>
+</footer>
+<!-- SCRIPTS --> 
+	</div>
+<!-- JQuery --> 
+<script type="text/javascript" src="../js/jquery-3.1.1.min.js"></script> 
+
+<!-- Tooltips --> 
+<script type="text/javascript" src="../js/tether.min.js"></script> 
+
+<!-- Bootstrap core JavaScript --> 
+<script type="text/javascript" src="../js/bootstrap.js"></script> 
+
+<!-- MDB core JavaScript --> 
+<script type="text/javascript" src="../js/mdb.min.js"></script> 
+
+<!-- Open-Close Collapse --> 
+<script src="../js/plugins/open_close_all.js"></script> 
+
+<!-- OLC Custom JS --> 
+<script src="../js/plugins/olc-custom.js"></script> 
+<!-- Valence Scripts --> 
+<script src="../facilitator_tools/ActionSave/thirdpartylib/valence/global-superagent-d2l-session-auth.js"></script> 
+<script src="../facilitator_tools/ActionSave/thirdpartylib/valence/csval-lib.js"></script> 
+<script src="../facilitator_tools/ActionSave/js/actionsave.js"></script> 
+
+      <script src="../facilitator_tools/Quiz/js/quiz.js"></script>
+      <script>
+				
+				var activityId = "02_communications.html";
+				
+         $(document).ready(function() {
+            InlineQuizApp.setupQuiz("data/quiz-data_communication.json", "dbox")
+         });
+      </script>
+      
+        <script>
+
+	  InlineQuizApp.onComplete = function (e) {
+			$("div#content").show();
+			updateData();
+		console.log(e);
+		  };
+
+
+
+ </script>
+
+      
+</body>
+</html>

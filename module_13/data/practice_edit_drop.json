@@ -1,0 +1,25 @@
+{
+  "Randomize": true,
+  "Questions": [
+    {
+      "Text": "True or False: The quotation in the student excerpt is the\nmost appropriate and effective way to incorporate that text reference.",
+      "Options": [
+        {
+          "Val": "A",
+          "Text": true
+        },
+        {
+          "Val": "B",
+          "Text": false
+        }
+      ],
+      "Answer": {
+        "AutoDisplay": false,
+        "FeedbackText": "This piece of information should be paraphrased, as\nthere is nothing particularly elegant or powerful about the wording.",
+        "Correct": [
+          "B"
+        ]
+      }
+    }
+  ]
+}

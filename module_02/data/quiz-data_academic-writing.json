@@ -1,0 +1,126 @@
+{
+  "General":{
+    "QuizName": "Purpose for Writing",
+    "HeadingLevel": 3,
+    "instructions": "none",
+    "feedBackType":"continuous",
+    "forceCorrect":false,
+    "repeatOnComplete":true,
+    "allowNone":false,
+    "allowPrevious":true,
+    "showHints": true,
+    "allowPartial": true,
+    "randomize": true,
+    "subtractWrong": false,
+    "preQuizText":"<p>For the scenarios that follow, select the option that best describes the student's purpose for writing.</p>",
+    "preQuizMedia":"none",
+    "postQuizText":"none",
+    "postQuizMedia":[]
+  },
+  "Questions":[
+    {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"Students in Protection, Security, and Investigation are learning about the fundamental principles of the Canadian criminal justice system. The instructor has asked the students to write a summary of a textbook chapter that outlines these principles. What is the purpose for this piece of academic writing?",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+        {
+          "answerText": "Apply new skills",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "Demonstrate understanding of the new concepts",
+          "feedBack": "Correct! ",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Particpate in a conversation of ideas",
+          "feedBack": "That is not correct."
+        },
+				{
+					"answerText": "Practice specific workplace writing techniques",
+					"feedBack": "That is not correct."
+				}
+      ]
+    },
+    {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"Trades students are learning about various roofing materials. The instructor has asked students to use arguments from various experts in the field to justify using metal roofing instead of conventional shingles.",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+        {
+          "answerText": "Apply new skills",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "Demonstrate understanding of the new concepts",
+          "feedBack": "That is not correct. "
+        },
+        {
+          "answerText": "Particpate in a conversation of ideas",
+          "feedBack": "Correct!",
+					"scoreValue": 1
+        },
+				{
+					"answerText": "Practice specific workplace writing techniques",
+					"feedBack": "That is not correct."
+				}
+      ]
+    },
+    {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"Business students have been practicing persuasive techniques in sample exercises. The instructor has asked them to write a sales email, applying appropriate persuasive techiques they've learned about.",
+      "hintText":"none",
+      "hintMedia":[],
+      "answers": [
+        {
+          "answerText": "Apply new skills",
+          "feedBack": "Correct!",
+					"scoreValue": 1
+        },
+        {
+          "answerText": "Demonstrate understanding of the new concepts",
+          "feedBack": "That is not correct. "
+        },
+        {
+          "answerText": "Particpate in a conversation of ideas",
+          "feedBack": "That is not correct."
+        },
+				{
+					"answerText": "Practice specific workplace writing techniques",
+					"feedBack": "That is not correct."
+				}
+      ]
+    },
+    {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"After completing the first draft of their research project, Nursing students review the guidelines for documenting sources because the health care profession will expect them to verify that any information they refer to on the job is accurate and reliable.",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+        {
+          "answerText": "Apply new skills",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "Demonstrate understanding of the new concepts",
+          "feedBack": "That is not correct. "
+        },
+        {
+          "answerText": "Particpate in a conversation of ideas",
+          "feedBack": "That is not correct."
+        },
+				{
+					"answerText": "Practice specific workplace writing techniques",
+					"feedBack": "Correct!",
+					"scoreValue": 1
+				}
+      ]
+    }
+  ]
+}

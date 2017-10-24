@@ -1,0 +1,538 @@
+{
+  "General": {
+    "QuizName": "Review of Key Concepts",
+    "HeadingLevel": 3,
+    "instructions": "none",
+    "feedBackType": "continuous",
+    "forceCorrect": false,
+    "repeatOnComplete": true,
+    "allowNone": false,
+    "allowPrevious": true,
+    "showHints": true,
+    "allowPartial": true,
+    "randomize": true,
+    "subtractWrong": false,
+    "preQuizText": "<p>To help you prepare for both parts of the Final Assessment, the following questions will help you review concepts and guide you to relevant portions of the course.</p>",
+    "preQuizMedia": "none",
+    "postQuizText": "none",
+    "postQuizMedia": []
+  },
+  "Questions": [
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "<h2>Purpose, Audience, Thesis</h2><p>Where in the course can you find our discussion of purpose, audience, and thesis?</p> ",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Week 1",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "Week 2",
+          "feedBack": "That is not correct. "
+        },
+        {
+          "answerText": "Weeks 1 and 2",
+          "feedBack": "Correct!",
+          "scoreValue": 1
+        }
+      ]
+    },
+    {
+      "questionType": "All That Apply",
+      "maxScoreValue": 3,
+      "questionText": "<h2>Purpose, Audience, Thesis</h2><p>What characteristics can we use to describe or define a potential audience?Select all that apply.</p>",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "age",
+          "feedBack": "Correct!",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "level of education",
+          "feedBack": "Correct!",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "professional knowledge",
+          "feedBack": "Correct!",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "professional experience",
+          "feedBack": "Correct!",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "native language",
+          "feedBack": "Correct!",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "cultural history",
+          "feedBack": "Correct!",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "gender",
+          "feedBack": "Correct!",
+          "scoreValue": 1
+        }
+      ]
+    },
+    {
+      "questionType": "All That Apply",
+      "maxScoreValue": 3,
+      "questionText": "<h2>Purpose, Audience, Thesis</h2><p>What clues in the text might lead us to identify the audience? Select all that apply.</p> ",
+      "hintText": "none",
+      "hintMedia": [],
+      "answers": [
+        {
+          "answerText": "The level of sophistication in the vocabulary and sentence structure ",
+          "feedBack": "Correct!",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "The focus of the topic; i.e., Who might be interested in or affected by that particular topic? ",
+          "feedBack": "Correct! ",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "The publication source; i.e., Who is most likely reading the newspaper, magazine, journal, website etc. in which the text originally appeared? ",
+          "feedBack": "Correct!",
+          "scoreValue": 1
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "<h2>Purpose, Audience, Thesis</h2><p>Which of the following statements best represents a thesis? </p>",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Guardians of the Galaxy Part 2 is better than Guardians of the Galaxy Part 1.",
+          "feedBack": "Correct! When we say what we think about a text, we are expressing a thesis. A thesis statement states an author’s position on a topic, and can be identified as the idea that needs to be supported by evidence, examples, and explanations.",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Guardians of the Galaxy Part 2 is about a group of characters on a wild space adventure.",
+          "feedBack": "That is not correct. When we say what we think about a text, we are expressing a thesis. A thesis statement states an author’s position on a topic, and can be identified as the idea that needs to be supported by evidence, examples, and explanations."
+        },
+        {
+          "answerText": "Guardians of the Galaxy Part 2 wants to entertain viewers.",
+          "feedBack": "That is not correct. When we say what we think about a text, we are expressing a thesis. A thesis statement states an author’s position on a topic, and can be identified as the idea that needs to be supported by evidence, examples, and explanations."
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "<h2>Purpose, Audience, Thesis</h2><p>Which of the following statements best represents a topic? </p>",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Guardians of the Galaxy Part 2 is better than Guardians of the Galaxy Part 1.",
+          "feedBack": "That is not correct. When we say what a text is “about”, we are looking at its topic. Understanding the text’s topic allows us to identify the general context of the discussion, which might help us to make connections with information we already have on the topic."
+        },
+        {
+          "answerText": "Guardians of the Galaxy Part 2 is about a group of characters on a wild space adventure.",
+          "feedBack": "Correct! When we say what a text is “about”, we are looking at its topic. Understanding the text’s topic allows us to identify the general context of the discussion, which might help us to make connections with information we already have on the topic.",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Guardians of the Galaxy Part 2 wants to entertain viewers.",
+          "feedBack": "That is not correct. When we say what a text is “about”, we are looking at its topic. Understanding the text’s topic allows us to identify the general context of the discussion, which might help us to make connections with information we already have on the topic."
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "<h2>Purpose, Audience, Thesis</h2><p>Which of the following statements best represents a purpose? </p>",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Guardians of the Galaxy Part 2 is better than Guardians of the Galaxy Part 1.",
+          "feedBack": "That is not correct. When we say what a text is trying to do, we are describing its purpose.  Understanding the text’s purpose allows us to assess how successful the text has been in achieving its purpose. "
+        },
+        {
+          "answerText": "Guardians of the Galaxy Part 2 is about a group of characters on a wild space adventure.",
+          "feedBack": "That is not correct. When we say what a text is trying to do, we are describing its purpose.  Understanding the text’s purpose allows us to assess how successful the text has been in achieving its purpose. "
+        },
+        {
+          "answerText": "Guardians of the Galaxy Part 2 wants to entertain viewers.",
+          "feedBack": "Correct! When we say what a text is trying to do, we are describing its purpose.  Understanding the text’s purpose allows us to assess how successful the text has been in achieving its purpose. ",
+          "scoreValue": 1
+        }
+      ]
+    },
+    {
+      "questionType": "All That Apply",
+      "maxScoreValue": 3,
+      "questionText": "<h2>Purpose, Audience, Thesis</h2><p>Where might we look to find clues that will help us identify the thesis of a text? Select all that apply. </p>",
+      "hintText": "none",
+      "hintMedia": [],
+      "answers": [
+        {
+          "answerText": "The title ",
+          "feedBack": "Correct!",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "The concluding paragraphs ",
+          "feedBack": "Correct! ",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "The introductory paragraphs",
+          "feedBack": "Correct!",
+          "scoreValue": 1
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "<h2>Purpose, Audience, Thesis</h2><p>Question #2 on Final Assessment — Part One asks you to paraphrase the thesis of the text. Which of the following represents the most effective paraphrase of this thesis: <em>“The second \"volume\" of the open-ended franchise is simply not as charming as the original.”</em> (Kuntzman, NY Daily News)</p>",
+      "hintText": "none",
+      "hintMedia": [],
+      "answers": [
+        {
+          "answerText": "The original Guardians of the Galaxy Film is more charming than its sequel. ",
+          "feedBack": "Correct! An effective paraphrase should retain the main ideas of the original text without duplicating its phrasing and sentence structure. ",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Guardians of the Galaxy Part 2 is simply not as charming as Guardians of the Galaxy Part 1.",
+          "feedBack": "That is not correct. An effective paraphrase should retain the main ideas of the original text without duplicating its phrasing and sentence structure. "
+        },
+        {
+          "answerText": "Guardians of the Galaxy is an open-ended franchise.",
+          "feedBack": "That is not correct. An effective paraphrase should retain the main ideas of the original text without duplicating its phrasing and sentence structure. "
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "<h2>Paragraph development</h2><p>Where in the course can you find our discussion of paragraph development?</p>",
+      "hintText": "none",
+      "hintMedia": [],
+      "answers": [
+        {
+          "answerText": "Week 3",
+          "feedBack": "Correct!",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Week 4",
+          "feedBack": "That is not correct. "
+        },
+        {
+          "answerText": "Weeks 3 and 4",
+          "feedBack": "That is not correct."
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "<h2>Paragraph development</h2><p>Where in the course can you find our discussion of paragraph development? </p><div class=\"card card-block info-color text-white p-4 mt-2\"><p>[topic sentence(s)]. Made largely from edible oil products, this condiment is never listed on the menu. In addition, this well-kept industry secret is the reason why ingredients are never listed on the packaging of food products sold by these restaurants. \"Forget sauce\" has a chemical property which causes temporary amnesia in consumers. After spending too much money on barely edible food bereft of any nutritional value, most consumers swear they will never repeat such a disagreeable experience. Within a short period, however, the chemical in \"forget sauce\" takes effect, and they can be depended upon to return and spend, older but no wiser.</p><p>(Sample paragraph from UofOttawa Writing Centre)</p></div>",
+      "hintText": "none",
+      "hintMedia": [],
+      "answers": [
+        {
+          "answerText": "People shouldn’t buy fast-food. Fast-food often contains a product called “forget sauce.” …",
+          "feedBack": "That is not correct. The main focus of this paragraph is to explain what “forget sauce” is. It would be misleading to begin this paragraph with a topic sentence that implies a focus on discouraging the reader from eating fast food or on promoting the nutritional value of fast food."
+        },
+        {
+          "answerText": "Fast-food used to refer only to hamburgers and pizza, but today consumers can choose from a wider range of fast-food options, many of which are actually quite nutritious. Fast-food often contains a product called “forget sauce.” …",
+          "feedBack": "That is not correct. The main focus of this paragraph is to explain what “forget sauce” is. It would be misleading to begin this paragraph with a topic sentence that implies a focus on discouraging the reader from eating fast food or on promoting the nutritional value of fast food."
+        },
+        {
+          "answerText": "Many fast-food chains make their profits from adding a special ingredient called \"forget sauce\" to their foods. …",
+          "feedBack": "Correct! The main focus of this paragraph is to explain what “forget sauce” is. It would be misleading to begin this paragraph with a topic sentence that implies a focus on discouraging the reader from eating fast food or on promoting the nutritional value of fast food.",
+          "scoreValue": 1
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "<h2>Paragraph development</h2><p>What kind of supporting information is provided by the passage in boldface below?</p><div class=\"card card-block info-color text-white p-4 mt-2\"><p>Self-driving cars have been a contentious topic for years now, and recent deaths supposedly caused by this emerging technology have only fuelled debate. Charlie Gillis (2016) discovered in a recent <em>Macleans</em> study that <strong>only 26% of Canadians support fully autonomous vehicles, and it is not hard to see why (para. 6)</strong>. The economics of self-driving cars are going to turn many industries on their heads, with 2.4 million workers from the trucking industry alone set to lose their jobs in the next ten to twenty years (Lee, 2015, para. 7). There have also been deaths caused by misjudgement on the part of the software, and as soon as the vehicle is responsible for the driving, it is easy to blame the software for the death of a driver. Clearly, the biggest obstacle faced by manufacturers of self-driving cars is not the technology itself; instead, it is getting consumers to trust the technology.</p></div>",
+      "hintText": "none",
+      "hintMedia": [],
+      "answers": [
+        {
+          "answerText": "Quotation from a first-hand observer",
+          "feedBack": "That is not correct. Statistical data produced from reliable academic or market research is one source of factual information. "
+        },
+        {
+          "answerText": "Example of a specific incident",
+          "feedBack": "That is not correct. Statistical data produced from reliable academic or market research is one source of factual information. "
+        },
+        {
+          "answerText": "Fact",
+          "feedBack": "Correct! Statistical data produced from reliable academic or market research is one source of factual information.",
+          "scoreValue": 1
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "<h2>Paragraph development</h2><p>Which concluding strategy is the writer of the following paragraph most likely trying attempting to use?</p><div class=\"card card-block info-color text-white p-4 mt-2\"><p>It is almost inevitable that accidents will occur as long as not every car on the road is autonomous, but unlike accidents involving only human drivers, every accident could mean mitigating the risk of a similar accident occurring thousands of times over. After a crash that occurred in May of 2016 involving a Tesla Motors autonomous car, CEO Elon Musk was able to outline new software updates that would have been able to prevent the accident in question (Boudette, 2016, para. 12). <strong> Every life lost in the automation of cars is tragedy to be sure, but those lives lost will make it possible to save hundreds of thousands, if not millions, in the future</strong>.</p></div>",
+      "hintText": "none",
+      "hintMedia": [],
+      "answers": [
+        {
+          "answerText": "Making a recommendation",
+          "feedBack": "That is not correct. By suggesting that lives will eventually be saved by the early testing autonomous vehicles, this concluding sentence offers the reader a reason to care about or find important the main idea of this paragraph."
+        },
+        {
+          "answerText": "Making a suggestion",
+          "feedBack": "That is not correct. By suggesting that lives will eventually be saved by the early testing autonomous vehicles, this concluding sentence offers the reader a reason to care about or find important the main idea of this paragraph."
+        },
+        {
+          "answerText": "Emphasizing the significance of the paragraph’s topic",
+          "feedBack": "Correct! By suggesting that lives will eventually be saved by the early testing autonomous vehicles, this concluding sentence offers the reader a reason to care about or find important the main idea of this paragraph.",
+          "scoreValue": 1
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "<h2>Writing Strategies</h2><p>Where in the course can you find our discussion of summary writing?</p> ",
+      "hintText": "none",
+      "hintMedia": [],
+      "answers": [
+        {
+          "answerText": "Week 3",
+          "feedBack": "Correct!",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Week 4",
+          "feedBack": "That is not correct. "
+        },
+        {
+          "answerText": "Weeks 3 and 4",
+          "feedBack": "That is not correct."
+        }
+      ]
+    },
+    {
+      "questionType": "All That Apply",
+      "maxScoreValue": 3,
+      "questionText": "<h2>Writing Strategies</h2><p>Where else can you find helpful insight into effective summary writing? Select all that apply.</p> ",
+      "hintText": "none",
+      "hintMedia": [],
+      "answers": [
+        {
+          "answerText": "Feedback you received on your Summary Writing Assignment ",
+          "feedBack": "Correct!",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "The rubric for the Summary Writing Assignment ",
+          "feedBack": "Correct! ",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "The rubric for Part One of the Final Assessment ",
+          "feedBack": "Correct!",
+          "scoreValue": 1
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "<h2>Writing Strategies</h2><p>Where in the course can you find our discussion of analytical writing? </p>",
+      "hintText": "none",
+      "hintMedia": [],
+      "answers": [
+        {
+          "answerText": "Weeks 4 and 5",
+          "feedBack": "Correct!",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Week 4",
+          "feedBack": "That is not correct. "
+        },
+        {
+          "answerText": "Week 5",
+          "feedBack": "That is not correct."
+        }
+      ]
+    },
+    {
+      "questionType": "All That Apply",
+      "maxScoreValue": 3,
+      "questionText": "<h2>Writing Strategies</h2><p>Where else can you find helpful insight into effective analytical writing? Select all that apply.</p>",
+      "hintText": "none",
+      "hintMedia": [],
+      "answers": [
+        {
+          "answerText": "Feedback you received on your Analytical Writing Assignment ",
+          "feedBack": "Correct!",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "The rubric for the Analytical Writing Assignment ",
+          "feedBack": "Correct! ",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Your Feedback Journal ",
+          "feedBack": "Correct!",
+          "scoreValue": 1
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "<h2>Writing Strategies</h2><p>Where in the course can you find our discussion of argumentative writing?</p>",
+      "hintText": "none",
+      "hintMedia": [],
+      "answers": [
+        {
+          "answerText": "Weeks 6 and 7",
+          "feedBack": "Correct!",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Week 6",
+          "feedBack": "That is not correct. "
+        },
+        {
+          "answerText": "Week 7",
+          "feedBack": "That is not correct."
+        }
+      ]
+    },
+    {
+      "questionType": "All That Apply",
+      "maxScoreValue": 3,
+      "questionText": "<h2>Writing Strategies</h2><p>Where else can you find helpful insight into effective argumentative writing? Select all that apply.</p>",
+      "hintText": "none",
+      "hintMedia": [],
+      "answers": [
+        {
+          "answerText": "Feedback you received on your Argumentative Writing Assignment ",
+          "feedBack": "Correct!",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "The rubric for the Argumentative Writing Assignment",
+          "feedBack": "Correct! ",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Your Feedback Journal ",
+          "feedBack": "Correct!",
+          "scoreValue": 1
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "<h2>Key Grammar Concepts</h2><p>Where in the course can you find our discussion of subjects and verbs?</p>",
+      "hintText": "none",
+      "hintMedia": [],
+      "answers": [
+        {
+          "answerText": "Week 1",
+          "feedBack": "That is not correct. "
+        },
+        {
+          "answerText": "Week 2",
+          "feedBack": "Correct!",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Week 3",
+          "feedBack": "That is not correct."
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "<h2>Key Grammar Concepts</h2><p>Where in the course can you find our discussion of sentence structure?</p>",
+      "hintText": "none",
+      "hintMedia": [],
+      "answers": [
+        {
+          "answerText": "Week 2",
+          "feedBack": "That is not correct. "
+        },
+        {
+          "answerText": "Week 3",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "Week 4",
+          "feedBack": "Correct!",
+          "scoreValue": 1
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "<h2>Key Grammar Concepts</h2><p>Where in the course can you find our discussion of word usage?</p>",
+      "hintText": "none",
+      "hintMedia": [],
+      "answers": [
+        {
+          "answerText": "Week 4",
+          "feedBack": "That is not correct. "
+        },
+        {
+          "answerText": "Week 5",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "Week 6",
+          "feedBack": "Correct!",
+          "scoreValue": 1
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "<h2>Key Grammar Concepts</h2><p>Where in the course can you find our discussion of punctuation?</p>",
+      "hintText": "none",
+      "hintMedia": [],
+      "answers": [
+        {
+          "answerText": "Week 9",
+          "feedBack": "That is not correct. "
+        },
+        {
+          "answerText": "Week 10",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "Week 11",
+          "feedBack": "Correct!",
+          "scoreValue": 1
+        }
+      ]
+    }
+  ]
+}

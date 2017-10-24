@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+.imagemap-appear {
+
+}
+
+.imagemap-hidden {
+  position: absolute;
+  left: -9999px;
+  max-height: 0px;
+  padding-bottom:0px !important;
+  overflow: hidden;
+  opacity: 0;
+}
+
+area {
+	outline:none;
+}

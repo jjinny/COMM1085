@@ -1,0 +1,565 @@
+{
+  "Randomize": true,
+  "Questions": [
+    {
+      "Text": "A fitness trainer needs to present his client with a detailed fitness plan an explain why it's the appropriate plan for the clients's needs.",
+      "Options": [
+        {
+          "Val": "A",
+          "Text": "Option A"
+        },
+        {
+          "Val": "B",
+          "Text": "Option B"
+        },
+        {
+          "Val": "C",
+          "Text": "Option C"
+        },
+        {
+          "Val": "D",
+          "Text": "Option D"
+        },
+        {
+          "Val": "E",
+          "Text": "Option E"
+        },
+        {
+          "Val": "F",
+          "Text": "Option F"
+        },
+        {
+          "Val": "G",
+          "Text": "Option G"
+        }
+      ],
+      "Answer": {
+        "AutoDisplay": false,
+        "FeedbackText": "The skill required for this workplace scenario  is Option D: Give my point of view in response to a problem or question.",
+        "Correct": [
+          "D"
+        ]
+      }
+    },
+    {
+      "Text": "A social media coordinator for a retail clothing company needs to communicate with customers and the public on a regular basis through postings to Twitter, Facebook, Instagram and other social media platforms.",
+      "Options": [
+        {
+          "Val": "A",
+          "Text": "Option A"
+        },
+        {
+          "Val": "B",
+          "Text": "Option B"
+        },
+        {
+          "Val": "C",
+          "Text": "Option C"
+        },
+        {
+          "Val": "D",
+          "Text": "Option D"
+        },
+        {
+          "Val": "E",
+          "Text": "Option E"
+        },
+        {
+          "Val": "F",
+          "Text": "Option F"
+        },
+        {
+          "Val": "G",
+          "Text": "Option G"
+        }
+      ],
+      "Answer": {
+        "AutoDisplay": false,
+        "FeedbackText": "The skill required for this workplace scenario  is Option F: Use standard Candadian English grammar in all of my communications.",
+        "Correct": [
+          "F"
+        ]
+      }
+    },
+    {
+      "Text": "A marketing rep need to identify the needs of her potential clients before she can prepare a successful sales presentation.",
+      "Options": [
+        {
+          "Val": "A",
+          "Text": "Option A"
+        },
+        {
+          "Val": "B",
+          "Text": "Option B"
+        },
+        {
+          "Val": "C",
+          "Text": "Option C"
+        },
+        {
+          "Val": "D",
+          "Text": "Option D"
+        },
+        {
+          "Val": "E",
+          "Text": "Option E"
+        },
+        {
+          "Val": "F",
+          "Text": "Option F"
+        },
+        {
+          "Val": "G",
+          "Text": "Option G"
+        }
+      ],
+      "Answer": {
+        "AutoDisplay": false,
+        "FeedbackText": "The skill required for this workplace scenario  is Option A: Use reading skills to understand the audience, purpose, and main idea of various texts.",
+        "Correct": [
+          "A"
+        ]
+      }
+    },
+    {
+      "Text": "A software engineer has to produce a &quot;pseudo-code&quot; that documents and describes in simple terms the intended operations of a computer program before getting approval from the project manager to begin work on the code.",
+      "Options": [
+        {
+          "Val": "A",
+          "Text": "Option A"
+        },
+        {
+          "Val": "B",
+          "Text": "Option B"
+        },
+        {
+          "Val": "C",
+          "Text": "Option C"
+        },
+        {
+          "Val": "D",
+          "Text": "Option D"
+        },
+        {
+          "Val": "E",
+          "Text": "Option E"
+        },
+        {
+          "Val": "F",
+          "Text": "Option F"
+        },
+        {
+          "Val": "G",
+          "Text": "Option G"
+        }
+      ],
+      "Answer": {
+        "AutoDisplay": false,
+        "FeedbackText": "The skill required for this workplace scenario  is Option E: Plan, write, and revise written pieces of work.",
+        "Correct": [
+          "E"
+        ]
+      }
+    },
+    {
+      "Text": "A powerline technician needs to write an incident report following an on-the-job injury sustained by a co-worker.",
+      "Options": [
+        {
+          "Val": "A",
+          "Text": "Option A"
+        },
+        {
+          "Val": "B",
+          "Text": "Option B"
+        },
+        {
+          "Val": "C",
+          "Text": "Option C"
+        },
+        {
+          "Val": "D",
+          "Text": "Option D"
+        },
+        {
+          "Val": "E",
+          "Text": "Option E"
+        },
+        {
+          "Val": "F",
+          "Text": "Option F"
+        },
+        {
+          "Val": "G",
+          "Text": "Option G"
+        }
+      ],
+      "Answer": {
+        "AutoDisplay": false,
+        "FeedbackText": "The skill required for this workplace scenario  is Option C: Summarize, video, texts, ideas or designs.",
+        "Correct": [
+          "C"
+        ]
+      }
+    },
+    {
+      "Text": "A social worker needs to read the case history of a new client in order to prepare for their first meeting.",
+      "Options": [
+        {
+          "Val": "A",
+          "Text": "Option A"
+        },
+        {
+          "Val": "B",
+          "Text": "Option B"
+        },
+        {
+          "Val": "C",
+          "Text": "Option C"
+        },
+        {
+          "Val": "D",
+          "Text": "Option D"
+        },
+        {
+          "Val": "E",
+          "Text": "Option E"
+        },
+        {
+          "Val": "F",
+          "Text": "Option F"
+        },
+        {
+          "Val": "G",
+          "Text": "Option G"
+        }
+      ],
+      "Answer": {
+        "AutoDisplay": false,
+        "FeedbackText": "The skill required for this workplace scenario  is Option B: Use critical thinking skills to respond to questions of bias, evidence and source in a variety of texts.",
+        "Correct": [
+          "B"
+        ]
+      }
+    },
+    {
+      "Text": "In order to win start-up funding from an investor, an entrepreneur needs to prepare a business plan that includes a detailed and accurate forecast of potential earnings.",
+      "Options": [
+        {
+          "Val": "A",
+          "Text": "Option A"
+        },
+        {
+          "Val": "B",
+          "Text": "Option B"
+        },
+        {
+          "Val": "C",
+          "Text": "Option C"
+        },
+        {
+          "Val": "D",
+          "Text": "Option D"
+        },
+        {
+          "Val": "E",
+          "Text": "Option E"
+        },
+        {
+          "Val": "F",
+          "Text": "Option F"
+        },
+        {
+          "Val": "G",
+          "Text": "Option G"
+        }
+      ],
+      "Answer": {
+        "AutoDisplay": false,
+        "FeedbackText": "The skill required for this workplace scenario  is Option G: Locate and use approrpriate sources to support my opinions and reference these sources in an appropriate manner.",
+        "Correct": [
+          "G"
+        ]
+      }
+    },
+    {
+      "Text": "A nurse needs to accurately and concisely document the patient's symptoms.",
+      "Options": [
+        {
+          "Val": "A",
+          "Text": "Option A"
+        },
+        {
+          "Val": "B",
+          "Text": "Option B"
+        },
+        {
+          "Val": "C",
+          "Text": "Option C"
+        },
+        {
+          "Val": "D",
+          "Text": "Option D"
+        },
+        {
+          "Val": "E",
+          "Text": "Option E"
+        },
+        {
+          "Val": "F",
+          "Text": "Option F"
+        },
+        {
+          "Val": "G",
+          "Text": "Option G"
+        }
+      ],
+      "Answer": {
+        "AutoDisplay": false,
+        "FeedbackText": "The skill required for this workplace scenario  is Option C: Summarize video, texts, ideas or designs.",
+        "Correct": [
+          "C"
+        ]
+      }
+     },
+    {
+      "Text": "A food processing technician needs to cite food safety guidelines to confirm that all machines and procedures are in compliance with federal standards.",
+      "Options": [
+        {
+          "Val": "A",
+          "Text": "Option A"
+        },
+        {
+          "Val": "B",
+          "Text": "Option B"
+        },
+        {
+          "Val": "C",
+          "Text": "Option C"
+        },
+        {
+          "Val": "D",
+          "Text": "Option D"
+        },
+        {
+          "Val": "E",
+          "Text": "Option E"
+        },
+        {
+          "Val": "F",
+          "Text": "Option F"
+        },
+        {
+          "Val": "G",
+          "Text": "Option G"
+        }
+      ],
+      "Answer": {
+        "AutoDisplay": false,
+        "FeedbackText": "The skill required for this workplace scenario  is Option G: Locate and use approrpriate sources to support my opinions and reference these sources in an appropriate manner.",
+        "Correct": [
+          "G"
+        ]
+      }
+    },
+    {
+      "Text": "An ECE needs to write an email to a child's parents recommending a speech therapy consultation for the child.",
+      "Options": [
+        {
+          "Val": "A",
+          "Text": "Option A"
+        },
+        {
+          "Val": "B",
+          "Text": "Option B"
+        },
+        {
+          "Val": "C",
+          "Text": "Option C"
+        },
+        {
+          "Val": "D",
+          "Text": "Option D"
+        },
+        {
+          "Val": "E",
+          "Text": "Option E"
+        },
+        {
+          "Val": "F",
+          "Text": "Option F"
+        },
+        {
+          "Val": "G",
+          "Text": "Option G"
+        }
+      ],
+      "Answer": {
+        "AutoDisplay": false,
+        "FeedbackText": "The skill required for this workplace scenario  is Option D: Give my point of view in response to a problem or questions.",
+        "Correct": [
+          "D"
+        ]
+      }
+     },
+    {
+      "Text": "An interior decorator bidding on a project to design the new corporate headquarters of a growing start-up needs to read the request for proposals and the company's website in order to understand the project requirements and the client's likely preferences.",
+      "Options": [
+        {
+          "Val": "A",
+          "Text": "Option A"
+        },
+        {
+          "Val": "B",
+          "Text": "Option B"
+        },
+        {
+          "Val": "C",
+          "Text": "Option C"
+        },
+        {
+          "Val": "D",
+          "Text": "Option D"
+        },
+        {
+          "Val": "E",
+          "Text": "Option E"
+        },
+        {
+          "Val": "F",
+          "Text": "Option F"
+        },
+        {
+          "Val": "G",
+          "Text": "Option G"
+        }
+      ],
+      "Answer": {
+        "AutoDisplay": false,
+        "FeedbackText": "The skill required for this workplace scenario  is Option A: Use reading skills to understand the audience, purpose, and main idea of various texts. AND Option B: Use critical thinking skills to resond to questions of bias, evidence and source in a variety of texts.",
+        "Correct": [
+          "A"
+        ]
+      }
+    },
+    {
+      "Text": "A renovation technician needs to refer to the Ontario Buildin gCode in the plans for a new project.",
+      "Options": [
+        {
+          "Val": "A",
+          "Text": "Option A"
+        },
+        {
+          "Val": "B",
+          "Text": "Option B"
+        },
+        {
+          "Val": "C",
+          "Text": "Option C"
+        },
+        {
+          "Val": "D",
+          "Text": "Option D"
+        },
+        {
+          "Val": "E",
+          "Text": "Option E"
+        },
+        {
+          "Val": "F",
+          "Text": "Option F"
+        },
+        {
+          "Val": "G",
+          "Text": "Option G"
+        }
+      ],
+      "Answer": {
+        "AutoDisplay": false,
+        "FeedbackText": "The skill required for this workplace scenario  is Option G: Locate and use approrpriate sources to support my opinions and reference these sources in an appropriate manner.",
+        "Correct": [
+          "G"
+        ]
+      }
+    },
+    {
+      "Text": "A police officer records detailed notes of his interaction and subsequent arrest of a suspect. The notes are later called upon in court as evidence for the prosecution.",
+      "Options": [
+        {
+          "Val": "A",
+          "Text": "Option A"
+        },
+        {
+          "Val": "B",
+          "Text": "Option B"
+        },
+        {
+          "Val": "C",
+          "Text": "Option C"
+        },
+        {
+          "Val": "D",
+          "Text": "Option D"
+        },
+        {
+          "Val": "E",
+          "Text": "Option E"
+        },
+        {
+          "Val": "F",
+          "Text": "Option F"
+        },
+        {
+          "Val": "G",
+          "Text": "Option G"
+        }
+      ],
+      "Answer": {
+        "AutoDisplay": false,
+        "FeedbackText": "The skill required for this workplace scenario  is Option F: Use standard Canadian English grammar in all of my communications. AND Option C: Summarize video, texts, ideas or designs.",
+        "Correct": [
+          "F"
+        ]
+      }
+    },
+    {
+      "Text": "A human resources manager needs to write a proposal to the vice-president of the company to fund two new junior HR jobs in the department.",
+      "Options": [
+        {
+          "Val": "A",
+          "Text": "Option A"
+        },
+        {
+          "Val": "B",
+          "Text": "Option B"
+        },
+        {
+          "Val": "C",
+          "Text": "Option C"
+        },
+        {
+          "Val": "D",
+          "Text": "Option D"
+        },
+        {
+          "Val": "E",
+          "Text": "Option E"
+        },
+        {
+          "Val": "F",
+          "Text": "Option F"
+        },
+        {
+          "Val": "G",
+          "Text": "Option G"
+        }
+      ],
+      "Answer": {
+        "AutoDisplay": false,
+        "FeedbackText": "The skill required for this workplace scenario  is Option E: Plan, write, and revise written pieces of work.",
+        "Correct": [
+          "E"
+        ]
+      }
+  	}
+  ]
+}

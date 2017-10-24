@@ -1,0 +1,196 @@
+{
+  "Video": {
+    "ContainID": "vpcontain",
+    "VideoID": "video0",
+    "Width": 800,
+    "Height": 450,
+    "Controls": true,
+    "StartTime": 0,
+    "Type": "YouTube",
+    "SourceData": {
+      "FolderPath": "",
+      "Sources": [
+        {
+          "Type": "MP4",
+          "Filename": "CreativeServices_v5_Final_1.mp4"
+        },
+        {
+          "Type": "WEBM",
+          "Filename": "CreativeServices_v5_Final_1.webm"
+        }
+      ]
+    },
+    "YouTubeData": {
+      "videoId": "NsYA1oW8Ijg"
+    }
+  },
+  "Popups": [
+    {
+      "Type": "Branching",
+      "PreReqIds": [],
+      "StartTime": 21.5,
+      "PauseVideo": true,
+      "Enforce": true,
+      "MustRetry": false,
+      "ViewLater": false,
+      "ShortTitle": "Decision1",
+      "Branching": {
+        "activityType": "MC",
+        "title": "Choose Your Path",
+        "questionText": "What would you like to know about Creative Services?",
+        "feedbacktext": true,
+        "feedbackicons": false,
+        "key": "b1",
+        "answers": [
+          {
+            "answerText": "Give me an overview!",
+            "jumpTo": 35.8,
+            "feedback": "Overview coming right up!",
+            "reqId": "b1a"
+          },
+          {
+            "answerText": "Tell me about the structure!",
+            "jumpTo": 46,
+            "feedback": "Structure coming right up!",
+            "reqId": "b1b"
+          },
+          {
+            "answerText": "Tell me about Courseware!",
+            "jumpTo": 53,
+            "feedback": "Courseware coming right up!",
+            "reqId": "b1c"
+          },
+          {
+            "answerText": "Tell me about Multimedia!",
+            "jumpTo": 69,
+            "feedback": "Multimedia coming right up!",
+            "reqId": "b1d"
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Branching",
+      "PreReqIds": [
+        "b1a"
+      ],
+      "StartTime": 45.8,
+      "PauseVideo": true,
+      "Enforce": true,
+      "MustRetry": false,
+      "ViewLater": false,
+      "ShortTitle": "Decision1",
+      "Branching": {
+        "activityType": "MC",
+        "title": "Branching 1",
+        "questionText": "What would you like to know about Creative Services?",
+        "feedbacktext": true,
+        "feedbackicons": false,
+        "key": "b1",
+        "answers": [
+          {
+            "answerText": "Tell me about the structure!",
+            "jumpTo": 46,
+            "feedback": "Structure coming right up!",
+            "reqId": "b1b"
+          },
+          {
+            "answerText": "Tell me about Courseware!",
+            "jumpTo": 53,
+            "feedback": "Courseware coming right up!",
+            "reqId": "b1c"
+          },
+          {
+            "answerText": "Tell me about Multimedia!",
+            "jumpTo": 69,
+            "feedback": "Multimedia coming right up!",
+            "reqId": "b1d"
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Branching",
+      "PreReqIds": [
+        "b1b"
+      ],
+      "StartTime": 52.8,
+      "PauseVideo": true,
+      "Enforce": true,
+      "MustRetry": false,
+      "ViewLater": false,
+      "ShortTitle": "Decision1",
+      "Branching": {
+        "activityType": "MC",
+        "title": "Branching 1",
+        "questionText": "What would you like to know about Creative Services?",
+        "feedbacktext": true,
+        "feedbackicons": false,
+        "key": "b1",
+        "answers": [
+          {
+            "answerText": "Give me an overview!",
+            "jumpTo": 35.8,
+            "feedback": "Overview coming right up!",
+            "reqId": "b1a"
+          },
+          {
+            "answerText": "Tell me about Courseware!",
+            "jumpTo": 53,
+            "feedback": "Courseware coming right up!",
+            "reqId": "b1c"
+          },
+          {
+            "answerText": "Tell me about Multimedia!",
+            "jumpTo": 69,
+            "feedback": "Multimedia coming right up!",
+            "reqId": "b1d"
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Branching",
+      "PreReqIds": [
+        "b1c"
+      ],
+      "StartTime": 68.6,
+      "PauseVideo": true,
+      "Enforce": true,
+      "MustRetry": false,
+      "ViewLater": false,
+      "ShortTitle": "Decision1",
+      "Branching": {
+        "activityType": "MC",
+        "title": "Branching 1",
+        "questionText": "What would you like to know about Creative Services?",
+        "feedbacktext": true,
+        "feedbackicons": false,
+        "key": "b1",
+        "answers": [
+          {
+            "answerText": "Give me an overview!",
+            "jumpTo": 35,
+            "feedback": "Overview coming right up!",
+            "reqId": "b1a"
+          },
+          {
+            "answerText": "Tell me about the structure!",
+            "jumpTo": 46,
+            "feedback": "Structure coming right up!",
+            "reqId": "b1b"
+          },
+          {
+            "answerText": "Tell me about Multimedia!",
+            "jumpTo": 69,
+            "feedback": "Multimedia coming right up!",
+            "reqId": "b1d"
+          }
+        ]
+      }
+    }
+  ],
+  "Bullets": {
+    "Lists": []
+  }
+}

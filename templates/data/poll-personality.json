@@ -1,0 +1,57 @@
+{
+  "FieldID": 1000012,
+  "FieldName": "COMM1085-Polling",
+  "PollID": 1,
+  "Title": "High School and Academic Reading and Writing",
+  "Description": "Did you feel that reading fiction, such as novels and short stories, and discussing literary themes and techniques in your English classes were relevant?",
+  "AccentImage": "none",
+  "GraphType": "pie",
+  "PollType": "Single",
+  "MaxSelections": 1,
+  "Scale": [
+    {
+      "Id": 1,
+      "Container": "ratingscale1",
+      "Color": "#2d112b",
+      "Descriptor": "No, Not At All",
+      "ImageFile": "05_sm_awful.png"
+    },
+    {
+      "Id": 9,
+      "Container": "ratingscale1",
+      "Color": "#ca293e",
+      "Descriptor": "No, Not Much",
+      "ImageFile": "04_sm_not_good.png"
+    },
+    {
+      "Container": "ratingscale1",
+      "Id": 2,
+      "Color": "#ff583d",
+      "Descriptor": "Neutral",
+      "ImageFile": "03_sm_not_bad.png"
+    },
+    {
+      "Container": "ratingscale1",
+      "Id": 10,
+      "Color": "#a01865",
+      "Descriptor": "Yes, Somewhat Relevant",
+      "ImageFile": "02_sm_good.png"
+    },
+    {
+      "Id": 3,
+      "Container": "ratingscale1",
+      "Color": "#067f0f",
+      "Descriptor": "Yes, Very Much",
+      "ImageFile": "01_sm_great.png"
+    }
+  ],
+  "Roles": {
+    "ModeratorView": [
+      101,102,126
+    ],
+    "ParticipantView": [
+      103
+    ]
+  },
+  "Features": {}
+}

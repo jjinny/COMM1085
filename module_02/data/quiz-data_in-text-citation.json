@@ -1,0 +1,134 @@
+{
+  "General":{
+    "QuizName": "Knowledge Check",
+    "HeadingLevel": 3,
+    "instructions": "none",
+    "feedBackType":"continuous",
+    "forceCorrect":false,
+    "repeatOnComplete":true,
+    "allowNone":false,
+    "allowPrevious":true,
+    "showHints": false,
+    "allowPartial": true,
+    "randomize": true,
+    "subtractWrong": false,
+    "preQuizText":"<p>After watching the video in the previous topic, answer the following questions to check your understanding of in-text citations. We will focus on the references page in week 3.</p>",
+    "preQuizMedia":"none",
+    "postQuizText":"none",
+    "postQuizMedia":[]
+  },
+  "Questions":[
+    {
+      "questionType":"All That Apply",
+      "maxScoreValue": 1,
+      "questionText":"<p>What's missing from this in-text citation? <em>Select all that apply</em>.</p> \n <p>Having already revolutionized the manufacturing industry, robots are now being employed in service-sector jobs (Sorenson, para.2).</p> \n",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+        {
+          "answerText": "Author's last name",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "Year of publication",
+          "feedBack": "That is correct!",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Page or paragraph number",
+          "feedBack": "That is not correct."
+		}
+      ]
+    },
+    {
+      "questionType":"All That Apply",
+      "maxScoreValue": 1,
+      "questionText":"<p>What's missing from this in-text citation? <em>Select all that apply</em>.</p> \n <p>While it’s clear that this latest wave of automation will have a significant impact on employment and the economy, experts disagree about the overall result of these changes (Sorenson, 2013).</p> \n",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+        {
+          "answerText": "Author's last name",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "Year of publication",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "Page or paragraph number",
+          "feedBack": "That is correct!",
+          "scoreValue": 1
+		}
+      ]
+    },
+    {
+      "questionType":"All That Apply",
+      "maxScoreValue": 2,
+      "questionText":"What's missing from this in-text citation? <em>Select all that apply</em>.</p> \n <p>Machines are now capable of performing tasks that rely on perception, thought, and language &ndash; areas that were previously thought to be the sole domain of humans (paras. 5-6).</p> \n",
+      "hintText":"none",
+      "hintMedia":[],
+      "answers": [
+        {
+          "answerText": "Author's last name",
+          "feedBack": "That is correct!",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Year of publication",
+          "feedBack": "That is correct!",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Page or paragraph number",
+          "feedBack": "That is not correct"
+        }
+      ]
+    },
+    {
+      "questionType":"All That Apply",
+      "maxScoreValue": 2,
+      "questionText":"<p>What information should be removed from this in-text citation? <em>Select all that apply.</em></p> \n <p>As automation reaches a larger segment of the workforce, it will widen the gap between high-paying and low-paying jobs (Chris Sorenson, October 6 2013, para. 7).</p> \n",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+        {
+          "answerText": "Author's first name",
+          "feedBack": "That is correct!",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Month and date of publication",
+          "feedBack": "That is correct!",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Paragraph number",
+          "feedBack": "That is not correct"
+        }
+      ]
+    },
+    {
+      "questionType":"All That Apply",
+      "maxScoreValue": 1,
+      "questionText":"<p>What information should be removed from this in-text citation? <em>Select all that apply.</em></p> \n <p>As automation reaches a larger segment of the workforce, it will widen the gap between high-paying and low-paying jobs (Chris Sorenson, October 6 2013, para. 7).Workers with advanced skills training and higher education will be more capable of adapting to the changes caused by increased automation. (Sorenson, &quot;Robots: Job Terminators&quot;, 2013, para. 10).</p> \n",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+        {
+          "answerText": "Author's last name",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "Title of article",
+          "feedBack": "That is correct!",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Year of publication",
+          "feedBack": "That is not correct"
+        }
+      ]
+    }
+  ]
+}

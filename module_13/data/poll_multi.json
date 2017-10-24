@@ -1,0 +1,127 @@
+{
+  "FieldID": 1000041,
+  "FieldName": "COMM1085-ImportantReview",
+  "Polls": [
+    {
+      "PollID": 1,
+      "PollContainer": "poll1",
+      "Title": "",
+      "Description": "<p>Before I leave my home for a job interview or a date, I look\nin the mirror to check my appearance: my clothes, my hair, etc.</p>.",
+      "GraphType": "pie",
+      "PollType": "Single",
+      "MaxSelections": 1,
+      "Scale": [
+        {
+          "Id": 1,
+          "Container": "ratingscale1",
+          "Color": "#2d112b",
+          "Descriptor": "Always",
+          "ShortDesc": "Always",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Id": 2,
+          "Container": "ratingscale1",
+          "Color": "#ca293e",
+          "Descriptor": "Sometimes",
+          "ShortDesc": "Sometimes",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Container": "ratingscale1",
+          "Id": 3,
+          "Color": "#ff583d",
+          "Descriptor": "Never",
+          "ShortDesc": "Never",
+          "ImageFile": "circle.png"
+        }
+      ],
+      "Feedback": "none",
+      "Features": {}
+    },
+    {
+      "PollID": 2,
+      "PollContainer": "poll2",
+      "Title": "",
+      "Description": "<p>Before I send an email or text containing private details\nabout myself or other people, I check that I’m sending it to the correct\naddress or that I’m sending it to just one member of the group rather than\n“reply all”.\n\n</p>.",
+      "GraphType": "pie",
+      "PollType": "Single",
+      "MaxSelections": 1,
+      "Scale": [
+        {
+          "Id": 1,
+          "Container": "ratingscale2",
+          "Color": "#2d112b",
+          "Descriptor": "Always",
+          "ShortDesc": "Always",
+          "ImageFile": ""
+        },
+        {
+          "Id": 2,
+          "Container": "ratingscale2",
+          "Color": "#ca293e",
+          "Descriptor": "Sometimes",
+          "ShortDesc": "Sometimes",
+          "ImageFile": ""
+        },
+        {
+          "Container": "ratingscale2",
+          "Id": 3,
+          "Color": "#ff583d",
+          "Descriptor": "Never",
+          "ShortDesc": "Never",
+          "ImageFile": ""
+        }
+      ],
+      "Feedback": "none",
+      "Features": {}
+    },
+    {
+      "PollID": 3,
+      "PollContainer": "poll3",
+      "Title": "",
+      "Description": "<p>Before I leave for a trip, I check my bags to ensure that I\nhave everything I need: the right amount or kind of clothes, toothbrush,\npassport etc.</p>.",
+      "GraphType": "pie",
+      "PollType": "Single",
+      "MaxSelections": 1,
+      "Scale": [
+        {
+          "Id": 1,
+          "Container": "ratingscale3",
+          "Color": "#2d112b",
+          "Descriptor": "Always",
+          "ShortDesc": "Always",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Id": 2,
+          "Container": "ratingscale3",
+          "Color": "#ca293e",
+          "Descriptor": "Sometimes",
+          "ShortDesc": "Sometimes",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Container": "ratingscale3",
+          "Id": 3,
+          "Color": "#ff583d",
+          "Descriptor": "Never",
+          "ShortDesc": "Never",
+          "ImageFile": "circle.png"
+        }
+      ],
+      "Feedback": "none",
+      "Features": {}
+    }
+  ],
+  "Roles": {
+    "ModeratorView": [
+      101,
+      102,
+      126
+    ],
+    "ParticipantView": [
+      103
+    ]
+  }
+}

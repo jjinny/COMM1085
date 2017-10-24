@@ -1,0 +1,44 @@
+{
+  "Questions": [
+    {
+      "Title": "Question 1",
+      "Text": "What are the three main elements that shape the content of a paragraph?<br><i class=\"fa fa-lightbulb-o fa-2x text-accent-3\"></i> <em><strong>Hint:</strong> look for a diagram</em>",
+      "MinCharacters": 50,
+      "Answer": "<strong>Feedback:</strong> This sample contains no specific examples or description. It also has no citation. ",
+      "PrePopulated": "none",
+	  "Placeholder": "Enter your response here"
+    },
+    {
+      "Title": "Sample 2",
+      "Text": "According to the article, by having Twitter we are better able to see what the public is saying about our company. If bad things are being said, we are more likely to know about it and be able to fix it. We are using our Twitter appropriately because we are trending, which is excellent: that means we are creating brand awareness.",
+      "MinCharacters": 50,
+      "Answer": "<strong>Feedback:</strong> Describes an aspect of social media platform (that it is trending, but does not explain what it means to be “trending” or why it is trending. There are no specific examples and no citation.",
+      "PrePopulated": "none",
+	  "Placeholder": "Enter your response here"
+    },
+    {
+      "Title": "Sample 3",
+      "Text": "The article by Holbrook (2016) states that by having Facebook and Instagram we are able to better educate our customers about what products we have available, and how we are different from other companies (B5). We are using Facebook appropriately because we are providing better customer service by providing information to customers so that they can learn about our products.",
+      "MinCharacters": 50,
+      "Answer": "<strong>Feedback:</strong> The description explains how Facebook is being used, but the description is vague and not specific. There is a split citation.",
+      "PrePopulated": "none",
+	  "Placeholder": "Enter your response here"
+    },
+    {
+      "Title": "Sample 4",
+      "Text": "The dealership has 309,327 views of its 166 videos on YouTube and seems to be using this social media channel effectively because it\n<ul>\n<li>engages customers with videos about the cars and how they run. They also show customers how to use features on their cars. </li>\n<li>creates conversation by having people share the videos of what their cars can do.</li>",
+      "MinCharacters": 50,
+      "Answer": "<strong>Feedback:</strong> This passage provides a good description that has specific details. There is no citation for the specific information that is provided.",
+      "PrePopulated": "none",
+	  "Placeholder": "Enter your response here"
+    },
+    {
+      "Title": "Sample 5",
+      "MinCharacters": 50,
+      "Text": "<p>“Social media channels such as Facebook and Instagram allow companies to connect with and empower their brand champions to build a solid community of supporters as well as provide customer service in a variety of new ways” (Holbrook, 2016, B5).</p><p>The TH Facebook page has information about the company’s history and gift cards. Customers can view product photos and review upcoming events. These are all interesting ways the company keeps current customers engaged and tries to draw new customers to their brand, which can increase sales.</p><p>Also, Facebook allows customers to post positive and negative feedback, or any questions they may have. The posts are responded to in a timely and professional manner, which shows TH engages to customers and makes customer relationship management and customer service a top priority.</p>",
+      "Answer": "<strong>Feedback:</strong> This passage sets out clear criteria for evaluating social media platforms and has a citation. There is a good description, with specific examples, of how the site is being used. The description demonstrates the relevance to criteria that is being used to evaluate the information.",
+      "PrePopulated": "none",
+	  "Placeholder": "Enter your response here"
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "Questions": [
+    {
+      "Text": "The gym is open until nine o'clock tonight.",
+      "Fields": [
+        {
+          "AnswerType": "text",
+          "MinAccepted": 1,
+          "MaxAccepted": 20,
+          "PreText": "none",
+          "Units": "",
+          "Answer": {
+            "CaseSensitive": false,
+            "AutoDisplay": false,
+            "FeedbackText": "Gym is the subject.",
+            "HasRange": false,
+            "Correct": [
+              "gym"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "We went to the supply room to get tools.",
+      "Fields": [
+        {
+          "AnswerType": "text",
+          "MinAccepted": 1,
+          "MaxAccepted": 20,
+          "PreText": "none",
+          "Units": "",
+          "Answer": {
+            "CaseSensitive": false,
+            "AutoDisplay": true,
+            "FeedbackText": "We is the subject.",
+            "HasRange": false,
+            "Correct": [
+              "We"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "The students were eager to enter the co-op program.",
+      "Fields": [
+        {
+          "AnswerType": "text",
+          "MinAccepted": 1,
+          "MaxAccepted": 20,
+          "PreText": "none",
+          "Units": "",
+          "Answer": {
+            "CaseSensitive": false,
+            "AutoDisplay": true,
+            "FeedbackText": "Students is the subject.",
+            "HasRange": false,
+            "Correct": [
+              "Students"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "Maya and Tia practiced their patient care before their nursing practical.",
+      "Fields": [
+        {
+          "AnswerType": "text",
+          "MinAccepted": 1,
+          "MaxAccepted": 20,
+          "PreText": "none",
+          "Units": "",
+          "Answer": {
+            "CaseSensitive": false,
+            "AutoDisplay": true,
+            "FeedbackText": "Maya and Tia are the subjects.",
+            "HasRange": false,
+            "Correct": [
+              "Maya",
+              "Tia",
+              "Maya and Tia",
+              "Tia and Maya"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "The driver of that forklift seemed to be struggling with his payload.",
+      "Fields": [
+        {
+          "AnswerType": "text",
+          "MinAccepted": 1,
+          "MaxAccepted": 50,
+          "PreText": "none",
+          "Units": "",
+          "Answer": {
+            "CaseSensitive": false,
+            "AutoDisplay": true,
+            "FeedbackText": "Driver is the subject.",
+            "HasRange": false,
+            "Correct": [
+              "driver"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "Anita finished her exam with time to spare.",
+      "Fields": [
+        {
+          "AnswerType": "text",
+          "MinAccepted": 1,
+          "MaxAccepted": 50,
+          "PreText": "none",
+          "Units": "",
+          "Answer": {
+            "CaseSensitive": false,
+            "AutoDisplay": true,
+            "FeedbackText": "Anita is the subject.",
+            "HasRange": false,
+            "Correct": [
+              "Anita"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "The coop students were surprised by the amount of work they were expected to do.",
+      "Fields": [
+        {
+          "AnswerType": "text",
+          "MinAccepted": 1,
+          "MaxAccepted": 50,
+          "PreText": "none",
+          "Units": "",
+          "Answer": {
+            "CaseSensitive": false,
+            "AutoDisplay": true,
+            "FeedbackText": "Students is the subject.",
+            "HasRange": false,
+            "Correct": [
+              "students"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "Working overtime meant the factory workers would receive double wages.",
+      "Fields": [
+        {
+          "AnswerType": "text",
+          "MinAccepted": 1,
+          "MaxAccepted": 50,
+          "PreText": "none",
+          "Units": "",
+          "Answer": {
+            "CaseSensitive": false,
+            "AutoDisplay": true,
+            "FeedbackText": "Working is the subject.",
+            "HasRange": false,
+            "Correct": [
+              "working",
+              "Working"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "Students at the school represent over sixty countries from around the world.",
+      "Fields": [
+        {
+          "AnswerType": "text",
+          "MinAccepted": 1,
+          "MaxAccepted": 50,
+          "PreText": "none",
+          "Units": "",
+          "Answer": {
+            "CaseSensitive": false,
+            "AutoDisplay": true,
+            "FeedbackText": "Students is the subject.",
+            "HasRange": false,
+            "Correct": [
+              "Students"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "Although it looks impressive, his latest invention does not yet work.",
+      "Fields": [
+        {
+          "AnswerType": "text",
+          "MinAccepted": 1,
+          "MaxAccepted": 50,
+          "PreText": "none",
+          "Units": "",
+          "Answer": {
+            "CaseSensitive": false,
+            "AutoDisplay": true,
+            "FeedbackText": "Invention is the subject.",
+            "HasRange": false,
+            "Correct": [
+              "invention"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

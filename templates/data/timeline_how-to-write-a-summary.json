@@ -1,0 +1,105 @@
+{
+  "Position": "left",
+  "Events": [
+    {
+      "Inverted": false,
+      "RevealType": "click",
+      "Title": "Step 1",
+      "Body": "<p class=\"bottom-padding\">Introduce your summary with a statement that includes the bibliographic information and the author’s purpose.</p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "ABE761",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "far fa-hand-point-right",
+        "BadgeText": "",
+        "BadgeTextMargin": "0",
+        "BadgeFontSize": "20px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "click",
+      "Title": "Step 2",
+      "Body": "<p class=\"bottom-padding\">Identify the format or style of the text. This can help the reader understand the context of what follows in the summary.</p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "ABE761",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "far fa-hand-point-right",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "20px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "click",
+      "Title": "Step 3",
+      "Body": "<p class=\"bottom-padding\">Present the author’s main ideas and key supporting points clearly and accurately. This will be done with paraphrasing rather than quoting the author’s words.</p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "ABE761",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "far fa-hand-point-right",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "20px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": true,
+      "RevealType": "click",
+      "Title": "Step 4",
+      "Body": "<p class=\"bottom-padding\">Paraphrase the author’s conclusion without expressing your opinion on it.</p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "ABE761",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "far fa-hand-point-right",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "20px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "click",
+      "Title": "Step 5",
+      "Body": "<p class=\"bottom-padding\">Add transitions for continuity throughout the summary.</p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "ABE761",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "far fa-hand-point-right",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "20px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    }
+  ]
+}

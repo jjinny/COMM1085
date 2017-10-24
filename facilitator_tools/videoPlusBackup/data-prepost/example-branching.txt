@@ -1,0 +1,118 @@
+{
+  "ActivityName": "Video Plus Activity Template",
+  "PreActivityText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus nibh porta dui consequat, quis tempor dolor mollis. Donec sed justo neque. Ut sem nulla, commodo at justo non, dictum facilisis lectus. Vestibulum sit amet pretium neque. Sed erat nulla, molestie quis elit in, auctor posuere erat. Nam sit amet eros auctor, rhoncus nibh in, facilisis ligula. Nam lectus orci, vestibulum ut gravida nec, tempus at neque. Curabitur gravida dui quis laoreet luctus. In commodo pellentesque lectus, et pretium augue consectetur at. Sed lacinia aliquam nisi, nec varius mi dictum sed. Fusce imperdiet faucibus dui non mollis. Morbi facilisis ante in risus rutrum molestie. Nunc varius nisi maximus mollis porttitor. Cras ligula leo, malesuada et facilisis ut, eleifend condimentum urna. Ut suscipit justo a lectus faucibus porttitor. Ut euismod mi sed est volutpat, non bibendum nisl semper.",
+  "PreActivityMedia": [
+    {
+      "type": "image",
+      "src": "http://fillmurray.com/400/300",
+      "description": "Bill Murray!",
+      "mediaLink": "http://en.wikipedia.org/wiki/Bill_Murray",
+      "width": "350",
+      "height": "280"
+    },
+    {
+      "type": "link",
+      "src": "https://github.com",
+      "description": "A website!"
+    }
+  ],
+  "PostActivityText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus nibh porta dui consequat, quis tempor dolor mollis. Donec sed justo neque. Ut sem nulla, commodo at justo non, dictum facilisis lectus. Vestibulum sit amet pretium neque. Sed erat nulla, molestie quis elit in, auctor posuere erat. Nam sit amet eros auctor, rhoncus nibh in, facilisis ligula. Nam lectus orci, vestibulum ut gravida nec, tempus at neque.</p><p> Curabitur gravida dui quis laoreet luctus. In commodo pellentesque lectus, et pretium augue consectetur at. Sed lacinia aliquam nisi, nec varius mi dictum sed. Fusce imperdiet faucibus dui non mollis. Morbi facilisis ante in risus rutrum molestie. Nunc varius nisi maximus mollis porttitor. Cras ligula leo, malesuada et facilisis ut, eleifend condimentum urna. Ut suscipit justo a lectus faucibus porttitor. Ut euismod mi sed est volutpat, non bibendum nisl semper.",
+  "PostActivityMedia": [
+    {
+      "type": "YouTubeVideo",
+      "src": "https://www.youtube.com/watch?v=OZBWfyYtYQY",
+      "altLink": "http://knowyourmeme.com/memes/bunchie",
+      "width": "none",
+      "height": "none"
+    }
+  ],
+  "Video": {
+    "ContainID": "vpcontain",
+    "VideoID": "video0",
+    "Width": 400,
+    "Sources": [
+      {
+        "Type": "MP4",
+        "Filename": "mov_bbb.mp4"
+      },
+      {
+        "Type": "OGG",
+        "Filename": "mov_bbb.ogg"
+      }
+    ],
+    "Controls": true
+  },
+  "Popups": [
+    {
+      "Type": "Branching",
+      "StartTime": 1,
+      "PauseVideo": true,
+      "Enforce": true,
+      "MustRetry": false,
+      "ViewLater": true,
+      "ShortTitle": "Decision1",
+      "Branching": {
+        "activityType": "MC",
+        "title": "Branching 1",
+        "questionText": "What Time Would You Like To Jump To?",
+        "feedbacktext": true,
+        "feedbackicons": false,
+        "key": "b1",
+        "answers": [
+          {
+            "answerText": "2",
+            "jumpTo": 2,
+            "feedback": "Conservative! Let's see how that works out..."
+          },
+          {
+            "answerText": "3",
+            "jumpTo": 3,
+            "feedback": "Interesting! Let's see how that works out..."
+          },
+          {
+            "answerText": "4",
+            "jumpTo": 4,
+            "feedback": "Aggressive! Let's see how that works out..."
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Branching",
+      "StartTime": 6,
+      "PauseVideo": true,
+      "Enforce": true,
+      "MustRetry": false,
+      "ViewLater": false,
+      "ShortTitle": "Decision2",
+      "Branching": {
+        "activityType": "MC",
+        "title": "Branching 1",
+        "questionText": "What Time Would You Like To Jump To?",
+        "feedbacktext": true,
+        "feedbackicons": false,
+        "key": "b1",
+        "answers": [
+          {
+            "answerText": "7",
+            "jumpTo": 7,
+            "feedback": "Conservative! Let's see how that works out..."
+          },
+          {
+            "answerText": "8",
+            "jumpTo": 8,
+            "feedback": "Interesting! Let's see how that works out..."
+          },
+          {
+            "answerText": "9",
+            "jumpTo": 9,
+            "feedback": "Aggressive! Let's see how that works out..."
+          }
+        ]
+      }
+    }
+  ],
+  "Bullets": {
+    "Lists": []
+  }
+}

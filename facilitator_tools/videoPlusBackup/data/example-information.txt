@@ -1,0 +1,74 @@
+{
+  "Video": {
+    "ContainID": "vpcontain",
+    "VideoID": "video0",
+    "Width": 800,
+    "Height": 450,
+    "Controls": true,
+    "StartTime": 0,
+    "Type": "Source",
+    "SourceData": {
+      "FolderPath": "data/",
+      "Sources": [
+        {
+          "Type": "MP4",
+          "Filename": "CreativeServices_v5_Final_1.mp4"
+        },
+        {
+          "Type": "WEBM",
+          "Filename": "CreativeServices_v5_Final_1.webm"
+        }
+      ]
+    }
+  },
+  "Popups": [
+    {
+      "Type": "Information",
+      "StartTime": 68.8,
+      "PauseVideo": true,
+      "Enforce": false,
+      "ViewLater": true,
+      "ShortTitle": "Updated Org. Chart",
+      "Information": {
+        "activityType": "Media",
+        "title": "Creative Services Structure",
+        "text": "Here is an updated Organization Chart for D2L Creative Services.",
+        "Media": [
+          {
+            "type": "image",
+            "src": "img/StructureLCS.png",
+            "description": "Updated LCS Org. Chart",
+            "mediaLink": "none",
+            "width": "560",
+            "height": "263"
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Information",
+      "StartTime": 75.9,
+      "PauseVideo": true,
+      "Enforce": false,
+      "ViewLater": true,
+      "ShortTitle": "Game-Based Learning",
+      "Information": {
+        "activityType": "Media",
+        "title": "Game-Based Learning",
+        "text": "Learn how D2L can help you to transform your online courses on the Brightspace platform with game-based learning.",
+        "Media": [
+          {
+            "type": "YouTubeVideo",
+            "src": "https://www.youtube.com/watch?v=ngxaKG19gPo",
+            "altLink": "none",
+            "width": "none",
+            "height": "none"
+          }
+        ]
+      }
+    }
+  ],
+  "Bullets": {
+    "Lists": []
+  }
+}

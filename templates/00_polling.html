@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>COMM1085: College Reading &amp; Writing Skills</title>
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Bootstrap core CSS -->
+<link href="../css/bootstrap.css" rel="stylesheet">
+
+<!-- Material Design Bootstrap -->
+<link href="../css/mdb.min.css" rel="stylesheet">
+
+<!-- Your custom styles (optional) -->
+<link href="../facilitator_tools/Polling/_css/polling.css" rel="stylesheet">
+<link href="../css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container-fluid">
+
+<!-- Header Area -->
+<header id="main01">
+    <div class="row">
+      <div class="col-sm-12 prime-bg header z-depth-1-half">
+        <p class="animated fadeIn">Introduction to College Reading and Writing</p>
+      </div>
+    </div>
+</header>
+<!-- /Header Area --> 
+
+<!-- Main Content Area -->
+<main>
+    <div class="col-sm-12 content">
+      <h1>Not Your High School English Course</h1>
+      <div class="col col-sm-5 float-sm-right"> <img src="images/hs-students.jpg" style="margin-bottom: 15px;margin-top: 5px;" class="img-fluid z-depth-1-half" /> </div>
+      <p>Before we begin our first week of <strong>COMM1085: Academic Reading and Writing</strong>, let’s take a closer look at the course itself — what it entails and what it doesn’t.</p>
+      <p>Although this course does share certain features with your high school English courses, it’s also different in many significant ways. To highlight these differences, consider the following questions about your experiences in previous English courses. <strong>Select your answer</strong>, and then take a look at the results. You can change your answer as much as you would like.</p>
+      <p>Your answers will be recorded anonymously and added to the responses of your classmates. Come back throughout the week to see how the responses grow!</p>
+      <div class="clearfix"></div>
+      <div class="pollcontainer"> 
+        <!--Panel 1-->
+        <div id="participantview">
+          <div class="row">
+            <div class="col-sm-12" id="widgetdetails"> </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12">
+              <ul class="ratingscale" id="ratingscale1" style="width:100%; float:left">
+              </ul>
+            </div>
+            <div class="col-sm-6">
+              <div id="ratingaccent"></div>
+            </div>
+          </div>
+          <div class="row">
+            <div id="updatetext" class="col-sm-12">
+              <p>Saved...</p>
+            </div>
+          </div>
+        </div>
+        <!--/.Panel 1--> 
+        
+        <!-- Button trigger modal -->
+        <button type="button" class="btn prime-bg btn-lg" data-toggle="modal" data-target="#PollOne"> See Results </button>
+        
+        <!-- Modal -->
+        <div class="modal fade" id="PollOne" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document"> 
+            <!--Content-->
+            <div class="modal-content"> 
+              <!--Header-->
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+                <h4 class="modal-title w-100" id="myModalLabel">Poll Results</h4>
+              </div>
+              <!--Body-->
+              <div class="modal-body"> 
+                <!--Panel 2-->
+                <div id="resultsview">
+                  <div class="polltitle">Class Results</div>
+                  <p id="polldescription">You must submit your answer before viewing class results.</p>
+                  <div class="chart">
+                    <canvas id="chart" width="400" height="300"></canvas>
+                  </div>
+                  <div class="legend"></div>
+                  <p>COMM1085 asks students to engage with non-fiction material such as newspaper articles, opinion columns, trade journals, and academic journals. The readings are contemporary and relevant. Some of the readings are specific to your school. Meaningful readings with a view of workplace skills can help you achieve clarity and effectiveness in your written communication and accuracy in reading for meaning. There is no creative writing or discussion of literary themes in COMM1085.</p>
+                </div>
+                <!--/.Panel 2--> 
+              </div>
+              <!--Footer-->
+              <div class="modal-footer">
+                <button type="button" class="btn second-bg" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+            <!--/.Content--> 
+          </div>
+        </div>
+        <!-- Modal --> 
+        
+      </div>
+    </div>
+</main>
+<!-- /Main Content Area -->
+<footer>
+    <div class="row">
+      <div class="col-sm-12 footer">
+        <p>Copyright © 2017 Conestoga College. All rights reserved.</p>
+      </div>
+    </div>
+</footer>
+	</div>
+<!-- SCRIPTS --> 
+
+<!-- JQuery --> 
+<script type="text/javascript" src="../js/jquery-3.1.1.min.js"></script> 
+
+<!-- Tooltips --> 
+<script type="text/javascript" src="../js/tether.min.js"></script> 
+
+<!-- Bootstrap core JavaScript --> 
+<script type="text/javascript" src="../js/bootstrap.js"></script> 
+
+<!-- MDB core JavaScript --> 
+<script type="text/javascript" src="../js/mdb.min.js"></script> 
+
+<!-- Open-Close Collapse --> 
+<script src="../js/plugins/open_close_all.js"></script> 
+
+<!-- OLC Custom JS --> 
+<script src="../js/plugins/olc-custom.js"></script> 
+
+<!-- Polling --> 
+
+<!-- Chart JS --> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.bundle.js"></script> 
+<script>
+    var datafilename = "poll-personality.json";  
+  </script> 
+<script src="../facilitator_tools/Polling/_js/thirdpartylib/global-superagent-d2l-session-auth.js"></script> 
+<script src="../facilitator_tools/Polling/_js/thirdpartylib/csval-lib.js"></script> 
+<script src="../facilitator_tools/Polling/_js/poll-maker.js"></script>
+</body>
+</html>

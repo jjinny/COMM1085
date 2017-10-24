@@ -1,0 +1,215 @@
+{
+  "ContainerID": "json-activity-box",
+  "MaxQuestions": 5,
+  "HeadingLevel": 3,
+  "IsScored": true,
+  "HasFeedback": true,
+  "Randomization": false,
+  "Layout": "single",
+  "PostQuiz": "<p>You have finished</p>",
+  "Questions": [
+    {
+      "Text": "Question Text Here",
+      "Icon": "",
+      "Image": {
+        "Path": "data/img",
+        "FileName": ""
+      },
+      "Answers": [
+        {
+          "Text": "Answer Text Here 1",
+          "Image": {
+            "Path": "",
+            "FileName": ""
+          },
+          "Feedback": {
+            "Text": "Something",
+            "IsCorrect": true
+          }
+        },
+        {
+          "Text": "Answer Text Here 2",
+          "Image": {
+            "Path": "",
+            "FileName": ""
+          },
+          "Feedback": {
+            "Text": "Something",
+            "IsCorrect": false
+          }
+        }
+      ]
+    },
+    {
+      "Text": "Question Text Here 2",
+      "Icon": "",
+      "Image": {
+        "Path": "data/img",
+        "FileName": ""
+      },
+      "Answers": [
+        {
+          "Text": "Answer Text Here 1",
+          "Image": {
+            "Path": "",
+            "FileName": ""
+          },
+          "Feedback": {
+            "Text": "Something",
+            "IsCorrect": false
+          }
+        },
+        {
+          "Text": "Answer Text Here 2",
+          "Image": {
+            "Path": "",
+            "FileName": ""
+          },
+          "Feedback": {
+            "Text": "Something",
+            "IsCorrect": false
+          }
+        },
+        {
+          "Text": "Answer Text Here 3",
+          "Image": {
+            "Path": "",
+            "FileName": ""
+          },
+          "Feedback": {
+            "Text": "Something 3",
+            "IsCorrect": true
+          }
+        }
+      ]
+    },
+    {
+      "Text": "Question Text Here 3",
+      "Icon": "",
+      "Image": {
+        "Path": "data/img",
+        "FileName": ""
+      },
+      "Answers": [
+        {
+          "Text": "Answer Text Here 1",
+          "Image": {
+            "Path": "",
+            "FileName": ""
+          },
+          "Feedback": {
+            "Text": "Something",
+            "IsCorrect": false
+          }
+        },
+        {
+          "Text": "Answer Text Here 2",
+          "Image": {
+            "Path": "",
+            "FileName": ""
+          },
+          "Feedback": {
+            "Text": "Something",
+            "IsCorrect": true
+          }
+        }
+      ]
+    },
+    {
+      "Text": "Question Text Here 4",
+      "Icon": "",
+      "Image": {
+        "Path": "data/img",
+        "FileName": ""
+      },
+      "Answers": [
+        {
+          "Text": "Answer Text Here 1",
+          "Image": {
+            "Path": "",
+            "FileName": ""
+          },
+          "Feedback": {
+            "Text": "Something",
+            "IsCorrect": true
+          }
+        },
+        {
+          "Text": "Answer Text Here 2",
+          "Image": {
+            "Path": "",
+            "FileName": ""
+          },
+          "Feedback": {
+            "Text": "Something",
+            "IsCorrect": false
+          }
+        }
+      ]
+    },
+    {
+      "Text": "Question Text Here 5",
+      "Icon": "",
+      "Image": {
+        "Path": "data/img",
+        "FileName": ""
+      },
+      "Answers": [
+        {
+          "Text": "Answer Text Here 1",
+          "Image": {
+            "Path": "",
+            "FileName": ""
+          },
+          "Feedback": {
+            "Text": "Something",
+            "IsCorrect": true
+          }
+        },
+        {
+          "Text": "Answer Text Here 2",
+          "Image": {
+            "Path": "",
+            "FileName": ""
+          },
+          "Feedback": {
+            "Text": "Something",
+            "IsCorrect": false
+          }
+        }
+      ]
+    },
+    {
+      "Text": "Question Text Here 6",
+      "Icon": "",
+      "Image": {
+        "Path": "data/img",
+        "FileName": ""
+      },
+      "Answers": [
+        {
+          "Text": "Answer Text Here 1",
+          "Image": {
+            "Path": "",
+            "FileName": ""
+          },
+          "Feedback": {
+            "Text": "Something",
+            "IsCorrect": true
+          }
+        },
+        {
+          "Text": "Answer Text Here 2",
+          "Image": {
+            "Path": "",
+            "FileName": ""
+          },
+          "Feedback": {
+            "Text": "Something",
+            "IsCorrect": false
+          }
+        }
+      ]
+    }
+  ]
+}

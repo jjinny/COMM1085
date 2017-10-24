@@ -1,0 +1,110 @@
+{
+  "Questions": [
+    {
+      "Text": "Where can I learn how to tell my reader when I've included another person's ideas or exact words?",
+      "Fields": [
+        {
+          "AnswerType": "text",
+          "MinAccepted": 1,
+          "MaxAccepted": 20,
+          "PreText": "none",
+          "Units": "",
+          "Answer": {
+            "CaseSensitive": false,
+            "AutoDisplay": false,
+            "FeedbackText": "The correct answer is Citations in Text.",
+            "HasRange": false,
+            "Correct": [
+              "Citations in Text",
+              "Citation text"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "Where can I find help to make a list of all the sources I've used in my writing?",
+      "Fields": [
+        {
+          "AnswerType": "text",
+          "MinAccepted": 1,
+          "MaxAccepted": 20,
+          "PreText": "none",
+          "Units": "",
+          "Answer": {
+            "CaseSensitive": false,
+            "AutoDisplay": true,
+            "FeedbackText": "none",
+            "HasRange": false,
+            "Correct": [
+              "Reference List"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "Where can I learn how to ake small changes to the information that i quote so that it fits better in my own writing?",
+      "Fields": [
+        {
+          "AnswerType": "text",
+          "MinAccepted": 1,
+          "MaxAccepted": 40,
+          "PreText": "none",
+          "Units": "",
+          "Answer": {
+            "CaseSensitive": false,
+            "AutoDisplay": true,
+            "FeedbackText": "none",
+            "HasRange": false,
+            "Correct": [
+              "Quoting and Paraphrasing"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "Where can I find out how to properly format my title page?",
+      "Fields": [
+        {
+          "AnswerType": "text",
+          "MinAccepted": 1,
+          "MaxAccepted": 20,
+          "PreText": "none",
+          "Units": "",
+          "Answer": {
+            "CaseSensitive": false,
+            "AutoDisplay": true,
+            "FeedbackText": "none",
+            "HasRange": false,
+            "Correct": [
+              "Paper Format"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "Where can I download a Word document template that is already formatted in the APA@Conestoga styel, including the title page and reference pages?",
+      "Fields": [
+        {
+          "AnswerType": "text",
+          "MinAccepted": 1,
+          "MaxAccepted": 50,
+          "PreText": "none",
+          "Units": "",
+          "Answer": {
+            "CaseSensitive": false,
+            "AutoDisplay": true,
+            "FeedbackText": "none",
+            "HasRange": false,
+            "Correct": [
+              "Resources and Templates"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

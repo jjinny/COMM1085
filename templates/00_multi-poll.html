@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>Poll: Introduction to Academic Writing</title>
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="../font/fontawesome/css/fontawesome-pro-brands.css">
+<link rel="stylesheet" href="../font/fontawesome/css/fontawesome-pro-light.css">
+<link rel="stylesheet" href="../font/fontawesome/css/fontawesome-pro-regular.css">
+<link rel="stylesheet" href="../font/fontawesome/css/fontawesome-pro-core.css">
+<link rel="stylesheet" href="../font/fontawesome/css/fontawesome-pro-solid.css">
+
+<!-- Bootstrap core CSS -->
+<link href="../css/bootstrap.css" rel="stylesheet">
+
+<!-- Material Design Bootstrap -->
+<link href="../css/mdb.min.css" rel="stylesheet">
+
+<!-- Your custom styles (optional) -->
+<link href="../css/style.css" rel="stylesheet">
+<link href="../facilitator_tools/Polling/_css/polling.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="container-fluid"> 
+  
+  <!-- Header Area -->
+  <header id="polling">
+    <div class="row">
+      <div class="col-sm-12 prime-bg header z-depth-1-half">
+        <div class="headerMod"></div>
+        <p class="animated fadeIn">Summary Writing &mdash; Part 1</p>
+      </div>
+    </div>
+  </header>
+  <!-- /Header Area --> 
+</div>
+<!-- Main Content Area -->
+
+<main>
+  <div class="container">
+    <div class="col-sm-12 content">
+      <h1><i class="fal fa-tasks fa-lg text-second fa-pull-left" aria-hidden="true"></i><span class="sr-only">Poll:</span> Introduction to Academic Writing</h1>
+      <p>Last week we introduced the terms “purpose” and “audience” to help us think about reading and writing in a new way. We suggested that there are, in fact, many different kinds of writing. For example, one text might aim to inform its readers, another might try to convince its readers, yet another might hope to entertain</p>
+      <p>Let’s take a moment to see where you think you will use the skills taught in this course. Click on each title and then see how your answers compare to the rest of the class.</p>
+      <p><strong>Note:</strong> Your answers will be recorded anonymously and added to the responses of your classmates. Come back throughout the week to see how the responses grow!</p>
+      <div class="clearfix"></div>
+      <div class="pollcontainer" id="poll1">
+        <div class="row">
+          <div class="participantview col-sm-12">
+            <div class="widgetdetails"></div>
+            <ul class="ratingscale" id="ratingscale1">
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <p class="totalresponses">Total Responses: <span class="responsenum"></span></p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn prime-bg btn-lg" data-toggle="modal" data-target="#PollOne" data-pollcontainer="poll1"> See Results </button>
+          </div>
+          <div class="col-sm-6">
+            <div class="updatetext">
+              <p>Saved...</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Modal :: poll1-->
+        <div class="modal fade" id="PollOne" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document"> 
+            <!--Content-->
+            <div class="modal-content"> 
+              <!--Header-->
+              <div class="modal-header">
+                <h4 class="modal-title w-100" id="myModalLabel">Survey Results</h4>
+              </div>
+              <!--Body-->
+              <div class="modal-body"> 
+                <!--Panel 2-->
+                <div class="resultsview">
+                  <div class="polltitle"></div>
+                  <p class="polldescription">You must submit your response before viewing class results.</p>
+                  <div class="chart">
+                    <canvas id="chart1" width="400" height="300"></canvas>
+                  </div>
+                  <div class="legend"></div>
+                  <div class="pollfeedback"></div>
+                </div>
+                <!--/.Panel 2--> 
+              </div>
+              <!--Footer-->
+              <div class="modal-footer">
+                <button type="button" class="btn second-bg" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+            <!--/.Content--> 
+          </div>
+        </div>
+        <!-- Modal --> 
+        
+      </div>
+      <div class="pollcontainer" id="poll2">
+        <div class="row">
+          <div class="participantview col-sm-12">
+            <div class="widgetdetails"></div>
+            <ul class="ratingscale" id="ratingscale2">
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <p class="totalresponses">Total Responses: <span class="responsenum"></span></p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn prime-bg btn-lg" data-toggle="modal" data-target="#PollTwo" data-pollcontainer="poll2"> See Results </button>
+          </div>
+          <div class="col-sm-6">
+            <div class="updatetext">
+              <p>Saved...</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Modal :: poll2 -->
+        <div class="modal fade" id="PollTwo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+          <div class="modal-dialog" role="document"> 
+            <!--Content-->
+            <div class="modal-content"> 
+              <!--Header-->
+              <div class="modal-header">
+                <h4 class="modal-title w-100" id="myModalLabel2">Survey Results</h4>
+              </div>
+              <!--Body-->
+              <div class="modal-body"> 
+                <!--Panel 2-->
+                <div class="resultsview">
+                  <div class="polltitle"></div>
+                  <p class="polldescription">You must submit your response before viewing class results.</p>
+                  <div class="chart">
+                    <canvas id="chart2" width="400" height="300"></canvas>
+                  </div>
+                  <div class="legend"></div>
+                  <div class="pollfeedback"></div>
+                </div>
+                <!--/.Panel 2--> 
+              </div>
+              <!--Footer-->
+              <div class="modal-footer">
+                <button type="button" class="btn second-bg" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+            <!--/.Content--> 
+          </div>
+        </div>
+        <!-- Modal --> 
+        
+      </div>
+      <div class="clearfix mt-5"></div>
+      <p>As you can see, there are opportunities to use reading and writing skills in a variety of contexts, both inside and outside the classroom.</p>
+      <p>However, our work in this course will focus primarily on reading and writing for an academic or professional context. What does academic writing mean? </p>
+      <p>To begin, let’s return to the ideas of audience and purpose that we explored last week: what are we trying to do when we write “academically” and who are we writing for when we do it? Answering these questions will help us to prepare for our first writing assignment: summary writing, which we will discuss briefly this week and explore more thoroughly next week. </p>
+    </div>
+  </div>
+</main>
+<!-- /Main Content Area -->
+<div class="container-fluid">
+  <footer>
+    <div class="row">
+      <div class="col-sm-12 footer">
+        <p>&copy; 2017 Conestoga College. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+</div>
+
+<!-- SCRIPTS --> 
+
+<!-- JQuery --> 
+<script type="text/javascript" src="../js/jquery-3.1.1.min.js"></script> 
+
+<!-- Tooltips --> 
+<script type="text/javascript" src="../js/tether.min.js"></script> 
+
+<!-- Bootstrap core JavaScript --> 
+<script type="text/javascript" src="../js/bootstrap.js"></script> 
+
+<!-- MDB core JavaScript --> 
+<script type="text/javascript" src="../js/mdb.min.js"></script> 
+
+<!-- Open-Close Collapse --> 
+<script src="../js/plugins/open_close_all.js"></script> 
+
+<!-- OLC Custom JS --> 
+<script src="../js/plugins/olc-custom.js"></script> 
+
+<!-- Polling --> 
+
+<!-- Chart JS --> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.bundle.js"></script> 
+<script>
+    var datafilename = "academic-writing_poll_multi.json";  
+  </script> 
+<script src="../facilitator_tools/Polling/_js/thirdpartylib/global-superagent-d2l-session-auth.js"></script> 
+<script src="../facilitator_tools/Polling/_js/thirdpartylib/csval-lib.js"></script> 
+<script src="../facilitator_tools/Polling/_js/poll-maker-multi.js"></script> 
+
+<!-- Move to bottom with scripts -->
+
+</body>
+</html>

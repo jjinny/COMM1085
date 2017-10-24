@@ -1,0 +1,28 @@
+{
+  "Questions": [
+    {
+      "Title": "Question 1",
+      "Text": "<p>Who was your audience for your autobiography?</p> \r\n",
+      "MinCharacters": 10,
+      "Answer": "",
+      "PrePopulated": "<ol type='a'><li>Classmates</li>\n<li>Instructor</li>\n<li>Classmates and Instructor</li>\n</ol>",
+      "Placeholder": ""
+    },
+    {
+      "Title": "Question 2",
+      "Text": "<p>How did your awareness of your audience affect the decisions you made as you were writing? <em>Select all that apply.</em></p>\r\n",
+      "MinCharacters": 50,
+      "Answer": "",
+      "PrePopulated": "<ol type='a'><li>I excluded information that was too personal.</li>\n<li>I excluded information that wasn't appropriate in a public forum.</li>\n<li>I included particular details so my instructor would become more familiar with me.</li>\n<li>I searched for a particular style or structure to express my personality or display my strengths as a writer.</li>\n</ol>",
+      "Placeholder": ""
+    },
+    {
+      "Title": "Question 3",
+      "Text": "<p>What was your purpose? In other words, what were you trying to do or accomplish by writing and publishing these ten words about yourself? <em>Select all that apply</em>.</p>\r\n",
+      "MinCharacters": 50,
+      "Answer": "",
+      "PrePopulated": "<ol type='a'><li>Satisfy a requirement of my course</li>\n<li>Introduce myself to my classmates</li>\n<li>Introduce myself to my instructor</li>\n<li>Create something that would be interesting or entertaining for my reader</li>\n<li>Create something that would show my instructor something special or unique about me or my writing ability</li>\n</ol>",
+      "Placeholder": ""
+    }
+  ]
+}

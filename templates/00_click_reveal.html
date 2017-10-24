@@ -1,0 +1,135 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>Topic page: Flip Cards</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Font Awesome -->
+  <link rel="stylesheet" href="../font/fontawesome/css/fontawesome-pro-brands.css">
+  <link rel="stylesheet" href="../font/fontawesome/css/fontawesome-pro-light.css">
+  <link rel="stylesheet" href="../font/fontawesome/css/fontawesome-pro-regular.css">
+  <link rel="stylesheet" href="../font/fontawesome/css/fontawesome-pro-core.css">
+  <link rel="stylesheet" href="../font/fontawesome/css/fontawesome-pro-solid.css">
+
+<!-- Bootstrap core CSS -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Material Design Bootstrap -->
+<link href="../css/mdb.min.css" rel="stylesheet">
+
+<!-- Your custom styles (optional) -->
+<link href="../css/style.css" rel="stylesheet">
+</head>
+
+<body>
+<header id="main">
+  <div id="title" class="header-fluid mask pattern-6">
+    <p class="module_title text-uppercase"><span class="week_no">1</span>The Trouble with the Truth</p>
+  </div>
+</header>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-xs-12 col-sm-10 offset-sm-1">
+      <div class="content">
+        <h1 class="h1-responsive">What is the Trouble with the Truth?</h1>
+        <p>The term online learning refers to a number of different approaches using numerous different online environments. For the purpose of this module we will focus on an online environment within a learning management system (LMS). </p>
+        <p>Learn more about some common types of online learning by clicking each card. </p>
+        <div class="clearfix"></div>
+        <div class="col col-sm-12">
+          <div class="row">
+            <div class="col-sm-6">
+              <div id="item_0">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h5 class="text-third">Example 1:</h5>
+                    <p>The amplitude to which computerization will impinge overal lenrollment remains litigious (Sorenson, 2013, para. 8.)</p>
+                    <p>Is this paraphrase effective? Click the arrow to check your answer.</p>
+                  </div>
+                  <div class="col-sm-2">
+                    <button onclick="showNext(1)" id="itembtn_1" class="btn btn-clear btn-lg ml-2 mt-5"><i
+                        class="fas fa-arrow-right fa-2x flex-center"></i><span class="sr-only">Next</span> </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col col-sm-6" id="item_1">
+              <h5 class="text-third">Analysis 1</h5>
+              <p>This paraphrase is ineffective.</p>
+              <p>This writer has used a thesaurus to replace key words with other similar words in order to avoid
+                repeating three of the original words in a row.</p>
+              <ul class="fa-ul">
+                <li><i class="fa-li far fa-check text-third"></i>&quot;Extent&quot; became &quot;amplitude&quot;</li>
+                <li><i class="fa-li far fa-check text-third"></i>&quot;Automation&quot; became &quot;computerization&quot; </li>
+                <li><i class="fa-li far fa-check text-third"></i>&quot;Affect&quot; became &quot;impinge&quot;</li>
+                <li><i class="fa-li far fa-check text-third"></i>&quot;Employment&quot; became &quot;enrollment&quot;</li>
+                <li><i class="fa-li far fa-check text-third"></i>&quot;Controversial&quot; became &quot;litigious&quot; </li>
+              </ul>
+              <p>The result is ineffective because many of the new words carry a different meaning from the original.
+                Combined, the words produce a sentence that’s even more dense and difficult to understand than the
+                original sentence.</p>
+              <button onclick="showNext(2)" id="itembtn_2" class="btn btn-main btn-lg pull-right"><span class="text-prime text-bold">Next</span></button>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6">
+              <div id="item_2">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h5 class="text-third">Example 2</h5>
+                    <p>Experts are still debating whether employment will be hurt by automation in the long run (Sorenson, 2013, para.8)</p>
+                    <p>Is this paraphrase effective? Click the arrow to check your answer.</p>
+                  </div>
+                  <div class="col-sm-2">
+                    <button onclick="showNext(3)" id="itembtn_3" class="btn btn-clear btn-lg ml-2 mt-5"><i
+                        class="fas fa-arrow-right fa-2x flex-center"></i><span class="sr-only">Next</span> </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6" id="item_3">
+              <h5 class="text-third">Analysis 2</h5>
+              <p>This paraphrase is effective.</p>
+              <p>Although this paraphrase includes a few individual words from the original, such as &quot;employment&quot; and &quot;automation&quot;, it avoids using phrases like &quot;the extent to which&quot;.</p>
+              <p>It also presents the ideas in a different order than the original. The original sentence ended with &quot;controversial&quot;, while the paraphrase begins with &quot;experts are still debating&quot;.</p>
+              <p>The meaning and the intent of the message are retained while the words and order have changed.</p>
+            </div>
+          </div>
+        </div>
+			</div>
+      <div class="row">
+        <div class="col-xs-12">
+          <footer class="text-sm-right">&copy; 2016 Conestoga College. All rights reserved.</footer>
+        </div>
+      </div>
+      
+      <!-- End content--> 
+      <!-- End Footer--> 
+    </div>
+    <!-- /.wrapper --> </div>
+</div>
+<!-- jquary scripts -->
+<script src="../js/jquery-2.2.3.min.js"></script> 
+	<script src="../js/tether.js"></script>
+<script src="../js/bootstrap.min.js"></script> 
+	<script src="../js/mdb.min.js"></script>
+    <script>
+        function showNext(i) {
+            $("#itembtn_" + i).removeAttr("onclick").addClass("disabled");
+            $("#item_" + i).css('visibility', 'visible').hide().fadeIn(400);
+
+        }
+        $(document).ready(function () {
+            // hide all flow chart elements
+            for (var i = 0; i <= 20; i++) {
+                $("#item_" + i).css('visibility', 'hidden');
+            }
+
+            // show first item
+            $("#item_0").css('visibility', 'visible').hide().fadeIn(400);
+
+        });
+    </script>
+</body>
+</html>
