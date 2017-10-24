@@ -1,0 +1,12 @@
+{
+  "Questions": [
+    {
+      "Title": "",
+      "Text": "",
+      "MinCharacters": 200,
+      "Answer": "<p><strong>Point form outline</strong></p><p>Main idea:New technology makes homes safer</p><p>But:Media reports suggest opposite: that these gadgets are volatile</p><p>Because:Competition for viewers makes news prioritize sensational stories<ul><li>Public mistakenly assumes these stories are the rule, rather than the exception</li></ul></p><p>Actually:Data shows smart tech makes homes safe, don’t cause accidents<ul><li>Source: Conniff, Time, 2014, para.3</li></ul></p><p>Three main kinds of smart home tech:</p><ol><li>Security systems</li><li>Fire and carbon monoxide detectors</li><li>Lighting systems</li></ol>",
+      "PrePopulated": "<p>Point form outline</p><p>Main idea:</p><p>But…</p><p>Because…</p><p>Actually…</p><p>Three main kinds of smart home tech:</p><ol><li></li><li></li><li></li></ol>",
+      "Placeholder": ""
+    }
+  ]
+}
