@@ -83,7 +83,14 @@ a:hover, .accordion a:hover {
     color: #cb1e5d;
     text-decoration: underline dotted #cb1e5d;
 }
-
+/*.circle-number {
+	border-radius: 50% 50%;
+	font-size: .8em;
+	width: 20px;
+	height: 20px;
+	color: #fff;
+	white-space: nowrap;
+}*/
 hr {
     border-width: 2px;
     margin-bottom: 30px;
@@ -94,7 +101,7 @@ hr {
 }
 
 .container-fluid {
-    background-color: #ffffff;
+    background-color: #fff;
     padding: 0;
     overflow: hidden;
 }
@@ -104,6 +111,7 @@ hr {
     max-width: 1170px;
     padding: 15px;
 }
+/* Quiz Custom Styles */
 
 ILQ_header h3 {
     color: #ffffff !important;
@@ -116,7 +124,9 @@ ILQ_header h3 {
 .pull-left {
     float: left;
 }
-
+.indent {
+	margin-left: 30px;
+}
 .text-highlight, .text-highlight2, .text-highlight3 {
     background-color: #f5f743;
     color: #000;
@@ -124,7 +134,10 @@ ILQ_header h3 {
 .first-line-indent {
 	text-indent: 2em;
 }
-
+.first-line-outdent {
+	text-indent: -2em;
+	margin-left: -2em;
+}
 .text-highlight2 {
     background-color: #43ecf7;
 }
@@ -359,21 +372,22 @@ header {
     margin: 0;
 }
 
-header#main01, header#h01-06-img, header#h02-04-img, header#h02-21-img, header#h02-24-img, header#h02-26-img, header#practice, header#textEdit, header#caseStudy, header#reading, header#polling, header#reflection, header#knowledge, header#eval, header#write, header#think, header#activity, header#video, header#thin-1, header#thin-2 {
+header#main01, header#h01-06-img, header#h02-04-img, header#h02-21-img, header#h02-24-img, header#h02-26-img, header#practice, header#textEdit, header#caseStudy, header#reading, header#polling, header#reflection, header#knowledge, header#eval, header#write, header#think, header#activity, header#video, header#thin-1, header#thin-2, header#thin-3 {
     background-image: url(../module_01/images/header1.jpg);
     background-size: cover;
     background-position: center;
     height: 375px;
 }
-header#thin-1 {
+header#thin-1, header#thin-2, header#thin-3 {
 		background-image: url(../img/heading_images/abstract-1.jpg);
 		height: 225px;
 }
 header#thin-2 {
 		background-image: url(../img/heading_images/abstract-2.jpg);
-		height: 225px;
 }
-
+header#thin-3 {
+		background-image: url(../img/heading_images/abstract-3.jpg);
+}
 header#h01-06-img {
     background-image: url(../module_01/images/skimming.jpg);
 }
@@ -604,6 +618,33 @@ footer p {
     margin-top: -30px;
     z-index: 10;
 }
+/**********************
+  circle-number
+**********************/
+.circle-number{
+	display: inline-block;
+    padding: 0.25em 0.4em;
+    font-size: 75%;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+	border-radius: 15px;
+}
+
+/**********************
+  arrow
+**********************/
+.arrow-down {
+	margin: auto;
+    height: 0;
+    width: 0;
+	border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 30px solid #e3f2fd;
+}
 
 /**********************
   img clipping paths
@@ -636,31 +677,4 @@ footer p {
 }
 
 @media screen and (min-width: 992px) {
-}
-/**********************
-  circle-number
-**********************/
-.circle-number{
-	display: inline-block;
-    padding: 0.25em 0.4em;
-    font-size: 75%;
-    font-weight: bold;
-    line-height: 1;
-    color: #fff;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: baseline;
-	border-radius: 15px;
-}
-
-/**********************
-  arrow
-**********************/
-.arrow-down {
-	margin: auto;
-    height: 0;
-    width: 0;
-	border-left: 30px solid transparent;
-    border-right: 30px solid transparent;
-    border-top: 30px solid #e3f2fd;
 }
