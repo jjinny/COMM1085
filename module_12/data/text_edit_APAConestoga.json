@@ -1,0 +1,36 @@
+{
+  "Questions": [
+    {
+      "Title": "Question 1",
+      "MinCharacters": 200,
+      "Text": "<div class=\"col col-sm-12 cyan lighten-5 z-depth-1 p-4 mb-3\"><p><h4>Resource (Magazine Article (electronic))</h4><ul><li>Title: The Return of the Machinery Question</li><li>Author: Tom Standage</li><li>Magazine: The Economist</li><li>Publication date: June 25th 2016</li><li>Date retrieved: September 28, 2017</li><li>URL: http://www.economist.com/news/special-report/21700761-after-many-false-starts-artificial-intelligence-has-taken-will-it-cause-mass</li></ul></p></div><p>The citation for the provided resource is incorrect. Please fix the citation in the textbox by editing what is provided.</p>",
+      "Answer": "<div class=\"card card-block z-depth-1 p-3 mt-1\"><p>Standage, T. (2016, June 25). The Return of the Machinery Question. <em>The Economist.</em> Retrieved September 28, 2017, from http://www.economist.com/news/special-report/21700761-after-many-false-starts-artificial-intelligence-has-taken-will-it-cause-mass </p></div>",
+      "PrePopulated": "<p>THE RETURN OF THE MACHINERY QUESTION by Tom Standage. (2016, June 25). <em>The Economist.</em> Retrieved September 28, 2017, from http://www.economist.com/news/special-report/21700761-after-many-false-starts-artificial-intelligence-has-taken-will-it-cause-mass</p>",
+      "Placeholder": ""
+    },
+    {
+      "Title": "Question 2",
+      "MinCharacters": 200,
+      "Text": "<div class=\"col col-sm-12 cyan lighten-5 z-depth-1 p-4 mb-3\"><p><h4>Resource (Journal Article with Multiple Authors)</h4><ul><li>Magazine: Journal of Visual Impairment & Blindness</li><li>Article: An Artificial Intelligence Tutor: A Supplementary Tool for Teaching and Practicing Braille.</li><li>Authors: Tessa McCarthy, Penny L. Rosenblum, Benny Johnson, Jeffrey Dittel, Devin M. Kearns</li><li>Publication date: Sep/Oct2016</li><li>Volume (issue): 110(5)</li><li>Page numbers:  309-322</li><li>Database: CINAHL Complete</li></ul></p></div><p>The citation for the provided resource is incorrect. Please fix the citation in the textbox by editing what is provided.</p>",
+      "Answer": "<div class=\"card card-block z-depth-1 p-3 mt-1\"><p>McCarthy, T., Rosenblum, P.L., Johnson, B., Dittel, J., & Kearns, D.M. (2016). An Artificial Intelligence Tutor: A Supplementary Tool for Teaching and Practicing Braille. <em>Journal of Visual Impairment & Blindness, 110</em>(5), 309-322.</p></div>",
+      "PrePopulated": "<p>McCarthy, T., Rosenblum, P.L., Johnson, B., Dittel, J., & Kearns, D.M. (2016). Journal of Visual Impairment & Blindness. <em>“An Artificial Intelligence Tutor: A Supplementary Tool for Teaching and Practicing Braille.”</em> Volume 110, Issue 5. Pages 309-322.</p>",
+      "Placeholder": ""
+    },
+    {
+      "Title": "Question 3",
+      "MinCharacters": 200,
+      "Text": "<p>For the information that follows, create a full citation.</p>",
+      "Answer": "<p>Statistics Canada. (2014). <em>Canadian Internet Use and e-Commerce, 2012.</em> [Catalogue No. 11-627-M2014003]. Retrieved September 28, 2017, from https://www.statcan.gc.ca/pub/11-627-m/11-627-m2014003-eng.htm</p>",
+      "PrePopulated": "<div class=\"card card-block z-depth-1 p-3 mt-1\"><p><strong>Resource: Report (Fact Sheet)</strong><ul><li>Title: Canadian Internet Use and e-Commerce, 2012</li><li>Author: Statistics Canada</li><li>Publication Date: November 19, 2014</li><li>Retrieval Date: September 28, 2017</li><li>Description of Document: Catalogue Number 11-627-M2014003</li><li>URL: https://www.statcan.gc.ca/pub/11-627-m/11-627-m2014003-eng.htm</li></ul></p><p><strong>Citation:</strong></p></div>",
+      "Placeholder": ""
+    },
+    {
+      "Title": "Question 4",
+      "MinCharacters": 200,
+      "Text": "<p>For the information that follows, create a full citation.</p>",
+      "Answer": "<p>Oculus. (2016). <em>Rift.</em> Retrieved September 28, 2016, from https://www3.oculus.com/en-us/rift/</p>",
+      "PrePopulated": "<div class=\"card card-block z-depth-1 p-3 mt-1\"><p><strong>Resource: Website</strong><ul>Name of Website/Company: Oculus<li>Title of Page Cited: Rift</li><li>Section: Recommended PC Specification</li><li>Author: no author</li><li>Publication Date: 2016 (copyright date)</li><li>URL: https://www3.oculus.com/en-us/rift/</li></ul></p><p><strong>Citation:</strong></p></div>",
+      "Placeholder": ""
+    }
+  ]
+}
