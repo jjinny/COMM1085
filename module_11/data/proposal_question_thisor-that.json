@@ -1,0 +1,176 @@
+{
+  "ActivityList": [
+    {
+      "ContainerID": "json-activity-box",
+      "MaxQuestions": 5,
+      "HeadingLevel": 3,
+      "IsScored": true,
+      "HasFeedback": false,
+      "Randomization": false,
+      "Layout": "stacked",
+      "PostQuiz": "",
+      "Questions": [
+        {
+          "Text": "<h4>Question 1</h4><p>Virtual reality is making huge changes and improvements in how students learn. Its biggest impact can be seen in two main areas: improving accessibility and enriching learning opportunities.</p>",
+          "Icon": "",
+          "Image": {
+            "Path": "data/img",
+            "FileName": ""
+          },
+          "Answers": [
+            {
+              "Text": "How can virtual reality be used in education to improve teaching methods?",
+              "Image": {
+                "Path": "",
+                "FileName": ""
+              },
+              "Feedback": {
+                "Text": "That is not correct.",
+                "IsCorrect": false
+              }
+            },
+            {
+              "Text": "How can virtual reality be used in education to improve the way students learn?",
+              "Image": {
+                "Path": "",
+                "FileName": ""
+              },
+              "Feedback": {
+                "Text": "That is correct!",
+                "IsCorrect": true
+              }
+            }
+          ]
+        },
+        {
+          "Text": "<h4>Question 2</h4><p>Almost all cyber-attacks today are motivated by personal, financial, or political reasons.</p>",
+          "Icon": "",
+          "Image": {
+            "Path": "data/img",
+            "FileName": ""
+          },
+          "Answers": [
+            {
+              "Text": "What aspects of modern society are most vulnerable to cyber-attacks?",
+              "Image": {
+                "Path": "",
+                "FileName": ""
+              },
+              "Feedback": {
+                "Text": "That is not correct.",
+                "IsCorrect": false
+              }
+            },
+            {
+              "Text": "What are the most common kinds of cyber-attacks today?",
+              "Image": {
+                "Path": "",
+                "FileName": ""
+              },
+              "Feedback": {
+                "Text": "That is correct!",
+                "IsCorrect": true
+              }
+            }
+          ]
+        },
+        {
+          "Text": "<h4>Question 3</h4><p>Online music streaming services like Spotify and Apple Music are changing the way people listen to music, the way musicians get paid for their work, and the way record companies market musicians.</p>",
+          "Icon": "",
+          "Image": {
+            "Path": "data/img",
+            "FileName": ""
+          },
+          "Answers": [
+            {
+              "Text": "How are online distributions systems such as Spotify and Apple Music affecting the North American music industry?",
+              "Image": {
+                "Path": "",
+                "FileName": ""
+              },
+              "Feedback": {
+                "Text": "That is correct!",
+                "IsCorrect": true
+              }
+            },
+            {
+              "Text": "What are the negative implications of online music streaming services like Spotify and Apple Music?",
+              "Image": {
+                "Path": "",
+                "FileName": ""
+              },
+              "Feedback": {
+                "Text": "That is not correct.",
+                "IsCorrect": false
+              }
+            }
+          ]
+        },
+        {
+          "Text": "<h4>Question 4</h4><p>People working in the office administration, accounting, and insurance sectors will be the first to find their jobs replaced by artificial intelligence as the technology improves in the coming years.</p>",
+          "Icon": "",
+          "Image": {
+            "Path": "data/img",
+            "FileName": ""
+          },
+          "Answers": [
+            {
+              "Text": "Which jobs will be the first to get replaced by artificial intelligence technology?",
+              "Image": {
+                "Path": "",
+                "FileName": ""
+              },
+              "Feedback": {
+                "Text": "That is correct!",
+                "IsCorrect": true
+              }
+            },
+            {
+              "Text": "How will artificial intelligence change the Canadian life in the next 20 years?",
+              "Image": {
+                "Path": "",
+                "FileName": ""
+              },
+              "Feedback": {
+                "Text": "That is not correct.",
+                "IsCorrect": false
+              }
+            }
+          ]
+        },
+        {
+          "Text": "<h4>Question 5</h4><p>Playing violent video games affects the emotional development of adolescents in three major areas: risk-taking, moral judgment, and social interaction.</p>",
+          "Icon": "",
+          "Image": {
+            "Path": "data/img",
+            "FileName": ""
+          },
+          "Answers": [
+            {
+              "Text": "How does playing video games affect adolescents?",
+              "Image": {
+                "Path": "",
+                "FileName": ""
+              },
+              "Feedback": {
+                "Text": "That is not correct.",
+                "IsCorrect": false
+              }
+            },
+            {
+              "Text": "How does playing violent video games affect the emotional development of adolescents?",
+              "Image": {
+                "Path": "",
+                "FileName": ""
+              },
+              "Feedback": {
+                "Text": "That is correct!",
+                "IsCorrect": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
