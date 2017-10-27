@@ -1,0 +1,238 @@
+{
+  "General": {
+    "QuizName": "Punctuation Summary Exercise ",
+    "HeadingLevel": 3,
+    "instructions": "none",
+    "feedBackType": "continuous",
+    "forceCorrect": false,
+    "repeatOnComplete": true,
+    "allowNone": false,
+    "allowPrevious": true,
+    "showHints": true,
+    "allowPartial": true,
+    "randomize": true,
+    "subtractWrong": false,
+    "preQuizText": "<p>You will\nneed to see the paragraph throughout the quiz.</p>",
+    "preQuizMedia": "none",
+    "postQuizText": "none",
+    "postQuizMedia": []
+  },
+  "Questions": [
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "<p>Identify the sentence that has <strong>not</strong> used an apostrophe correctly.</p> ",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": 1,
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": 2,
+          "feedBack": "That is not correct. "
+        },
+        {
+          "answerText": 3,
+          "feedBack": "That is not correct. "
+        },
+        {
+          "answerText": 4,
+          "feedBack": "That is not correct. "
+        },
+        {
+          "answerText": 5,
+          "feedBack": "That is not correct. "
+        },
+        {
+          "answerText": 6,
+          "feedBack": "That is not correct. "
+        },
+        {
+          "answerText": 7,
+          "feedBack": "That is not correct. "
+        },
+        {
+          "answerText": 8,
+          "feedBack": "That is not correct. "
+        },
+        {
+          "answerText": 9,
+          "feedBack": "Correct! <em>Its</em> is a\npronoun and this sentence means to say it is which should be represented as\nit’s where the apostrophe signals that a contraction has occurred.",
+          "scoreValue": 1
+        },
+        {
+          "answerText": 10,
+          "feedBack": "That is not correct. "
+        },
+        {
+          "answerText": 11,
+          "feedBack": "That is not correct. "
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "<p>Identify the sentence that has <strong>not</strong> used a comma correctly.</p> ",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": 1,
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": 2,
+          "feedBack": "Correct! Feedback: After the\nintroductory dependent clause “When a user turns the feature on” a comma is\nrequired.\n",
+          "scoreValue": 1
+        },
+        {
+          "answerText": 3,
+          "feedBack": "That is not correct. "
+        },
+        {
+          "answerText": 4,
+          "feedBack": "That is not correct. "
+        },
+        {
+          "answerText": 5,
+          "feedBack": "That is not correct. "
+        },
+        {
+          "answerText": 6,
+          "feedBack": "That is not correct. "
+        },
+        {
+          "answerText": 7,
+          "feedBack": "That is not correct. "
+        },
+        {
+          "answerText": 8,
+          "feedBack": "That is not correct. "
+        },
+        {
+          "answerText": 9,
+          "feedBack": "That is not correct. "
+        },
+        {
+          "answerText": 10,
+          "feedBack": "That is not correct. "
+        },
+        {
+          "answerText": 11,
+          "feedBack": "That is not correct. "
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "<p>Identify the sentence that has <strong>not</strong> used a semicolon correctly.</p> ",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": 1,
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": 2,
+          "feedBack": "That is not correct. "
+        },
+        {
+          "answerText": 3,
+          "feedBack": "That is not correct. "
+        },
+        {
+          "answerText": 4,
+          "feedBack": "That is not correct. "
+        },
+        {
+          "answerText": 5,
+          "feedBack": "That is not correct. "
+        },
+        {
+          "answerText": 6,
+          "feedBack": "That is not correct. "
+        },
+        {
+          "answerText": 7,
+          "feedBack": "That is not correct. "
+        },
+        {
+          "answerText": 8,
+          "feedBack": "That is not correct. "
+        },
+        {
+          "answerText": 9,
+          "feedBack": "That is not correct. "
+        },
+        {
+          "answerText": 10,
+          "feedBack": "That is not correct. "
+        },
+        {
+          "answerText": 11,
+          "feedBack": "Correct! When using a semicolon, the clauses on either side must be independent.\nIn this case, the clause to the right of the semicolon is dependent so a\nsemicolon cannot be used here.",
+          "scoreValue": 1
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "<p>Identify the sentence that has <strong>not</strong> used a colon correctly.</p> ",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": 1,
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": 2,
+          "feedBack": "That is not correct. "
+        },
+        {
+          "answerText": 3,
+          "feedBack": "That is not correct. "
+        },
+        {
+          "answerText": 4,
+          "feedBack": "That is not correct. "
+        },
+        {
+          "answerText": 5,
+          "feedBack": "That is not correct. "
+        },
+        {
+          "answerText": 6,
+          "feedBack": "That is not correct. "
+        },
+        {
+          "answerText": 7,
+          "feedBack": "That is not correct. "
+        },
+        {
+          "answerText": 8,
+          "feedBack": "That is not correct. "
+        },
+        {
+          "answerText": 9,
+          "feedBack": "That is not correct. "
+        },
+        {
+          "answerText": 10,
+          "feedBack": "Correct! You can use a colon to introduce a quote; however, in this case we have\na paraphrase, so a colon is not appropriate.",
+          "scoreValue": 1
+        },
+        {
+          "answerText": 11,
+          "feedBack": "That is not correct. "
+        }
+      ]
+    }
+  ]
+}
