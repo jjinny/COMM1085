@@ -1,0 +1,141 @@
+{
+  "Questions": [
+    {
+      "Text": "“What a beautiful child! She has her mothers eyes.”",
+      "Fields": [
+        {
+          "AnswerType": "text",
+          "MinAccepted": 1,
+          "MaxAccepted": 20,
+          "PreText": "none",
+          "Units": "",
+          "Answer": {
+            "CaseSensitive": false,
+            "AutoDisplay": true,
+            "FeedbackText": "none",
+            "HasRange": false,
+            "Correct": [
+              "mother’s"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "My brothers girlfriend is also in that program.",
+      "Fields": [
+        {
+          "AnswerType": "text",
+          "MinAccepted": 1,
+          "MaxAccepted": 20,
+          "PreText": "none",
+          "Units": "",
+          "Answer": {
+            "CaseSensitive": false,
+            "AutoDisplay": true,
+            "FeedbackText": "none",
+            "HasRange": false,
+            "Correct": [
+              "brother’s "
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "I couldnt believe it when I found out that I got the job at McDonalds!\n(two errors)",
+      "Fields": [
+        {
+          "AnswerType": "text",
+          "MinAccepted": 1,
+          "MaxAccepted": 20,
+          "PreText": "none",
+          "Units": "",
+          "Answer": {
+            "CaseSensitive": false,
+            "AutoDisplay": true,
+            "FeedbackText": "none",
+            "HasRange": false,
+            "Correct": [
+              "couldn’t"
+            ]
+          }
+        },
+        {
+          "AnswerType": "text",
+          "MinAccepted": 1,
+          "MaxAccepted": 20,
+          "PreText": "none",
+          "Units": "",
+          "Answer": {
+            "CaseSensitive": false,
+            "AutoDisplay": true,
+            "FeedbackText": "none",
+            "HasRange": false,
+            "Correct": [
+              "McDonald’s "
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "My supervisors informed me that I wouldnt be able to take\nthe days off.",
+      "Fields": [
+        {
+          "AnswerType": "text",
+          "MinAccepted": 1,
+          "MaxAccepted": 20,
+          "PreText": "none",
+          "Units": "",
+          "Answer": {
+            "CaseSensitive": false,
+            "AutoDisplay": true,
+            "FeedbackText": "none",
+            "HasRange": false,
+            "Correct": [
+              "wouldn’t"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Text": "Wont you please join me for dinner tonight at James’ house?\n(two errors)",
+      "Fields": [
+        {
+          "AnswerType": "text",
+          "MinAccepted": 1,
+          "MaxAccepted": 10,
+          "PreText": "none",
+          "Units": "",
+          "Answer": {
+            "CaseSensitive": false,
+            "AutoDisplay": true,
+            "FeedbackText": "none",
+            "HasRange": false,
+            "Correct": [
+              "won’t "
+            ]
+          }
+        },
+        {
+          "AnswerType": "text",
+          "MinAccepted": 1,
+          "MaxAccepted": 10,
+          "PreText": "none",
+          "Units": "",
+          "Answer": {
+            "CaseSensitive": false,
+            "AutoDisplay": true,
+            "FeedbackText": "none",
+            "HasRange": false,
+            "Correct": [
+              "James’s "
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
