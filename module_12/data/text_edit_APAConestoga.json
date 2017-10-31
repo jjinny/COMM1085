@@ -19,17 +19,17 @@
     {
       "Title": "Question 3",
       "MinCharacters": 200,
-      "Text": "<p>For the information that follows, create a full citation.</p>",
+      "Text": "<p>For the information that follows, create a full citation.</p><p><strong>Resource: Report (Fact Sheet)</strong><ul><li>Title: Canadian Internet Use and e-Commerce, 2012</li><li>Author: Statistics Canada</li><li>Publication Date: November 19, 2014</li><li>Retrieval Date: September 28, 2017</li><li>Description of Document: Catalogue Number 11-627-M2014003</li><li>URL: https://www.statcan.gc.ca/pub/11-627-m/11-627-m2014003-eng.htm</li></ul></p>",
       "Answer": "<div class=\"card card-block z-depth-1 p-3 mt-1\"><p>Statistics Canada. (2014). <em>Canadian Internet Use and e-Commerce, 2012.</em> [Catalogue No. 11-627-M2014003]. Retrieved September 28, 2017, from https://www.statcan.gc.ca/pub/11-627-m/11-627-m2014003-eng.htm</p></div>",
-      "PrePopulated": "<p><strong>Resource: Report (Fact Sheet)</strong><ul><li>Title: Canadian Internet Use and e-Commerce, 2012</li><li>Author: Statistics Canada</li><li>Publication Date: November 19, 2014</li><li>Retrieval Date: September 28, 2017</li><li>Description of Document: Catalogue Number 11-627-M2014003</li><li>URL: https://www.statcan.gc.ca/pub/11-627-m/11-627-m2014003-eng.htm</li></ul></p><p><strong>Citation:</strong></p>",
+      "PrePopulated": "<p><strong>Citation:</strong></p>",
       "Placeholder": ""
     },
     {
       "Title": "Question 4",
-      "MinCharacters": 200,
-      "Text": "<p>For the information that follows, create a full citation.</p>",
+      "MinCharacters": 50,
+      "Text": "<p>For the information that follows, create a full citation.</p><p><strong>Resource: Website</strong><ul>Name of Website/Company: Oculus<li>Title of Page Cited: Rift</li><li>Section: Recommended PC Specification</li><li>Author: no author</li><li>Publication Date: 2016 (copyright date)</li><li>URL: https://www3.oculus.com/en-us/rift/</li></ul></p>",
       "Answer": "<div class=\"card card-block z-depth-1 p-3 mt-1\"><p>Oculus. (2016). <em>Rift.</em> Retrieved September 28, 2016, from https://www3.oculus.com/en-us/rift/</p></div>",
-      "PrePopulated": "<p><strong>Resource: Website</strong><ul>Name of Website/Company: Oculus<li>Title of Page Cited: Rift</li><li>Section: Recommended PC Specification</li><li>Author: no author</li><li>Publication Date: 2016 (copyright date)</li><li>URL: https://www3.oculus.com/en-us/rift/</li></ul></p><p><strong>Citation:</strong></p>",
+      "PrePopulated": "<p><strong>Citation:</strong></p>",
       "Placeholder": ""
     }
   ]
