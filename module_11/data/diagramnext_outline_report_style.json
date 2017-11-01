@@ -1,0 +1,49 @@
+{
+  "ContainerID": "dnext",
+  "StepText": "Page",
+  "Layout": {
+    "TextPosition": "bottom",
+    "TextColumns": 12,
+    "TextStyle": "html",
+    "TextDisplay": "stacked"
+  },
+  "Navigation": {
+    "ShowProgress": false,
+    "ButtonNext": "Next",
+    "ButtonPrev": "Previous"
+  },
+  "Steps": [
+    {
+      "Image": {
+        "FilePath": "data/images/",
+        "FileName": "start.png",
+        "AltText": ""
+      },
+      "HTML": ""
+    },
+    {
+      "Image": {
+        "FilePath": "data/images/",
+        "FileName": "informational.png",
+        "AltText": "Informational"
+      },
+      "HTML": "<h3>Informational</h3><ul><li>To document events that occurred for an official record</li><li>To educate the reader on the details of a particular subject</li><li>Do I need to plan what I’m going to write or can I simply begin?</li><li>To accompany a presentation with background information, research, evidence etc. that would be too detailed for an audience to listen to</li></ul>"
+    },
+    {
+      "Image": {
+        "FilePath": "data/images/",
+        "FileName": "analytical.png",
+        "AltText": "Analytical"
+      },
+      "HTML": "<h3>Analytical</h3><ul><li>To organize and record your knowledge or understanding of a specific topic</li><li>To provide the answer to a particular question</li></ul>"
+    },
+    {
+      "Image": {
+        "FilePath": "data/images/",
+        "FileName": "persuasive.png",
+        "AltText": "Persuasive "
+      },
+      "HTML": "<h3>Persuasive</h3><ul><li>To recommend a particular strategy or solution based on the findings of the report</li><li>To evaluate the success of a completed project or a strategy that’s already been implemented</li></ul>"
+    }
+  ]
+}

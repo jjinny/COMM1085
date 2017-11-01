@@ -21,6 +21,7 @@
 
 <!-- Your custom styles (optional) -->
 <link href="../css/style.css" rel="stylesheet">
+<link rel="stylesheet" href="../facilitator_tools/DiagramNext/css/diagramnext.css">
 </head>
 
 <body>
@@ -49,7 +50,9 @@
         <h2>Purposes</h2>
         <p>To learn about some of the advantages to using a report style for informational, analytical, or persuasive writing, click each title.</p>
 
-		<h2>INSERT INTERACTIVE HERE</h2>
+		<div class="col-sm-12 top-md mt-3 mb-5" style="min-height: 600px;">
+          <div id="dnext"></div>
+        </div>
        
         <h2>Audiences</h2>
         <p>Report style is equally suitable for audiences within your organization and without.</p>
@@ -84,7 +87,9 @@
       </div>
        <h2>Professional Sectors</h2>
        <p>Report style is common across many different fields or sectors of the workforce. Learn more about where report style can be used in various professional sectors by clicking each title.</p>
-       <h2>INSERT INTERACTIVE HERE</h2>
+       <div class="col-sm-12 top-md mt-3 mb-5" style="min-height: 600px;">
+          <div id="dnext2"></div>
+        </div>
       </div>
 </div>
 		<div class="clearfix"></div>
@@ -118,6 +123,10 @@
 
 <!-- OLC Custom JS --> 
 <script src="../js/plugins/olc-custom.js"></script>
+<script>
+		var datafilename = "diagramnext_outline_report_style.json";
+	</script> 
+<script src="../facilitator_tools/DiagramNext/js/diagramnext.js"></script>
 <script>
   function heightMatch(idMatch, idResize) {
     $('#'+idResize).outerHeight($('#'+idMatch).outerHeight());
