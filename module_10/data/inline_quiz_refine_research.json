@@ -1,0 +1,127 @@
+{
+  "General": {
+    "QuizName": "Knowledge Check ",
+    "HeadingLevel": 3,
+    "instructions": "none",
+    "feedBackType": "continuous",
+    "forceCorrect": false,
+    "repeatOnComplete": true,
+    "allowNone": false,
+    "allowPrevious": true,
+    "showHints": true,
+    "allowPartial": true,
+    "randomize": true,
+    "subtractWrong": false,
+    "preQuizText": "<p>Each of the research questions below has research question pitfalls. Select all the pitfalls that apply:</p>",
+    "preQuizMedia": "none",
+    "postQuizText": "none",
+    "postQuizMedia": []
+  },
+  "Questions": [
+    {
+      "questionType": "All That Apply",
+      "maxScoreValue": 2,
+      "questionText": "<p>The big question to ask is, “when does a robot become too smart?” From\nthis general question, I would like to derive several other questions such as,\n“should we be afraid of future robots?”, “do the benefits of A.I. outweigh the\ndrawbacks?”, “how long until there are robots walking among us?” These\nquestions will all help shape my research paper.</p> ",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Too broad ",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "Too narrow ",
+          "feedBack": "That is not correct. "
+        },
+        {
+          "answerText": "Closed",
+          "feedBack": "Correct! This student has asked <strong>multiple</strong> questions and\nwill therefore struggle to find a consistent focus when they move to the\ninformation gathering stage. The individual questions are also <strong>closed</strong> and poorly suited\nto this kind of open investigation, e.g., the question “Do the benefits of A.I.\noutweigh the drawbacks?” can only be answered with a yes or no. ",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Subjective",
+          "feedBack": "That is not correct. "
+        },
+        {
+          "answerText": "Leading ",
+          "feedBack": "That is not correct. "
+        },
+        {
+          "answerText": "Multiple",
+          "feedBack": "Correct! This student has asked <strong>multiple</strong> questions and\nwill therefore struggle to find a consistent focus when they move to the\ninformation gathering stage. The individual questions are also <strong>closed</strong> and poorly suited\nto this kind of open investigation, e.g., the question “Do the benefits of A.I.\noutweigh the drawbacks?” can only be answered with a yes or no. ",
+          "scoreValue": 1
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "<p>What are the main advantages of technology implemented into vehicles?</p> ",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Too broad ",
+          "feedBack": "Correct! The question is <strong>too broad</strong> and the\nstudent needs to narrow their keywords, or else they will find it difficult to\ngather an appropriate amount of information. They might attempt to ask\nthemselves the following questions and then revise their research question with\nthe answers in mind: What kinds of technology? What kinds of vehicles?\nAdvantages for whom: Motorists? Car manufacturers? ",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Too narrow ",
+          "feedBack": "That is not correct. "
+        },
+        {
+          "answerText": "Closed",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "Subjective",
+          "feedBack": "That is not correct. "
+        },
+        {
+          "answerText": "Leading ",
+          "feedBack": "That is not correct. "
+        },
+        {
+          "answerText": "Multiple",
+          "feedBack": "That is not correct."
+        }
+      ]
+    },
+    {
+      "questionType": "All That Apply",
+      "maxScoreValue": 3,
+      "questionText": "<p>Is Steve Jobs the greatest tech CEO there ever was?</p> ",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Too broad ",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "Too narrow ",
+          "feedBack": "That is not correct. "
+        },
+        {
+          "answerText": "Closed",
+          "feedBack": "Correct! This question is <strong>closed</strong> and limited to\nonly two possible answers: yes or no. It’s also flawed in other ways. First, it\nwould be difficult to definitely determine the kind of ranking the question\nimplies, because it would necessarily involve a lot of <strong>subjective</strong>\ninterpretation. Second, the wording of the question is <strong>leading</strong>: it implies that\nthe student has already taken for granted the greatness of Steve Jobs’\nleadership. This is problematic because the assignment is designed to provide you\nwith an opportunity to discover something new. ",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Subjective",
+          "feedBack": "Correct! This question is <strong>closed</strong> and limited to\nonly two possible answers: yes or no. It’s also flawed in other ways. First, it\nwould be difficult to definitely determine the kind of ranking the question\nimplies, because it would necessarily involve a lot of <strong>subjective</strong>\ninterpretation. Second, the wording of the question is <strong>leading</strong>: it implies that\nthe student has already taken for granted the greatness of Steve Jobs’\nleadership. This is problematic because the assignment is designed to provide you\nwith an opportunity to discover something new. ",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Leading ",
+          "feedBack": "Correct! This question is <strong>closed</strong> and limited to\nonly two possible answers: yes or no. It’s also flawed in other ways. First, it\nwould be difficult to definitely determine the kind of ranking the question\nimplies, because it would necessarily involve a lot of <strong>subjective</strong>\ninterpretation. Second, the wording of the question is <strong>leading</strong>: it implies that\nthe student has already taken for granted the greatness of Steve Jobs’\nleadership. This is problematic because the assignment is designed to provide you\nwith an opportunity to discover something new. ",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Multiple",
+          "feedBack": "That is not correct. "
+        }
+      ]
+    }
+  ]
+}

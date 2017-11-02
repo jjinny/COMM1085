@@ -1,0 +1,125 @@
+{
+  "Position": "left",
+  "Events": [
+    {
+      "Inverted": false,
+      "RevealType": "click",
+      "Title": "",
+      "Body": "<p><span class=\"badge accent-2 pull-left mr-2 text-white\">1</span><h5>Choose a topic</h5></p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "ABE761",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "far fa-hand-point-right",
+        "BadgeText": "",
+        "BadgeTextMargin": "0",
+        "BadgeFontSize": "20px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "click",
+      "Title": "",
+      "Body": "<p><span class=\"badge accent-2 pull-left mr-2 text-white\">2</span><h5>Plan and schedule time to research and write</h5></p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "ABE761",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "far fa-hand-point-right",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "20px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "click",
+      "Title": "",
+      "Body": "<p><span class=\"badge accent-2 pull-left mr-2 text-white\">3</span><h5>Conduct research</h5></p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "ABE761",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "far fa-hand-point-right",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "20px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "click",
+      "Title": "",
+      "Body": "<p><span class=\"badge accent-2 pull-left mr-2 text-white\">4</span><h5>Organize your research and ideas</h5></p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "ABE761",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "far fa-hand-point-right",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "20px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "click",
+      "Title": "",
+      "Body": "<p><span class=\"badge accent-2 pull-left mr-2 text-white\">5</span><h5>Draft your paper</h5></p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "ABE761",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "far fa-hand-point-right",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "20px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    },
+    {
+      "Inverted": false,
+      "RevealType": "click",
+      "Title": "",
+      "Body": "<p><span class=\"badge accent-2 pull-left mr-2 text-white\">6</span><h5>Revise and edit your paper</h5></p>",
+      "Badge": {
+        "AddCircle": true,
+        "BadgeColor1": "ABE761",
+        "BadgeColor2": "000000",
+        "BadgeIcon": "far fa-hand-point-right",
+        "BadgeText": "",
+        "BadgeTextMargin": "10px",
+        "BadgeFontSize": "20px"
+      },
+      "Accent": {
+        "Type": "none",
+        "FolderPath": "images/",
+        "FileName": "none"
+      }
+    }
+  ]
+}
