@@ -5,7 +5,7 @@
     "TextPosition": "bottom",
     "TextColumns": 12,
     "TextStyle": "html",
-    "TextDisplay": "stacked"
+    "TextDisplay": "single"
   },
   "Navigation": {
     "ShowProgress": false,
