@@ -1,0 +1,118 @@
+{
+  "Activities": [
+    {
+      "ContainerID": "dnext",
+      "StepText": "Page",
+      "Layout": {
+        "TextPosition": "bottom",
+        "TextColumns": 12,
+        "TextStyle": "html",
+        "TextDisplay": "single"
+      },
+      "Navigation": {
+        "ShowProgress": false,
+        "ButtonNext": "Next",
+        "ButtonPrev": "Previous"
+      },
+      "Steps": [
+        {
+          "Image": {
+            "FilePath": "data/images/",
+            "FileName": "start.png",
+            "AltText": ""
+          },
+          "HTML": ""
+        },
+        {
+          "Image": {
+            "FilePath": "data/images/",
+            "FileName": "informational.png",
+            "AltText": "Informational"
+          },
+          "HTML": "<h3>Informational</h3><ul><li>To document events that occurred for an official record</li><li>To educate the reader on the details of a particular subject</li><li>Do I need to plan what I’m going to write or can I simply begin?</li><li>To accompany a presentation with background information, research, evidence etc. that would be too detailed for an audience to listen to</li></ul>"
+        },
+        {
+          "Image": {
+            "FilePath": "data/images/",
+            "FileName": "analytical.png",
+            "AltText": "Analytical"
+          },
+          "HTML": "<h3>Analytical</h3><ul><li>To organize and record your knowledge or understanding of a specific topic</li><li>To provide the answer to a particular question</li></ul>"
+        },
+        {
+          "Image": {
+            "FilePath": "data/images/",
+            "FileName": "persuasive.png",
+            "AltText": "Persuasive "
+          },
+          "HTML": "<h3>Persuasive</h3><ul><li>To recommend a particular strategy or solution based on the findings of the report</li><li>To evaluate the success of a completed project or a strategy that’s already been implemented</li></ul>"
+        }
+      ]
+    },
+    {
+      "ContainerID": "dnext2",
+      "StepText": "Page",
+      "Layout": {
+        "TextPosition": "bottom",
+        "TextColumns": 12,
+        "TextStyle": "html",
+        "TextDisplay": "single"
+      },
+      "Navigation": {
+        "ShowProgress": false,
+        "ButtonNext": "Next",
+        "ButtonPrev": "Previous"
+      },
+      "Steps": [
+        {
+          "Image": {
+            "FilePath": "data/images/",
+            "FileName": "start_2.png",
+            "AltText": ""
+          },
+          "HTML": ""
+        },
+        {
+          "Image": {
+            "FilePath": "data/images/",
+            "FileName": "BH.png",
+            "AltText": "Business & Hospitality "
+          },
+          "HTML": "<h3>Business & Hospitality</h3><ul><li>sales reports</li><li>market research</li><li>conference / trip\nreport</li></ul>"
+        },
+        {
+          "Image": {
+            "FilePath": "data/images/",
+            "FileName": "EI.png",
+            "AltText": "Engineering &\nInformation Technology "
+          },
+          "HTML": "<h3>Engineering & Information Technology</h3><ul><li>project / research\nproposals</li><li>reporting results of\nresearch and project</li></ul>"
+        },
+        {
+          "Image": {
+            "FilePath": "data/images/",
+            "FileName": "HS.png",
+            "AltText": "Health & Life\nSciences and Community Services"
+          },
+          "HTML": "<h3>Health & Life\nSciences and Community Services</h3><ul><li>Incident report</li><li>Progress / assessment report</li><li>end-of-shift report\n\n</li></ul>"
+        },
+        {
+          "Image": {
+            "FilePath": "data/images/",
+            "FileName": "MD.png",
+            "AltText": "Media & Design"
+          },
+          "HTML": "<h3>Media & Design</h3><ul><li>client presentations</li><li>market research</li><li>measuring impact /\nreturn on investment</li></ul>"
+        },
+        {
+          "Image": {
+            "FilePath": "data/images/",
+            "FileName": "TA.png",
+            "AltText": "Trades and Apprenticeship"
+          },
+          "HTML": "<h3>Trades and\nApprenticeship</h3><ul><li>advancement jobs:\nsupervisor, consultant, compliance/enforcement</li></ul>"
+        }
+      ]
+    }
+  ]
+}

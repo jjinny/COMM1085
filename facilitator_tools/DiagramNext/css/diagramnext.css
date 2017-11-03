@@ -1,6 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
 
+
+.img-responsive {
+	max-width:100%;
+}
+
 .imagemap-appear {
 
 }
