@@ -1,0 +1,117 @@
+{
+  "Randomize": true,
+  "Questions": [
+    {
+      "Text": "What\nare the hottest fashion trends for the upcoming year?",
+      "Options": [
+        {
+          "Val": "A",
+          "Text": "Option A"
+        },
+        {
+          "Val": "B",
+          "Text": "Option B"
+        },
+        {
+          "Val": "C",
+          "Text": "Option C"
+        },
+        {
+          "Val": "D",
+          "Text": "Option D"
+        }
+      ],
+      "Answer": {
+        "AutoDisplay": false,
+        "FeedbackText": "none",
+        "Correct": [
+          "A"
+        ]
+      }
+    },
+    {
+      "Text": "Why\nis online shopping becoming so popular? ",
+      "Options": [
+        {
+          "Val": "A",
+          "Text": "Option A"
+        },
+        {
+          "Val": "B",
+          "Text": "Option B"
+        },
+        {
+          "Val": "C",
+          "Text": "Option C"
+        },
+        {
+          "Val": "D",
+          "Text": "Option D"
+        }
+      ],
+      "Answer": {
+        "AutoDisplay": false,
+        "FeedbackText": "none",
+        "Correct": [
+          "D"
+        ]
+      }
+    },
+    {
+      "Text": "What\nis the best way to become wealthy in fashion",
+      "Options": [
+        {
+          "Val": "A",
+          "Text": "Option A"
+        },
+        {
+          "Val": "B",
+          "Text": "Option B"
+        },
+        {
+          "Val": "C",
+          "Text": "Option C"
+        },
+        {
+          "Val": "D",
+          "Text": "Option D"
+        }
+      ],
+      "Answer": {
+        "AutoDisplay": false,
+        "FeedbackText": "none",
+        "Correct": [
+          "C"
+        ]
+      }
+    },
+    {
+      "Text": "How\nare online clothing retailers out-competing traditional clothing stores? ",
+      "Options": [
+        {
+          "Val": "A",
+          "Text": "Option A"
+        },
+        {
+          "Val": "B",
+          "Text": "Option B"
+        },
+        {
+          "Val": "C",
+          "Text": "Option C"
+        },
+        {
+          "Val": "D",
+          "Text": "Option D"
+        }
+      ],
+      "Answer": {
+        "AutoDisplay": false,
+        "FeedbackText": "none",
+        "Correct": [
+          "B"
+        ]
+      }
+    }
+  ]
+}
