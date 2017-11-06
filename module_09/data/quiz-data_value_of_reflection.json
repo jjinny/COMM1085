@@ -1,0 +1,76 @@
+{
+  "General": {
+    "QuizName": "Knowledge Check",
+    "HeadingLevel": 3,
+    "instructions": "none",
+    "feedBackType": "continuous",
+    "forceCorrect": false,
+    "repeatOnComplete": true,
+    "allowNone": false,
+    "allowPrevious": true,
+    "showHints": false,
+    "allowPartial": true,
+    "randomize": true,
+    "subtractWrong": false,
+    "preQuizText": "<p>Identify whether the following statements are true or false.</p>",
+    "preQuizMedia": "none",
+    "postQuizText": "none",
+    "postQuizMedia": []
+  },
+  "Questions": [
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "Setting goals can help improve academic results.",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": true,
+          "feedBack": "That is correct! Rolheiser, Bower, and Stevahn (2000): “An upward cycle of learning results when students confidently set learning goals that are moderately challenging yet realistic, and then exert the effort, energy, and resources needed to accomplish those goals” (p. 35).",
+          "scoreValue": 1
+        },
+        {
+          "answerText": false,
+          "feedBack": "That is not correct. Rolheiser, Bower, and Stevahn (2000): “An upward cycle of learning results when students confidently set learning goals that are moderately challenging yet realistic, and then exert the effort, energy, and resources needed to accomplish those goals” (p. 35)."
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "Student achievement improves when students are given opportunities to reflect on and assess their own performance, e.g., comparing their own work to the rubric used for evaluation, comparing their own work to samples of high-quality work. ",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": true,
+          "feedBack": "That is correct! “Dozens of studies conducted at all levels of instruction offer evidence of strong achievement gains in student performance as measured by standardized tests (Bloom, 1984; Black & Wiliam, 1998; Black, 2003; Meisels, Atkins-Burnett, Xue, Bickel, & Hon, 2003; Rodriguiz, 2004). The effect of [self-assessment] on student achievement is some four to five times greater than the effect of reduced class size (Ehrenberg, Brewer, Gamoran, & Willms, 2001). Few interventions in education come close to having the same level of impact as [self-assessment]. (Stiggins et al., 2007, <em>Classroom Assessment for Student Learning</em>, p.37)",
+          "scoreValue": 1
+        },
+        {
+          "answerText": false,
+          "feedBack": "That is not correct.“Dozens of studies conducted at all levels of instruction offer evidence of strong achievement gains in student performance as measured by standardized tests (Bloom, 1984; Black & Wiliam, 1998; Black, 2003; Meisels, Atkins-Burnett, Xue, Bickel, & Hon, 2003; Rodriguiz, 2004). The effect of [self-assessment] on student achievement is some four to five times greater than the effect of reduced class size (Ehrenberg, Brewer, Gamoran, & Willms, 2001). Few interventions in education come close to having the same level of impact as [self-assessment]. (Stiggins et al., 2007, <em>Classroom Assessment for Student Learning</em>, p.37)"
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "Self-assessment and reflection activities only help the students who are already succeeding on their assignments. ",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": true,
+          "feedBack": "That is not correct. Research shows that, “while all students show achievement gains, the largest gains accrue to the lowest achievers” (Stiggins et al., 2007, <em>Classroom Assessment for Student Learning</em>, p.37)"
+        },
+        {
+          "answerText": false,
+          "feedBack": "That is correct! Research shows that, “while all students show achievement gains, the largest gains accrue to the lowest achievers” (Stiggins et al., 2007, <em>Classroom Assessment for Student Learning</em>, p.37)",
+          "scoreValue": 1
+        }
+      ]
+    }
+  ]
+}

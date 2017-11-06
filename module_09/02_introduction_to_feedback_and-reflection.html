@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>Introduction to Feedback and Reflection</title>
+
+<!-- Font Awesome -->
+<!-- Font Awesome -->
+<link rel="stylesheet" href="../font/fontawesome/css/fontawesome-pro-brands.css">
+<link rel="stylesheet" href="../font/fontawesome/css/fontawesome-pro-light.css">
+<link rel="stylesheet" href="../font/fontawesome/css/fontawesome-pro-regular.css">
+<link rel="stylesheet" href="../font/fontawesome/css/fontawesome-pro-core.css">
+<link rel="stylesheet" href="../font/fontawesome/css/fontawesome-pro-solid.css">
+
+<!-- Bootstrap core CSS -->
+<link href="../css/bootstrap.css" rel="stylesheet">
+
+<!-- Material Design Bootstrap -->
+<link href="../css/mdb.min.css" rel="stylesheet">
+
+<!-- Your custom styles (optional) -->
+<link href="../css/style.css" rel="stylesheet">
+<link href="../facilitator_tools/Polling/_css/polling.css" rel="stylesheet">
+<link rel="stylesheet" href="../facilitator_tools/Multi-Dropdown/css/multi-dropdown.css">
+</head>
+
+
+
+<body>
+<div class="container-fluid"> 
+  
+  <!-- Header Area -->
+  <header id="polling">
+    <div class="row">
+      <div class="col-sm-12 prime-bg header z-depth-1-half">
+        <div class="headerMod"></div>
+        <p class="animated fadeIn">Introduction to Research</p>
+      </div>
+    </div>
+  </header>
+  <!-- /Header Area --> 
+  
+  <!-- Main Content Area -->
+  <main>
+    <div class="col-sm-12 content">
+      <h1><i class="fal fa-tasks fa-lg text-second fa-pull-left" aria-hidden="true"></i><span class="sr-only"></span>Introduction to Feedback and Reflection</h1>
+      <p>Increasingly, both educators and employers are valuing activities that require learners and employees to reflect on what they have learned, how they approached their learning, and how successful their learning was.</p>
+      <div class="clearfix"></div>
+      
+      <div class="well p-3 mt-4 mb-4 z-depth-1">
+      <p>Rate the accuracy of these statements on a scale of 1 (“This statement does not describe my experience at all.”) to 5 (“This statement captures my experience precisely.”) as they apply to you and your learning.</p>
+	      <h3>Answer Options:</h3>
+      <p><span class="badge accent-3" style="margin-right: 5px;">1</span> This statement does not describe my belief at all<br>
+        <span class="badge accent-3" style="margin-right: 5px;">2</span> This statement somewhat describes my belief. <br>
+        <span class="badge accent-3" style="margin-right: 5px;">3</span> This statement describes my believe in some ways.<br>
+        <span class="badge accent-3" style="margin-right: 5px;">4</span> This statement accurately describes my belief.<br>
+        <span class="badge accent-3" style="margin-right: 5px;">5</span> This statement captures my belief precisely.</p>
+	</div>
+     <div class="clearfix"></div>
+      <div class="row">
+        <button class="btn btn-large prime-bg btn-check" id="submit-all" onclick="resetAll()">Reset Activity</button>
+        <table id="mi-table" class="table">
+          <tr>
+            <th id="column-question">Statement</th>
+            <th id="column-input">Option</th>
+            <th id="column-feedback">Feedback</th>
+          </tr>
+        </table>
+      </div>
+      <p>The learning habits and activities represented in these scenarios all work toward the same objective: building “metacognition.” Metacognition refers to our ability to think about our own thoughts. On the surface, this ability to reflect on our own learning might not seem significant. But new research into the way that humans learn suggests otherwise: that reflecting critically on our previous learning experiences has a powerful impact on our ability to improve our future actions.</p>
+      <p>Our work this week will help you to better understand this connection between past learning and future action and introduce you to a variety of self-reflection models that you can use to make your own self-reflection more productive.</p>
+    </div>
+  </main>
+  <!-- /Main Content Area -->
+  <footer>
+    <div class="row">
+      <div class="col-sm-12 footer">
+        <p>© 2017 Conestoga College. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+</div>
+<!-- SCRIPTS -->
+<!-- Chart JS --> 
+<!-- JQuery --> 
+<script type="text/javascript" src="../js/jquery-3.1.1.min.js"></script> 
+
+<!-- Tooltips --> 
+<script type="text/javascript" src="../js/tether.min.js"></script> 
+
+<!-- Bootstrap core JavaScript --> 
+<script type="text/javascript" src="../js/bootstrap.js"></script> 
+
+<!-- MDB core JavaScript --> 
+<script type="text/javascript" src="../js/mdb.min.js"></script> 
+
+<!-- Open-Close Collapse --> 
+<script src="../js/plugins/open_close_all.js"></script> 
+
+<!-- OLC Custom JS --> 
+<script src="../js/plugins/olc-custom.js"></script> 
+
+<!-- Multi-Select Dropdown--> 
+<script src="../facilitator_tools/Multi-Dropdown/js/multi-dropdown-feedback.js"></script> 
+<script>
+	var datafilepath = "data/feedback_reflection_drop.json";
+	</script>
+</body>
+</html>

@@ -1,0 +1,165 @@
+{
+  "Randomize": true,
+  "Questions": [
+    {
+      "Text": "I\nlearn better when I can ask the teacher questions and discuss the concepts or\nskills with other people.",
+      "Options": [
+        {
+          "Val": "A",
+          "Text": "1"
+        },
+        {
+          "Val": "B",
+          "Text": "2"
+        },
+        {
+          "Val": "C",
+          "Text": "3"
+        },
+        {
+          "Val": "D",
+          "Text": "4"
+        },
+        {
+          "Val": "E",
+          "Text": "5"
+        }
+      ],
+      "Answer": {
+        "AutoDisplay": false,
+        "FeedbackText": "",
+        "Correct": [
+          ""
+        ]
+      }
+    },
+    {
+      "Text": "I\nlearn better when I can participate in a “review” session at the end of a unit\nthat requires me to bring ideas together, look for patterns and trends, develop\n“flash cards”, or to complete practice quizzes or simulation exercises.",
+      "Options": [
+        {
+          "Val": "A",
+          "Text": "1"
+        },
+        {
+          "Val": "B",
+          "Text": "2"
+        },
+        {
+          "Val": "C",
+          "Text": "3"
+        },
+        {
+          "Val": "D",
+          "Text": "4"
+        },
+        {
+          "Val": "E",
+          "Text": "5"
+        }
+      ],
+      "Answer": {
+        "AutoDisplay": false,
+        "FeedbackText": "",
+        "Correct": [
+          "F"
+        ]
+      }
+    },
+    {
+      "Text": "I\ncan learn new things more easily when I can connect them to things I already\nknow.",
+      "Options": [
+        {
+          "Val": "A",
+          "Text": "1"
+        },
+        {
+          "Val": "B",
+          "Text": "2"
+        },
+        {
+          "Val": "C",
+          "Text": "3"
+        },
+        {
+          "Val": "D",
+          "Text": "4"
+        },
+        {
+          "Val": "E",
+          "Text": "5"
+        }
+      ],
+      "Answer": {
+        "AutoDisplay": false,
+        "FeedbackText": " ",
+        "Correct": [
+          "A"
+        ]
+      }
+    },
+    {
+      "Text": "I\nhave participated in a science fair, assembled a “portfolio” of completed work,\nor given a presentation about an important experience or project that I was a\npart of.",
+      "Options": [
+        {
+          "Val": "A",
+          "Text": "1"
+        },
+        {
+          "Val": "B",
+          "Text": "2"
+        },
+        {
+          "Val": "C",
+          "Text": "3"
+        },
+        {
+          "Val": "D",
+          "Text": "4"
+        },
+        {
+          "Val": "E",
+          "Text": "5"
+        }
+      ],
+      "Answer": {
+        "AutoDisplay": false,
+        "FeedbackText": "",
+        "Correct": [
+          "E"
+        ]
+      }
+    },
+    {
+      "Text": "After\nI finish a difficult project, take a test, or go through a co-op placement, I\nprefer to move forward to the next task and never look back — especially if the\nexperience was not as successful as I had hoped it would be. ",
+      "Options": [
+        {
+          "Val": "A",
+          "Text": "1"
+        },
+        {
+          "Val": "B",
+          "Text": "2"
+        },
+        {
+          "Val": "C",
+          "Text": "3"
+        },
+        {
+          "Val": "D",
+          "Text": "4"
+        },
+        {
+          "Val": "E",
+          "Text": "5"
+        }
+      ],
+      "Answer": {
+        "AutoDisplay": false,
+        "FeedbackText": "",
+        "Correct": [
+          "C"
+        ]
+      }
+    }
+  ]
+}
