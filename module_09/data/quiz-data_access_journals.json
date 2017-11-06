@@ -1,0 +1,152 @@
+{
+  "General": {
+    "QuizName": "Assess Student Feedback Journals",
+    "HeadingLevel": 3,
+    "instructions": "none",
+    "feedBackType": "continuous",
+    "forceCorrect": false,
+    "repeatOnComplete": true,
+    "allowNone": false,
+    "allowPrevious": true,
+    "showHints": true,
+    "allowPartial": true,
+    "randomize": true,
+    "subtractWrong": false,
+    "preQuizText": "<p>Each\nof the following examples illustrates a particular area for improvement in\nstudent feedback journals. For each quote, identify the weakness that best\ndescribes the section of text on display.</p>",
+    "preQuizMedia": "none",
+    "postQuizText": "none",
+    "postQuizMedia": []
+  },
+  "Questions": [
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "<div class=\"card card-block prime-bg text-white p-4 mt-2\"><p>I need to make sure I have time to make the assignment properly and not rush it.</p></div>",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Action plan is not specific\nenough ",
+          "feedBack": "Correct! ",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Uses point-form\nstyle ",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "\nRejects the\ninstructor’s feedback ",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "Provides only a\nfactual description of feedback with little interpretation. ",
+          "feedBack": "That is not correct."
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "<div class=\"card card-block prime-bg text-white p-4 mt-2\"><p>For my next assignment I will strive for greater\norganization by rereading my work and fixing my flaws. And I will adopt a more\nformal tone.\n\n</p></div>",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Action plan is not specific\nenough ",
+          "feedBack": "Correct! ",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Uses point-form\nstyle ",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "\nRejects the\ninstructor’s feedback ",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "Provides only a\nfactual description of feedback with little interpretation. ",
+          "feedBack": "That is not correct."
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "<div class=\"card card-block prime-bg text-white p-4 mt-2\"><p><ul><li>I consistently use the wrong\ndate/running head format.</li><li>Rarely (if ever) do I actually follow\nthe templates and/or the actual purpose of the assignment.</li><li>I tend to use less than ideal sources.</li><li>I tend to have a very noticeable bias.</li><li>Main ideas seem to be disconnected\nand/or have very weak supporting points</li><li>I have strong diction and a powerful\nprose in my writing (both good and bad, depending on the task).</li><li>My grammar is generally good, and\ncontinues to get better.</li></ul></p></div>",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Action plan is not specific\nenough ",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "Uses point-form\nstyle ",
+          "feedBack": "Correct! ",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "\nRejects the\ninstructor’s feedback ",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "Provides only a\nfactual description of feedback with little interpretation. ",
+          "feedBack": "That is not correct."
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "<div class=\"card card-block prime-bg text-white p-4 mt-2\"><p>My bias and voice are one in the same with my\nwriting, asking me to write without those two would be like asking a pianist to\nplay treble with his left. Sure, technically\nhe could do it, but goodness knows it wouldn’t be nearly as pleasing to\nlisten to.</p></div>",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Action plan is not specific enough ",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "Uses point-form style ",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "Rejects the instructor’s feedback ",
+          "feedBack": "Correct! ",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Provides only a factual description of feedback with little interpretation. ",
+          "feedBack": "That is not correct."
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "<div class=\"card card-block prime-bg text-white p-4 mt-2\"><p>The professor has pointed out my use of plural verb\nwith a singular noun. Also my use of comma splice could have been replaced by\ntwo complete sentences. My paragraph structure needs to have unity when I write\nthem the topic should not change suddenly half way through the paragraph.</p></div>",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Action plan is not specific enough ",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "Uses point-form style ",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "Rejects the instructor’s feedback ",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "Provides only a factual description of feedback with little interpretation. ",
+          "feedBack": "Correct! ",
+          "scoreValue": 1
+        }
+      ]
+    }
+  ]
+}

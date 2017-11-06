@@ -1,0 +1,56 @@
+{
+  "Activities": [
+    {
+      "Video": {
+        "ContainID": "vpcontain",
+        "VideoID": "video0",
+        "Width": 800,
+        "Height": 450,
+        "Controls": true,
+        "StartTime": 0,
+        "Type": "YouTube",
+        "PreviewImage": {
+          "HasImage": true,
+          "FileName": "how_search_works.jpg"
+        },
+        "SourceData": {
+          "FolderPath": "",
+          "Sources": []
+        },
+        "YouTubeData": {
+          "videoId": "BNHR6IQJGZs"
+        }
+      },
+      "Popups": [],
+      "Bullets": {
+        "Lists": []
+      }
+    },
+    {
+      "Video": {
+        "ContainID": "vpcontain2",
+        "VideoID": "video1",
+        "Width": 800,
+        "Height": 450,
+        "Controls": true,
+        "StartTime": 0,
+        "Type": "YouTube",
+        "PreviewImage": {
+          "HasImage": true,
+          "FileName": "how_search_works.jpg"
+        },
+        "SourceData": {
+          "FolderPath": "",
+          "Sources": []
+        },
+        "YouTubeData": {
+          "videoId": "C1eLNUNQDPs"
+        }
+      },
+      "Popups": [],
+      "Bullets": {
+        "Lists": []
+      }
+    }
+  ]
+}

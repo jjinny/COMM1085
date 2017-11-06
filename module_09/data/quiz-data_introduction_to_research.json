@@ -1,0 +1,188 @@
+{
+  "General": {
+    "QuizName": "Introduction to Research",
+    "HeadingLevel": 3,
+    "instructions": "none",
+    "feedBackType": "continuous",
+    "forceCorrect": false,
+    "repeatOnComplete": true,
+    "allowNone": false,
+    "allowPrevious": true,
+    "showHints": true,
+    "allowPartial": true,
+    "randomize": true,
+    "subtractWrong": false,
+    "preQuizText": "<p>Answer\nthe following questions about your current online habits to find information.</p>",
+    "preQuizMedia": "none",
+    "postQuizText": "none",
+    "postQuizMedia": []
+  },
+  "Questions": [
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "How\noften do you use Google or another search engine in your day-to-day life to\nfind answers to questions and access to information?",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Never",
+          "feedBack": ""
+        },
+        {
+          "answerText": "Infrequently",
+          "feedBack": ""
+        },
+        {
+          "answerText": "Sometimes",
+          "feedBack": ""
+        },
+        {
+          "answerText": "Frequently",
+          "feedBack": ""
+        },
+        {
+          "answerText": "All day, every day",
+          "feedBack": ""
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "How\nsatisfied are you in general with the results of your Google searches?",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Not at all satisfied",
+          "feedBack": ""
+        },
+        {
+          "answerText": "Somewhat unsatisfied",
+          "feedBack": ""
+        },
+        {
+          "answerText": "Satisfied",
+          "feedBack": ""
+        },
+        {
+          "answerText": "Completely satisfied",
+          "feedBack": ""
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "How\noften do you use Google to find answers to questions and access to information\nin a school-related context?",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Never",
+          "feedBack": ""
+        },
+        {
+          "answerText": "Infrequently",
+          "feedBack": ""
+        },
+        {
+          "answerText": "Sometimes",
+          "feedBack": ""
+        },
+        {
+          "answerText": "Frequently",
+          "feedBack": ""
+        },
+        {
+          "answerText": "All day, every day",
+          "feedBack": ""
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "How\nsatisfied are you in general with the results of your school-related Google\nsearches? ",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Not at all satisfied",
+          "feedBack": ""
+        },
+        {
+          "answerText": "Somewhat unsatisfied",
+          "feedBack": ""
+        },
+        {
+          "answerText": "Satisfied",
+          "feedBack": ""
+        },
+        {
+          "answerText": "Completely satisfied",
+          "feedBack": ""
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "How\noften do you use a library system — either your school’s or your public library\n— to find answers to questions and access to information in a school-related\ncontext?",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Never",
+          "feedBack": ""
+        },
+        {
+          "answerText": "Infrequently",
+          "feedBack": ""
+        },
+        {
+          "answerText": "Sometimes",
+          "feedBack": ""
+        },
+        {
+          "answerText": "Frequently",
+          "feedBack": ""
+        },
+        {
+          "answerText": "All day, every day",
+          "feedBack": ""
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "What\nfactors influence your decision to use a web search engine like Google or a\nlibrary database? Select all that apply.",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Convenience",
+          "feedBack": ""
+        },
+        {
+          "answerText": "Habit",
+          "feedBack": ""
+        },
+        {
+          "answerText": "Familiarity",
+          "feedBack": ""
+        },
+        {
+          "answerText": "Quality of\nresults",
+          "feedBack": ""
+        },
+        {
+          "answerText": "Design / the\nway the site looks",
+          "feedBack": ""
+        }
+      ]
+    }
+  ]
+}
