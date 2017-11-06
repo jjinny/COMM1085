@@ -1,0 +1,165 @@
+{
+  "Randomize": true,
+  "Questions": [
+    {
+      "Text": "As a business student, you want to better\nunderstand the theory and history of supply chain management before you examine\na particular topic in more detail. You’re looking for a factual and in-depth\ninformation, and you want it presented in a format that is organized and\ninformative. ",
+      "Options": [
+        {
+          "Val": "A",
+          "Text": "academic journals"
+        },
+        {
+          "Val": "B",
+          "Text": "books"
+        },
+        {
+          "Val": "C",
+          "Text": "magazines"
+        },
+        {
+          "Val": "D",
+          "Text": "newspapers"
+        },
+        {
+          "Val": "E",
+          "Text": "trade publications/journals"
+        }
+      ],
+      "Answer": {
+        "AutoDisplay": false,
+        "FeedbackText": "The correct answer is B.",
+        "Correct": [
+          "B"
+        ]
+      }
+    },
+    {
+      "Text": "As a public relations student, you are required\nto write a case study that analyses how a major public figure has handled a\ncontroversy. You’ve identified a suitable public figure to study and now you\nneed see how the controversy was addressed by this public figure and how it was\nsubsequently received and discussed by the public. This controversy occurred\nrecently, and it unfolded over several weeks. ",
+      "Options": [
+        {
+          "Val": "A",
+          "Text": "academic journals"
+        },
+        {
+          "Val": "B",
+          "Text": "books"
+        },
+        {
+          "Val": "C",
+          "Text": "magazines"
+        },
+        {
+          "Val": "D",
+          "Text": "newspapers"
+        },
+        {
+          "Val": "E",
+          "Text": "trade publications/journals"
+        }
+      ],
+      "Answer": {
+        "AutoDisplay": false,
+        "FeedbackText": "The correct answer is D.",
+        "Correct": [
+          "D"
+        ]
+      }
+    },
+    {
+      "Text": "As an Engineering and IT student, you are\npreparing a project proposal for your third-year capstone project. You want to\nprove that the project you are proposing is going to fill a need in the market,\nso you want to learn more about similar products currently available in the\nmarket, how these products have been received by the public, how similar\ncompanies or projects succeeded or failed and other insights into your topic\nthat are both informed but not too specific. ",
+      "Options": [
+        {
+          "Val": "A",
+          "Text": "academic journals"
+        },
+        {
+          "Val": "B",
+          "Text": "books"
+        },
+        {
+          "Val": "C",
+          "Text": "magazines"
+        },
+        {
+          "Val": "D",
+          "Text": "newspapers"
+        },
+        {
+          "Val": "E",
+          "Text": "trade publications/journals"
+        }
+      ],
+      "Answer": {
+        "AutoDisplay": false,
+        "FeedbackText": "The correct answer is C.",
+        "Correct": [
+          "C"
+        ]
+      }
+    },
+    {
+      "Text": "As a nursing student, you are learning about\nbest practices to reduce “patient-to-professional” disease transmission, and\nyou want to find discussions of specific and recent examples of disease\noutbreaks where these best practices have been used. The information you are\nlooking for needs to be evidence-based and authoritative, and the discussion\nneeds to be informed by an expert medical perspective. ",
+      "Options": [
+        {
+          "Val": "A",
+          "Text": "academic journals"
+        },
+        {
+          "Val": "B",
+          "Text": "books"
+        },
+        {
+          "Val": "C",
+          "Text": "magazines"
+        },
+        {
+          "Val": "D",
+          "Text": "newspapers"
+        },
+        {
+          "Val": "E",
+          "Text": "trade publications/journals"
+        }
+      ],
+      "Answer": {
+        "AutoDisplay": false,
+        "FeedbackText": "The correct answer is A.",
+        "Correct": [
+          "A"
+        ]
+      }
+    },
+    {
+      "Text": "As a trades and apprenticeship student, you have\nbeen asked to write a proposal to a hypothetical client, outlining the various\nmaterials they might choose for their new roof and recommending the material\nthat best suits their various needs and circumstances. You want to better\nunderstand what working professionals in your field are saying about roofing\nmaterials currently available to them, so that your proposal will be current\nand accurate. ",
+      "Options": [
+        {
+          "Val": "A",
+          "Text": "academic journals"
+        },
+        {
+          "Val": "B",
+          "Text": "books"
+        },
+        {
+          "Val": "C",
+          "Text": "magazines"
+        },
+        {
+          "Val": "D",
+          "Text": "newspapers"
+        },
+        {
+          "Val": "E",
+          "Text": "trade publications/journals"
+        }
+      ],
+      "Answer": {
+        "AutoDisplay": false,
+        "FeedbackText": "The correct answer is E.",
+        "Correct": [
+          "E"
+        ]
+      }
+    }
+  ]
+}
