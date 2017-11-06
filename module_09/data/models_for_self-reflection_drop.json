@@ -1,0 +1,77 @@
+{
+  "Randomize": true,
+  "Questions": [
+    {
+      "Text": "What\ndid I do that allowed me to have that success? ",
+      "Options": [
+        {
+          "Val": "A",
+          "Text": "Option A"
+        },
+        {
+          "Val": "B",
+          "Text": "Option B"
+        },
+        {
+          "Val": "C",
+          "Text": "Option C"
+        }
+      ],
+      "Answer": {
+        "AutoDisplay": false,
+        "FeedbackText": "The correct answer is B.",
+        "Correct": [
+          "B"
+        ]
+      }
+    },
+    {
+      "Text": "What\ndo I need to do on the next assignment to ensure that I can repeat the success\nI had on the previous ones ",
+      "Options": [
+        {
+          "Val": "A",
+          "Text": "Option A"
+        },
+        {
+          "Val": "B",
+          "Text": "Option B"
+        },
+        {
+          "Val": "C",
+          "Text": "Option C"
+        }
+      ],
+      "Answer": {
+        "AutoDisplay": false,
+        "FeedbackText": "The correct answer is C.",
+        "Correct": [
+          "C"
+        ]
+      }
+    },
+    {
+      "Text": "What\ndid my instructor say was successful about my work?",
+      "Options": [
+        {
+          "Val": "A",
+          "Text": "Option A"
+        },
+        {
+          "Val": "B",
+          "Text": "Option B"
+        },
+        {
+          "Val": "C",
+          "Text": "Option C"
+        }
+      ],
+      "Answer": {
+        "AutoDisplay": false,
+        "FeedbackText": "The correct answer is A.",
+        "Correct": [
+          "A"
+        ]
+      }
+    }
+  ]
+}
