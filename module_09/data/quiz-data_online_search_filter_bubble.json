@@ -1,0 +1,242 @@
+{
+  "General": {
+    "QuizName": "Online Searches and the Filter Bubble",
+    "HeadingLevel": 3,
+    "instructions": "none",
+    "feedBackType": "continuous",
+    "forceCorrect": false,
+    "repeatOnComplete": true,
+    "allowNone": false,
+    "allowPrevious": true,
+    "showHints": true,
+    "allowPartial": true,
+    "randomize": true,
+    "subtractWrong": false,
+    "preQuizText": "<p>Answer\nthe following questions based on Pariser’s TED talk.</p>",
+    "preQuizMedia": "none",
+    "postQuizText": "none",
+    "postQuizMedia": []
+  },
+  "Questions": [
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "Mark Zuckerberg’s comment motivated the speaker, Eli Pariser, to imagine a Web based on that definition of:",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Geography ",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "Relevance ",
+          "feedBack": "Correct! ",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "\nSocial Justice ",
+          "feedBack": "That is not correct."
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "Pariser noticed that his Facebook page is different now because",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "There are more advertisements",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "There are links\nto “fake news” ",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "He can only see comments\nfrom people who already share his opinions.  ",
+          "feedBack": "Correct! ",
+          "scoreValue": 1
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "Google’s search produces different results depending on the person\nsearching? ",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "True ",
+          "feedBack": "Correct! ",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "False ",
+          "feedBack": "That is not correct."
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "Which of the following factors are used by Google to determine the\nmost appropriate results of a particular search: ",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "The geographic location of the person searching",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "The type of computer being used to conduct the search ",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "The type of computer being used to conduct the search ",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "All of the above",
+          "feedBack": "Correct! ",
+          "scoreValue": 1
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "In the Google experiment that Pariser describes, there were only\nminor differences between the search results of his two friends: ",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "True ",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "False ",
+          "feedBack": "Correct! ",
+          "scoreValue": 1
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "This trend toward “personalization” only applies to search engines\nand social networks, and isn’t affecting the way we access news and information\nthrough traditional sources, like newspapers. ",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "True ",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "False ",
+          "feedBack": "Correct! ",
+          "scoreValue": 1
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "Pariser thinks this tailoring of information — which he describes\nas putting us inside our own personal “filter bubble” — is problematic because ",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "The Internet is showing us what we want to see, but not necessarily what we need to see",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "It will become very hard to access information that has not been tailored for them in some\nway. ",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "You don’t decide what gets inside your filter bubble, because that decision is determined invisibly and automatically by algorithms ",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "\nYou aren’t able\nto see or know what has been excluded from your filter bubble. ",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "All of the above",
+          "feedBack": "Correct! ",
+          "scoreValue": 1
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "Pariser suggests we are presented with an unbalanced “diet” of\ninformation because:",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Popular entertainment and sensational news are more profitable.",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "Somebody is intentionally trying to make society less informed and more divided. ",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "We tend to make our\nInternet decision based more on our impulses than on our desire to be “better”,\nand algorithmic filters determine our preferences based largely on what we\nclick first.",
+          "feedBack": "Correct! ",
+          "scoreValue": 1
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "When Parisers says we are often surrounded by “information junk\nfood,” he is referring to:",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Advertisements for Mcdonald’s ",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "Bad movies ",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "Information, opinions, and\nentertainment that are — just like junk food — convenient, easy, cheap,\nfilling, and immediately satisfying, but ultimately lacking in substance and\npotentially unhealthy if consumed regularly and in large doses. ",
+          "feedBack": "Correct! ",
+          "scoreValue": 1
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "When Pariser calls for today’s internet “gatekeepers” to “encode\nthat kind of responsibility into the code that they’re writing,” he’s asking for ",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Free content  ",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "Content without any advertisements  ",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "Enough control to decide\nwhat gets through personal filters and what doesn’t ",
+          "feedBack": "Correct! ",
+          "scoreValue": 1
+        }
+      ]
+    }
+  ]
+}
