@@ -1,0 +1,49 @@
+{
+  "General": {
+    "QuizName": "",
+    "HeadingLevel": 3,
+    "instructions": "none",
+    "feedBackType": "continuous",
+    "forceCorrect": false,
+    "repeatOnComplete": true,
+    "allowNone": false,
+    "allowPrevious": true,
+    "showHints": true,
+    "allowPartial": true,
+    "randomize": true,
+    "subtractWrong": false,
+    "preQuizText": "",
+    "preQuizMedia": "none",
+    "postQuizText": "none",
+    "postQuizMedia": []
+  },
+  "Questions": [
+    {
+      "questionType": "All That Apply",
+      "maxScoreValue": 2,
+      "questionText": "Where can you go to access guides to specific\nresearch topics or databases that are likely to contain materials that are specifically\nfor students in your field — like national building and fire codes for students\nin the trades or best practice guidelines for students in the health sciences? Select\nall that apply.",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Library Search ",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "\nFind More Resources – By Type ",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "Find More Resources – By Subject ",
+          "feedBack": "Correct! ",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Get Help ",
+          "feedBack": "Correct! ",
+          "scoreValue": 1
+        }
+      ]
+    }
+  ]
+}

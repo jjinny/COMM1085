@@ -1,0 +1,25 @@
+{
+  "Questions": [
+    {
+      "Text": "If\nyour student number is 8242273, what is your PIN?",
+      "Fields": [
+        {
+          "AnswerType": "text",
+          "MinAccepted": 1,
+          "MaxAccepted": 4,
+          "PreText": "none",
+          "Units": "",
+          "Answer": {
+            "CaseSensitive": false,
+            "AutoDisplay": false,
+            "FeedbackText": "The correct answer is 2273.",
+            "HasRange": false,
+            "Correct": [
+              2273
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

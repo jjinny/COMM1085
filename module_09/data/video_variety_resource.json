@@ -1,0 +1,183 @@
+{
+  "Video": {
+    "ContainID": "vpcontain",
+    "VideoID": "video0",
+    "Width": 800,
+    "Height": 450,
+    "Controls": true,
+    "StartTime": 0,
+    "Type": "YouTube",
+    "PreviewImage": {
+      "HasImage": true,
+      "FileName": "plagiarism_citing_and_referencing.jpg"
+    },
+    "SourceData": {
+      "FolderPath": "",
+      "Sources": []
+    },
+    "YouTubeData": {
+      "videoId": "cbwfsdACLVM"
+    }
+  },
+  "Popups": [
+    {
+      "Type": "Question",
+      "StartTime": 29,
+      "PauseVideo": true,
+      "Enforce": true,
+      "MustRetry": false,
+      "ViewLater": true,
+      "ShortTitle": "Question 1",
+      "Question": {
+        "activityType": "MC",
+        "title": "Knowledge Check",
+        "questionText": "What’s\nthe best way to begin your search?",
+        "feedbacktext": true,
+        "feedbackicons": false,
+        "key": "",
+        "answers": [
+          {
+            "answerText": "Enter basic key words in the search box, found on the\nlibrary homepage",
+            "correct": true,
+            "feedback": "That is correct!"
+          },
+          {
+            "answerText": "Search for a specific title in the search\nbox, found on the library homepage",
+            "correct": false,
+            "feedback": "That is not correct."
+          },
+          {
+            "answerText": "Search for resources by subject by using the\n“Find More Resources” option, located on the library homepage",
+            "correct": false,
+            "feedback": "That is not correct."
+          },
+          {
+            "answerText": "Click\non the “Get Help” tab, found on the library homepage",
+            "correct": false,
+            "feedback": "That is not correct."
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Question",
+      "StartTime": 53,
+      "PauseVideo": true,
+      "Enforce": true,
+      "MustRetry": false,
+      "ViewLater": true,
+      "ShortTitle": "Question 2",
+      "Question": {
+        "activityType": "MC",
+        "title": "Knowledge Check",
+        "questionText": "What is the best way for you to narrow your\nsearch after your initial search (using basic keywords) produced an\nunmanageably large amount of results?",
+        "feedbacktext": false,
+        "feedbackicons": true,
+        "key": "",
+        "answers": [
+          {
+            "answerText": "Start a new search with different keywords",
+            "correct": false,
+            "feedback": "That is not correct."
+          },
+          {
+            "answerText": "Enter additional keywords in the search boxes at the top\nof the results page and click search",
+            "correct": true,
+            "feedback": "That is correct!"
+          },
+          {
+            "answerText": "Use the “Filter results” tools on the left\nside of the screen",
+            "correct": false,
+            "feedback": "That is not correct."
+          },
+          {
+            "answerText": "Assume\nthat the result at the top of the page is the best one and start to read it in\nsearch of useful information.",
+            "correct": false,
+            "feedback": "That is not correct."
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Question",
+      "StartTime": 84,
+      "PauseVideo": true,
+      "Enforce": true,
+      "MustRetry": false,
+      "ViewLater": true,
+      "ShortTitle": "Question 3",
+      "Question": {
+        "activityType": "MC",
+        "title": "Knowledge Check",
+        "questionText": "What options can you select from the dropdown\nmenu that appears to the left of the search box on the library’s homepage to\nsearch for a specific kind of source? Select all that apply.",
+        "feedbacktext": false,
+        "feedbackicons": true,
+        "key": "",
+        "answers": [
+          {
+            "answerText": "Article",
+            "correct": true,
+            "feedback": "You are correct!"
+          },
+          {
+            "answerText": "Book",
+            "correct": true,
+            "feedback": "You are correct!"
+          },
+          {
+            "answerText": "Video",
+            "correct": true,
+            "feedback": "You are correct!"
+          },
+          {
+            "answerText": "Website ",
+            "correct": false,
+            "feedback": "You are not correct."
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Question",
+      "StartTime": 91,
+      "PauseVideo": true,
+      "Enforce": true,
+      "MustRetry": false,
+      "ViewLater": true,
+      "ShortTitle": "Question 4",
+      "Question": {
+        "activityType": "MC",
+        "title": "Knowledge Check",
+        "questionText": "What options can you select from the dropdown\nmenu that appears to the right of the search box on the library’s homepage to\nindicate the kind of search term you are using? Select all that apply.",
+        "feedbacktext": false,
+        "feedbackicons": true,
+        "key": "",
+        "answers": [
+          {
+            "answerText": "Title",
+            "correct": true,
+            "feedback": "You are correct!"
+          },
+          {
+            "answerText": "Author",
+            "correct": true,
+            "feedback": "You are correct!"
+          },
+          {
+            "answerText": "Author",
+            "correct": true,
+            "feedback": "You are correct!"
+          },
+          {
+            "answerText": "Subject",
+            "correct": false,
+            "feedback": "You are not correct."
+          }
+        ]
+      }
+    }
+  ],
+  "Bullets": {
+    "Lists": []
+  }
+}
