@@ -1,0 +1,431 @@
+{
+  "Activities": [
+    {
+      "Randomize": true,
+      "Questions": [
+        {
+          "Text": "As a business student, you want to better\nunderstand the theory and history of supply chain management before you examine\na particular topic in more detail. You’re looking for a factual and in-depth\ninformation, and you want it presented in a format that is organized and\ninformative. ",
+          "Options": [
+            {
+              "Val": "A",
+              "Text": "Option A"
+            },
+            {
+              "Val": "B",
+              "Text": "Option B"
+            },
+            {
+              "Val": "C",
+              "Text": "Option C"
+            },
+            {
+              "Val": "D",
+              "Text": "Option D"
+            },
+            {
+              "Val": "E",
+              "Text": "Option E"
+            }
+          ],
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "The correct answer is B.",
+            "Correct": [
+              "B"
+            ]
+          }
+        },
+        {
+          "Text": "As a public relations student, you are required\nto write a case study that analyses how a major public figure has handled a\ncontroversy. You’ve identified a suitable public figure to study and now you\nneed see how the controversy was addressed by this public figure and how it was\nsubsequently received and discussed by the public. This controversy occurred\nrecently, and it unfolded over several weeks. ",
+          "Options": [
+            {
+              "Val": "A",
+              "Text": "Option A"
+            },
+            {
+              "Val": "B",
+              "Text": "Option B"
+            },
+            {
+              "Val": "C",
+              "Text": "Option C"
+            },
+            {
+              "Val": "D",
+              "Text": "Option D"
+            },
+            {
+              "Val": "E",
+              "Text": "Option E"
+            }
+          ],
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "The correct answer is D.",
+            "Correct": [
+              "D"
+            ]
+          }
+        },
+        {
+          "Text": "As an Engineering and IT student, you are\npreparing a project proposal for your third-year capstone project. You want to\nprove that the project you are proposing is going to fill a need in the market,\nso you want to learn more about similar products currently available in the\nmarket, how these products have been received by the public, how similar\ncompanies or projects succeeded or failed and other insights into your topic\nthat are both informed but not too specific. ",
+          "Options": [
+            {
+              "Val": "A",
+              "Text": "Option A"
+            },
+            {
+              "Val": "B",
+              "Text": "Option B"
+            },
+            {
+              "Val": "C",
+              "Text": "Option C"
+            },
+            {
+              "Val": "D",
+              "Text": "Option D"
+            },
+            {
+              "Val": "E",
+              "Text": "Option E"
+            }
+          ],
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "The correct answer is C.",
+            "Correct": [
+              "C"
+            ]
+          }
+        },
+        {
+          "Text": "As a nursing student, you are learning about\nbest practices to reduce “patient-to-professional” disease transmission, and\nyou want to find discussions of specific and recent examples of disease\noutbreaks where these best practices have been used. The information you are\nlooking for needs to be evidence-based and authoritative, and the discussion\nneeds to be informed by an expert medical perspective. ",
+          "Options": [
+            {
+              "Val": "A",
+              "Text": "Option A"
+            },
+            {
+              "Val": "B",
+              "Text": "Option B"
+            },
+            {
+              "Val": "C",
+              "Text": "Option C"
+            },
+            {
+              "Val": "D",
+              "Text": "Option D"
+            },
+            {
+              "Val": "E",
+              "Text": "Option E"
+            }
+          ],
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "The correct answer is A.",
+            "Correct": [
+              "A"
+            ]
+          }
+        },
+        {
+          "Text": "As a trades and apprenticeship student, you have\nbeen asked to write a proposal to a hypothetical client, outlining the various\nmaterials they might choose for their new roof and recommending the material\nthat best suits their various needs and circumstances. You want to better\nunderstand what working professionals in your field are saying about roofing\nmaterials currently available to them, so that your proposal will be current\nand accurate. ",
+          "Options": [
+            {
+              "Val": "A",
+              "Text": "Option A"
+            },
+            {
+              "Val": "B",
+              "Text": "Option B"
+            },
+            {
+              "Val": "C",
+              "Text": "Option C"
+            },
+            {
+              "Val": "D",
+              "Text": "Option D"
+            },
+            {
+              "Val": "E",
+              "Text": "Option E"
+            }
+          ],
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "The correct answer is E.",
+            "Correct": [
+              "E"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Randomize": true,
+      "Questions": [
+        {
+          "Text": "As\na health sciences student, you have been asked to explore the social\ndeterminants of health in Canada. To help you find possible connections between\nhealth outcomes and social factors like education and income, you are looking\nfor reliable statistical information about the Canadian population. ",
+          "Options": [
+            {
+              "Val": "A",
+              "Text": "Option A"
+            },
+            {
+              "Val": "B",
+              "Text": "Option B"
+            },
+            {
+              "Val": "C",
+              "Text": "Option C"
+            },
+            {
+              "Val": "D",
+              "Text": "Option D"
+            }
+          ],
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "The correct answer is C.",
+            "Correct": [
+              "C"
+            ]
+          }
+        },
+        {
+          "Text": "As\na business student, you have been asked to write a corporate profile of a\nsuccessful Canadian retailer. You have selected the company that you intend to\nprofile, and now you need to find out more about them: e.g. the products and\nservices they offer, their mission statement, their history, etc. ",
+          "Options": [
+            {
+              "Val": "A",
+              "Text": "Option A"
+            },
+            {
+              "Val": "B",
+              "Text": "Option B"
+            },
+            {
+              "Val": "C",
+              "Text": "Option C"
+            },
+            {
+              "Val": "D",
+              "Text": "Option D"
+            }
+          ],
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "The correct answer is A.",
+            "Correct": [
+              "A"
+            ]
+          }
+        },
+        {
+          "Text": "As\na student in the Early Childhood Education program, you have been asked to\nwrite a report on the real-life experiences of professionals working in the\nfield. In addition to information that you have already gathered from articles\npublished in trade publications and industry-specific magazines, you want to\nhear directly from working ECE’s: their unfiltered observations and reflections\non current issues in the field. ",
+          "Options": [
+            {
+              "Val": "A",
+              "Text": "Option A"
+            },
+            {
+              "Val": "B",
+              "Text": "Option B"
+            },
+            {
+              "Val": "C",
+              "Text": "Option C"
+            },
+            {
+              "Val": "D",
+              "Text": "Option D"
+            }
+          ],
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "The correct answer is D.",
+            "Correct": [
+              "D"
+            ]
+          }
+        },
+        {
+          "Text": "As\na continuing education student taking COMM1085 online, you are preparing to\ncomplete the Language Lab Assignment on Subjects and Verbs.  You decide you would like to conduct some additional\npractice and review, so you are looking for a reliable set of online grammar\nquizzes that will also provide you with the correct answers and detailed\nexplanations. ",
+          "Options": [
+            {
+              "Val": "A",
+              "Text": "Option A"
+            },
+            {
+              "Val": "B",
+              "Text": "Option B"
+            },
+            {
+              "Val": "C",
+              "Text": "Option C"
+            },
+            {
+              "Val": "D",
+              "Text": "Option D"
+            }
+          ],
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "The correct answer is B.",
+            "Correct": [
+              "B"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Randomize": true,
+      "Questions": [
+        {
+          "Text": "Jimmy Wales, one of Wikipedia’s founders, has publicly stated that\npost-secondary students should not cite Wikipedia on their assignments.",
+          "Options": [
+            {
+              "Val": "A",
+              "Text": true
+            },
+            {
+              "Val": "B",
+              "Text": false
+            }
+          ],
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "<p>The correct answer is true. Find out why Wikipedia is not a good resource\nfor serious research: <a href=\"http://www.chronicle.com/blogs/wiredcampus/wikipedia-founder-discourages-academic-use-of-his-creation/2305\" title=\"http://www.chronicle.com/blogs/wiredcampus/wikipedia-founder-discourages-academic-use-of-his-creation/2305\">Wikipedia Founder Discourages Academic Use of His Creation</a>.</p>",
+            "Correct": [
+              "A"
+            ]
+          }
+        },
+        {
+          "Text": "Wikipedia’s editorial policy restricts contributors from citing other\nWikipedia articles in their articles",
+          "Options": [
+            {
+              "Val": "A",
+              "Text": true
+            },
+            {
+              "Val": "B",
+              "Text": false
+            }
+          ],
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "<p>The correct answer is true. Find out why Wikipedia discourages citing\nWikipedia: <a href=\"https://en.wikipedia.org/wiki/Wikipedia:Citing_Wikipedia\" title=\"https://en.wikipedia.org/wiki/Wikipedia:Citing_Wikipedia\">Wikipedia: Citing Wikipedia</a>.</p>",
+            "Correct": [
+              "A"
+            ]
+          }
+        },
+        {
+          "Text": "Articles on Wikipedia are subject to revision at any time, so the\ninformation you cite on your paper may be changed or removed after you submit\nyour work.",
+          "Options": [
+            {
+              "Val": "A",
+              "Text": true
+            },
+            {
+              "Val": "B",
+              "Text": false
+            }
+          ],
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "The correct answer is true.",
+            "Correct": [
+              "A"
+            ]
+          }
+        },
+        {
+          "Text": "Wikipedia has similar\nexpectations for the quality of sources used in their articles, defining a\ncredible source much the same way as your professor might: “reliable,\nthird-party, published sources with a reputation for fact-checking and\naccuracy.”",
+          "Options": [
+            {
+              "Val": "A",
+              "Text": true
+            },
+            {
+              "Val": "B",
+              "Text": false
+            }
+          ],
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "<p>The correct answer is true. Find out about Wikipedia’s guidelines for\nreliable sources: <a href=\"https://en.wikipedia.org/wiki/Wikipedia:Identifying_reliable_sources\" title=\"https://en.wikipedia.org/wiki/Wikipedia:Identifying_reliable_sources\">Wikipedia: Identifying reliable sources</a>.</p>",
+            "Correct": [
+              "A"
+            ]
+          }
+        },
+        {
+          "Text": "Wikipedia maintains and publishes a list of all the hoaxes its editors\nhave found over the years: pages that contain false information that was\nintentionally included in the article for the purpose of tricking readers into\nbelieving it was true. The list features more than 100 hoaxes that went\nunnoticed and unchanged for 5 years or longer. ",
+          "Options": [
+            {
+              "Val": "A",
+              "Text": true
+            },
+            {
+              "Val": "B",
+              "Text": false
+            }
+          ],
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "<p>The correct answer is true. To see how many hoaxes have been reported and\nthe definition of a hoax, read <a href=\"https://en.wikipedia.org/wiki/Wikipedia:List_of_hoaxes_on_Wikipedia\" title=\"https://en.wikipedia.org/wiki/Wikipedia:List_of_hoaxes_on_Wikipedia\">Wikipedia: List of hoaxes on Wikipedia</a>.</p>",
+            "Correct": [
+              "A"
+            ]
+          }
+        },
+        {
+          "Text": "Wikipedia editors lack diversity, much more so than reputable\npublications and academic journals. A study conducted in 2011 found that\napproximately 90% of Wikipedia editors are male. ",
+          "Options": [
+            {
+              "Val": "A",
+              "Text": true
+            },
+            {
+              "Val": "B",
+              "Text": false
+            }
+          ],
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "<p>To read about how Wikipedia editors are\noverwhelmingly male, read <a href=\"http://eds.b.ebscohost.com.eztest.ocls.ca/eds/detail/detail?vid=0&sid=cf5c93d5-af83-46eb-b170-258cf7bcc995%40sessionmgr4007&bdata=JnNpdGU9ZWRzLWxpdmUmc2NvcGU9c2l0ZQ%3d%3d#AN=86986419&db=rch\">Wiki-opoly</a>.</p>",
+            "Correct": [
+              "A"
+            ]
+          }
+        },
+        {
+          "Text": "\nThe majority of\nWikipedia editors live in the United States and Europe, and their perspective\ninfluences the material that is published on the site. For example, according to a\n2011 study, only one African county is the subject of more articles than\nAntarctica. Even the fictional Middle Earth is featured in more articles than\nmany African nations. ",
+          "Options": [
+            {
+              "Val": "A",
+              "Text": true
+            },
+            {
+              "Val": "B",
+              "Text": false
+            }
+          ],
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "<p>To read about how Wikipedia is biased towards\nWestern topics, read <a href=\"http://eds.b.ebscohost.com.eztest.ocls.ca/eds/detail/detail?vid=0&sid=cf5c93d5-af83-46eb-b170-258cf7bcc995%40sessionmgr4007&bdata=JnNpdGU9ZWRzLWxpdmUmc2NvcGU9c2l0ZQ%3d%3d#AN=86986419&db=rch\">Wiki-opoly</a>.</p>",
+            "Correct": [
+              "A"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -23,7 +23,7 @@
       ],
       "Answer": {
         "AutoDisplay": false,
-        "FeedbackText": "none",
+        "FeedbackText": "The correct answer is A.",
         "Correct": [
           "A"
         ]
@@ -51,7 +51,7 @@
       ],
       "Answer": {
         "AutoDisplay": false,
-        "FeedbackText": "none",
+        "FeedbackText": "The correct answer is D.",
         "Correct": [
           "D"
         ]
@@ -79,7 +79,7 @@
       ],
       "Answer": {
         "AutoDisplay": false,
-        "FeedbackText": "none",
+        "FeedbackText": "The correct answer is C.",
         "Correct": [
           "C"
         ]
@@ -107,7 +107,7 @@
       ],
       "Answer": {
         "AutoDisplay": false,
-        "FeedbackText": "none",
+        "FeedbackText": "The correct answer is B.",
         "Correct": [
           "B"
         ]
