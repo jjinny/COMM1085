@@ -1,0 +1,85 @@
+{
+  "ActivityName": "",
+  "ActivityType": "sort",
+  "HeadingLevel": 3,
+  "FeedbackType": "continuous",
+  "HighlightEffect": true,
+  "QuestionColumns": "1",
+  "Randomize": true,
+  "HorizontalAlignment": true,
+  "PreActivityText": "",
+  "PreActivityMedia": "none",
+  "IncludePostPage": false,
+  "PostActivityText": "none",
+  "PostActivityMedia": "none",
+  "AnswerNodes": [
+    {
+      "key": "a",
+      "title": "Pick a design that has special meaning in your life. But be careful: One could choose an image or quote that they end up regretting.",
+      "color": "default",
+      "src": "#d1004e"
+    },
+    {
+      "key": "b",
+      "title": "It’s crucial that you ensure the tattoo shop you visit is licensed and sanitary. You don’t want to run the risk of getting an infection, which is more likely if the facility isn’t properly run.",
+      "color": "default",
+      "src": "#71ff30"
+    },
+    {
+      "key": "c",
+      "title": "After getting tattooed, the main thing you need to keep in mind is taking care of it during the healing process.",
+      "color": "default",
+      "src": "#71ff30"
+    }
+  ],
+  "QuestionNodes": [
+    {
+      "question": "Statistics that document number of people who seek tattoo removal procedure each year (Information that would help to support)",
+      "answer": "a",
+      "type": "text",
+      "color": "default",
+      "correct": "Good job!",
+      "wrong": "Really?"
+    },
+    {
+      "question": "Tattoo industry trade publication (Best Type of Source to Find this Information )",
+      "answer": "a",
+      "type": "text",
+      "color": "default",
+      "correct": "Good job!",
+      "wrong": "Really?"
+    },
+    {
+      "question": "A description of the relevant health codes and / or license guidelines (Information that would help to support) ",
+      "answer": "b",
+      "type": "text",
+      "color": "default",
+      "correct": "Good job!",
+      "wrong": "Really?"
+    },
+    {
+      "question": "Ministry\nof health and long-term care website (Best Type of Source to Find this Information ) ",
+      "answer": "b",
+      "type": "text",
+      "color": "default",
+      "correct": "Good job!",
+      "wrong": "Really?"
+    },
+    {
+      "question": "Medically accurate information about the tattoo healing process (Information that would help to support) ",
+      "answer": "c",
+      "type": "text",
+      "color": "default",
+      "correct": "Good job!",
+      "wrong": "Really?"
+    },
+    {
+      "question": "Medical journal (Best Type of Source to Find this Information )",
+      "answer": "c",
+      "type": "text",
+      "color": "default",
+      "correct": "Good job!",
+      "wrong": "Really?"
+    }
+  ]
+}
