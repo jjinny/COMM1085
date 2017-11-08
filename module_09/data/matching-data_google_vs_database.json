@@ -1,0 +1,133 @@
+{
+  "ActivityName": "",
+  "ActivityType": "sort",
+  "HeadingLevel": 3,
+  "FeedbackType": "continuous",
+  "HighlightEffect": true,
+  "QuestionColumns": "1",
+  "Randomize": true,
+  "HorizontalAlignment": true,
+  "PreActivityText": "",
+  "PreActivityMedia": "none",
+  "IncludePostPage": false,
+  "PostActivityText": "none",
+  "PostActivityMedia": "none",
+  "AnswerNodes": [
+    {
+      "key": "database",
+      "title": "Database",
+      "color": "default",
+      "src": "#d1004e"
+    },
+    {
+      "key": "both",
+      "title": "Both",
+      "color": "default",
+      "src": "#71ff30"
+    },
+    {
+      "key": "google",
+      "title": "Google Search",
+      "color": "default",
+      "src": "#71ff30"
+    }
+  ],
+  "QuestionNodes": [
+    {
+      "question": "Search results provide detailed information about each item — type of source, publication title, author, year, etc. — which helps user to determine the relevance and reliability of the material ",
+      "answer": "database",
+      "type": "text",
+      "color": "default",
+      "correct": "Good job!",
+      "wrong": "Really?"
+    },
+    {
+      "question": "Users are able to sort search results by individual characteristics such as source type, subject, individual publication title ",
+      "answer": "database",
+      "type": "text",
+      "color": "default",
+      "correct": "Good job!",
+      "wrong": "Really?"
+    },
+    {
+      "question": "Reliability of sources is determined by humans, working in groups at various editorial levels, to assess the quality and potential relevance of sources ",
+      "answer": "database",
+      "type": "text",
+      "color": "default",
+      "correct": "Good job!",
+      "wrong": "Really?"
+    },
+    {
+      "question": "Provides free access to full-text materials that otherwise require a subscription fee or purchase ",
+      "answer": "database",
+      "type": "text",
+      "color": "default",
+      "correct": "Good job!",
+      "wrong": "Really?"
+    },
+    {
+      "question": "A tool we use to gather information ",
+      "answer": "both",
+      "type": "text",
+      "color": "default",
+      "correct": "Good job!",
+      "wrong": "Really?"
+    },
+    {
+      "question": "Fast, convenient, easy-to-use",
+      "answer": "both",
+      "type": "text",
+      "color": "default",
+      "correct": "Good job!",
+      "wrong": "Really?"
+    },
+    {
+      "question": "Best search results are achieved by entering specific and strategic search terms",
+      "answer": "both",
+      "type": "text",
+      "color": "default",
+      "correct": "Good job!",
+      "wrong": "Really?"
+    },
+    {
+      "question": "Allows users to access wide variety of sources, including encyclopedia, books, newspapers, magazines, videos ",
+      "answer": "both",
+      "type": "text",
+      "color": "default",
+      "correct": "Good job!",
+      "wrong": "Really?"
+    },
+    {
+      "question": "Search results include content that may not be appropriate for academic use, including personal blogs produced by amateur writers, small-scale news outlets that lack rigorous editorial policy, and corporate websites that present opinions about their products and services that is inherently biased ",
+      "answer": "google",
+      "type": "text",
+      "color": "default",
+      "correct": "Good job!",
+      "wrong": "Really?"
+    },
+    {
+      "question": "Great for providing instant and mobile access to popular websites, and daily information like traffic, weather, directions ",
+      "answer": "google",
+      "type": "text",
+      "color": "default",
+      "correct": "Good job!",
+      "wrong": "Really?"
+    },
+    {
+      "question": " Users are not able to sort search results by individual characteristics such as source type, subject, individual publication title ",
+      "answer": "google",
+      "type": "text",
+      "color": "default",
+      "correct": "Good job!",
+      "wrong": "Really?"
+    },
+    {
+      "question": "Reliability of sources is determined by an algorithm which assesses the quality of a site or page based on the links between pages.",
+      "answer": "google",
+      "type": "text",
+      "color": "default",
+      "correct": "Good job!",
+      "wrong": "Really?"
+    }
+  ]
+}

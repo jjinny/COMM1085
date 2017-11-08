@@ -21,6 +21,9 @@
 <!-- Your custom styles (optional) -->
 <link href="../css/style.css" rel="stylesheet">
 <link href="../facilitator_tools/VideoPlus/css/videoplus.css" rel="stylesheet">
+<!-- Matching activity special -->
+<link href="../facilitator_tools/Matching/css/matching.css" rel="stylesheet">
+<link href="../facilitator_tools/Matching/thirdpartylib/pnotify/pnotify.custom.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -59,7 +62,7 @@
             </div>
             <div class="clearfix"></div>
             <h3 class="mt-4"><i class="fal fa-question-circle fa-lg text-second fa-pull-left"></i>Knowledge Check</h3>
-            <h2>INSERT drag and drop</h2>
+            <section id="dbox" class="animated fadeInUpBig mt-4"></section>
             <p class="mt-2">For the type of projects that you need to complete for your courses at Conestoga, using online databases provides the resources that are needed for success. This video summarizes the three advantages to using Conestoga’s LRC.</p>
             <div class="col col-xs-12 col-md-7 no-gutters" style="margin: auto;">
 					<div class="well no-gutters p-1 z-depth-1">
@@ -105,6 +108,13 @@
 
 <!-- OLC Custom JS --> 
 <script src="../js/plugins/olc-custom.js"></script> 
+<script src="../facilitator_tools/Matching/thirdpartylib/pnotify/pnotify.custom.min.js"></script>
+<script src="../facilitator_tools/Matching/js/matching.js"></script>
+<script>
+  $(document).ready(function () {
+    MatchingApp.setupApp("data/matching-data_google_vs_database.json", "dbox");
+  });
+</script>
 
 <noscript>
 This activity will only load in an online environment with JavaScript enabled.
