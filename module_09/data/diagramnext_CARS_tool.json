@@ -1,0 +1,61 @@
+{
+  "Activities": [
+    {
+      "ContainerID": "dnext",
+      "StepText": "Page",
+      "Layout": {
+        "TextPosition": "bottom",
+        "TextColumns": 12,
+        "TextStyle": "html",
+        "TextDisplay": "stack"
+      },
+      "Navigation": {
+        "ShowProgress": false,
+        "ButtonNext": "Next",
+        "ButtonPrev": "Previous"
+      },
+      "Steps": [
+        {
+          "Image": {
+            "FilePath": "data/images/",
+            "FileName": "start.png",
+            "AltText": ""
+          },
+          "HTML": ""
+        },
+        {
+          "Image": {
+            "FilePath": "data/images/",
+            "FileName": "Credibility.png",
+            "AltText": "Credibility"
+          },
+          "HTML": "<h3>Credibility</h3><p>Look\nfor believable, well written information that is free of bias. Locate\ninformation about the author(s) and their credentials. How credible are the\nauthors, what is their level of expertise on this particular topic?</p>"
+        },
+        {
+          "Image": {
+            "FilePath": "data/images/",
+            "FileName": "Accuracy.png",
+            "AltText": "Accuracy"
+          },
+          "HTML": "<h3>Accuracy</h3><p>The\ninformation should be up-to-date and clear. You can confirm accuracy by\nlocating information from a variety of sources. Look for a last updated date.</p>"
+        },
+        {
+          "Image": {
+            "FilePath": "data/images/",
+            "FileName": "Relevance.png",
+            "AltText": "Relevance "
+          },
+          "HTML": "<h3>Relevance</h3><p>The\ninformation should contribute to your knowledge on the topic you are\nresearching. It should support your thesis/research question or offer a\nsubstantial counter point. It should be written at a level appropriate for\ninclusion in your research. If a source is too academic it may use unknown\nterminology and discuss topics that are too advanced for your level of study.\nIf a source is too popular or too basic, it may not be academic or professional\nenough to be of value for your purposes.</p>"
+        },
+        {
+          "Image": {
+            "FilePath": "data/images/",
+            "FileName": "Support.png",
+            "AltText": "Support "
+          },
+          "HTML": "<h3>Support</h3><p>Other\nsources should support the information found. Always look for a reference list,\nbibliography or citations demonstrating where the information came from.</p>"
+        }
+      ]
+    }
+  ]
+}
