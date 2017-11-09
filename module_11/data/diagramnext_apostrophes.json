@@ -1,0 +1,53 @@
+{
+  "Activities": [
+    {
+      "ContainerID": "dnext",
+      "StepText": "Page",
+      "Layout": {
+        "TextPosition": "bottom",
+        "TextColumns": 12,
+        "TextStyle": "html",
+        "TextDisplay": "stack"
+      },
+      "Navigation": {
+        "ShowProgress": false,
+        "ButtonNext": "Next",
+        "ButtonPrev": "Previous"
+      },
+      "Steps": [
+        {
+          "Image": {
+            "FilePath": "data/images/",
+            "FileName": "singular_noun.png",
+            "AltText": "singular_noun"
+          },
+          "HTML": ""
+        },
+        {
+          "Image": {
+            "FilePath": "data/images/",
+            "FileName": "individual.png",
+            "AltText": "individual"
+          },
+          "HTML": "<ul><li>Joe's car</li><li>The student's computer</li><li>Divya's courage</li><li>Ivan's question</li></ul>"
+        },
+        {
+          "Image": {
+            "FilePath": "data/images/",
+            "FileName": "group.png",
+            "AltText": "group"
+          },
+          "HTML": "<ul><li>The company's credit\ncard</li><li>The bookstore's prices</li></ul>"
+        },
+        {
+          "Image": {
+            "FilePath": "data/images/",
+            "FileName": "object.png",
+            "AltText": "object "
+          },
+          "HTML": "<ul><li>The earth's crust</li><li>The phone's biggest flaw</li></ul>"
+        }
+      ]
+    }
+  ]
+}

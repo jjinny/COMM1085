@@ -34,7 +34,7 @@
   ],
   "QuestionNodes": [
     {
-      "question": "Statistics that document number of people who seek tattoo removal procedure each year (Information that would help to support)",
+      "question": "<p><i class=\"fal fa-cubes fa-lg text-second pl-1 pr-1\"></i>Statistics that document number of people who seek tattoo removal procedure each year</p>",
       "answer": "a",
       "type": "text",
       "color": "default",
@@ -42,7 +42,7 @@
       "wrong": "Really?"
     },
     {
-      "question": "Tattoo industry trade publication (Best Type of Source to Find this Information )",
+      "question": "<p><i class=\"fal fa-pencil fa-lg text-second pl-1 pr-1\"></i>Tattoo industry trade publication</p>",
       "answer": "a",
       "type": "text",
       "color": "default",
@@ -50,7 +50,7 @@
       "wrong": "Really?"
     },
     {
-      "question": "A description of the relevant health codes and / or license guidelines (Information that would help to support) ",
+      "question": "<p><i class=\"fal fa-cubes fa-lg text-second pl-1 pr-1\"></i>A description of the relevant health codes and / or license guidelines</p> ",
       "answer": "b",
       "type": "text",
       "color": "default",
@@ -58,7 +58,7 @@
       "wrong": "Really?"
     },
     {
-      "question": "Ministry\nof health and long-term care website (Best Type of Source to Find this Information ) ",
+      "question": "<p><i class=\"fal fa-pencil fa-lg text-second pl-1 pr-1\"></i>Ministry of health and long-term care website</p> ",
       "answer": "b",
       "type": "text",
       "color": "default",
@@ -66,7 +66,7 @@
       "wrong": "Really?"
     },
     {
-      "question": "Medically accurate information about the tattoo healing process (Information that would help to support) ",
+      "question": "<p><i class=\"fal fa-cubes fa-lg text-second pl-1 pr-1\"></i>Medically accurate information about the tattoo healing process</p>",
       "answer": "c",
       "type": "text",
       "color": "default",
@@ -74,7 +74,7 @@
       "wrong": "Really?"
     },
     {
-      "question": "Medical journal (Best Type of Source to Find this Information )",
+      "question": "<p><i class=\"fal fa-pencil fa-lg text-second pl-1 pr-1\"></i>Medical journal</p>",
       "answer": "c",
       "type": "text",
       "color": "default",

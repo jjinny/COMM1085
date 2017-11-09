@@ -12,14 +12,18 @@
 <link rel="stylesheet" href="../font/fontawesome/css/fontawesome-pro-regular.css">
 <link rel="stylesheet" href="../font/fontawesome/css/fontawesome-pro-core.css">
 <link rel="stylesheet" href="../font/fontawesome/css/fontawesome-pro-solid.css">
-
 <!-- Bootstrap core CSS -->
 <link href="../css/bootstrap.css" rel="stylesheet">
 
 <!-- Material Design Bootstrap -->
 <link href="../css/mdb.min.css" rel="stylesheet">
+
+<!-- Your custom styles (optional) -->
 <link href="../css/style.css" rel="stylesheet">
-      <link href="../facilitator_tools/Quiz/css/quiz.css" rel="stylesheet">
+<link href="../facilitator_tools/Quiz/css/quiz.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.2.4/css/buttons.dataTables.min.css">
+
 </head>
 
 <body>
@@ -42,7 +46,7 @@
       <h1><i class="fal fa-question-circle fa-lg text-second fa-pull-left" aria-hidden="true"></i><span class="sr-only"></span>Value of Reflection</h1>
       <p>Take the following short quiz to discover the value of reflection and self-assessment.</p>
    	<section id="dbox"></section>
-   	<div class="card z-depth-1 p-3 mt-3">
+   	<div class="card z-depth-1 p-3 mt-3 mb-3">
    	<p>Reflection is an integral component of the learning process. The interpretations we make about our own learning experience can help us to change habits, correct errors, and solve problems that will make our next learning experience even more successful (Mezirow, 1990, p. 1).</p>
    	<p>Put another way, reflection represents “the thread that makes continuity of learning possible” (Rodgers, 2002, p. 845), and for this reason, reflection and self-assessment have become increasingly common components of best practice guidelines in the workplace. The following fields are likely to expect that their members engage in the process of reflecting on, asking questions about, evaluating their own performance:<ul>
    		<li>nursing</li>
@@ -52,6 +56,37 @@
    	</ul></p>
    	</div>
    	
+   	<h4>Now, you try:</h4>
+        <div class="row">
+          <div class="col-sm-6"> 
+            
+            <!--Card Light-->
+            <div class="card"> 
+              <!--Card image-->
+              <div class="view overlay hm-white-slight"> <img src="images/value_of_reflection.jpg" class="img-fluid" alt=""> <a>
+                <div class="mask waves-effect waves-light"></div>
+                </a> </div>
+              <!--/.Card image--> 
+              <!--Card content-->
+              <div class="card-block p-3"> 
+                <!--Text-->
+                <p>Can you think of a situation in your own field where you might be expected to reflect on something you’ve made or something you’ve done in order to identify areas for growth? Have you had to do this for other courses in your secondary or post-secondary education, or in a co-op placement? What did you find helpful…difficult…surprising…about the experience?</p>
+              </div>
+              <!--/.Card content--> 
+            </div>
+            <!--/.Card Light--> 
+            
+          </div>
+          <div id="inlinefeedback" class="col-sm-6 inline-feedback" style="display:none;">
+            <form>
+              <textarea style="width: 100%; height: 280px;" id="feedbacktext" name="feedbacktext" value="Type your reflection..."></textarea>
+              <button type="submit" id="feedbacksubmit" class="btn accent-4 small-two pull-right" data-toggle="tab"><strong>Save</strong></button>
+              <p>You can return to this page and edit your response at any time by selecting <strong>Save</strong>. When you're done, you can view your reflection in the  <a href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou=159769&amp;type=discuss&amp;rcode=Conestoga-1318554" target="_self">Value of Reflection <br/>
+                discussion topic<i class="fa fa-comments-o" aria-hidden="true"></i></a>. <br>Take a minute to see where your peers expect to reflect in the future or where they have in the past.</p>
+              <div id="feedbackconfirm" class="inline-feedback-confirm"></div>
+            </form>
+          </div>
+          
    	 <div class="citation mt-5">
 		<p><strong>References:</strong><br>
           Mezirow, J. (1990). <em>Fostering Critical Reflection in Adulthood: A Guide to Transformative and Emancipatory Learning. </em> San Francisco, USA: Jossey-Bass Publishers.<br>
@@ -59,6 +94,7 @@
           Rolheiser, C., Bower, B., & Stevahn, L. (2000). <em>The Portfolio Organizer: Succeeding with Portfolios in Your Classroom. </em> Alexandria, VA: Association for Supervision and Curriculum Development.<br>
           Stiggins, R., Arter, J., Chappuis, J., & Chappuis, S. (2007). <em>Classroom Assessment for Student Learning: Doing It Right – Using It Well. </em> Portland, OR: Assessment Training Institute.</p></div>
     </div>
+	  </div>
   </main>
   <!-- /Main Content Area -->
   <footer>
@@ -85,14 +121,25 @@
 
 <!-- Open-Close Collapse --> 
 <script src="../js/plugins/open_close_all.js"></script> 
-      <script src="https://s.brightspace.com/lib/jquery/1.11.0/jquery.min.js"></script>
-      <script>window.jQuery || document.write('<script src="thirdpartylib/jquery/jquery-1.11.0.min.js"><\/script>')</script>
-      <script src="../facilitator_tools/Quiz/js/quiz.js"></script>
-   	<script>
-   		$(document).ready(function() {
-   			InlineQuizApp.setupQuiz("data/quiz-data_value_of_reflection.json", "dbox")
-   		});
-   	</script>
-      <noscript>This activity will only load in an online environment with JavaScript enabled.</noscript>
+     
+<!-- Inline quiz --> 
+<script src="https://s.brightspace.com/lib/jquery/1.11.0/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="thirdpartylib/jquery/jquery-1.11.0.min.js"><\/script>')</script>
+<script src="../facilitator_tools/Quiz/js/quiz.js"></script>
+<script>
+   	$(document).ready(function() {
+   		InlineQuizApp.setupQuiz("data/quiz-data_value_of_reflection.json", "dbox")
+   	});
+</script>
+
+<!-- Inline Reflection JS --> 
+<script src="../facilitator_tools/Reflection/assets/thirdpartylib/valence/global-superagent-d2l-session-auth.min.js"></script> 
+<script src="../facilitator_tools/Reflection/assets/thirdpartylib/valence/csval-lib.js"></script> 
+<!-- Custom JS --> 
+<script src="../facilitator_tools/Reflection/assets/js/main.min.js"></script> 
+<script src="../facilitator_tools/Reflection/assets/js/inline-feedback.js"></script>
+<noscript>
+This activity will only load in an online environment with JavaScript enabled.
+</noscript>   
 </body>
 </html>

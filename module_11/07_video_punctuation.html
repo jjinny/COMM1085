@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
-<title>Video: Punctuation</title>
+<title>Activity: Punctuation</title>
 
 <!-- Font Awesome -->
 <link rel="stylesheet" href="../font/fontawesome/css/fontawesome-pro-brands.css">
@@ -20,14 +20,15 @@
 
 <!-- Your custom styles (optional) -->
 <link href="../css/style.css" rel="stylesheet">
-<link href="../facilitator_tools/VideoPlus/css/videoplus.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.2.4/css/buttons.dataTables.min.css">
 </head>
 
 <body>
 <div class="container-fluid"> 
   
   <!-- Header Area -->
-  <header id="video">
+  <header id="activity">
     <div class="row">
       <div class="col-sm-12 prime-bg header z-depth-1-half">
         <div class="headerMod accent-4"></div>
@@ -41,16 +42,41 @@
   <main>
     <div class="container">
       <div class="col-sm-12 content">
-        <h1><i class="fal fa-video fa-lg text-second fa-pull-left" aria-hidden="true"></i><span class="sr-only">Video: </span> Punctuation</h1>
+        <h1><i class="fal fa-cubes fa-lg text-second fa-pull-left" aria-hidden="true"></i><span class="sr-only">Activity: </span> Punctuation</h1>
         <p>This week we will take a deeper look at punctuation. Our focus will be on the four major punctuation tools: commas, semi-colons, colons, and apostrophes. While other forms of punctuation — such as hyphens, parentheses, and quotation marks — also add meaning and clarity to our writing, the four we will focus on this week are likely to have the greatest impact on the development of your writing skills.</p>
-		<p>Watch <a href="http://www.bbc.com/news/av/uk-39459831/meet-the-grammar-vigilante-of-bristol">this video</a> about the UK’s “grammar vigilante”. How would you describe what he’s doing? — Is it vandalism or is he a grammar hero? It may seem like a case of grammar pickiness on steroids, but the ambiguity created by <a href="http://www.cnn.com/2017/03/15/health/oxford-comma-maine-court-case-trnd/">the use of a comma was recently cited as the deciding factor in a lawsuit</a>.</p>
-      
-            <div class="card card-block second-bg white-text p-3">
-              <p>Now it’s your turn {parallel – 10 word autobiography in week 1}</p>
-              <p>Describe a situation in your future line of work where you might need to be especially careful in the way that you write a particular document.</p>
-              <p>{reflection solution: instructor will moderate, will be visible to the class}</p>
-              <p>Take a minute to see situations that your peers identified. Feel free to engage in conversation about the various situations: <a href="">{insert quicklink to Importance of Details discussion topic}</a>.</p>
+		<p>Watch <a href="http://www.bbc.com/news/av/uk-39459831/meet-the-grammar-vigilante-of-bristol" title="http://www.bbc.com/news/av/uk-39459831/meet-the-grammar-vigilante-of-bristol"> <i class="fal fa-video fa-lg text-second" aria-hidden="true"></i> this video</a> about the UK’s “grammar vigilante”. How would you describe what he’s doing? — Is it vandalism or is he a grammar hero? It may seem like a case of grammar pickiness on steroids, but the ambiguity created by <a href="http://www.cnn.com/2017/03/15/health/oxford-comma-maine-court-case-trnd/" title="http://www.cnn.com/2017/03/15/health/oxford-comma-maine-court-case-trnd/">the use of a comma was recently cited as the deciding factor in a lawsuit</a>.</p>
+     
+        <h4>Now it’s your turn</h4>
+        <div class="row">
+          <div class="col-sm-6"> 
+            
+            <!--Card Light-->
+            <div class="card"> 
+              <!--Card image-->
+              <div class="view overlay hm-white-slight"> <img src="images/punctuation.jpg" class="img-fluid" alt=""> <a>
+                <div class="mask waves-effect waves-light"></div>
+                </a> </div>
+              <!--/.Card image--> 
+              <!--Card content-->
+              <div class="card-block p-3"> 
+                <!--Text-->
+                <p>Describe a situation in your future line of work where you might need to be especially careful in the way that you write a particular document.</p>
+              </div>
+              <!--/.Card content--> 
             </div>
+            <!--/.Card Light--> 
+            
+          </div>
+          <div id="inlinefeedback" class="col-sm-6 inline-feedback" style="display:none;">
+            <form>
+              <textarea style="width: 100%; height: 280px;" id="feedbacktext" name="feedbacktext" value="Type your reflection..."></textarea>
+              <button type="submit" id="feedbacksubmit" class="btn accent-4 small-two pull-right" data-toggle="tab"><strong>Save</strong></button>
+              <p>You can return to this page and edit your response at any time by selecting <strong>Save</strong>. Take a minute to see situations that your peers identified. Feel free to engage in conversation about the various situations: <a href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou=159769&amp;type=discuss&amp;rcode=Conestoga-1318635" target="_self"> Punctuation<br/>
+                discussion topic <i class="fa fa-comments-o" aria-hidden="true"></i></a>.</p>
+              <div id="feedbackconfirm" class="inline-feedback-confirm"></div>
+            </form>
+          </div>
+        </div>
           </div>
          
     </div>
@@ -86,6 +112,16 @@
 
 <!-- OLC Custom JS --> 
 <script src="../js/plugins/olc-custom.js"></script> 
+
+<!-- Inline Reflection JS --> 
+<script src="../facilitator_tools/Reflection/assets/thirdpartylib/valence/global-superagent-d2l-session-auth.min.js"></script> 
+<script src="../facilitator_tools/Reflection/assets/thirdpartylib/valence/csval-lib.js"></script> 
+<!-- Custom JS --> 
+<script src="../facilitator_tools/Reflection/assets/js/main.min.js"></script> 
+<script src="../facilitator_tools/Reflection/assets/js/inline-feedback.js"></script>
+<noscript>
+This activity will only load in an online environment with JavaScript enabled.
+</noscript>
 
 </body>
 </html>
