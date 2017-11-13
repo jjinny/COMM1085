@@ -19,7 +19,7 @@
         "FileName": "brainstorm.png",
         "AltText": "brainstorm"
       },
-      "HTML": "<h3>How to “brainstorm”</h3>"
+      "HTML": ""
     },
     {
       "Image": {
@@ -27,7 +27,7 @@
         "FileName": "brainstorm-1.png",
         "AltText": "brainstorm-1"
       },
-      "HTML": "<p>1. Start your brainstorm with a general topic that interests you, or even more broadly, your area of study. Beginning at this basic level will help you to include a wider range of options to choose from later on.</p><p>For this example, we will start with IT (information technology) in the middle of the page.</p>"
+      "HTML": "<h3>Step 1</h3><p>Start your brainstorm with a general topic that interests you, or even more broadly, your area of study. Beginning at this basic level will help you to include a wider range of options to choose from later on.</p><p>For this example, we will start with IT (information technology) in the middle of the page.</p>"
     },
     {
       "Image": {
@@ -35,7 +35,7 @@
         "FileName": "brainstorm-2.png",
         "AltText": "brainstorm-2"
       },
-      "HTML": "<p>2. Next, identify simple categories or sub-topics that might exist within your general topic. Think of this like taking apart a machine, or dividing something into its components.</p><p>At this step, we might identify two sectors within the IT field: software and hardware.</p>"
+      "HTML": "<h3>Step 2</h3><p>Next, identify simple categories or sub-topics that might exist within your general topic. Think of this like taking apart a machine, or dividing something into its components.</p><p>At this step, we might identify two sectors within the IT field: software and hardware.</p>"
     },
     {
       "Image": {
@@ -43,7 +43,7 @@
         "FileName": "brainstorm-3.png",
         "AltText": "brainstorm-3"
       },
-      "HTML": "<p>3. Now you can begin to use your familiarity with the subject to explore it in further depth. Within each of the sub-topics or categories that you identified before, try to identify more specific topics, names, issues, trends, products, etc.</p><p>You may find that one category fills up quickly with ideas, or that another has very few. That’s okay! It’s a sign that you should focus your thinking on the category that seems bursting with potential ideas.</p><p>We have brainstormed three specific kinds of software: search engines, browsers, and artificial intelligence. We could only think of one kind of hardware: CPU (computer processing unit).</p>"
+      "HTML": "<h3>Step 3</h3><p>Now you can begin to use your familiarity with the subject to explore it in further depth. Within each of the sub-topics or categories that you identified before, try to identify more specific topics, names, issues, trends, products, etc.</p><p>You may find that one category fills up quickly with ideas, or that another has very few. That’s okay! It’s a sign that you should focus your thinking on the category that seems bursting with potential ideas.</p><p>We have brainstormed three specific kinds of software: search engines, browsers, and artificial intelligence. We could only think of one kind of hardware: CPU (computer processing unit).</p>"
     },
     {
       "Image": {
@@ -51,7 +51,7 @@
         "FileName": "brainstorm-4.png",
         "AltText": "brainstorm-4"
       },
-      "HTML": "<p>4. Just like a detective following a trail of clues, your goal now is to see if any of these new ideas excites you. Maybe you already have a lot of interest or knowledge in this area. Maybe you recently read or discussed this issue in another class. Try to add detail and depth to this idea by identifying key issues or important questions that you’re curious about.</p><p>Our focus has landed on the artificial intelligence branch of the software field. We brainstormed three questions or topics related to AI: the potential benefits of AI, the potential drawbacks of AI, and the different kinds of AI.</p><p>Artificial Intelligence is growing the most, so at this point, you might be able to construct an interesting research question. In our example, we might ask the following:</p><ul><li>Which applications of Artificial Intelligence are the most advanced?</li><li>What are the most significant potential drawbacks of Artificial Intelligence technology?</li><li>What are the most beneficial applications of Artificial Intelligence technology?</li></ul><p>In our example, we’ve pursued just one idea to illustrate this step, but you can repeat this step for all of the new ideas you identified in the previous stage of the brainstorm.</p>"
+      "HTML": "<h3>Step 4</h3><p>Just like a detective following a trail of clues, your goal now is to see if any of these new ideas excites you. Maybe you already have a lot of interest or knowledge in this area. Maybe you recently read or discussed this issue in another class. Try to add detail and depth to this idea by identifying key issues or important questions that you’re curious about.</p><p>Our focus has landed on the artificial intelligence branch of the software field. We brainstormed three questions or topics related to AI: the potential benefits of AI, the potential drawbacks of AI, and the different kinds of AI.</p><p>Artificial Intelligence is growing the most, so at this point, you might be able to construct an interesting research question. In our example, we might ask the following:</p><ul><li>Which applications of Artificial Intelligence are the most advanced?</li><li>What are the most significant potential drawbacks of Artificial Intelligence technology?</li><li>What are the most beneficial applications of Artificial Intelligence technology?</li></ul><p>In our example, we’ve pursued just one idea to illustrate this step, but you can repeat this step for all of the new ideas you identified in the previous stage of the brainstorm.</p>"
     },
     {
       "Image": {
@@ -59,7 +59,7 @@
         "FileName": "brainstorm-5.png",
         "AltText": "brainstorm-5"
       },
-      "HTML": "<p>5. Perhaps you’ll have found an exciting and achievable question by now. However, it’s possible that the questions or topics you identified in the previous stage are still too broad. In that case, it’s not difficult to zoom in further to identify specific options or examples within one key issue, or to wonder about potential answers to a single question.</p><p>In our example, we’ve considered a few possible industries in which artificial intelligence might have a dramatic impact (marketing, manufacturing, transportation).</p><p>This detailed level of brainstorming might lead us to an even more refined research question, about the potential impact of artificial intelligence within a particular industry:</p><ul><li>“How will the North American manufacturing industry change in the next 20 years as it adopts new artificial intelligence technology?”</li><li>“How can artificial intelligence technology help marketing companies to improve their business?”</li></ul><p>The brainstorm model is helpful because it allows you to keep searching until you’ve found a focus that is both interesting and practical. For example, you might look at “transportation” here and wonder, “What kind of transportation?” This could lead you to a variety of completely different investigations related to the future of Artificial intelligence: e.g. public transportation, personal vehicles, commercial trucking.</p>"
+      "HTML": "<h3>Step 5</h3><p>Perhaps you’ll have found an exciting and achievable question by now. However, it’s possible that the questions or topics you identified in the previous stage are still too broad. In that case, it’s not difficult to zoom in further to identify specific options or examples within one key issue, or to wonder about potential answers to a single question.</p><p>In our example, we’ve considered a few possible industries in which artificial intelligence might have a dramatic impact (marketing, manufacturing, transportation).</p><p>This detailed level of brainstorming might lead us to an even more refined research question, about the potential impact of artificial intelligence within a particular industry:</p><ul><li>“How will the North American manufacturing industry change in the next 20 years as it adopts new artificial intelligence technology?”</li><li>“How can artificial intelligence technology help marketing companies to improve their business?”</li></ul><p>The brainstorm model is helpful because it allows you to keep searching until you’ve found a focus that is both interesting and practical. For example, you might look at “transportation” here and wonder, “What kind of transportation?” This could lead you to a variety of completely different investigations related to the future of Artificial intelligence: e.g. public transportation, personal vehicles, commercial trucking.</p>"
     }
   ]
 }
