@@ -4,8 +4,8 @@
     {
       "Inverted": false,
       "RevealType": "click",
-      "Title": "",
-      "Body": "<p><span class=\"badge accent-2 pull-left mr-2 text-white\">1</span><h5>Choose a topic</h5></p>",
+      "Title": "Step 1",
+      "Body": "<h5>Choose a topic</h5>",
       "Badge": {
         "AddCircle": true,
         "BadgeColor1": "ABE761",
@@ -24,8 +24,8 @@
     {
       "Inverted": false,
       "RevealType": "click",
-      "Title": "",
-      "Body": "<p><span class=\"badge accent-2 pull-left mr-2 text-white\">2</span><h5>Plan and schedule time to research and write</h5></p>",
+      "Title": "Step 2",
+      "Body": "<h5>Plan and schedule time to research and write</h5>",
       "Badge": {
         "AddCircle": true,
         "BadgeColor1": "ABE761",
@@ -44,8 +44,8 @@
     {
       "Inverted": false,
       "RevealType": "click",
-      "Title": "",
-      "Body": "<p><span class=\"badge accent-2 pull-left mr-2 text-white\">3</span><h5>Conduct research</h5></p>",
+      "Title": "Step 3",
+      "Body": "<h5>Conduct research</h5>",
       "Badge": {
         "AddCircle": true,
         "BadgeColor1": "ABE761",
@@ -64,8 +64,8 @@
     {
       "Inverted": false,
       "RevealType": "click",
-      "Title": "",
-      "Body": "<p><span class=\"badge accent-2 pull-left mr-2 text-white\">4</span><h5>Organize your research and ideas</h5></p>",
+      "Title": "Step 4",
+      "Body": "<h5>Organize your research and ideas</h5>",
       "Badge": {
         "AddCircle": true,
         "BadgeColor1": "ABE761",
@@ -84,8 +84,8 @@
     {
       "Inverted": false,
       "RevealType": "click",
-      "Title": "",
-      "Body": "<p><span class=\"badge accent-2 pull-left mr-2 text-white\">5</span><h5>Draft your paper</h5></p>",
+      "Title": "Step 5",
+      "Body": "<h5>Draft your paper</h5>",
       "Badge": {
         "AddCircle": true,
         "BadgeColor1": "ABE761",
@@ -104,8 +104,8 @@
     {
       "Inverted": false,
       "RevealType": "click",
-      "Title": "",
-      "Body": "<p><span class=\"badge accent-2 pull-left mr-2 text-white\">6</span><h5>Revise and edit your paper</h5></p>",
+      "Title": "Step 6",
+      "Body": "<h5>Revise and edit your paper</h5>",
       "Badge": {
         "AddCircle": true,
         "BadgeColor1": "ABE761",
