@@ -13,6 +13,7 @@
   <link href="../css/bootstrap.css" rel="stylesheet"><!-- Material Design Bootstrap -->
   <link href="../css/mdb.min.css" rel="stylesheet"><!-- Your custom styles (optional) -->
   <link href="../css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="../facilitator_tools/DiagramNext/css/diagramnext.css">
 </head>
 <body>
   <div class="container-fluid">
@@ -61,10 +62,10 @@
                       <div id="item_0">
                         <div class="row">
                           <div class="col-sm-8">
-                            <h4>Are not</h4>
+                            <h4 class="pt-2">Are not</h4>
                           </div>
                           <div class="col-sm-2">
-                            <button class="btn btn-clear btn-lg ml-2 mt-0" id="itembtn_1" onclick="showNext(1)"><i class="fas fa-arrow-right fa-2x flex-center"></i><span class=
+                            <button class="btn btn-clear btn-lg ml-2" id="itembtn_1" onclick="showNext(1)"><i class="fas fa-arrow-right fa-2x flex-center"></i><span class=
                             "sr-only">Next</span></button>
                           </div>
                         </div>
@@ -79,7 +80,7 @@
                       <div id="item_2">
                         <div class="row">
                           <div class="col-sm-8">
-                            <h4>It is or it has</h4>
+                            <h4 class="pt-2">It is or it has</h4>
                           </div>
                           <div class="col-sm-2">
                             <button class="btn btn-clear btn-lg ml-2 mt-0" id="itembtn_3" onclick="showNext(3)"><i class="fas fa-arrow-right fa-2x flex-center"></i><span class=
@@ -97,7 +98,7 @@
                       <div id="item_4">
                         <div class="row">
                           <div class="col-sm-8">
-                            <h4>Let us</h4>
+                            <h4 class="pt-2">Let us</h4>
                           </div>
                           <div class="col-sm-2">
                             <button class="btn btn-clear btn-lg ml-2 mt-0" id="itembtn_5" onclick="showNext(5)"><i class="fas fa-arrow-right fa-2x flex-center"></i><span class=
@@ -115,7 +116,7 @@
                       <div id="item_6">
                         <div class="row">
                           <div class="col-sm-8">
-                            <h4>Cannot</h4>
+                            <h4 class="pt-2">Cannot</h4>
                           </div>
                           <div class="col-sm-2">
                             <button class="btn btn-clear btn-lg ml-2 mt-0" id="itembtn_7" onclick="showNext(7)"><i class="fas fa-arrow-right fa-2x flex-center"></i><span class=
@@ -133,7 +134,7 @@
                       <div id="item_8">
                         <div class="row">
                           <div class="col-sm-8">
-                            <h4>Do not</h4>
+                            <h4 class="pt-2">Do not</h4>
                           </div>
                           <div class="col-sm-2">
                             <button class="btn btn-clear btn-lg ml-2 mt-0" id="itembtn_9" onclick="showNext(9)"><i class="fas fa-arrow-right fa-2x flex-center"></i><span class=
@@ -151,7 +152,7 @@
                       <div id="item_10">
                         <div class="row">
                           <div class="col-sm-8">
-                            <h4>Does not</h4>
+                            <h4 class="pt-2">Does not</h4>
                           </div>
                           <div class="col-sm-2">
                             <button class="btn btn-clear btn-lg ml-2 mt-0" id="itembtn_11" onclick="showNext(11)"><i class="fas fa-arrow-right fa-2x flex-center"></i><span class=
@@ -169,7 +170,7 @@
                       <div id="item_12">
                         <div class="row">
                           <div class="col-sm-8">
-                            <h4>Who is or who has.</h4>
+                            <h4 class="pt-2">Who is or who has.</h4>
                           </div>
                           <div class="col-sm-2">
                             <button class="btn btn-clear btn-lg ml-2 mt-0" id="itembtn_13" onclick="showNext(13)"><i class="fas fa-arrow-right fa-2x flex-center"></i><span class=
@@ -196,7 +197,9 @@
               	<p>While the use of apostrophes to form contractions is relatively familiar to most post-secondary students, using apostrophes to indicate ownership or possession can become complicated.</p>
               	<p>The basic concept is fairly straightforward: For singular nouns, use an apostrophe and the letter s to indicate possession.</p> 
               	
-              	<div><strong>placeholder for circles</strong></div>
+              	<div class="col-sm-12 top-md mt-3 mb-2" style="min-height: 500px;">
+				  <div id="dnext"></div>
+				</div>
               	
               	<p>The use of possessive apostrophes becomes more complicated, however, when there are multiple owners / possessors.</p>
               	<div class="row mt-3 mb-3">
@@ -264,24 +267,143 @@
             <div aria-labelledby="headingThree" class="collapse" id="collapseThree" role="tabpanel">
               <div class="card-block">
               	<p>Another common apostrophe mistake involves using a possessive apostrophe with certain pronouns. English features eight possessive pronouns that don’t require an apostrophe to indicate possession — in fact, these words are used exclusively to indicate possession and have no other role in the language. </p>
-              	<h3>Possessive Pronouns</h3>
+              	<h4>Possessive Pronouns</h4>
               	<div class="col col-sm-12">
                   <div class="row">
-                    <div class="col-sm-6">
+                    <div class="col-sm-4">
                       <div id="item1">
                         <div class="row">
-                          <div class="col-sm-8">
-                            <h4>Are not</h4>
+                          <div class="col-sm-4">
+                            <h5 class="pt-4"><strong>Mine</strong></h5>
                           </div>
                           <div class="col-sm-2">
-                            <button class="btn btn-clear btn-lg ml-2 mt-0" id="itembtn1" onclick="item2"><i class="fas fa-arrow-right fa-2x flex-center"></i><span class=
-                            "sr-only">Next</span></button>
+                            <i class="fas fa-arrow-right fa-2x flex-center pl-5 pt-3" style="color: #CA293E"></i>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div class="col col-sm-6" id="2">
-                      <h4>Aren’t</h4>
+                    <div class="col col-sm-8" id="2">
+                      <p class="pt-3">Correct: That cookie is <strong>mine</strong>. [The cookie belongs to me.]<br>Incorrect: That cookie is <strong>mine’s</strong>. [Mine’s is not a word.]</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <div>
+                        <div class="row">
+                          <div class="col-sm-4">
+                            <h5 class="pt-4"><strong>Yours</strong></h5>
+                          </div>
+                          <div class="col-sm-2">
+                            <i class="fas fa-arrow-right fa-2x flex-center pl-5 pt-3" style="color: #CA293E"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col col-sm-8">
+                      <p class="pt-3">Correct: That cookie is <strong>yours</strong>. [The cookie belongs to you.]<br>Incorrect: That cookie is <strong>your’s</strong>. [Your’s is not a word.]</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <div >
+                        <div class="row">
+                          <div class="col-sm-4">
+                            <h5 class="pt-4"><strong>His</strong></h5>
+                          </div>
+                          <div class="col-sm-2">
+                            <i class="fas fa-arrow-right fa-2x flex-center pl-5 pt-3" style="color: #CA293E"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col col-sm-8">
+                      <p class="pt-3">Correct: That cookie is <strong>his</strong>. [The cookie belongs to him.]<br>Incorrect: That cookie is <strong>his’s</strong>. [His’s is not a word.]</p>
+                    </div>
+                  </div>
+                  
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <div>
+                        <div class="row">
+                          <div class="col-sm-4">
+                            <h5 class="pt-4"><strong>Hers</strong></h5>
+                          </div>
+                          <div class="col-sm-2">
+                            <i class="fas fa-arrow-right fa-2x flex-center pl-5 pt-3" style="color: #CA293E"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col col-sm-8">
+                      <p class="pt-3">Correct: That cookie is <strong>hers</strong>. [The cookie belongs to her.]<br>Incorrect: That cookie is <strong>her’s</strong>. [Her’s is not a word.]</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <div>
+                        <div class="row">
+                          <div class="col-sm-4">
+                            <h5 class="pt-4"><strong>Its</strong></h5>
+                          </div>
+                          <div class="col-sm-2">
+                            <i class="fas fa-arrow-right fa-2x flex-center pl-5 pt-3" style="color: #CA293E"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col col-sm-8">
+                      <p>Correct: I put the box of cookies in <strong>its</strong> secret hiding spot. [The secret hiding spot belongs to the box of cookies.]<br>Incorrect: I put the box of cookies in <strong>it’s</strong> secret hiding spot. [It’s is the contraction of ‘it is’.]</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <div>
+                        <div class="row">
+                          <div class="col-sm-4">
+                            <h5 class="pt-4"><strong>Ours</strong></h5>
+                          </div>
+                          <div class="col-sm-2">
+                            <i class="fas fa-arrow-right fa-2x flex-center pl-5 pt-3" style="color: #CA293E"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col col-sm-8">
+                      <p class="pt-3">Correct: That box of cookies is <strong>ours</strong>. [The box belongs to us.]<br>Incorrect: That box of cookies is <strong>our’s</strong>. [Our’s is not a word.]</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <div>
+                        <div class="row">
+                          <div class="col-sm-4">
+                            <h5 class="pt-4"><strong>Theirs</strong></h5>
+                          </div>
+                          <div class="col-sm-2">
+                            <i class="fas fa-arrow-right fa-2x flex-center pl-5 pt-3" style="color: #CA293E"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col col-sm-8">
+                      <p>Correct: That box of cookies is <strong>theirs</strong>. [The box belongs to them.]<br>Incorrect: That box of cookies is <strong>their’s</strong>. [Their’s is not a word.]<br>Incorrect: That box of cookies is <strong>there’s</strong>. [There’s is a contraction for ‘there is’.]</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <div>
+                        <div class="row">
+                          <div class="col-sm-4">
+                            <h5 class="pt-4"><strong>Whose</strong></h5>
+                          </div>
+                          <div class="col-sm-2">
+                            <i class="fas fa-arrow-right fa-2x flex-center pl-5 pt-3" style="color: #CA293E"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col col-sm-8">
+                      <p class="pt-3">Correct: <strong>Whose</strong> cookie is that? [Who possesses the cookie?]<br>Incorrect: <strong>Who’s</strong> cookie is that? [Who’s is a contraction for ‘who is’.]</p>
                     </div>
                   </div>
                 </div>
@@ -371,6 +493,19 @@
 <script src="../facilitator_tools/Multi-input/js/multi-input.js"></script>
 <script>
   var datafilename = "multi-input_apostrophes.json";
+</script>
+
+<script>
+  var datafilename = "diagramnext_apostrophes.json";
+</script> 
+<script src="../facilitator_tools/DiagramNext/js/diagramnext_multi.js"></script>
+<script>
+  function heightMatch(idMatch, idResize) {
+    $('#'+idResize).outerHeight($('#'+idMatch).outerHeight());
+  }
+  $( document ).ready(function() {
+    heightMatch("resources","tips");
+  });
 </script>
 <noscript>
   This activity will only load in an online environment with JavaScript enabled.

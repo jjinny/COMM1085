@@ -22,6 +22,7 @@
 <!-- Your custom styles (optional) -->
 <link rel="stylesheet" href="../facilitator_tools/Multi-Dropdown/css/multi-dropdown.css">
 <link href="../css/style.css" rel="stylesheet">
+<link rel="stylesheet" href="../facilitator_tools/DiagramNext/css/diagramnext.css">
 </head>
 
 <body>
@@ -50,6 +51,9 @@
       <li>Which ideas are going to be most important in the future?</li>
       </ul></p>
       <p>The answers to these questions will help lead you toward a rewarding research question.</p>
+      <div class="col-sm-12 top-md mt-3 mb-5" style="min-height: 510px;">
+      <div id="dnext"></div>
+		</div>
       <h2>Knowledge Check</h2>
       <p><strong>For the following possible research questions for the same student, identify the balance of personal interest and professional connection:</strong></p>
       <h3>Answer Options:</h3>
@@ -105,5 +109,10 @@
 <script>
 	var datafilepath = "data/finding_appropriate_focus_drop.json";
 </script>
+
+<script>
+	var datafilename = "diagramnext_appropriate_focus.json";
+</script> 
+<script src="../facilitator_tools/DiagramNext/js/diagramnext.js"></script> 
 </body>
 </html>

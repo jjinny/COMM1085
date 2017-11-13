@@ -4,8 +4,8 @@
       "ContainerID": "dnext",
       "StepText": "Page",
       "Layout": {
-        "TextPosition": "bottom",
-        "TextColumns": 12,
+        "TextPosition": "right",
+        "TextColumns": 6,
         "TextStyle": "html",
         "TextDisplay": "stack"
       },
@@ -29,7 +29,7 @@
             "FileName": "individual.png",
             "AltText": "individual"
           },
-          "HTML": "<ul><li>Joe's car</li><li>The student's computer</li><li>Divya's courage</li><li>Ivan's question</li></ul>"
+          "HTML": "<p>an individual possesses something or a less tangible feature</p><ul><li>Joe's car</li><li>The student's computer</li><li>Divya's courage</li><li>Ivan's question</li></ul>"
         },
         {
           "Image": {
@@ -37,7 +37,7 @@
             "FileName": "group.png",
             "AltText": "group"
           },
-          "HTML": "<ul><li>The company's credit\ncard</li><li>The bookstore's prices</li></ul>"
+          "HTML": "<p>groups of people or organizations (collective nouns)</p><ul><li>The company's credit\ncard</li><li>The bookstore's prices</li></ul>"
         },
         {
           "Image": {
@@ -45,7 +45,7 @@
             "FileName": "object.png",
             "AltText": "object "
           },
-          "HTML": "<ul><li>The earth's crust</li><li>The phone's biggest flaw</li></ul>"
+          "HTML": "<p>with\ninanimate objects, when referring particular aspects or characteristics of the\nobject</p><ul><li>The earth's crust</li><li>The phone's biggest flaw</li></ul>"
         }
       ]
     }

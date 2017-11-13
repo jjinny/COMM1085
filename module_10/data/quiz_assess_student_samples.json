@@ -21,7 +21,7 @@
     {
       "questionType": "Multiple Choice",
       "maxScoreValue": 1,
-      "questionText": "<p>Based on this sample, how should this student improve the subject line of their proposal email?</p><div class=\"card card-block p-4 mt-2\"><ul class=\"p-0 m-0\" style=\"list-style-type: none;\"><li><div class=\"col-sm-2 pull-left\"><strong>TO: </strong></div><div class=\"col-sm-10 pull-left\"><strong>Jonathan Whitzman</strong></div></li><li><div class=\"col-sm-2 pull-left\"><strong>FROM: </strong></div><div class=\"col-sm-10 pull-left\">Student Name</div></li><li><div class=\"col-sm-2 pull-left\"><strong>DATE: </strong></div><div class=\"col-sm-10 pull-left\"><strong>14.03.15</strong></div></li><li><div class=\"col-sm-2 pull-left\"><strong>SUBJECT:  </strong></div><div class=\"col-sm-10 pull-left\">Artificial intelligence</div></li></ul></div>",
+      "questionText": "<p>Based on this sample, how should this student improve the subject line of their proposal email?</p><div class=\"card card-block p-4 m-2\"><ul class=\"p-0 m-0\" style=\"list-style-type: none;\"><li><div class=\"col-sm-2 pull-left\"><strong>TO: </strong></div><div class=\"col-sm-10 pull-left\"><strong>Jonathan Whitzman</strong></div></li><li><div class=\"col-sm-2 pull-left\"><strong>FROM: </strong></div><div class=\"col-sm-10 pull-left\">Student Name</div></li><li><div class=\"col-sm-2 pull-left\"><strong>DATE: </strong></div><div class=\"col-sm-10 pull-left\"><strong>14.03.15</strong></div></li><li><div class=\"col-sm-2 pull-left\"><strong>SUBJECT:  </strong></div><div class=\"col-sm-10 pull-left\">Artificial intelligence</div></li></ul></div>",
       "hintText": "none",
       "hintMedia": [],
       "answers": [
@@ -47,7 +47,7 @@
     {
       "questionType": "All That Apply",
       "maxScoreValue": 3,
-      "questionText": "<p>Based on this sample, what could this student do to strengthen their discussion of potential information sources? Select all that apply.</p><div class=\"card card-block p-4 mt-2\"><p>The plan for this essay is to get as much information on A.I. as possible before beginning any writing. I will watch some futuristic movies, read the newest articles and see what the futurists of today are up to; people like Elon Musk and Bill Gates. After the research period, I will write my main points and expand on them based on my vast knowledge.</p><p>My plan is to write an essay about A.I. and its rapid progress in the last few years, and what is in store for us in the near future. I am looking to get this approved so I can begin my research.</p></div>",
+      "questionText": "<p>Based on this sample, what could this student do to strengthen their discussion of potential information sources? Select all that apply.</p><div class=\"card card-block p-4 m-2\"><p>The plan for this essay is to get as much information on A.I. as possible before beginning any writing. I will watch some futuristic movies, read the newest articles and see what the futurists of today are up to; people like Elon Musk and Bill Gates. After the research period, I will write my main points and expand on them based on my vast knowledge.</p><p>My plan is to write an essay about A.I. and its rapid progress in the last few years, and what is in store for us in the near future. I am looking to get this approved so I can begin my research.</p></div>",
       "hintText": "none",
       "hintMedia": [],
       "answers": [
@@ -75,7 +75,7 @@
     {
       "questionType": "All That Apply",
       "maxScoreValue": 3,
-      "questionText": "<p>Based on this sample, what could this student do to improve the focus of their introductory paragraph? Select all that apply.</p><div class=\"card card-block p-4 mt-2\"><p>Social media is becoming an increasingly important aspect of our daily lives. The purpose of this proposal is to notify you of my decision to research the impacts of social media on one’s career.</p><p>I hope that you agree that the impact of social media on people’s professional lives is relevant to not just my field of study, but to everyone’s future careers as well.</p></div>",
+      "questionText": "<p>Based on this sample, what could this student do to improve the focus of their introductory paragraph? Select all that apply.</p><div class=\"card card-block p-4 m-2\"><p>Social media is becoming an increasingly important aspect of our daily lives. The purpose of this proposal is to notify you of my decision to research the impacts of social media on one’s career.</p><p>I hope that you agree that the impact of social media on people’s professional lives is relevant to not just my field of study, but to everyone’s future careers as well.</p></div>",
       "hintText": "none",
       "hintMedia": [],
       "answers": [

@@ -1,0 +1,57 @@
+{
+  "ContainerID": "dnext",
+  "StepText": "Page",
+  "Layout": {
+    "TextPosition": "right",
+    "TextColumns": 4,
+    "TextStyle": "html",
+    "TextDisplay": "single"
+  },
+  "Navigation": {
+    "ShowProgress": false,
+    "ButtonNext": "Next",
+    "ButtonPrev": "Previous"
+  },
+  "Steps": [
+    {
+      "Image": {
+        "FilePath": "data/images/",
+        "FileName": "start.png",
+        "AltText": ""
+      },
+      "HTML": ""
+    },
+    {
+      "Image": {
+        "FilePath": "data/images/",
+        "FileName": "Personal.png",
+        "AltText": "Personal"
+      },
+      "HTML": "<h3>Personal</h3><p>Your hobbies and personal interests</p><p>Your own opinions on contemporary debates and/or interpretations of important developments in your field of study</p>"
+    },
+    {
+      "Image": {
+        "FilePath": "data/images/",
+        "FileName": "Program-area.png",
+        "AltText": "Program-area courses"
+      },
+      "HTML": "<h3>Program-area courses</h3><p>Specific skills, techniques required for the performance of a particular job in the field</p><p>The details of a particular theory that is fundamental to your field</p>"
+    },
+    {
+      "Image": {
+        "FilePath": "data/images/",
+        "FileName": "Appropriate.png",
+        "AltText": "Appropriate Focus"
+      },
+      "HTML": "<h3>Appropriate Focus</h3><p>Trends in the\nindustry / profession\n\n\nCurrent / looming\nproblems in the industry / profession\n\n\n\nPotential areas of\ngrowth in the industry / profession\n\n\nPotential areas\nfor employment within the fields</p>"
+    },
+    {
+      "Image": {
+        "FilePath": "data/images/",
+        "FileName": "all.png",
+        "AltText": ""
+      },
+      "HTML": "<h3>Personal</h3><p>Your hobbies and personal interests</p><p>Your own opinions on contemporary debates and/or interpretations of important developments in your field of study</p><h3>Program-area courses</h3><p>Specific skills, techniques required for the performance of a particular job in the field</p><p>The details of a particular theory that is fundamental to your field</p><h3>Appropriate Focus</h3><p>Trends in the\nindustry / profession\n\n\nCurrent / looming\nproblems in the industry / profession\n\n\n\nPotential areas of\ngrowth in the industry / profession\n\n\nPotential areas\nfor employment within the fields</p>"
+    }
+  ]
+}
