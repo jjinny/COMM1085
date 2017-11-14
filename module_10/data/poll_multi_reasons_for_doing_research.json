@@ -1,6 +1,6 @@
 {
   "FieldID": 1000042,
-  "FieldName": "COMM1085-ImportantReview",
+  "FieldName": "COMM1085-ReasonsForDoingResearch",
   "Polls": [
     {
       "PollID": 1,
@@ -8,12 +8,12 @@
       "Title": "",
       "Description": "<p>Which one of the potential rewards do you\nfind most motivating?</p>",
       "GraphType": "pie",
-      "PollType": "Single",
+      "PollType": "Multi",
       "MaxSelections": 1,
       "Scale": [
         {
           "Id": 1,
-          "Container": "ratingscale2",
+          "Container": "ratingscale1",
           "Color": "#2d112b",
           "Descriptor": "Topic is more relevant because it’s chosen and developed by you",
           "ShortDesc": "Topic relevant",
@@ -21,14 +21,14 @@
         },
         {
           "Id": 2,
-          "Container": "ratingscale2",
+          "Container": "ratingscale1",
           "Color": "#ca293e",
           "Descriptor": "Project is more motivating because the results are more likely to interest your personally and benefit you professionally ",
           "ShortDesc": "Project motivating",
           "ImageFile": "circle.png"
         },
         {
-          "Container": "ratingscale2",
+          "Container": "ratingscale1",
           "Id": 3,
           "Color": "#ff583d",
           "Descriptor": "Project is more likely to be successful because you have chosen an area that you are already familiar with",
@@ -45,12 +45,12 @@
       "Title": "",
       "Description": "<p>Which one of the challenges listed here do you think is most likely to be an issue for you?</p>",
       "GraphType": "pie",
-      "PollType": "Single",
+      "PollType": "Multi",
       "MaxSelections": 1,
       "Scale": [
         {
           "Id": 1,
-          "Container": "ratingscale3",
+          "Container": "ratingscale2",
           "Color": "#2d112b",
           "Descriptor": "Learning the basics of your field while you’re in your first year of study, so you may not have much insight into contemporary issues",
           "ShortDesc": "Learning the basics",
@@ -58,14 +58,14 @@
         },
         {
           "Id": 2,
-          "Container": "ratingscale3",
+          "Container": "ratingscale2",
           "Color": "#ca293e",
           "Descriptor": "Choosing a specific focus from among your many interests or one that is suitable for an assignment of this length",
           "ShortDesc": "Choosing a specific focus",
           "ImageFile": "circle.png"
         },
         {
-          "Container": "ratingscale3",
+          "Container": "ratingscale2",
           "Id": 3,
           "Color": "#ff583d",
           "Descriptor": "Feeling like you are already knowledgeable in your area of interest, and feeling like your initial research questions are simply leading you to deliver information you already know or opinions you already possess ",
@@ -73,24 +73,24 @@
           "ImageFile": "circle.png"
         },
         {
-          "Container": "ratingscale3",
-          "Id": 3,
-          "Color": "#ff583d",
-          "Descriptor": "Feeling like you are already knowledgeable in your area of interest, and feeling like your initial research questions are simply leading you to deliver information you already know or opinions you already possess ",
-          "ShortDesc": "Feeling like you are already knowledgeable",
-          "ImageFile": "circle.png"
-        },
-        {
-          "Container": "ratingscale3",
+          "Container": "ratingscale2",
           "Id": 4,
+          "Color": "#ff583d",
+          "Descriptor": "Feeling like you are already knowledgeable in your area of interest, and feeling like your initial research questions are simply leading you to deliver information you already know or opinions you already possess ",
+          "ShortDesc": "Feeling like you are already knowledgeable",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Container": "ratingscale2",
+          "Id": 5,
           "Color": "#a01865",
           "Descriptor": "Finding, evaluating, and incorporating credible sources",
           "ShortDesc": "credible sources",
           "ImageFile": "circle.png"
         },
         {
-          "Container": "ratingscale3",
-          "Id": 5,
+          "Container": "ratingscale2",
+          "Id": 6,
           "Color": "#abe761",
           "Descriptor": "Researching in English if it is not your native language",
           "ShortDesc": "Researching in English",
