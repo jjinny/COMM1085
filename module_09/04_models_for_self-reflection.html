@@ -22,6 +22,7 @@
   <!-- Your custom styles (optional) -->
   <link href="../css/style.css" rel="stylesheet">
   <link rel="stylesheet" href="../facilitator_tools/Multi-Dropdown/css/multi-dropdown.css">
+  <link rel="stylesheet" href="../facilitator_tools/DiagramNext/css/diagramnext.css">
 </head>
 
 <body>
@@ -63,6 +64,9 @@
           <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
             <div class="card-block">
               <p>The “What-So What-Now What” model was developed by Borton (1970). It’s a quick and easy way for you to reflect on a situation or project after it has happened. Bruce (as cited in Write Online, n.d.) provides a set of questions, which we’ve adapted here, that you can use to generate ideas. Click on each title for more.</p>
+              <div class="col-sm-12 top-md mt-3" style="min-height: 500px;">
+				  <div id="dnext"></div>
+			  </div>
               <h2>Knowledge Check</h2>
 			  <p><strong>Identify where each of the following questions would belong in the “What? So what? Now what?” model?</strong></p>
 			  <h3>Answer Options:</h3>
@@ -90,7 +94,10 @@
           </div>
           <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
             <div class="card-block">
-              <p><a href="https://books.google.ca/books?id=1YxzQgAACAAJ&redir_esc=y&hl=en" title="https://books.google.ca/books?id=1YxzQgAACAAJ&redir_esc=y&hl=en">Brockbank and McGill (1998)</a> suggest asking six fundamental questions when attempting to engage in reflection: What, When, Where, Who, How, and Why. To see some sample questions for each, click on the sections of the diagram.</p>
+              <p><a href="https://books.google.ca/books?id=1YxzQgAACAAJ&redir_esc=y&hl=en" title="https://books.google.ca/books?id=1YxzQgAACAAJ&redir_esc=y&hl=en" target="_blank">Brockbank and McGill (1998)</a> suggest asking six fundamental questions when attempting to engage in reflection: What, When, Where, Who, How, and Why. To see some sample questions for each, click on the sections of the diagram.</p>
+              <div class="col-sm-12 top-md mt-3" style="min-height: 500px;">
+				  <div id="dnext2"></div>
+			  </div>
           </div>
             </div>
           </div>
@@ -100,7 +107,10 @@
           </div>
           <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
             <div class="card-block">
-              
+              <p>Seidel and Blythe (as cited in Write Online, n.d.) created a model called “the compass.” This model encourages you to look in four “directions” as you reflect on a particular event or project. For a summary ( ) of what these four “directions” signify, click each title.</p>
+              <div class="col-sm-12 top-md mt-3" style="min-height: 500px;">
+				  <div id="dnext3"></div>
+			  </div>
             </div>
             </div>
           </div>
@@ -110,7 +120,10 @@
           </div>
           <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour">
             <div class="card-block">
-              
+              <p>This model follows the “learning hierarchy,” which distinguishes between types of thinking and sorts them according to their complexity. So, remembering and understanding are identified as basic forms of thinking and learning, while evaluating and creating are defined as more complex. To read some sample questions to aid in your reflection, click each step of the learning hierarchy.</p>
+              <div class="col-sm-12 top-md mt-3" style="min-height: 500px;">
+				  <div id="dnext4"></div>
+			  </div>
             </div>
             </div>
           </div>
@@ -161,6 +174,19 @@
 <script src="../facilitator_tools/Multi-Dropdown/js/multi-dropdown.js"></script> 
 <script>
 	var datafilepath = "data/models_for_self-reflection_drop.json";
+</script>
+<!-- Diagramnext--> 
+<script>
+		var datafilename = "diagramnext_models_for_self-reflection.json";
+	</script> 
+<script src="../facilitator_tools/DiagramNext/js/diagramnext_multi.js"></script>
+<script>
+  function heightMatch(idMatch, idResize) {
+    $('#'+idResize).outerHeight($('#'+idMatch).outerHeight());
+  }
+  $( document ).ready(function() {
+    heightMatch("resources","tips");
+  });
 </script>
 
 <!-- Move to bottom with scripts -->

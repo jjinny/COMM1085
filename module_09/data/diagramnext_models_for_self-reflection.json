@@ -1,0 +1,248 @@
+{
+  "Activities": [
+    {
+      "ContainerID": "dnext",
+      "StepText": "Page",
+      "Layout": {
+        "TextPosition": "right",
+        "TextColumns": 4,
+        "TextStyle": "html",
+        "TextDisplay": "stack"
+      },
+      "Navigation": {
+        "ShowProgress": false,
+        "ButtonNext": "Next",
+        "ButtonPrev": "Previous"
+      },
+      "Steps": [
+        {
+          "Image": {
+            "FilePath": "data/images/",
+            "FileName": "start_1.png",
+            "AltText": ""
+          },
+          "HTML": ""
+        },
+        {
+          "Image": {
+            "FilePath": "data/images/",
+            "FileName": "what1.png",
+            "AltText": "what"
+          },
+          "HTML": "<h3>What...</h3><ul><li>was my goal?</li><li>did I do?</li><li>was I feeling?</li><li>went well?</li><li>went poorly?</li></ul>"
+        },
+        {
+          "Image": {
+            "FilePath": "data/images/",
+            "FileName": "sowhat.png",
+            "AltText": "sowhat"
+          },
+          "HTML": "<h3>So what...</h3><ul><li>was important?</li><li>knowledge can inform me?</li><li>did I learn about myself?</li></ul>"
+        },
+        {
+          "Image": {
+            "FilePath": "data/images/",
+            "FileName": "nowwhat.png",
+            "AltText": "nowwhat "
+          },
+          "HTML": "<h3>Now what...</h3><ul><li>can I do to improve my knowledge?</li><li>can I do to\nimprove my skills?</li><li>can I do differently?</li></ul>"
+        }
+      ]
+    },
+    {
+      "ContainerID": "dnext2",
+      "StepText": "Page",
+      "Layout": {
+        "TextPosition": "right",
+        "TextColumns": 4,
+        "TextStyle": "html",
+        "TextDisplay": "stack"
+      },
+      "Navigation": {
+        "ShowProgress": false,
+        "ButtonNext": "Next",
+        "ButtonPrev": "Previous"
+      },
+      "Steps": [
+        {
+          "Image": {
+            "FilePath": "data/images/",
+            "FileName": "start_2.png",
+            "AltText": ""
+          },
+          "HTML": ""
+        },
+        {
+          "Image": {
+            "FilePath": "data/images/",
+            "FileName": "What.png",
+            "AltText": "What"
+          },
+          "HTML": "<h5>What</h5><ul><li>What…was I required to do?</li><li>What…did I submit?</li></ul>"
+        },
+        {
+          "Image": {
+            "FilePath": "data/images/",
+            "FileName": "When.png",
+            "AltText": "When"
+          },
+          "HTML": "<h5>When</h5><ul><li>When…was the assignment due?</li><li>When…did I get started on the work?</li></ul>"
+        },
+        {
+          "Image": {
+            "FilePath": "data/images/",
+            "FileName": "Where.png",
+            "AltText": "Where"
+          },
+          "HTML": "<h5>Where</h5><ul><li>Where…did I do the work?</li><li>Where…could I have gone to work more productively?</li></ul>"
+        },
+        {
+          "Image": {
+            "FilePath": "data/images/",
+            "FileName": "Who.png",
+            "AltText": "Who"
+          },
+          "HTML": "<h5>Who</h5><ul><li>Who…could I have consulted for assistance?</li><li>Who…have I worked well with in the past?</li></ul>"
+        },
+        {
+          "Image": {
+            "FilePath": "data/images/",
+            "FileName": "Why.png",
+            "AltText": "Why"
+          },
+          "HTML": "<h5>Why</h5><ul><li>Why…was I successful?</li><li>Why…did I hesitate to get started on the assignment?</li></ul>"
+        },
+        {
+          "Image": {
+            "FilePath": "data/images/",
+            "FileName": "How.png",
+            "AltText": "How"
+          },
+          "HTML": "<h5>How</h5><ul><li>How…much did I consult the assignment instructions, rubric,\nexemplars, etc.?</li><li>How...effectively did I incorporate feedback that I had\nreceived on previous assignments and in class work?</li></ul>"
+        }
+      ]
+    },
+    {
+      "ContainerID": "dnext3",
+      "StepText": "Page",
+      "Layout": {
+        "TextPosition": "right",
+        "TextColumns": 4,
+        "TextStyle": "html",
+        "TextDisplay": "stack"
+      },
+      "Navigation": {
+        "ShowProgress": false,
+        "ButtonNext": "Next",
+        "ButtonPrev": "Previous"
+      },
+      "Steps": [
+        {
+          "Image": {
+            "FilePath": "data/images/",
+            "FileName": "start_3.png",
+            "AltText": ""
+          },
+          "HTML": ""
+        },
+        {
+          "Image": {
+            "FilePath": "data/images/",
+            "FileName": "Outward.png",
+            "AltText": "Outward"
+          },
+          "HTML": "<p><strong>Outward</strong> refers to how the work you did on this project or the ideas you explored might have been influenced by the way we see others in society. Did your work on this project lead you to question or challenge any of these assumptions?</p>"
+        },
+        {
+          "Image": {
+            "FilePath": "data/images/",
+            "FileName": "Forward.png",
+            "AltText": "Forward"
+          },
+          "HTML": "<p><strong>Forward</strong> refers to the outcome of your reflective process. What are you going to do differently next time?</p>"
+        },
+        {
+          "Image": {
+            "FilePath": "data/images/",
+            "FileName": "Inward.png",
+            "AltText": "Inward"
+          },
+          "HTML": "<p><strong>Inward</strong> refers to how\nyou felt about a particular situation or project (or a particular aspect of the\nsituation or project).</p>"
+        },
+        {
+          "Image": {
+            "FilePath": "data/images/",
+            "FileName": "Backward.png",
+            "AltText": "Backward"
+          },
+          "HTML": "<p><strong>Backward</strong> might refer to factors that affected your\nexperience of a particular event or the result of a particular project, such as\nprevious experiences or your level of preparation.</p>"
+        }
+      ]
+    },
+    {
+      "ContainerID": "dnext4",
+      "StepText": "Page",
+      "Layout": {
+        "TextPosition": "bottom",
+        "TextColumns": 12,
+        "TextStyle": "html",
+        "TextDisplay": "stack"
+      },
+      "Navigation": {
+        "ShowProgress": false,
+        "ButtonNext": "Next",
+        "ButtonPrev": "Previous"
+      },
+      "Steps": [
+        {
+          "Image": {
+            "FilePath": "data/images/",
+            "FileName": "start_4.png",
+            "AltText": ""
+          },
+          "HTML": ""
+        },
+        {
+          "Image": {
+            "FilePath": "data/images/",
+            "FileName": "Remembering.png",
+            "AltText": "Remembering"
+          },
+          "HTML": "<h5>1. Remembering</h5><ol type=\"a\"><li>What did I\naccomplish?</li><li>What steps did\nI take to complete this work?</li></ol>"
+        },
+        {
+          "Image": {
+            "FilePath": "data/images/",
+            "FileName": "Understanding.png",
+            "AltText": "Understanding"
+          },
+          "HTML": "<h5>2. Understanding</h5><ol type=\"a\"><li>What new insights did I develop as a result of doing this work?</li><li>How has my\nperspective changed after doing this assignment?</li></ol>"
+        },
+        {
+          "Image": {
+            "FilePath": "data/images/",
+            "FileName": "Analyzing.png",
+            "AltText": "Analyzing"
+          },
+          "HTML": "<h5>3. Analyzing</h5><ol type=\"a\"><li>What challenges to my current thinking did this work present?</li><li>How does work in this course connect with work in another course?</li></ol>"
+        },
+        {
+          "Image": {
+            "FilePath": "data/images/",
+            "FileName": "Evaluating.png",
+            "AltText": "Evaluating"
+          },
+          "HTML": "<h5>4. Evaluating</h5><ol type=\"a\"><li>What did I do\nwell? What areas do I still need to work on?</li><li>What would I do\ndifferently if I did it again?</li></ol>"
+        },
+        {
+          "Image": {
+            "FilePath": "data/images/",
+            "FileName": "Creating.png",
+            "AltText": "Creating"
+          },
+          "HTML": "<h5>5. Creating</h5><ol type=\"a\"><li>What\nnext steps do I want to take as a result of this learning experience?</li><li>What should I\ndo next to achieve my goals?</li></ol>"
+        }
+      ]
+    }
+  ]
+}
