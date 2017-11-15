@@ -1,6 +1,9 @@
 {
   "Activities": [
     {
+      "ContainerID": "dropdown1",
+      "TitleCol1": "Scenario",
+      "TitleCol2": "Option",
       "Randomize": true,
       "Questions": [
         {
@@ -166,6 +169,9 @@
       ]
     },
     {
+      "ContainerID": "dropdown2",
+      "TitleCol1": "Scenario",
+      "TitleCol2": "Option",
       "Randomize": true,
       "Questions": [
         {
@@ -283,6 +289,9 @@
       ]
     },
     {
+      "ContainerID": "dropdown3",
+      "TitleCol1": "Scenario",
+      "TitleCol2": "Option",
       "Randomize": true,
       "Questions": [
         {
@@ -299,7 +308,7 @@
           ],
           "Answer": {
             "AutoDisplay": false,
-            "FeedbackText": "<p>The correct answer is true. Find out why Wikipedia is not a good resource\nfor serious research: <a href=\"http://www.chronicle.com/blogs/wiredcampus/wikipedia-founder-discourages-academic-use-of-his-creation/2305\" title=\"http://www.chronicle.com/blogs/wiredcampus/wikipedia-founder-discourages-academic-use-of-his-creation/2305\">Wikipedia Founder Discourages Academic Use of His Creation</a>.</p>",
+            "FeedbackText": "<p>The correct answer is true. Find out why Wikipedia is not a good resource\nfor serious research: <a href=\"http://www.chronicle.com/blogs/wiredcampus/wikipedia-founder-discourages-academic-use-of-his-creation/2305\" title=\"http://www.chronicle.com/blogs/wiredcampus/wikipedia-founder-discourages-academic-use-of-his-creation/2305\" target=\"_blank\">Wikipedia Founder Discourages Academic Use of His Creation</a>.</p>",
             "Correct": [
               "A"
             ]
@@ -319,7 +328,7 @@
           ],
           "Answer": {
             "AutoDisplay": false,
-            "FeedbackText": "<p>The correct answer is true. Find out why Wikipedia discourages citing\nWikipedia: <a href=\"https://en.wikipedia.org/wiki/Wikipedia:Citing_Wikipedia\" title=\"https://en.wikipedia.org/wiki/Wikipedia:Citing_Wikipedia\">Wikipedia: Citing Wikipedia</a>.</p>",
+            "FeedbackText": "<p>The correct answer is true. Find out why Wikipedia discourages citing\nWikipedia: <a href=\"https://en.wikipedia.org/wiki/Wikipedia:Citing_Wikipedia\" title=\"https://en.wikipedia.org/wiki/Wikipedia:Citing_Wikipedia\" target=\"_blank\">Wikipedia: Citing Wikipedia</a>.</p>",
             "Correct": [
               "A"
             ]
@@ -359,7 +368,7 @@
           ],
           "Answer": {
             "AutoDisplay": false,
-            "FeedbackText": "<p>The correct answer is true. Find out about Wikipedia’s guidelines for\nreliable sources: <a href=\"https://en.wikipedia.org/wiki/Wikipedia:Identifying_reliable_sources\" title=\"https://en.wikipedia.org/wiki/Wikipedia:Identifying_reliable_sources\">Wikipedia: Identifying reliable sources</a>.</p>",
+            "FeedbackText": "<p>The correct answer is true. Find out about Wikipedia’s guidelines for\nreliable sources: <a href=\"https://en.wikipedia.org/wiki/Wikipedia:Identifying_reliable_sources\" title=\"https://en.wikipedia.org/wiki/Wikipedia:Identifying_reliable_sources\" target=\"_blank\">Wikipedia: Identifying reliable sources</a>.</p>",
             "Correct": [
               "A"
             ]
@@ -379,7 +388,7 @@
           ],
           "Answer": {
             "AutoDisplay": false,
-            "FeedbackText": "<p>The correct answer is true. To see how many hoaxes have been reported and\nthe definition of a hoax, read <a href=\"https://en.wikipedia.org/wiki/Wikipedia:List_of_hoaxes_on_Wikipedia\" title=\"https://en.wikipedia.org/wiki/Wikipedia:List_of_hoaxes_on_Wikipedia\">Wikipedia: List of hoaxes on Wikipedia</a>.</p>",
+            "FeedbackText": "<p>The correct answer is true. To see how many hoaxes have been reported and\nthe definition of a hoax, read <a href=\"https://en.wikipedia.org/wiki/Wikipedia:List_of_hoaxes_on_Wikipedia\" title=\"https://en.wikipedia.org/wiki/Wikipedia:List_of_hoaxes_on_Wikipedia\" target=\"_blank\">Wikipedia: List of hoaxes on Wikipedia</a>.</p>",
             "Correct": [
               "A"
             ]
@@ -399,7 +408,7 @@
           ],
           "Answer": {
             "AutoDisplay": false,
-            "FeedbackText": "<p>To read about how Wikipedia editors are\noverwhelmingly male, read <a href=\"http://eds.b.ebscohost.com.eztest.ocls.ca/eds/detail/detail?vid=0&sid=cf5c93d5-af83-46eb-b170-258cf7bcc995%40sessionmgr4007&bdata=JnNpdGU9ZWRzLWxpdmUmc2NvcGU9c2l0ZQ%3d%3d#AN=86986419&db=rch\">Wiki-opoly</a>.</p>",
+            "FeedbackText": "<p>To read about how Wikipedia editors are\noverwhelmingly male, read <a href=\"http://eds.b.ebscohost.com.eztest.ocls.ca/eds/detail/detail?vid=0&sid=cf5c93d5-af83-46eb-b170-258cf7bcc995%40sessionmgr4007&bdata=JnNpdGU9ZWRzLWxpdmUmc2NvcGU9c2l0ZQ%3d%3d#AN=86986419&db=rch\" target=\"_blank\">Wiki-opoly</a>.</p>",
             "Correct": [
               "A"
             ]
@@ -419,7 +428,7 @@
           ],
           "Answer": {
             "AutoDisplay": false,
-            "FeedbackText": "<p>To read about how Wikipedia is biased towards\nWestern topics, read <a href=\"http://eds.b.ebscohost.com.eztest.ocls.ca/eds/detail/detail?vid=0&sid=cf5c93d5-af83-46eb-b170-258cf7bcc995%40sessionmgr4007&bdata=JnNpdGU9ZWRzLWxpdmUmc2NvcGU9c2l0ZQ%3d%3d#AN=86986419&db=rch\">Wiki-opoly</a>.</p>",
+            "FeedbackText": "<p>To read about how Wikipedia is biased towards\nWestern topics, read <a href=\"http://eds.b.ebscohost.com.eztest.ocls.ca/eds/detail/detail?vid=0&sid=cf5c93d5-af83-46eb-b170-258cf7bcc995%40sessionmgr4007&bdata=JnNpdGU9ZWRzLWxpdmUmc2NvcGU9c2l0ZQ%3d%3d#AN=86986419&db=rch\" target=\"_blank\">Wiki-opoly</a>.</p>",
             "Correct": [
               "A"
             ]

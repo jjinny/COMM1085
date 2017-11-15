@@ -1,77 +1,308 @@
 {
-  "Randomize": true,
-  "Questions": [
+  "Activities": [
     {
-      "Text": "What\ndid I do that allowed me to have that success? ",
-      "Options": [
+      "ContainerID": "dropdown1",
+      "TitleCol1": "Scenario",
+      "TitleCol2": "Option",
+      "Randomize": true,
+      "Questions": [
         {
-          "Val": "A",
-          "Text": "Option A"
+          "Text": "What did I do that allowed me to have that success? ",
+          "Options": [
+            {
+              "Val": "A",
+              "Text": "Option A"
+            },
+            {
+              "Val": "B",
+              "Text": "Option B"
+            },
+            {
+              "Val": "C",
+              "Text": "Option C"
+            }
+          ],
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "The correct answer is B.",
+            "Correct": [
+              "B"
+            ]
+          }
         },
         {
-          "Val": "B",
-          "Text": "Option B"
+          "Text": "What do I need to do on the next assignment to ensure that I can repeat the success\nI had on the previous ones ",
+          "Options": [
+            {
+              "Val": "A",
+              "Text": "Option A"
+            },
+            {
+              "Val": "B",
+              "Text": "Option B"
+            },
+            {
+              "Val": "C",
+              "Text": "Option C"
+            }
+          ],
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "The correct answer is C.",
+            "Correct": [
+              "C"
+            ]
+          }
         },
         {
-          "Val": "C",
-          "Text": "Option C"
+          "Text": "What\ndid my instructor say was successful about my work?",
+          "Options": [
+            {
+              "Val": "A",
+              "Text": "Option A"
+            },
+            {
+              "Val": "B",
+              "Text": "Option B"
+            },
+            {
+              "Val": "C",
+              "Text": "Option C"
+            }
+          ],
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "The correct answer is A.",
+            "Correct": [
+              "A"
+            ]
+          }
         }
-      ],
-      "Answer": {
-        "AutoDisplay": false,
-        "FeedbackText": "The correct answer is B.",
-        "Correct": [
-          "B"
-        ]
-      }
+      ]
     },
     {
-      "Text": "What\ndo I need to do on the next assignment to ensure that I can repeat the success\nI had on the previous ones ",
-      "Options": [
+      "ContainerID": "dropdown2",
+      "TitleCol1": "Scenario",
+      "TitleCol2": "Option",
+      "Randomize": true,
+      "Questions": [
         {
-          "Val": "A",
-          "Text": "Option A"
+          "Text": "Which of the four “directions” asks a kind of question that hasn’t been included in the previous two models? ",
+          "Options": [
+            {
+              "Val": "A",
+              "Text": "Outward"
+            },
+            {
+              "Val": "B",
+              "Text": "Forward"
+            },
+            {
+              "Val": "C",
+              "Text": "Inward"
+            },
+            {
+              "Val": "D",
+              "Text": "Backward"
+            }
+          ],
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "The correct answer is A.",
+            "Correct": [
+              "A"
+            ]
+          }
         },
         {
-          "Val": "B",
-          "Text": "Option B"
-        },
-        {
-          "Val": "C",
-          "Text": "Option C"
+          "Text": "Which of the two previous writing assignments in this course — analytical and persuasive writing — is more likely to support a reflection on your personal beliefs, values, assumptions etc. ",
+          "Options": [
+            {
+              "Val": "A",
+              "Text": "analytical"
+            },
+            {
+              "Val": "B",
+              "Text": "persuasive"
+            }
+          ],
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "The correct answer is B.",
+            "Correct": [
+              "B"
+            ]
+          }
         }
-      ],
-      "Answer": {
-        "AutoDisplay": false,
-        "FeedbackText": "The correct answer is C.",
-        "Correct": [
-          "C"
-        ]
-      }
+      ]
     },
     {
-      "Text": "What\ndid my instructor say was successful about my work?",
-      "Options": [
+      "ContainerID": "dropdown3",
+      "TitleCol1": "Scenario",
+      "TitleCol2": "Option",
+      "Randomize": true,
+      "Questions": [
         {
-          "Val": "A",
-          "Text": "Option A"
+          "Text": "What resources did I use when I was working on these assignments? ",
+          "Options": [
+            {
+              "Val": "A",
+              "Text": "Option A"
+            },
+            {
+              "Val": "B",
+              "Text": "Option B"
+            },
+            {
+              "Val": "C",
+              "Text": "Option C"
+            },
+            {
+              "Val": "D",
+              "Text": "Option D"
+            },
+            {
+              "Val": "E",
+              "Text": "Option E"
+            }
+          ],
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "The correct answer is A.",
+            "Correct": [
+              "A"
+            ]
+          }
         },
         {
-          "Val": "B",
-          "Text": "Option B"
+          "Text": "What\ndid my instructor identify as my biggest areas for improvement on these\nassignments?  ",
+          "Options": [
+            {
+              "Val": "A",
+              "Text": "Option A"
+            },
+            {
+              "Val": "B",
+              "Text": "Option B"
+            },
+            {
+              "Val": "C",
+              "Text": "Option C"
+            },
+            {
+              "Val": "D",
+              "Text": "Option D"
+            },
+            {
+              "Val": "E",
+              "Text": "Option E"
+            }
+          ],
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "The correct answer is B.",
+            "Correct": [
+              "B"
+            ]
+          }
         },
         {
-          "Val": "C",
-          "Text": "Option C"
+          "Text": "How does my instructor’s observation compare to the way I perceived my own strengths and weaknesses as a writer, prior to working on these assignments? ",
+          "Options": [
+            {
+              "Val": "A",
+              "Text": "Option A"
+            },
+            {
+              "Val": "B",
+              "Text": "Option B"
+            },
+            {
+              "Val": "C",
+              "Text": "Option C"
+            },
+            {
+              "Val": "D",
+              "Text": "Option D"
+            },
+            {
+              "Val": "E",
+              "Text": "Option E"
+            }
+          ],
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "The correct answer is C.",
+            "Correct": [
+              "C"
+            ]
+          }
+        },
+        {
+          "Text": "What aspects of my approach to this work had the biggest impact on the overall quality of the work? ",
+          "Options": [
+            {
+              "Val": "A",
+              "Text": "Option A"
+            },
+            {
+              "Val": "B",
+              "Text": "Option B"
+            },
+            {
+              "Val": "C",
+              "Text": "Option C"
+            },
+            {
+              "Val": "D",
+              "Text": "Option D"
+            },
+            {
+              "Val": "E",
+              "Text": "Option E"
+            }
+          ],
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "The correct answer is D.",
+            "Correct": [
+              "D"
+            ]
+          }
+        },
+        {
+          "Text": "How should I schedule my time as I approach the next assignment in this course — the research project? ",
+          "Options": [
+            {
+              "Val": "A",
+              "Text": "Option A"
+            },
+            {
+              "Val": "B",
+              "Text": "Option B"
+            },
+            {
+              "Val": "C",
+              "Text": "Option C"
+            },
+            {
+              "Val": "D",
+              "Text": "Option D"
+            },
+            {
+              "Val": "E",
+              "Text": "Option E"
+            }
+          ],
+          "Answer": {
+            "AutoDisplay": false,
+            "FeedbackText": "The correct answer is E.",
+            "Correct": [
+              "E"
+            ]
+          }
         }
-      ],
-      "Answer": {
-        "AutoDisplay": false,
-        "FeedbackText": "The correct answer is A.",
-        "Correct": [
-          "A"
-        ]
-      }
+      ]
     }
   ]
 }
