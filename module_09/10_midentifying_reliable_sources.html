@@ -17,11 +17,11 @@
   <link href="../css/bootstrap.css" rel="stylesheet">
 
   <!-- Material Design Bootstrap -->
-  <link href="../css/mdb.min.css" rel="stylesheet">
+  <link href="../css/mdb.css" rel="stylesheet">
 
   <!-- Your custom styles (optional) -->
   <link href="../css/style.css" rel="stylesheet">
-  <link rel="stylesheet" href="../facilitator_tools/Multi-Dropdown/css/multi-dropdown.css">
+  <link rel="stylesheet" href="../facilitator_tools/Multi-Dropdown/css/multi-dropdown-multi.css">
 </head>
 
 <body>
@@ -85,16 +85,8 @@
 				<span class="badge accent-3" style="margin-right: 5px;">D</span> newspapers<br>
 				<span class="badge accent-3" style="margin-right: 5px;">E</span> trade publications/journals</p>
 			  <div class="clearfix"></div>
-			  <div class="row">
-				<button class="btn btn-large prime-bg btn-check" id="submit-all" onclick="resetAll()">Reset Activity</button>
-				<table id="mi-table" class="table">
-				  <tr>
-					<th id="column-question">Scenario</th>
-					<th id="column-input">Option</th>
-					<th id="column-feedback">Feedback</th>
-					<th id="column-feedbackicon"></th>
-				  </tr>
-				</table>
+			  <div class="row" id="dropdown1">
+
 			  </div>
           </div>
             </div>
@@ -128,16 +120,7 @@
 				<span class="badge accent-3" style="margin-right: 5px;">C</span> governmental<br>
 				<span class="badge accent-3" style="margin-right: 5px;">D</span> informational</p>
 			  <div class="clearfix"></div>
-			  <div class="row">
-				<button class="btn btn-large prime-bg btn-check" id="submit-all" onclick="resetAll()">Reset Activity</button>
-				<table id="mi-table" class="table">
-				  <tr>
-					<th id="column-question">Scenario</th>
-					<th id="column-input">Option</th>
-					<th id="column-feedback">Feedback</th>
-					<th id="column-feedbackicon"></th>
-				  </tr>
-				</table>
+			  <div class="row" id="dropdown2">
 			  </div>
             </div>
             </div>
@@ -154,16 +137,7 @@
               <h3>Knowledge Check</h3>
               <p>Identify the truthfulness of the following statements about Wikipedia</p>
 			  <div class="clearfix"></div>
-			  <div class="row">
-				<button class="btn btn-large prime-bg btn-check" id="submit-all" onclick="resetAll()">Reset Activity</button>
-				<table id="mi-table" class="table">
-				  <tr>
-					<th id="column-question">Scenario</th>
-					<th id="column-input">Option</th>
-					<th id="column-feedback">Feedback</th>
-					<th id="column-feedbackicon"></th>
-				  </tr>
-				</table>
+			  <div class="row" id="dropdown3">
 			  </div>
             </div>
             </div>
@@ -173,7 +147,7 @@
         <div class="clearfix"></div>
         <div class="citation mt-5">
 		<p><strong>References:</strong><br>
-          Conestoga College Library Resource Centre. (2014, October 27). <a href="https://www.youtube.com/watch?v=x29CWA-uXdA&feature=youtu.be" title="https://www.youtube.com/watch?v=x29CWA-uXdA&feature=youtu.be"><em>Preparing – Types of Resources, Part 2: Websites.</em></a> [Video file]. Retrieved September 29, 2017.</p></div>
+          Conestoga College Library Resource Centre. (2014, October 27). <a href="https://www.youtube.com/watch?v=x29CWA-uXdA&feature=youtu.be" title="https://www.youtube.com/watch?v=x29CWA-uXdA&feature=youtu.be" target="_blank"><em>Preparing – Types of Resources, Part 2: Websites.</em></a> [Video file]. Retrieved September 29, 2017.</p></div>
     </div>
   </div>
 </main>
@@ -209,9 +183,9 @@
 <script src="../js/plugins/olc-custom.js"></script>
 
 <!-- Multi-Select Dropdown--> 
-<script src="../facilitator_tools/Multi-Dropdown/js/multi-dropdown.js"></script> 
+<script src="../facilitator_tools/Multi-Dropdown/js/multi-dropdown-multi.js"></script> 
 <script>
-	var datafilepath = "data/library_resources_drop.json";
+	var datafilepath = "data/library_resources_drop_multi.json";
 </script>
 
 <!-- Move to bottom with scripts -->
