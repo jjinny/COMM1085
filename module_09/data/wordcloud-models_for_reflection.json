@@ -1,0 +1,32 @@
+{
+  "FieldID": 1000043,
+  "FieldName": "COMM1085-ModelsForSelfReflection",
+  "WordCloudID": 1,
+  "Title": "",
+  "Instructions": "Please submit one word at a time. Adding words that are already in the cloud will increase their prominence.",
+  "Description": "The size of each word is based on how many different users have submit it.",
+  "Filters": [
+    "banned1",
+    "banned2"
+  ],
+  "Size": {
+    "Width": 720,
+    "Height": 720
+  },
+  "TextColors": [
+    "#263238",
+    "#455a64",
+    "#3F729B",
+    "#d32f2f",
+    "#FFCC80"
+  ],
+  "Roles": {
+    "ModeratorView": [
+      101
+    ],
+    "ParticipantView": [
+      103
+    ]
+  },
+  "Features": {}
+}

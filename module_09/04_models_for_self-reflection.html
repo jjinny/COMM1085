@@ -25,6 +25,7 @@
   <link rel="stylesheet" href="../facilitator_tools/DiagramNext/css/diagramnext.css">
   <link rel="stylesheet" href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css">
   <link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.2.4/css/buttons.dataTables.min.css">
+  <link href="../WordCloud/_css/wordcloud.css" rel="stylesheet">
 </head>
 
 <body>
@@ -92,7 +93,57 @@
 				  <div id="dnext2"></div>
 			  </div>
               <p>Which of the 6 question words (who, what, where, when, why and how) is likely to require the most interpretation and reflection? Why? Enter your answer in the text box below.</p>
-              <h2>INSERT WORDCLOUD</h2>
+              
+              <!-- Nav tabs -->
+			  <ul class="nav nav-tabs" role="tablist">
+				<li role="presentation" class="active"><a href="#participantview" aria-controls="participantview" role="tab" data-toggle="tab">Your Response</a></li>
+				<li role="presentation"><a href="#resultsview" aria-controls="resultsview" role="tab" data-toggle="tab">Class Results</a></li>
+			  </ul>
+
+			  <!-- Tab panes -->
+			  <div class="tab-content">
+				<div role="tabpanel" class="tab-pane active" id="participantview">
+					<div class="row">
+						<div class="col-xs-12" id="widgetdetails">
+
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12">
+							<input type="text" class="form-control" id="inputwordcloud" placeholder="Your Word Suggestion">
+							<button id="wordcloudsubmit" class="btn btn-default">Submit</button>
+
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-xs-12">
+							<h3 id="wordlistheader">Your Words:</h3>
+							<div id="userwordlist"></div>
+						</div>
+
+					</div>
+
+
+					<div class="row">
+						<div id="updatetext" class="col-xs-12">
+							<p>Saved...</p>
+						</div>
+					</div>
+
+				</div>   
+				<div role="tabpanel" class="tab-pane" id="resultsview">
+					<div class="row">
+
+
+					</div>
+					<h3 id="wordcloudtitle">Class Results</h3>
+					<p id="wordclouddescription">You must submit at least one word before viewing class results.</p>
+
+					<div id="wordcloud"></div>
+
+				</div>
+			  </div>
           </div>
             </div>
           </div>
@@ -236,6 +287,18 @@
 <!-- Custom JS --> 
 <script src="../facilitator_tools/Reflection/assets/js/main.min.js"></script> 
 <script src="../facilitator_tools/Reflection/assets/js/inline-feedback.js"></script>
+<!-- WordCloud -->
+<script src="../WordCloud/_js/thirdpartylib/global-superagent-d2l-session-auth.js"></script>
+    <script src="../WordCloud/_js/thirdpartylib/csval-lib.js"></script>
+
+	<script src="../WordCloud/d3-wordcloud-master/lib/d3/d3.js"></script>
+    <script src="../WordCloud/d3-wordcloud-master/lib/d3/d3.layout.cloud.js"></script>
+    <script src="../WordCloud/d3-wordcloud-master/d3.wordcloud.js"></script>  
+   
+    <script>
+		var wcdatafilename = "wordcloud-models_for_reflection.json";  
+	</script>
+    <script src="../WordCloud/_js/wordcloud-maker.js"></script> 
 <noscript>
 This activity will only load in an online environment with JavaScript enabled.
 </noscript> 
