@@ -21,7 +21,8 @@
 
 <!-- Your custom styles (optional) -->
 <link href="../css/style.css" rel="stylesheet">
-<link rel="stylesheet" href="../facilitator_tools/DiagramNext/css/diagramnext.css">
+<link href="../facilitator_tools/OLCDragDrop/css/olcdd.css" rel="stylesheet">
+<link href="../css/animate.css" rel="stylesheet">
 </head>
 
 <body>
@@ -50,6 +51,94 @@
 		<h3>Support</h3><p>Other sources should support the information found. Always look for a reference list, bibliography or citations demonstrating where the information came from.</p>
        
         <p>Use this system with the checklist in the next topic page to rank the following three sources from most reliable to least. Use all the information provided in the reference to track down and evaluate the source.</p>
+        <h2><i class="fal fa-question-circle fa-lg text-second fa-pull-left"></i> Knowledge Check</h2>
+
+							<p>Drag the <strong>Stress Beats</strong> to their matching <strong>Words</strong>, below. If you drag the Stress Beats to the incorrect word, <em>it will not drop</em>. If you want to start over, use the <strong>Reset Activity</strong> button.</p>
+							
+							<div class="col-sm-8 card accent-4 p-3 mb-3" style="margin: auto;">
+								<div class="row">
+								
+								<div class="col-sm-1 text-center">
+									<i class="fa fa-circle fa-2x" aria-hidden="true"></i>
+								</div>
+								<div class="col-sm-11" style="padding-left: 20px">
+									<p>stands for<br>Schütz, M. (2016), Science shows that eSports professionals are real athletes, <em>Deutsche Welle</em>, Retrieved October 27, 2016, <a href="http://www.dw.com/en/science-shows-that-esports-professionals-are-real-athletes/a-19084993" target="_blank">http://www.dw.com/en/science-shows-that-esports-professionals-are-real-athletes/a-19084993</a></p>
+								</div>
+								</div>
+								
+								<div class="row">
+								<div class="col-sm-1 text-center">
+									<i class="fa fa-circle fa-lg pl-1" aria-hidden="true"></i>
+								</div>
+								<div class="col-sm-11" style="padding-left: 20px">
+									<p> stands for <br>Sport. (2016). <em>Wikipedia</em>, Retrieved April 21, 2017. <a href="https://en.wikipedia.org/wiki/Sport\" target="_blank">https://en.wikipedia.org/wiki/Sport</a></p>
+								</div>
+								</div>
+								
+								<div class="row">								
+								<div class="col-sm-1 text-center">
+									<i class="fa fa-circle pl-2" aria-hidden="true"></i>
+								</div>
+								<div class="col-sm-11" style="padding-left: 20px">
+									<p> stands for <br>Jordans. eSports are Real Sports. Fact / Myth. Retrieved September 21, 2017 from <a href="http://factmyth.com/factoids/esports-are-real-sports/" target="_blank">http://factmyth.com/factoids/esports-are-real-sports/</a></p>
+								</div>
+								</div>
+								
+							</div>
+							
+							<div class="clearfix"></div>
+
+						    <article class="drop-effect cf">
+						        
+						        <div class="drag-zone cf">
+							      <div class="drag-item animated bounceIn">
+						          </div>
+						          <div class="drag-item animated bounceIn">
+						            <img draggable="true" src="images/14_03.jpg" class="drag" data-effect-allowed="move" id="di3"/>
+						          </div>
+						          <div class="drag-item animated bounceIn">
+						            <img draggable="true" src="images/14_01.jpg" class="drag" data-effect-allowed="move" id="di1"/>
+						          </div>
+						          <div class="drag-item animated bounceIn">
+						            <img draggable="true" src="images/14_02.jpg" class="drag" data-effect-allowed="move" id="di2"/>
+						          </div>
+						        </div>
+						        
+						        <div class="row">
+						        	<div class="col-sm-12 text-center">
+						        		<i class="fa fa-arrow-down fa-3x secondary-clr" aria-hidden="true" style="padding: 10px;"></i>
+						        	</div>
+						        </div>
+						
+						        <div class="drop-zone cf">
+							      <div class="drop-item">
+						          </div>
+						          <div class="drop-item">
+						            <div class="drop animated bounceInUp" data-drop-effect="move" id="dz1"></div>
+						            <h5 class="clear">Most reliable</h5>
+						          </div>
+						          
+						          <div class="drop-item">
+						            <div class="drop animated bounceInUp" data-drop-effect="move" id="dz2"></div>
+						            <h5 class="clear">Middle — Potentially useful, but problematic </h5>         
+						          </div>
+						          
+						          <div class="drop-item">
+						            <div class="drop animated bounceInUp" data-drop-effect="move" id="dz3"></div>
+						            <h5 class="clear">Least reliable</h5> 
+						          </div>
+						          
+						          <div class="clearfix"></div>
+						     
+						    
+						    
+						    <div class="reset-button">Reset Activity</div>
+    
+							
+						
+							</div>
+							</article>
+        
         <div class="accordion" id="accordion" role="tablist" aria-multiselectable="true">
         <div class="card hoverable">
           <div class="card-header" role="tab" id="headingOne"> <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
@@ -112,10 +201,8 @@
 
 <!-- OLC Custom JS --> 
 <script src="../js/plugins/olc-custom.js"></script>
-<script>
-		var datafilename = "diagramnext_CARS_tool.json";
-	</script> 
-<script src="../facilitator_tools/DiagramNext/js/diagramnext_multi.js"></script>
+<script src="../facilitator_tools/OLCDragDrop/js/olcdd.js"></script>
+
 <script>
   function heightMatch(idMatch, idResize) {
     $('#'+idResize).outerHeight($('#'+idMatch).outerHeight());

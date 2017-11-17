@@ -1,0 +1,123 @@
+/*clearfixes*/
+
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+
+div {
+  margin: 0rem;
+}
+
+.clear {
+  clear: both;
+}
+
+.page {
+  max-width: 890px;
+  margin: 0px auto;
+}
+
+.drop-effect .container {
+  margin: 0 0 1% 0;
+}
+
+.reset-button {
+  background: #eee;
+  border: solid 1px #ccc;
+  padding: 12px 15px;
+  display: inline-block;
+  cursor: pointer;
+  margin-top: 25px;
+}
+/*universal*/
+
+.drop-effect .drag-zone,
+.drop-effect .drop-zone {
+  width: 100%;
+  background: #eee;
+  border: solid 1px #ccc;
+  padding: 5px 0 5px 5px;
+}
+
+.drop-effect .drag-item,
+.drop-effect .drop-item {
+  width: 162px;
+  margin: 0% 0.8% 0.8% 0.6%;
+  float: left;
+  text-align: center;
+  overflow: hidden;
+  padding-top: 10px;
+}
+
+.drop-effect .drag-item .drag,
+.drop-effect .drop-item .drop {
+  border: solid 1px #ccc;
+  background: #DDD;
+  cursor: -webkit-grab;
+  cursor: -moz-grab;
+  border: solid 1px transparent;
+  height: auto;
+  width: 100%;
+  display: inline-block;
+  -webkit-transition: all 300ms ease-in;
+  transition: all 300ms ease-in;
+}
+/*drag related styles*/
+
+.drop-effect .drag-zone {}
+
+.drop-effect .drag-zone .drag {}
+
+.drop-effect .drag-zone .drag.drag-active {
+  border: solid 1px #333;
+  opacity: 0.7;
+}
+/*drop related styles*/
+
+.drop-effect .drop-zone {}
+
+.drop-effect .drop-zone .drop {
+  width: 100%;
+  height: 0px;
+  padding-bottom: 100%;
+  border: 3px dotted #a4a4a4;
+}
+
+.drop-effect .drop-zone .drop.drop-active {
+  border: solid 1px #AAA;
+}
+.drop-effect .drop-zone .drop.correct {
+	padding-top: 2px;
+	border: 0px solid black;
+}
+
+.drop-effect .drop-zone img{
+  width: 100%;
+  height: auto;
+}
+
+.ie-message {
+  display: none;
+  padding: 15px;
+  background: #e74c3c;
+  color: #fff;
+  border: dashed 2px #c0392b;
+  margin-bottom: 15px;
+}
+
+.p {
+  padding-top: 100px;
+}
