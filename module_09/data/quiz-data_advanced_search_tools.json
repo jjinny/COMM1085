@@ -1,0 +1,150 @@
+{
+  "General": {
+    "QuizName": "Knowledge Check",
+    "HeadingLevel": 3,
+    "instructions": "none",
+    "feedBackType": "continuous",
+    "forceCorrect": false,
+    "repeatOnComplete": true,
+    "allowNone": false,
+    "allowPrevious": true,
+    "showHints": false,
+    "allowPartial": true,
+    "randomize": true,
+    "subtractWrong": false,
+    "preQuizText": "",
+    "preQuizMedia": "none",
+    "postQuizText": "none",
+    "postQuizMedia": []
+  },
+  "Questions": [
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "<h3>Searching With Phrases</h3><p>Which of the following best uses quotation marks to create logical phrases?</p>",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "“Supply chains” AND “retail industry” AND “environmental sustainability”",
+          "feedBack": "That is correct!",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "“Supply chains AND retail industry” AND “environmental sustainability”",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "Supply chains AND “retail” industry AND “environmental” sustainability",
+          "feedBack": "That is not correct."
+        }
+      ]
+    },
+    {
+      "questionType": "All That Apply",
+      "maxScoreValue": 2,
+      "questionText": "<h3>Capturing Word Variations</h3><p>Which of the following words might require an asterisk for truncation? Select all that apply.</p>",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Supply",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "Chains",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "Retail",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "Industry",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "Environmental",
+          "feedBack": "That is correct!",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Sustainability",
+          "feedBack": "That is correct!",
+          "scoreValue": 1
+        }
+      ]
+    },
+    {
+      "questionType": "All That Apply",
+      "maxScoreValue": 2,
+      "questionText": "<h3>Capturing Word Variations</h3><p>Which of the following represent logical truncations? Select all that apply.</p>",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Environment*",
+          "feedBack": "That is correct!",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Environ*",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "Sustainable*",
+          "feedBack": "That is correct!",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Sustain*",
+          "feedBack": "That is not correct."
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "<h3>Searching with Operators</h3><p>How will your search results change if you use operators to replace “environmental impact” with environmental (impact OR sustainability)? Hint: try it!</p>",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "The results would remain unchanged",
+          "feedBack": "That is not correct. There would be more results because they now include materials that use the term “environmental impact” in addition to materials that use the related term “environmental sustainability”."
+        },
+        {
+          "answerText": "The number of results would be greater.",
+          "feedBack": "That is correct! There would be more results because they now include materials that use the term “environmental impact” in addition to materials that use the related term “environmental sustainability”.",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "The number of results would be smaller.",
+          "feedBack": "That is not correct. There would be more results because they now include materials that use the term “environmental impact” in addition to materials that use the related term “environmental sustainability”."
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "<h3>Refining Results Using Filters</h3><p>Which “limiter” would you use to target only those materials that were published in “Trade Publications” — periodicals produced by industry professionals, for industry professionals?</p>",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Source Type",
+          "feedBack": "That is correct!",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Subject",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "Publication Title",
+          "feedBack": "That is not correct."
+        }
+      ]
+    }
+  ]
+}

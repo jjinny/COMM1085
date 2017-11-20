@@ -1,0 +1,307 @@
+{
+  "Activities": [
+    {
+      "Video": {
+        "ContainID": "vpcontain",
+        "VideoID": "video0",
+        "Width": 800,
+        "Height": 450,
+        "Controls": true,
+        "StartTime": 0,
+        "Type": "YouTube",
+        "PreviewImage": {
+          "HasImage": true,
+          "FileName": "plagiarism_quoting_paraphrasing.jpg"
+        },
+        "SourceData": {
+          "FolderPath": "",
+          "Sources": []
+        },
+        "YouTubeData": {
+          "videoId": "nfzB6wgxdOY"
+        }
+      },
+      "Popups": [
+        {
+          "Type": "Question",
+          "StartTime": 73,
+          "PauseVideo": true,
+          "Enforce": true,
+          "MustRetry": false,
+          "ViewLater": true,
+          "ShortTitle": "Question",
+          "Question": {
+            "activityType": "MC",
+            "title": "Knowledge Check",
+            "questionText": "Which of the following best uses quotation marks to create logical phrases?",
+            "feedbacktext": true,
+            "feedbackicons": false,
+            "key": "",
+            "answers": [
+              {
+                "answerText": "“Supply chains” AND “retail industry” AND “environmental sustainability”",
+                "correct": true,
+                "feedback": "That's right!"
+              },
+              {
+                "answerText": "“Supply chains AND retail industry” AND “environmental sustainability”",
+                "correct": false,
+                "feedback": "This statement is not true."
+              },
+              {
+                "answerText": "Supply chains AND “retail” industry AND “environmental” sustainability",
+                "correct": false,
+                "feedback": "This statement is not true."
+              }
+            ]
+          }
+        }
+      ],
+      "Bullets": {
+        "Lists": []
+      }
+    },
+    {
+      "Video": {
+        "ContainID": "vpcontain",
+        "VideoID": "video0",
+        "Width": 800,
+        "Height": 450,
+        "Controls": true,
+        "StartTime": 0,
+        "Type": "YouTube",
+        "PreviewImage": {
+          "HasImage": true,
+          "FileName": "plagiarism_quoting_paraphrasing.jpg"
+        },
+        "SourceData": {
+          "FolderPath": "",
+          "Sources": []
+        },
+        "YouTubeData": {
+          "videoId": "3VIIhtU0a8E"
+        }
+      },
+      "Popups": [
+        {
+          "Type": "Question",
+          "StartTime": 54,
+          "PauseVideo": true,
+          "Enforce": true,
+          "MustRetry": false,
+          "ViewLater": true,
+          "ShortTitle": "Question",
+          "Question": {
+            "activityType": "MC",
+            "title": "Knowledge Check",
+            "questionText": "Which of the following words might\nrequire an asterisk for truncation? Select all that apply.",
+            "feedbacktext": true,
+            "feedbackicons": false,
+            "key": "",
+            "answers": [
+              {
+                "answerText": "Supply",
+                "correct": false,
+                "feedback": "This statement is not true."
+              },
+              {
+                "answerText": "Chains",
+                "correct": false,
+                "feedback": "This statement is not true."
+              },
+              {
+                "answerText": "Retail",
+                "correct": false,
+                "feedback": "This statement is not true."
+              },
+              {
+                "answerText": "Industry",
+                "correct": false,
+                "feedback": "This statement is not true."
+              },
+              {
+                "answerText": "Environmental",
+                "correct": true,
+                "feedback": "That's right!"
+              },
+              {
+                "answerText": "Sustainability",
+                "correct": true,
+                "feedback": "That's right!"
+              }
+            ]
+          }
+        },
+        {
+          "Type": "Question",
+          "StartTime": 55,
+          "PauseVideo": true,
+          "Enforce": true,
+          "MustRetry": false,
+          "ViewLater": true,
+          "ShortTitle": "Question",
+          "Question": {
+            "activityType": "MC",
+            "title": "Knowledge Check",
+            "questionText": "Which\nof the following represent logical truncations? Select all that apply.",
+            "feedbacktext": true,
+            "feedbackicons": false,
+            "key": "",
+            "answers": [
+              {
+                "answerText": "Environment*",
+                "correct": true,
+                "feedback": "That's right!"
+              },
+              {
+                "answerText": "Environ*",
+                "correct": false,
+                "feedback": "This statement is not true."
+              },
+              {
+                "answerText": "Sustainable*",
+                "correct": true,
+                "feedback": "That's right!"
+              },
+              {
+                "answerText": "Sustain*",
+                "correct": false,
+                "feedback": "This statement is not true."
+              }
+            ]
+          }
+        }
+      ],
+      "Bullets": {
+        "Lists": []
+      }
+    },
+    {
+      "Video": {
+        "ContainID": "vpcontain",
+        "VideoID": "video0",
+        "Width": 800,
+        "Height": 450,
+        "Controls": true,
+        "StartTime": 0,
+        "Type": "YouTube",
+        "PreviewImage": {
+          "HasImage": true,
+          "FileName": "plagiarism_quoting_paraphrasing.jpg"
+        },
+        "SourceData": {
+          "FolderPath": "",
+          "Sources": []
+        },
+        "YouTubeData": {
+          "videoId": "r9nt2MZjvuc"
+        }
+      },
+      "Popups": [
+        {
+          "Type": "Question",
+          "StartTime": 54,
+          "PauseVideo": true,
+          "Enforce": true,
+          "MustRetry": false,
+          "ViewLater": true,
+          "ShortTitle": "Question",
+          "Question": {
+            "activityType": "MC",
+            "title": "Knowledge Check",
+            "questionText": "How will your search results change\nif you use operators to replace “environmental impact” with environmental\n(impact OR sustainability)? Hint: try it!",
+            "feedbacktext": true,
+            "feedbackicons": false,
+            "key": "",
+            "answers": [
+              {
+                "answerText": "The results would remain unchanged",
+                "correct": false,
+                "feedback": "This statement is not true. There would be more results because they now include materials that use the term “environmental impact” in addition to materials that use the related term “environmental sustainability”."
+              },
+              {
+                "answerText": "The number of results would be greater.",
+                "correct": false,
+                "feedback": "That's right! There would be more results because they now include materials that use the term “environmental impact” in addition to materials that use the related term “environmental sustainability”."
+              },
+              {
+                "answerText": "The number of results would be smaller.",
+                "correct": false,
+                "feedback": "This statement is not true. There would be more results because they now include materials that use the term “environmental impact” in addition to materials that use the related term “environmental sustainability”."
+              }
+            ]
+          }
+        }
+      ],
+      "Bullets": {
+        "Lists": []
+      }
+    },
+    {
+      "Video": {
+        "ContainID": "vpcontain",
+        "VideoID": "video0",
+        "Width": 800,
+        "Height": 450,
+        "Controls": true,
+        "StartTime": 0,
+        "Type": "YouTube",
+        "PreviewImage": {
+          "HasImage": true,
+          "FileName": "plagiarism_quoting_paraphrasing.jpg"
+        },
+        "SourceData": {
+          "FolderPath": "",
+          "Sources": []
+        },
+        "YouTubeData": {
+          "videoId": "gkbyPT-NDCs"
+        }
+      },
+      "Popups": [
+        {
+          "Type": "Question",
+          "StartTime": 54,
+          "PauseVideo": true,
+          "Enforce": true,
+          "MustRetry": false,
+          "ViewLater": true,
+          "ShortTitle": "Question",
+          "Question": {
+            "activityType": "MC",
+            "title": "Knowledge Check",
+            "questionText": "Which “limiter” would you use to target only those materials that were published in “Trade Publications” — periodicals produced by industry professionals, for industry professionals?",
+            "feedbacktext": true,
+            "feedbackicons": false,
+            "key": "",
+            "answers": [
+              {
+                "answerText": "Source Type",
+                "correct": false,
+                "feedback": "That's right!"
+              },
+              {
+                "answerText": "Subject",
+                "correct": false,
+                "feedback": "This statement is not true."
+              },
+              {
+                "answerText": "Publication Title",
+                "correct": false,
+                "feedback": "This statement is not true."
+              },
+              {
+                "answerText": "Geographic Area",
+                "correct": false,
+                "feedback": "This statement is not true."
+              }
+            ]
+          }
+        }
+      ],
+      "Bullets": {
+        "Lists": []
+      }
+    }
+  ]
+}

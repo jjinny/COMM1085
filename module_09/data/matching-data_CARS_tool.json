@@ -1,0 +1,61 @@
+{
+  "ActivityName": "",
+  "ActivityType": "sort",
+  "HeadingLevel": 3,
+  "FeedbackType": "continuous",
+  "HighlightEffect": true,
+  "QuestionColumns": "1",
+  "Randomize": true,
+  "HorizontalAlignment": true,
+  "PreActivityText": "",
+  "PreActivityMedia": "none",
+  "IncludePostPage": false,
+  "PostActivityText": "none",
+  "PostActivityMedia": "none",
+  "AnswerNodes": [
+    {
+      "key": "Most",
+      "title": "Most reliable",
+      "color": "default",
+      "src": "#d1004e"
+    },
+    {
+      "key": "Middle",
+      "title": "Middle — Potentially useful, but problematic ",
+      "color": "default",
+      "src": "#71ff30"
+    },
+    {
+      "key": "Least",
+      "title": "Least reliable",
+      "color": "default",
+      "src": "#71ff30"
+    }
+  ],
+  "QuestionNodes": [
+    {
+      "question": "<p>Schütz, M. (2016), Science shows that eSports professionals are real athletes, <em>Deutsche Welle</em>, Retrieved October 27, 2016, <a href=\"http://www.dw.com/en/science-shows-that-esports-professionals-are-real-athletes/a-19084993\" target=\"_blank\">http://www.dw.com/en/science-shows-that-esports-professionals-are-real-athletes/a-19084993</a></p>",
+      "answer": "Most",
+      "type": "text",
+      "color": "default",
+      "correct": "Good job!",
+      "wrong": "Really?"
+    },
+    {
+      "question": "<p>Sport.\n(2016). <em>Wikipedia</em>,\nRetrieved April 21, 2017. <a href=\"https://en.wikipedia.org/wiki/Sport\" target=\"_blank\">https://en.wikipedia.org/wiki/Sport</a></p>",
+      "answer": "Middle",
+      "type": "text",
+      "color": "default",
+      "correct": "Good job!",
+      "wrong": "Really?"
+    },
+    {
+      "question": "<p>Jordans. eSports are Real Sports. Fact\n/ Myth. Retrieved September 21, 2017 from <a href=\"http://factmyth.com/factoids/esports-are-real-sports/\" target=\"_blank\">http://factmyth.com/factoids/esports-are-real-sports/</a></p>",
+      "answer": "Least",
+      "type": "text",
+      "color": "default",
+      "correct": "Good job!",
+      "wrong": "Really?"
+    }
+  ]
+}

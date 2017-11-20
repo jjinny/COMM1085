@@ -21,7 +21,7 @@
 
   <!-- Your custom styles (optional) -->
   <link href="../css/style.css" rel="stylesheet">
-  <link href="../facilitator_tools/VideoPlus/css/videoplus.css" rel="stylesheet">
+  <link href="../facilitator_tools/Quiz/css/quiz.css" rel="stylesheet">
 </head>
 
 <body>
@@ -61,18 +61,12 @@
           </div>
           <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
             <div class="card-block">
-              <p>Watch this video and answer the question within the video.</p>
-			  <div class="bottom-space">
-				  <div id="vpcontain">
-					<div id="vidpreview"></div>
-					<div id="ytplayer"></div>
-				  </div>
+              <p>Watch this video and answer the question after videos.</p>
+			  <div class="col col-xs-12 col-md-7 no-gutters mb-4" style="margin: auto;">
+			    <div class="well no-gutters p-1 z-depth-1">
+				  <iframe width="100%" height="315" src="https://www.youtube.com/embed/nfzB6wgxdOY?rel=0" class="flex" frameborder="0" allowfullscreen></iframe>
+				</div>
 			  </div>
-				<div style="height:200px">
-				<div id="vpbullets1"></div>
-				<div id="vpbullets2" style="margin-left:35px"></div>
-				<div id="vpbullets3"></div>
-			</div>
             </div>
           </div>
         </div>
@@ -82,7 +76,7 @@
           </div>
           <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
             <div class="card-block">
-              <p>Watch this video and answer the questions within the video.</p>
+              <p>Watch this video and answer the questions after videos.</p>
               <div class="col col-xs-12 col-md-7 no-gutters mb-4" style="margin: auto;">
 			    <div class="well no-gutters p-1 z-depth-1">
 				  <iframe width="100%" height="315" src="https://www.youtube.com/embed/3VIIhtU0a8E?rel=0" class="flex" frameborder="0" allowfullscreen></iframe>
@@ -97,7 +91,7 @@
           </div>
           <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
             <div class="card-block">
-              <p>Watch this video and answer the questions within the video.</p>
+              <p>Watch this video and answer the questions within after videos.</p>
               <div class="col col-xs-12 col-md-7 no-gutters mb-4" style="margin: auto;">
 			    <div class="well no-gutters p-1 z-depth-1">
 				  <iframe width="100%" height="315" src="https://www.youtube.com/embed/r9nt2MZjvuc?rel=0" class="flex" frameborder="0" allowfullscreen></iframe>
@@ -112,12 +106,23 @@
           </div>
           <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour">
             <div class="card-block">
-              <p>Watch this video and answer the question within the video.</p>
+              <p>Watch this video and answer the question after videos.</p>
 				 <div class="col col-xs-12 col-md-7 no-gutters mb-4" style="margin: auto;">
 					<div class="well no-gutters p-1 z-depth-1">
 					  <iframe width="100%" height="315" src="https://www.youtube.com/embed/gkbyPT-NDCs?rel=0" class="flex" frameborder="0" allowfullscreen></iframe>
 					</div>
 				  </div>
+			  </div>
+            </div>
+            </div>
+            <div class="card hoverable">
+          <div class="card-header" role="tab" id="headingFive"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            <h2 class="mb-0 p-3"><i class="fal fa-question-circle text-second pr-2" aria-hidden="true"></i> Knowledge Check <i class="fa fa-angle-down rotate-icon"></i></h2></a>
+          </div>
+          <div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingFive">
+            <div class="card-block">
+              <section id="dbox"></section>
+				 
 			  </div>
             </div>
             </div>
@@ -163,15 +168,19 @@
 
 <!-- OLC Custom JS -->
 <script src="../js/plugins/olc-custom.js"></script>
-
-<script src="../facilitator_tools/VideoPlus/js/videoplusEngine.js"></script> 
-<script type="text/javascript">
-		$(document).ready(function() {
-	    	VideoPlusApp.setupApp("data/videoPlus_text-references.json");
-		});
+<!-- Inline quiz --> 
+<script src="https://s.brightspace.com/lib/jquery/1.11.0/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="thirdpartylib/jquery/jquery-1.11.0.min.js"><\/script>')</script>
+<script src="../facilitator_tools/Quiz/js/quiz.js"></script>
+<script>
+   	$(document).ready(function() {
+   		InlineQuizApp.setupQuiz("data/quiz-data_advanced_search_tools.json", "dbox")
+   	});
 </script>
+
 <noscript>
-This activity will only load in an online environment with JavaScript enabled.
+  This activity will only load in an online environment with JavaScript enabled.
 </noscript>
+
 </body>
 </html>
