@@ -24,6 +24,8 @@
   <link href="../facilitator_tools/Multi-input/css/multi-input.css" rel="stylesheet">
   <link href="../facilitator_tools/VideoPlus/css/videoplus.css" rel="stylesheet">
   <link href="../facilitator_tools/Quiz/css/quiz.css" rel="stylesheet">
+  <link href="../facilitator_tools/OLCDragDrop/css/olcdd.css" rel="stylesheet">
+  <link href="../css/animate.css" rel="stylesheet">
 </head>
 
 <body>
@@ -97,6 +99,76 @@
 				</div>
 			  </div>
 			  <p>Match the following resource types to their appropriate icons.</p>
+			  <h1>Stress Knowledge Check</h1>
+
+							<p>Drag the <strong>Stress Beats</strong> to their matching <strong>Words</strong>, below. If you drag the Stress Beats to the incorrect word, <em>it will not drop</em>. If you want to start over, use the <strong>Reset Activity</strong> button.</p>
+							
+							<div class="clearfix"></div>
+
+						    <article class="drop-effect cf">
+						        
+						        <div class="drag-zone cf">
+							        
+						          <div class="drag-item animated bounceIn">
+						            <img draggable="true" src="images/News.jpg" class="drag" data-effect-allowed="move" id="di3"/>
+						          </div>
+						          <div class="drag-item animated bounceIn">
+						            <img draggable="true" src="images/e-Books.jpg" class="drag" data-effect-allowed="move" id="di5"/>
+						          </div>
+						          <div class="drag-item animated bounceIn">
+						            <img draggable="true" src="images/" class="drag" data-effect-allowed="move" id="di1"/>
+						          </div>
+						          <div class="drag-item animated bounceIn">
+						            <img draggable="true" src="images/Periodical.jpg" class="drag" data-effect-allowed="move" id="di4"/>
+						          </div>
+						          <div class="drag-item animated bounceIn">
+						            <img draggable="true" src="images/Academic Journal.jpg" class="drag" data-effect-allowed="move" id="di2"/>
+						          </div>
+						        </div>
+						        
+						        <div class="row">
+						        	<div class="col-sm-12 text-center">
+						        		<i class="fa fa-arrow-down fa-3x secondary-clr" aria-hidden="true" style="padding: 10px;"></i>
+						        	</div>
+						        </div>
+						
+						        <div class="drop-zone cf">
+							        
+						          <div class="drop-item">
+						            <div class="drop animated bounceInUp" data-drop-effect="move" id="dz1"></div>
+						            <h4 class="clear">Encyclopedia / Research Starter </h4>
+						          </div>
+						          
+						          <div class="drop-item">
+						            <div class="drop animated bounceInUp" data-drop-effect="move" id="dz2"></div>
+						            <h4 class="clear">Academic Journal </h4>         
+						          </div>
+						          
+						          <div class="drop-item">
+						            <div class="drop animated bounceInUp" data-drop-effect="move" id="dz3"></div>
+						            <h4 class="clear">News </h4>
+						          </div>
+						          
+						          <div class="drop-item">
+						            <div class="drop animated bounceInUp" data-drop-effect="move" id="dz4"></div>
+						            <h4 class="clear">Periodical </h4>
+						          </div>
+						          
+						          <div class="drop-item">
+						            <div class="drop animated bounceInUp" data-drop-effect="move" id="dz5"></div>
+						            <h4 class="clear">Books and e-Books </h4>
+						          </div>
+						          
+						          <div class="clearfix"></div>
+						     
+						    
+						    
+						    <div class="reset-button">Reset Activity</div>
+    
+							
+						
+							</div>
+							</article>
 			  </div>
           </div>
             </div>
@@ -193,14 +265,14 @@
 	    	VideoPlusApp.setupApp("data/video_variety_resource.json");
 		});
 </script>
-<script src="https://s.brightspace.com/lib/jquery/1.11.0/jquery.min.js"></script>
-      <script>window.jQuery || document.write('<script src="thirdpartylib/jquery/jquery-1.11.0.min.js"><\/script>')</script>
       <script src="../facilitator_tools/Quiz/js/quiz.js"></script>
    	<script>
    		$(document).ready(function() {
    			InlineQuizApp.setupQuiz("data/quiz-data_key_area_library.json", "dbox")
    		});
    	</script>
+<!-- Custom JS Scripts -->
+<script src="../facilitator_tools/OLCDragDrop/js/olcdd.js"></script>
 <noscript>
   This activity will only load in an online environment with JavaScript enabled.
 </noscript>

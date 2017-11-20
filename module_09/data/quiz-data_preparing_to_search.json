@@ -1,0 +1,97 @@
+{
+  "General": {
+    "QuizName": "Knowledge Check",
+    "HeadingLevel": 3,
+    "instructions": "none",
+    "feedBackType": "continuous",
+    "forceCorrect": false,
+    "repeatOnComplete": true,
+    "allowNone": false,
+    "allowPrevious": true,
+    "showHints": false,
+    "allowPartial": true,
+    "randomize": true,
+    "subtractWrong": false,
+    "preQuizText": "",
+    "preQuizMedia": "none",
+    "postQuizText": "none",
+    "postQuizMedia": []
+  },
+  "Questions": [
+    {
+      "questionType": "All That Apply",
+      "maxScoreValue": 2,
+      "questionText": "<h3>Defining a Research Question and Doing Background Research</h3><p>Which resource should you select to help you identify individual sub-topics that you might pursue later and to become more familiar with key terms, names, and concepts related to the topic? Select all that apply.</p>",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "“The Logistics Management” Research Starter, which appears above the numbered list of results.",
+          "feedBack": "That is correct!“The Logistics Management” is a lengthy encyclopedia reference and a good place to learn more about supply chain management in general. The resource is organized into sub-sections, and it includes definitions of key terms and a list of relevant and reliable materials on the topic.",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "The eBook titled “Supply Chain Management: Best Practices”, numbered 1 on the list of results.",
+          "feedBack": "That is correct! “Supply Chain Management: Best Practices” is a current and wide-ranging textbook that explores fundamental concepts, historical background, and in-depth case studies. Although you certainly wouldn’t attempt to read the whole thing, you could learn a lot by scanning the table of contents and index for key terms, and skimming the sections of the book that seem most interesting or relevant.",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "The eBook titled “Supply Chain Management: European Perspectives”, numbered 4 on the list of results.",
+          "feedBack": "That is not correct. Although “Supply Chain Management: European Perspectives” is also a comprehensive textbook, sure to be filled with factual information, its European perspective is likely not relevant to your own studies."
+        },
+        {
+          "answerText": "The academic journal article titled “A Dynamic Process of Building Global <strong>Supply Chain</strong> Competence by New Ventures: The Case of Uniqlo””, numbered 6 on the list of results",
+          "feedBack": "That is not correct.Although “A Dynamic Process of Building Global Supply Chain Competence by New Ventures” is peer-reviewed, which means its information is reliable and well-documented, its depth and detail isn’t helpful for you at this early stage of your thinking and reading. After you have identified a specific focus, you might return to articles like this one to enrich and inform you understanding of the topic."
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "<h3>Choosing Keywords and Brainstorming Synonyms</h3><p>Let’s continue to imagine that you chose to read the “Research Starter” on Supply Chain Management, browsed a few other general resources, and ultimately decided to pursue this question:<br>“What are the best ways to make retail supply chains more sustainable?”<br>Using the techniques for choosing keywords and brainstorming synonyms outlined in the video above, which of the following collection of key words is likely to produce the most relevant search results?</p>",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "“Best ways”, “Retail supply chains”, “more sustainable”",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "“retail”, “supply chain”, “sustainable”",
+          "feedBack": "That is correct!",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "“sustainable retail supply chains”",
+          "feedBack": "That is not correct."
+        },
+        {
+          "answerText": "“What are the best ways to make retail supply chains more sustainable?”",
+          "feedBack": "That is not correct."
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "<h3>Finding Databases</h3><p>The search terms from the previous question helped you to find a wide range of materials, but you haven’t yet assembled a full picture if you’d like to get more discussion from a Canadian perspective, for example, Canadian industry statistics. Where is the most effective way to find Canadian resources?</p>",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Use the “Find Resources by Subject” tool and look for databases that specifically mention Canadian content in their descriptions",
+          "feedBack": "That is correct! You know you’ve found Canadian content if you see the maple leaf beside the title.",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Add search terms like “Canada” and “industry statistics” to your search",
+          "feedBack": "That is not correct. You know you’ve found Canadian content if you see the maple leaf beside the title."
+        },
+        {
+          "answerText": "Change the settings on the drop-down menus beside your search terms",
+          "feedBack": "That is not correct. You know you’ve found Canadian content if you see the maple leaf beside the title."
+        }
+      ]
+    }
+  ]
+}
