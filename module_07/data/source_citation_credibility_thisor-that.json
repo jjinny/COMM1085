@@ -1,0 +1,48 @@
+{
+  "ActivityList": [
+    {
+      "ContainerID": "json-activity-box",
+      "MaxQuestions": 5,
+      "HeadingLevel": 3,
+      "IsScored": true,
+      "HasFeedback": false,
+      "Randomization": false,
+      "Layout": "stacked",
+      "PostQuiz": "",
+      "Questions": [
+        {
+          "Text": "<p>Which of the following in-text citation styles – standard or split – is more appropriate for the source? If you’re not familiar with this organization, check out <a href=\"https://www.interpol.int/\" target=\"_blank\">their website.</a></p><p>Make your choice by selecting one of the quotes below.</p>",
+          "Icon": "",
+          "Image": {
+            "Path": "data/img",
+            "FileName": ""
+          },
+          "Answers": [
+            {
+              "Text": "<p><strong>Standard</strong><br>Although the methods may be new, many of the crimes that occur online are familiar to law enforcement agencies (Interpol, 2016, “The changing nature of cybercrime”, para. 3).</p>",
+              "Image": {
+                "Path": "",
+                "FileName": ""
+              },
+              "Feedback": {
+                "Text": "That is not correct.",
+                "IsCorrect": false
+              }
+            },
+            {
+              "Text": "<p><strong>Split</strong><br>International crime-fighting organization Interpol (2016) notes that many of the crimes they encounter on the Internet are similar to the crimes they faced before the computer age (“The changing nature of cybercrime”, para. 3).</p>",
+              "Image": {
+                "Path": "",
+                "FileName": ""
+              },
+              "Feedback": {
+                "Text": "That is correct!",
+                "IsCorrect": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
