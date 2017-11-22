@@ -1,0 +1,88 @@
+{
+  "General": {
+    "QuizName": "Knowledge Check",
+    "HeadingLevel": 3,
+    "instructions": "none",
+    "feedBackType": "continuous",
+    "forceCorrect": false,
+    "repeatOnComplete": true,
+    "allowNone": false,
+    "allowPrevious": true,
+    "showHints": false,
+    "allowPartial": true,
+    "randomize": true,
+    "subtractWrong": false,
+    "preQuizText": "",
+    "preQuizMedia": "none",
+    "postQuizText": "none",
+    "postQuizMedia": []
+  },
+  "Questions": [
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "Which of three persuasive strategies does the author rely on most heavily in this text?",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Credibility",
+          "feedBack": "That is not correct. Although the author maintains his credibility by treating his subject fairly — adopting a neutral tone and avoiding any obvious bias — it is not the primary tool used to persuade the reader."
+        },
+        {
+          "answerText": "Logic",
+          "feedBack": "That is correct! The author appeals primarily to the reader’s sense of logic as he persuades us to view Facebook as a media company that has a responsibility to follow accepted editorial standards. ",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Emotion",
+          "feedBack": "That is not correct. There is a noticeable lack of emotion in this text. By contrast, a more emotional appeal might have attempted to frighten the reader by imagining a future in which Facebook uses its power like a tyrant to control free speech online."
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "What kind of logic is the author using when he suggests that regulating junk-food advertising is “a good place to start” improving our “relationship with food”?",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Cause and effect",
+          "feedBack": "That is not correct. Cause and effect logic is common in arguments that promote or argue in favour of a particular proposal or policy change.  "
+        },
+        {
+          "answerText": "Definition",
+          "feedBack": "That is correct! Cause and effect logic is common in arguments that promote or argue in favour of a particular proposal or policy change.  ",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Visual signs",
+          "feedBack": "That is not correct. Cause and effect logic is common in arguments that promote or argue in favour of a particular proposal or policy change.   "
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "Which emotional technique does the author use to begin the text?",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Description ",
+          "feedBack": "That is not correct. Narration, as illustrated with the incident of the banned photo, helps the reader focus on a specific example of Facebook’s editorial decision-making. The author uses this narrative to ground hisargument in real-life situations, and avoid making his argument seem vague or hypothetical."
+        },
+        {
+          "answerText": "Evocative language",
+          "feedBack": "That is not correct. Narration, as illustrated with the incident of the banned photo, helps the reader focus on a specific example of Facebook’s editorial decision-making. The author uses this narrative to ground his argument in real-life situations, and avoid making his argument seem vague or hypothetical."
+        },
+        {
+          "answerText": "Narration",
+          "feedBack": "That is correct! Narration, as illustrated with the incident of the banned photo, helps the reader focus on a specific example of Facebook’s editorial decision-making. The author uses this narrative to ground his argument in real-life situations, and avoid making his argument seem vague or hypothetical.",
+          "scoreValue": 1
+        }
+      ]
+    }
+  ]
+}

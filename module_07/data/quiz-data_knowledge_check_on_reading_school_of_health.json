@@ -1,0 +1,88 @@
+{
+  "General": {
+    "QuizName": "Knowledge Check",
+    "HeadingLevel": 3,
+    "instructions": "none",
+    "feedBackType": "continuous",
+    "forceCorrect": false,
+    "repeatOnComplete": true,
+    "allowNone": false,
+    "allowPrevious": true,
+    "showHints": false,
+    "allowPartial": true,
+    "randomize": true,
+    "subtractWrong": false,
+    "preQuizText": "",
+    "preQuizMedia": "none",
+    "postQuizText": "none",
+    "postQuizMedia": []
+  },
+  "Questions": [
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "Which of three persuasive strategies does the author rely on most heavily in this text?",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Credibility",
+          "feedBack": "That is not correct. Although the author establishes himself as a knowledgeable and reliable commentator by citing reliable evidence, he does not draw attention to this credibility in an attempt to persuade the reader. "
+        },
+        {
+          "answerText": "Logic",
+          "feedBack": "That is correct! The author uses a variety of logical tools to help the reader view junk-food advertising as a real and serious problem that needs to be addressed. ",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Emotion",
+          "feedBack": "That is not correct. There is a noticeable lack of emotion in this text. By contrast, a more emotional appeal might have provided the reader with an anecdote about a particular child afflicted by diabetes or obesity, in order to put a face on the problem of junk-food advertising "
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "What kind of logic is the author using when he suggests that\nregulating junk-food advertising is “a good place to start” improving our\n“relationship with food”?",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Cause and effect",
+          "feedBack": "That is correct! Cause and effect logic is common in arguments that\npromote or argue in favour of a particular proposal or policy change.  ",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Visual\nsigns",
+          "feedBack": "That is not correct. Cause and effect logic is common in arguments that\npromote or argue in favour of a particular proposal or policy change.  "
+        },
+        {
+          "answerText": "Definition",
+          "feedBack": "That is not correct. Cause and effect logic is common in arguments that\npromote or argue in favour of a particular proposal or policy change.  "
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "Which emotional technique does the author use to engage the\nreader in this sentence: “Sparing kids a daily <em>onslaught</em> of ads for unhealthy foods is as good a place\nto start as any.”",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Description ",
+          "feedBack": "That is not correct. Evocative language, such as the word <em>onslaught</em>, conjures an image\nof a physical attack consisting of countless weapons, such as arrows or bombs."
+        },
+        {
+          "answerText": "Evocative language",
+          "feedBack": "That is correct! Evocative language, such as the word <em>onslaught</em>, conjures an image\nof a physical attack consisting of countless weapons, such as arrows or bombs.",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Narration",
+          "feedBack": "That is not correct. Evocative language, such as the word <em>onslaught</em>, conjures an image\nof a physical attack consisting of countless weapons, such as arrows or bombs."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "General": {
+    "QuizName": "Knowledge Check",
+    "HeadingLevel": 3,
+    "instructions": "none",
+    "feedBackType": "continuous",
+    "forceCorrect": false,
+    "repeatOnComplete": true,
+    "allowNone": false,
+    "allowPrevious": true,
+    "showHints": false,
+    "allowPartial": true,
+    "randomize": true,
+    "subtractWrong": false,
+    "preQuizText": "",
+    "preQuizMedia": "none",
+    "postQuizText": "none",
+    "postQuizMedia": []
+  },
+  "Questions": [
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "Which of three persuasive strategies does the author rely on most heavily in this text?",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Credibility",
+          "feedBack": "That is correct! The author presents himself as an experienced member of the technology community, and he uses this experience to present himself as a qualified expert on the subject",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Logic",
+          "feedBack": "That is not correct. Some factual data is presented, but it is used primarily to document the recent trend of overclocking, rather than as evidence to support the author’s claim that people should use overclocking."
+        },
+        {
+          "answerText": "Emotion",
+          "feedBack": "That is not correct. The author uses little emotion here. In fact, he even seems to mock the emotional response to this trend when he writes in paragraph 4, “Sure, we could bemoan this trend as another bleak marker of our hypermetabolized world: We’re racing through life, grimly optimizing every waking moment!” "
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "What kind of logical support is the author using when he writes this: “I’m in favor of overclocking video and audio. It’s a clever adaptation. In an age where more and more information arrives as multimedia, <em>we’re reinventing the noble art of skimming. Skimming, after all, was how people dealt with the original info boom, the Gutenberg press.</em>”",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Analogy",
+          "feedBack": "That is correct! This is a great example of an historical analogy, comparing something from the past to something in the present.",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Definition",
+          "feedBack": "That is not correct. This is a great example of an historical analogy, comparing something from the past to something in the present."
+        },
+        {
+          "answerText": "Statistics",
+          "feedBack": "That is not correct. This is a great example of an historical analogy, comparing something from the past to something in the present."
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "Which emotional technique does the author use to engage the reader at the beginning of the text?",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Description",
+          "feedBack": "That is not correct. Narration, with the anecdote of Tikitu de Jager, a coder living in Greece, helps to personalize the topic for the reader and invites them to imagine their own experience with overclocking."
+        },
+        {
+          "answerText": "Evocative language",
+          "feedBack": "That is not correct. Narration, with the anecdote of Tikitu de Jager, a coder living in Greece, helps to personalize the topic for the reader and invites them to imagine their own experience with overclocking."
+        },
+        {
+          "answerText": "Narration",
+          "feedBack": "That is correct! Narration, with the anecdote of Tikitu de Jager, a coder living in Greece, helps to personalize the topic for the reader and invites them to imagine their own experience with overclocking.",
+          "scoreValue": 1
+        }
+      ]
+    }
+  ]
+}
