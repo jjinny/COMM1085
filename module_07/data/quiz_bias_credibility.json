@@ -1,0 +1,58 @@
+{
+  "General": {
+    "QuizName": "Knowledge Check: Bias or Personal Perspective?",
+    "HeadingLevel": 3,
+    "instructions": "none",
+    "feedBackType": "continuous",
+    "forceCorrect": false,
+    "repeatOnComplete": true,
+    "allowNone": false,
+    "allowPrevious": true,
+    "showHints": true,
+    "allowPartial": true,
+    "randomize": true,
+    "subtractWrong": false,
+    "preQuizText": "<p>Read the following scenarios and determine whether the writer is displaying a bias or a personal perspective.</p>",
+    "preQuizMedia": "none",
+    "postQuizText": "none",
+    "postQuizMedia": []
+  },
+  "Questions": [
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "<p>Consider how this writer characterizes students:</p><p class=\"p-3\">“Students cannot be expected to understand the impact of how they use social media without being taught about their digital footprint. Once a student is aware of how Twitter can be used negatively, they can avoid these pitfalls and use it to connect with other students and learning. They can connect with one another by sharing learning and see how different perspectives can be useful in understanding topics.”</p><p>Does this reflect a bias or the writer’s personal perspective?</p>",
+      "hintText": "none",
+      "hintMedia": [],
+      "answers": [
+        {
+          "answerText": "Bias ",
+          "feedBack": "That is not correct. In the first sentence of this paragraph, the author seems to presume that students currently misunderstand both their digital footprint and the negative uses of Twitter. This position suggests the author is viewing contemporary students and social media from a distance. Nevertheless, the argument is still credible because the author’s perspective does not restrict the author from considering the topic objectively and rationally. "
+        },
+        {
+          "answerText": "Personal Perspective",
+          "feedBack": "Correct! In the first sentence of this paragraph, the author seems to presume that students currently misunderstand both their digital footprint and the negative uses of Twitter. This position suggests the author is viewing contemporary students and social media from a distance. Nevertheless, the argument is still credible because the author’s perspective does not restrict the author from considering the topic objectively and rationally. ",
+          "scoreValue": 1
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "<p>Consider how this writer characterizes students:</p><p class=\"p-3\">Social media outlets such as Twitter, Facebook, and Snapchat do not allow youth to focus on bettering society. Social media is invading all of our time and spaces creating vacuums of productivity. Kids today have become lazy and spoiled growing up in the city with everything at their fingertips. And they’re being duped into believing they are creating connections when they are really just wasting their time, pretending that the grass is greener on the other side.</p><p>Does this reflect a bias or the writer’s personal perspective?</p>",
+      "hintText": "none",
+      "hintMedia": [],
+      "answers": [
+        {
+          "answerText": "Bias ",
+          "feedBack": "Correct! Although it might be easy to imagine a convincing criticism of excessive social media use, this writer’s credibility is undermined by the frequent intrusion of the writer’s pre-conceived impressions of both modern youth and social media platforms. The argument is overwhelmed by exaggerated claims, like the idea that “social media is invading all our time and spaces,” and emotionally-charged characterizations of young people, such as the accusation that “kids today have become lazy and spoiled.” ",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Personal Perspective",
+          "feedBack": "That is not correct. Although it might be easy to imagine a convincing criticism of excessive social media use, this writer’s credibility is undermined by the frequent intrusion of the writer’s pre-conceived impressions of both modern youth and social media platforms. The argument is overwhelmed by exaggerated claims, like the idea that “social media is invading all our time and spaces,” and emotionally-charged characterizations of young people, such as the accusation that “kids today have become lazy and spoiled.”"
+        }
+      ]
+    }
+  ]
+}
