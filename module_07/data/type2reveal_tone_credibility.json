@@ -1,0 +1,12 @@
+{
+  "Questions": [
+    {
+      "QuestionText": "What elements do you notice that are inappropriate for a piece of persuasive writing? To check your answer, type the elements into this text box.",
+      "InputType": "text",
+      "MinCharacters": 10,
+      "ButtonText": "Reveal Answer",
+      "AnswerText": "<p>The following elements in this paragraph are informal:<ul><li>I’m</li><li>all the time</li><li>all kinds</li><li>just to name a few</li><li>it’s high time</li><li>great things</li><li>totally</li><li>are you kidding me</li><li>serious coin</li><li>they’re</li><li>really</li><li>things like that</li></ul></p>",
+      "KeyWords": []
+    }
+  ]
+}
