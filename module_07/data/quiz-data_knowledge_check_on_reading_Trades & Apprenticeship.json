@@ -1,0 +1,88 @@
+{
+  "General": {
+    "QuizName": "Knowledge Check",
+    "HeadingLevel": 3,
+    "instructions": "none",
+    "feedBackType": "continuous",
+    "forceCorrect": false,
+    "repeatOnComplete": true,
+    "allowNone": false,
+    "allowPrevious": true,
+    "showHints": false,
+    "allowPartial": true,
+    "randomize": true,
+    "subtractWrong": false,
+    "preQuizText": "",
+    "preQuizMedia": "none",
+    "postQuizText": "none",
+    "postQuizMedia": []
+  },
+  "Questions": [
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "Which of three persuasive strategies does the author rely on most heavily in this text?",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Credibility",
+          "feedBack": "That is not correct. Although the author establishes his credibility by demonstrating his first-hand knowledge of the roofing business, the reader is not expected to simply “take his word for it.”"
+        },
+        {
+          "answerText": "Logic",
+          "feedBack": "That is correct! The author appeals primarily to the reader’s sense of logic as he persuades us to consider a career in metal roofing.",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Emotion",
+          "feedBack": "That is not correct. There is a noticeable lack of emotion in this text, which is to be expected in a discussion about the advantages of a career in metal roofing."
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "What kind of logic is the author using when he compares the current popularity of metal to the a scene from the 1967 film The Graduate in which one character advises another to pursue a career in “plastics”?",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Analogy",
+          "feedBack": "That is correct! The author is attempting to strengthen his argument in favour of metals by suggesting it will offer investors and early adopters the same success that they might have enjoyed if they had chosen to pursue a career in plastics in the previous generation. ",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Cause and effect",
+          "feedBack": "That is not correct. The author is attempting to strengthen his argument in favour of metals by suggesting it will offer investors and early adopters the same success that they might have enjoyed if they had chosen to pursue a career in plastics in the previous generation. "
+        },
+        {
+          "answerText": "Visual signs",
+          "feedBack": "That is not correct. The author is attempting to strengthen his argument in favour of metals by suggesting it will offer investors and early adopters the same success that they might have enjoyed if they had chosen to pursue a career in plastics in the previous generation.   "
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "Which emotional technique does the author use in this\npassage: “I know more than one roofing contractor who started out installing\naccent metal roofing on residential shingle jobs. One thing led to another and\nthey became equipped to do more of the fabrication in-house, and now have the\ncapacity to compete on large-scale metal roofing projects.”",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Description ",
+          "feedBack": "That is not correct. The author uses a short story of a real person to help the reader picture themselves in that position, which would likely encourage them to accept the author’s suggestion to pursue a career in metal roofing."
+        },
+        {
+          "answerText": "Evocative language",
+          "feedBack": "That is not correct. The author uses a short story of a real person to help the reader picture themselves in that position, which would likely encourage them to accept the author’s suggestion to pursue a career in metal roofing.domination”. "
+        },
+        {
+          "answerText": "Narration",
+          "feedBack": "That is correct! The author uses a short story of a real person to help the reader picture themselves in that position, which would likely encourage them to accept the author’s suggestion to pursue a career in metal roofing.",
+          "scoreValue": 1
+        }
+      ]
+    }
+  ]
+}

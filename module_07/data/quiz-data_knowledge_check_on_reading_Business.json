@@ -1,0 +1,88 @@
+{
+  "General": {
+    "QuizName": "Knowledge Check",
+    "HeadingLevel": 3,
+    "instructions": "none",
+    "feedBackType": "continuous",
+    "forceCorrect": false,
+    "repeatOnComplete": true,
+    "allowNone": false,
+    "allowPrevious": true,
+    "showHints": false,
+    "allowPartial": true,
+    "randomize": true,
+    "subtractWrong": false,
+    "preQuizText": "",
+    "preQuizMedia": "none",
+    "postQuizText": "none",
+    "postQuizMedia": []
+  },
+  "Questions": [
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "Which of three persuasive strategies does the author rely on most heavily in this text?",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Credibility",
+          "feedBack": "That is not correct. Actually, the writer’s tone and apparent bias might cause skeptical readers to question the author’s credibility."
+        },
+        {
+          "answerText": "Logic",
+          "feedBack": "That is not correct. The author does use inductive logic to make it seem as though, based on the examples of Amazon’s growing power, challenging Amazon’s practices is an obvious and inevitable conclusion. However, this device appears only at the end of the text."
+        },
+        {
+          "answerText": "Emotion",
+          "feedBack": "That is correct! The author consistently uses narration and evocative language to make the reader feel outraged by Amazon’s business practices in order to align the reader with his call to action against the company.",
+          "scoreValue": 1
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "What kind of logic is the author using when he attempts to challenge the idea that “Facebook does not see itself as a media company.”",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Cause and effect",
+          "feedBack": "That is not correct. The author concentrates on the definition of a media company because he realizes that this term has been interpreted differently by his opponents.  "
+        },
+        {
+          "answerText": "Definition",
+          "feedBack": "That is correct! The author concentrates on the definition of a media company because he realizes that this term has been interpreted differently by his opponents.  ",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Visual signs",
+          "feedBack": "That is not correct. The author concentrates on the definition of a media company because he realizes that this term has been interpreted differently by his opponents.   "
+        }
+      ]
+    },
+    {
+      "questionType": "All That Apply",
+      "maxScoreValue": 3,
+      "questionText": "Which of the following sentences illustrate the author’s use\nof evocative language? Select all that apply.",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "The <em>Times</em> reported that having a job at Amazon means 80-hour working weeks, fierce competition among co-workers, and punishingly critical performance reviews. ",
+          "feedBack": "That is correct! In each sentence, the author creates a strong emotional response in the reader with words like “fierce” and “punishingly”, “eliminated”, and “world domination”. "
+        },
+        {
+          "answerText": "Employees are ranked, and those at the bottom each year are eliminated.",
+          "feedBack": "That is correct! In each sentence, the author creates a strong emotional response in the reader with words like “fierce” and “punishingly”, “eliminated”, and “world domination”. "
+        },
+        {
+          "answerText": "The company is said to be working on using drones to deliver packages within 30 minutes of purchase. If it succeeds, its world domination will be complete.",
+          "feedBack": "That is correct! In each sentence, the author creates a strong emotional response in the reader with words like “fierce” and “punishingly”, “eliminated”, and “world domination”. ",
+          "scoreValue": 1
+        }
+      ]
+    }
+  ]
+}
