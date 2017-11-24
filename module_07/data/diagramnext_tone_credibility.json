@@ -1,0 +1,65 @@
+{
+  "ContainerID": "dnext",
+  "StepText": "Page",
+  "Layout": {
+    "TextPosition": "bottom",
+    "TextColumns": 12,
+    "TextStyle": "html",
+    "TextDisplay": "single"
+  },
+  "Navigation": {
+    "ShowProgress": false,
+    "ButtonNext": "Next",
+    "ButtonPrev": "Previous"
+  },
+  "Steps": [
+    {
+      "Image": {
+        "FilePath": "data/images/",
+        "FileName": "start.png",
+        "AltText": "start"
+      },
+      "HTML": ""
+    },
+    {
+      "Image": {
+        "FilePath": "data/images/",
+        "FileName": "Colloquialism.png",
+        "AltText": "Colloquialism"
+      },
+      "HTML": "<h3>Colloquialism</h3><p>Colloquial words and phrases often appear in speech even though they are generally vague and tend to contribute little to the actual substance of an idea.</p><div class=\"row\"><div class=\"col-sm-6\"><ul><li>Well</li><li>ain’t / gonna</li><li>really, really </li><li>like</li><li>totally</li></ul></div><div class=\"col-sm-6\"><ul><li>okay</li><li>a lot</li><li>no way</li><li>way more</li><li>cause (in place of because)</li></ul></div></div>"
+    },
+    {
+      "Image": {
+        "FilePath": "data/images/",
+        "FileName": "Slang.png",
+        "AltText": "Slang"
+      },
+      "HTML": "<h3>Slang</h3><p>Slang refers to words and phrases used most often within particular social or age groups. Slang, like colloquialism, is informal and associated primarily with spoken language.</p><div class=\"row\"><div class=\"col-sm-6\"><ul><li>what’s up</li><li>hang out</li><li>chill</li></ul></div><div class=\"col-sm-6\"><ul><li>cool</li><li>awesome</li></ul></div></div>"
+    },
+    {
+      "Image": {
+        "FilePath": "data/images/",
+        "FileName": "Idiom.png",
+        "AltText": "Idiom"
+      },
+      "HTML": "<h3>Idiom</h3><p>Idioms make sense only to the people who are familiar with the meaning; the words themselves don’t have a clear connection to the meaning or use of the term.</p><div class=\"row\"><div class=\"col-sm-6\"><ul><li>at the drop of a hat</li><li>over the moon</li><li>see the light</li></ul></div><div class=\"col-sm-6\"><ul><li>barking up the wrong tree</li><li>piece of cake </li></ul></div></div>"
+    },
+    {
+      "Image": {
+        "FilePath": "data/images/",
+        "FileName": "Clichés.png",
+        "AltText": "Clichés"
+      },
+      "HTML": "<h3>Clichés</h3><p>Clichés originally inspired a striking image or an original comparison, but they have become so overused that they no longer produce their intended effect.</p><div class=\"row\"><div class=\"col-sm-6\"><ul><li>don’t judge a book by its cover</li><li>kill two birds with one stone</li><li>actions speak louder than words</li></ul></div><div class=\"col-sm-6\"><ul><li>best of both worlds</li><li>par for the course</li><li>at the crack of dawn</li></ul></div></div>"
+    },
+    {
+      "Image": {
+        "FilePath": "data/images/",
+        "FileName": "Contractions.png",
+        "AltText": "Contractions"
+      },
+      "HTML": "<h3>Contractions</h3><p>Contractions are formed when other words are shortened and/or condensed:</p><div class=\"row><div class=\"col-sm-4\"><ul><li>I + will = I’ll</li><li>I + am = I’m</li></ul></div><div class=\"col-sm-4\"><ul><li>He + is = He’s</li><li>She + is = She’s </li></ul></div><div class=\"col-sm-4\"><ul><li>Cannot = can’t</li><li>Will + not  = won’t</li></ul></div><p>Style guides and writing experts traditionally frowned upon the use of contractions in writing because they are inherently informal: they are intended to replicate the sound of speech. Using contractions is not as clear as other types of informal language. In this case, be guided by your reader.</p><ul><li>If you’re writing for an unfamiliar or adversarial audience, or if they are superior to you in a workplace hierarchy, using contractions might cause your reader to take your ideas less seriously because you have not presented yourself professionally.</li><li>If you want to create a feeling of familiarity between your reader and yourself, the use of contractions might actually help to establish trust with your reader because you have made them feel at ease.</li></ul></div>"
+    }
+  ]
+}
