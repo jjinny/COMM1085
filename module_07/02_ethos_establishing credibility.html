@@ -24,7 +24,7 @@
 
   <!-- Your custom styles (optional) -->
   <link href="../css/style.css" rel="stylesheet">
-
+<link type="text/css" rel="stylesheet" href="multimedia/tile-exercise/css/tile-exercise.css">
 </head>
 
 <body>
@@ -185,8 +185,59 @@
             <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
               <div class="card-block">
                 <p>Your reader will be more likely to accept your overall message if you can demonstrate that you are a trustworthy source of information. Readers might question the legitimacy of your entire argument if the information you present is not accurate, current, and relevant.</p>
-                <p>The best way to present yourself as a reliable source of information is to use credible sources. We’ll explore credibility of sources in greater detail during Weeks 9 and 10, but for now here are the key factors to consider when determining whether your source is reliable and credible. Learn more by clicking each title.</p>
-                <h2>INSERT INTERACTIVE DIAGRAM</h2>
+                <p>The best way to present yourself as a reliable source of information is to use credible sources. We’ll explore credibility of sources in greater detail during Weeks 9 and 10, but for now here are the key factors to consider when determining whether your source is reliable and credible.</p>
+                <p><em>Learn more by clicking each title or use this <a href="02_ethos_establishing credibility_alt.html" target="_blank">printable version</a>.</em></p>
+                    <div class="mb-4" id="background">
+                        <div class="box clickable prime-bg" role="button" aria-labelledby="nature" onclick="boxClick($(this))" style="border-radius: 60px 0px 0px;">
+                            <span id="nature" class="text centered"><h1 class="text-white">Author</h1></span>
+                            <div class="desc-text">
+                            	<ul>
+                            		<li>Is the author's name provided? Is the author's contact information available?</li>
+                            		<li>Does the author have credentials that make him or her qualified to speak on this subject?</li>
+                            		<li>Can you easily find other things that the author has written?</li>
+                            		<li>Does the author have any affiliation that would make their writing less reliable?</li>
+                            	</ul>
+                            </div>
+                        </div>
+                        <div class="box clickable accent-1" role="button" aria-labelledby="realistic" onclick="boxClick($(this))" style="border-radius: 0px 60px 0px 0px;">
+                            <span id="realistic" class="text centered"><h1 class="text-white">Publication source</h1></span>
+                            <div class="desc-text">
+                            	<p>For example: newspaper, magazine, website</p>
+                            	<ul>
+									<li>How does the source describe itself? Does it have an “about” page (if online)?</li>
+									<li>Does it provide information about how big of an organization it is – how many people read it, how many people work for it? </li>
+									<li>Is it owned by another company?</li>
+									<li>Can you tell how they make money, e.g., by selling ads, promoting products, or charging subscription fees?</li>
+									<li>Have you heard of the publication before? What is its reputation if you do a search for it? </li>
+                            	</ul>
+                            </div>
+                        </div>
+                        <!--<span class="circle centered" role="button" aria-labelledby="success" onclick="circleClick($(this))">-->
+                        <span class="circle centered" role="button" aria-labelledby="success">
+    					<span id="success" class="centered">Credible Sources</span>
+                        </span>
+                        <div class="box clickable accent-2" role="button" aria-labelledby="skills" onclick="boxClick($(this))" style="border-radius: 0px 0px 0px 60px;">
+                            <span id="skills" class="text centered"><h1 class="text-white">Publication date</h1></span>
+                            <div class="desc-text">
+                            	<ul>
+									<li>Is a publication date provided? </li>
+									<li>Is it current?</li>          		
+                            	</ul>
+                            </div>
+                        </div>
+                        <div class="box clickable second-bg" role="button" aria-labelledby="motivations" onclick="boxClick($(this))" style="border-radius: 0px 0px 60px 0px;">
+                            <span id="motivations" class="text centered"><h1 class="text-white">Information</h1></span>
+                            <div class="desc-text">
+                            	<ul>
+									<li>Does the information seem plausible? </li>
+									<li>Is the source of the information cited? </li>
+									<li>Can you confirm the information by checking for it in another source?</li>
+                            		
+                            	</ul>
+                            </div>
+                        </div>
+                </div>
+				  
               </div>
             </div>
           </div>
@@ -269,7 +320,8 @@
 		$("#show_" + n).addClass("hiddendiv");
 	}
 </script>
-
+    <script type="text/javascript" src="multimedia/tile-exercise/js/jquery-ui/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="multimedia/tile-exercise/js/main.js"></script>
 
 </body>
 
