@@ -12,7 +12,7 @@
     "allowPartial": true,
     "randomize": true,
     "subtractWrong": false,
-    "preQuizText": "",
+    "preQuizText": "This activity is for the School of Media & Design",
     "preQuizMedia": "none",
     "postQuizText": "none",
     "postQuizMedia": []
