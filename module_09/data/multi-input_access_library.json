@@ -15,7 +15,7 @@
             "FeedbackText": "The correct answer is 2273.",
             "HasRange": false,
             "Correct": [
-              2273
+              "2273"
             ]
           }
         }
