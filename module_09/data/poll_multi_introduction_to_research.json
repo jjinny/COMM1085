@@ -1,0 +1,318 @@
+{
+  "FieldID": 1000042,
+  "FieldName": "COMM1085-IntroductionToResearch",
+  "Polls": [
+    {
+      "PollID": 1,
+      "PollContainer": "poll1",
+      "Title": "",
+      "Description": "<p>How often do you use Google or another search engine in your day-to-day life to find answers to questions and access to information?</p>",
+      "GraphType": "pie",
+      "PollType": "Multi",
+      "MaxSelections": 1,
+      "Scale": [
+        {
+          "Id": 1,
+          "Container": "ratingscale1",
+          "Color": "#2d112b",
+          "Descriptor": "Never",
+          "ShortDesc": "Never",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Id": 2,
+          "Container": "ratingscale1",
+          "Color": "#ca293e",
+          "Descriptor": "Infrequently",
+          "ShortDesc": "Infrequently",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Container": "ratingscale1",
+          "Id": 3,
+          "Color": "#ff583d",
+          "Descriptor": "Sometimes",
+          "ShortDesc": "Sometimes",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Container": "ratingscale1",
+          "Id": 4,
+          "Color": "#ff583d",
+          "Descriptor": "Frequently",
+          "ShortDesc": "Frequently",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Container": "ratingscale1",
+          "Id": 5,
+          "Color": "#a01865",
+          "Descriptor": "All day, every day",
+          "ShortDesc": "All day, every day",
+          "ImageFile": "circle.png"
+        }
+      ],
+      "Feedback": "none",
+      "Features": {}
+    },
+    {
+      "PollID": 2,
+      "PollContainer": "poll2",
+      "Title": "",
+      "Description": "<p>How satisfied are you in general with the results of your Google searches?</p>",
+      "GraphType": "pie",
+      "PollType": "Multi",
+      "MaxSelections": 1,
+      "Scale": [
+        {
+          "Id": 1,
+          "Container": "ratingscale2",
+          "Color": "#2d112b",
+          "Descriptor": "Not at all satisfied",
+          "ShortDesc": "Not at all satisfied",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Id": 2,
+          "Container": "ratingscale2",
+          "Color": "#ca293e",
+          "Descriptor": "Somewhat unsatisfied",
+          "ShortDesc": "Somewhat unsatisfied",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Container": "ratingscale2",
+          "Id": 3,
+          "Color": "#ff583d",
+          "Descriptor": "Satisfied",
+          "ShortDesc": "Satisfied",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Container": "ratingscale2",
+          "Id": 4,
+          "Color": "#ff583d",
+          "Descriptor": "Completely satisfied",
+          "ShortDesc": "Completely satisfied",
+          "ImageFile": "circle.png"
+        }
+      ],
+      "Feedback": "none",
+      "Features": {}
+    },
+    {
+      "PollID": 3,
+      "PollContainer": "poll3",
+      "Title": "",
+      "Description": "<p>How often do you use Google to find answers to questions and access to information in a school-related context?</p>",
+      "GraphType": "pie",
+      "PollType": "Multi",
+      "MaxSelections": 1,
+      "Scale": [
+        {
+          "Id": 1,
+          "Container": "ratingscale3",
+          "Color": "#2d112b",
+          "Descriptor": "Never",
+          "ShortDesc": "Never",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Id": 2,
+          "Container": "ratingscale3",
+          "Color": "#ca293e",
+          "Descriptor": "Infrequently",
+          "ShortDesc": "Infrequently",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Container": "ratingscale3",
+          "Id": 3,
+          "Color": "#ff583d",
+          "Descriptor": "Sometimes",
+          "ShortDesc": "Sometimes",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Container": "ratingscale3",
+          "Id": 4,
+          "Color": "#ff583d",
+          "Descriptor": "Frequently",
+          "ShortDesc": "Frequently",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Container": "ratingscale3",
+          "Id": 5,
+          "Color": "#a01865",
+          "Descriptor": "All day, every day",
+          "ShortDesc": "All day, every day",
+          "ImageFile": "circle.png"
+        }
+      ],
+      "Feedback": "none",
+      "Features": {}
+    },
+    {
+      "PollID": 4,
+      "PollContainer": "poll4",
+      "Title": "",
+      "Description": "<p>How satisfied are you in general with the results of your school-related Google searches?</p>",
+      "GraphType": "pie",
+      "PollType": "Multi",
+      "MaxSelections": 1,
+      "Scale": [
+        {
+          "Id": 1,
+          "Container": "ratingscale4",
+          "Color": "#2d112b",
+          "Descriptor": "Not at all satisfied",
+          "ShortDesc": "Not at all satisfied",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Id": 2,
+          "Container": "ratingscale4",
+          "Color": "#ca293e",
+          "Descriptor": "Somewhat unsatisfied",
+          "ShortDesc": "Somewhat unsatisfied",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Container": "ratingscale4",
+          "Id": 3,
+          "Color": "#ff583d",
+          "Descriptor": "Satisfied",
+          "ShortDesc": "Satisfied",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Container": "ratingscale4",
+          "Id": 4,
+          "Color": "#ff583d",
+          "Descriptor": "Completely satisfied",
+          "ShortDesc": "Completely satisfied",
+          "ImageFile": "circle.png"
+        }
+      ],
+      "Feedback": "none",
+      "Features": {}
+    },
+    {
+      "PollID": 5,
+      "PollContainer": "poll5",
+      "Title": "",
+      "Description": "<p>How often do you use a library system — either your school’s or your public library — to find answers to questions and access to information in a school-related context?</p>",
+      "GraphType": "pie",
+      "PollType": "Multi",
+      "MaxSelections": 1,
+      "Scale": [
+        {
+          "Id": 1,
+          "Container": "ratingscale5",
+          "Color": "#2d112b",
+          "Descriptor": "Never",
+          "ShortDesc": "Never",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Id": 2,
+          "Container": "ratingscale5",
+          "Color": "#ca293e",
+          "Descriptor": "Infrequently",
+          "ShortDesc": "Infrequently",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Container": "ratingscale5",
+          "Id": 3,
+          "Color": "#ff583d",
+          "Descriptor": "Sometimes",
+          "ShortDesc": "Sometimes",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Container": "ratingscale5",
+          "Id": 4,
+          "Color": "#ff583d",
+          "Descriptor": "Frequently",
+          "ShortDesc": "Frequently",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Container": "ratingscale5",
+          "Id": 5,
+          "Color": "#a01865",
+          "Descriptor": "All day, every day",
+          "ShortDesc": "All day, every day",
+          "ImageFile": "circle.png"
+        }
+      ],
+      "Feedback": "none",
+      "Features": {}
+    },
+    {
+      "PollID": 6,
+      "PollContainer": "poll6",
+      "Title": "",
+      "Description": "<p>What factors influence your decision to use a web search engine like Google or a library database? Select all that apply.</p>",
+      "GraphType": "pie",
+      "PollType": "Multi",
+      "MaxSelections": 1,
+      "Scale": [
+        {
+          "Id": 1,
+          "Container": "ratingscale6",
+          "Color": "#2d112b",
+          "Descriptor": "Convenience",
+          "ShortDesc": "Convenience",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Id": 2,
+          "Container": "ratingscale6",
+          "Color": "#ca293e",
+          "Descriptor": "Habit",
+          "ShortDesc": "Habit",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Container": "ratingscale6",
+          "Id": 3,
+          "Color": "#ff583d",
+          "Descriptor": "Familiarity",
+          "ShortDesc": "Familiarity",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Container": "ratingscale6",
+          "Id": 4,
+          "Color": "#ff583d",
+          "Descriptor": "Quality of results",
+          "ShortDesc": "Quality of results",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Container": "ratingscale6",
+          "Id": 5,
+          "Color": "#a01865",
+          "Descriptor": "Design / the way the site looks",
+          "ShortDesc": "Design / the way the site looks",
+          "ImageFile": "circle.png"
+        }
+      ],
+      "Feedback": "none",
+      "Features": {}
+    }
+  ],
+  "Roles": {
+    "ModeratorView": [
+      101,
+      102,
+      126
+    ],
+    "ParticipantView": [
+      103
+    ]
+  }
+}

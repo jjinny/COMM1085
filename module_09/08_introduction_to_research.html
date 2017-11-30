@@ -19,14 +19,14 @@
 <!-- Material Design Bootstrap -->
 <link href="../css/mdb.min.css" rel="stylesheet">
 <link href="../css/style.css" rel="stylesheet">
-      <link href="../facilitator_tools/Quiz/css/quiz.css" rel="stylesheet">
+<link href="../facilitator_tools/Polling/_css/polling.css" rel="stylesheet">
 </head>
 
 <body>
 <div class="container-fluid"> 
   
   <!-- Header Area -->
-  <header id="activity">
+  <header id="polling">
     <div class="row">
       <div class="col-sm-12 prime-bg header z-depth-1-half">
         <div class="headerMod"></div>
@@ -42,7 +42,336 @@
       <h1><i class="fal fa-cubes fa-lg text-second fa-pull-left" aria-hidden="true"></i><span class="sr-only"></span>Introduction to Research</h1>
       <p>In this next section, we’ll explore the online databases available to you through Conestoga’s Library Resource Centre (LRC). As you develop the research and critical thinking skills necessary to find relevant and reliable sources of information, you’ll begin work on the Research Project that will consume our energy and attention in the second half of the COMM1085 semester.</p>
       <p>Answer the following questions about your current online habits to find information.</p>
-   	<section id="dbox"></section>
+		<div class="pollcontainer" id="poll1">
+			<div class="row">
+			  <div class="participantview col-sm-12">
+				<div class="widgetdetails"></div>
+				<ul class="ratingscale" id="ratingscale1">
+				</ul>
+			  </div>
+			</div>
+			<div class="row">
+			  <div class="col-sm-6">
+				<p class="totalresponses">Total Responses: <span class="responsenum"></span></p>
+				<!-- Button trigger modal -->
+				<button type="button" class="btn prime-bg btn-lg" data-toggle="modal" data-target="#PollOne" data-pollcontainer="poll1"> See Results </button>
+			  </div>
+			  <div class="col-sm-6">
+				<div class="updatetext">
+				  <p>Saved...</p>
+				</div>
+			  </div>
+			</div>
+
+			<!-- Modal :: poll1-->
+			<div class="modal fade" id="PollOne" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			  <div class="modal-dialog" role="document"> 
+				<!--Content-->
+				<div class="modal-content"> 
+				  <!--Header-->
+				  <div class="modal-header">
+					<h4 class="modal-title w-100" id="myModalLabel">Survey Results</h4>
+				  </div>
+				  <!--Body-->
+				  <div class="modal-body"> 
+					<!--Panel 2-->
+					<div class="resultsview">
+					  <div class="polltitle"></div>
+					  <p class="polldescription">You must submit your response before viewing class results.</p>
+					  <div class="chart">
+						<canvas id="chart1" width="400" height="300"></canvas>
+					  </div>
+					  <div class="legend"></div>
+					  <div class="pollfeedback"></div>
+					</div>
+					<!--/.Panel 2--> 
+				  </div>
+				  <!--Footer-->
+				  <div class="modal-footer">
+					<button type="button" class="btn second-bg" data-dismiss="modal">Close</button>
+				  </div>
+				</div>
+				<!--/.Content--> 
+			  </div>
+			</div>
+			<!-- Modal --> 
+
+		  </div>
+		  <div class="pollcontainer" id="poll2">
+			<div class="row">
+			  <div class="participantview col-sm-12">
+				<div class="widgetdetails"></div>
+				<ul class="ratingscale" id="ratingscale2">
+				</ul>
+			  </div>
+			</div>
+			<div class="row">
+			  <div class="col-sm-6">
+				<p class="totalresponses">Total Responses: <span class="responsenum"></span></p>
+				<!-- Button trigger modal -->
+				<button type="button" class="btn prime-bg btn-lg" data-toggle="modal" data-target="#PollTwo" data-pollcontainer="poll2"> See Results </button>
+			  </div>
+
+			  <div class="col-sm-6">
+				<div class="updatetext">
+				  <p>Saved...</p>
+				</div>
+			  </div>
+			</div>
+
+			<!-- Modal :: poll2 -->
+			<div class="modal fade" id="PollTwo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+			  <div class="modal-dialog" role="document"> 
+				<!--Content-->
+				<div class="modal-content"> 
+				  <!--Header-->
+				  <div class="modal-header">
+					<h4 class="modal-title w-100" id="myModalLabel2">Survey Results</h4>
+				  </div>
+				  <!--Body-->
+				  <div class="modal-body"> 
+					<!--Panel 2-->
+					<div class="resultsview">
+					  <div class="polltitle"></div>
+					  <p class="polldescription">You must submit your response before viewing class results.</p>
+					  <div class="chart">
+						<canvas id="chart2" width="400" height="300"></canvas>
+					  </div>
+					  <div class="legend"></div>
+					  <div class="pollfeedback"></div>
+					</div>
+					<!--/.Panel 2--> 
+				  </div>
+				  <!--Footer-->
+				  <div class="modal-footer">
+					<button type="button" class="btn second-bg" data-dismiss="modal">Close</button>
+				  </div>
+				</div>
+				<!--/.Content--> 
+			  </div>
+			</div>
+			<!-- Modal --> 
+		  </div>
+		  <div class="pollcontainer" id="poll3">
+			<div class="row">
+			  <div class="participantview col-sm-12">
+				<div class="widgetdetails"></div>
+				<ul class="ratingscale" id="ratingscale3">
+				</ul>
+			  </div>
+			</div>
+			<div class="row">
+			  <div class="col-sm-6">
+				<p class="totalresponses">Total Responses: <span class="responsenum"></span></p>
+				<!-- Button trigger modal -->
+				<button type="button" class="btn prime-bg btn-lg" data-toggle="modal" data-target="#PollThree" data-pollcontainer="poll3"> See Results </button>
+			  </div>
+
+			  <div class="col-sm-6">
+				<div class="updatetext">
+				  <p>Saved...</p>
+				</div>
+			  </div>
+			</div>
+
+			<!-- Modal :: poll3 -->
+			<div class="modal fade" id="PollThree" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+			  <div class="modal-dialog" role="document"> 
+				<!--Content-->
+				<div class="modal-content"> 
+				  <!--Header-->
+				  <div class="modal-header">
+					<h4 class="modal-title w-100" id="myModalLabel3">Survey Results</h4>
+				  </div>
+				  <!--Body-->
+				  <div class="modal-body"> 
+					<!--Panel 3-->
+					<div class="resultsview">
+					  <div class="polltitle"></div>
+					  <p class="polldescription">You must submit your response before viewing class results.</p>
+					  <div class="chart">
+						<canvas id="chart3" width="400" height="300"></canvas>
+					  </div>
+					  <div class="legend"></div>
+					  <div class="pollfeedback"></div>
+					</div>
+					<!--/.Panel 3--> 
+				  </div>
+				  <!--Footer-->
+				  <div class="modal-footer">
+					<button type="button" class="btn second-bg" data-dismiss="modal">Close</button>
+				  </div>
+				</div>
+				<!--/.Content--> 
+			  </div>
+			</div>
+			<!-- Modal --> 
+		  </div>
+		  <div class="pollcontainer" id="poll4">
+			<div class="row">
+			  <div class="participantview col-sm-12">
+				<div class="widgetdetails"></div>
+				<ul class="ratingscale" id="ratingscale4">
+				</ul>
+			  </div>
+			</div>
+			<div class="row">
+			  <div class="col-sm-6">
+				<p class="totalresponses">Total Responses: <span class="responsenum"></span></p>
+				<!-- Button trigger modal -->
+				<button type="button" class="btn prime-bg btn-lg" data-toggle="modal" data-target="#PollFour" data-pollcontainer="poll4"> See Results </button>
+			  </div>
+
+			  <div class="col-sm-6">
+				<div class="updatetext">
+				  <p>Saved...</p>
+				</div>
+			  </div>
+			</div>
+
+			<!-- Modal :: poll4 -->
+			<div class="modal fade" id="PollFour" tabindex="-1" role="dialog" aria-labelledby="myModalLabel4" aria-hidden="true">
+			  <div class="modal-dialog" role="document"> 
+				<!--Content-->
+				<div class="modal-content"> 
+				  <!--Header-->
+				  <div class="modal-header">
+					<h4 class="modal-title w-100" id="myModalLabel4">Survey Results</h4>
+				  </div>
+				  <!--Body-->
+				  <div class="modal-body"> 
+					<!--Panel 4-->
+					<div class="resultsview">
+					  <div class="polltitle"></div>
+					  <p class="polldescription">You must submit your response before viewing class results.</p>
+					  <div class="chart">
+						<canvas id="chart4" width="400" height="300"></canvas>
+					  </div>
+					  <div class="legend"></div>
+					  <div class="pollfeedback"></div>
+					</div>
+					<!--/.Panel 4--> 
+				  </div>
+				  <!--Footer-->
+				  <div class="modal-footer">
+					<button type="button" class="btn second-bg" data-dismiss="modal">Close</button>
+				  </div>
+				</div>
+				<!--/.Content--> 
+			  </div>
+			</div>
+			<!-- Modal --> 
+		  </div>
+		  <div class="pollcontainer" id="poll5">
+			<div class="row">
+			  <div class="participantview col-sm-12">
+				<div class="widgetdetails"></div>
+				<ul class="ratingscale" id="ratingscale5">
+				</ul>
+			  </div>
+			</div>
+			<div class="row">
+			  <div class="col-sm-6">
+				<p class="totalresponses">Total Responses: <span class="responsenum"></span></p>
+				<!-- Button trigger modal -->
+				<button type="button" class="btn prime-bg btn-lg" data-toggle="modal" data-target="#PollThree" data-pollcontainer="poll5"> See Results </button>
+			  </div>
+
+			  <div class="col-sm-6">
+				<div class="updatetext">
+				  <p>Saved...</p>
+				</div>
+			  </div>
+			</div>
+
+			<!-- Modal :: poll5 -->
+			<div class="modal fade" id="PollFive" tabindex="-1" role="dialog" aria-labelledby="myModalLabel5" aria-hidden="true">
+			  <div class="modal-dialog" role="document"> 
+				<!--Content-->
+				<div class="modal-content"> 
+				  <!--Header-->
+				  <div class="modal-header">
+					<h4 class="modal-title w-100" id="myModalLabel5">Survey Results</h4>
+				  </div>
+				  <!--Body-->
+				  <div class="modal-body"> 
+					<!--Panel 5-->
+					<div class="resultsview">
+					  <div class="polltitle"></div>
+					  <p class="polldescription">You must submit your response before viewing class results.</p>
+					  <div class="chart">
+						<canvas id="chart5" width="400" height="300"></canvas>
+					  </div>
+					  <div class="legend"></div>
+					  <div class="pollfeedback"></div>
+					</div>
+					<!--/.Panel 5--> 
+				  </div>
+				  <!--Footer-->
+				  <div class="modal-footer">
+					<button type="button" class="btn second-bg" data-dismiss="modal">Close</button>
+				  </div>
+				</div>
+				<!--/.Content--> 
+			  </div>
+			</div>
+			<!-- Modal --> 
+		  </div>
+		  <div class="pollcontainer" id="poll6">
+			<div class="row">
+			  <div class="participantview col-sm-12">
+				<div class="widgetdetails"></div>
+				<ul class="ratingscale" id="ratingscale6">
+				</ul>
+			  </div>
+			</div>
+			<div class="row">
+			  <div class="col-sm-6">
+				<p class="totalresponses">Total Responses: <span class="responsenum"></span></p>
+				<!-- Button trigger modal -->
+				<button type="button" class="btn prime-bg btn-lg" data-toggle="modal" data-target="#PollSix" data-pollcontainer="poll6"> See Results </button>
+			  </div>
+
+			  <div class="col-sm-6">
+				<div class="updatetext">
+				  <p>Saved...</p>
+				</div>
+			  </div>
+			</div>
+
+			<!-- Modal :: poll6 -->
+			<div class="modal fade" id="PollSix" tabindex="-1" role="dialog" aria-labelledby="myModalLabel6" aria-hidden="true">
+			  <div class="modal-dialog" role="document"> 
+				<!--Content-->
+				<div class="modal-content"> 
+				  <!--Header-->
+				  <div class="modal-header">
+					<h4 class="modal-title w-100" id="myModalLabel6">Survey Results</h4>
+				  </div>
+				  <!--Body-->
+				  <div class="modal-body"> 
+					<!--Panel 6-->
+					<div class="resultsview">
+					  <div class="polltitle"></div>
+					  <p class="polldescription">You must submit your response before viewing class results.</p>
+					  <div class="chart">
+						<canvas id="chart6" width="400" height="300"></canvas>
+					  </div>
+					  <div class="legend"></div>
+					  <div class="pollfeedback"></div>
+					</div>
+					<!--/.Panel 6--> 
+				  </div>
+				  <!--Footer-->
+				  <div class="modal-footer">
+					<button type="button" class="btn second-bg" data-dismiss="modal">Close</button>
+				  </div>
+				</div>
+				<!--/.Content--> 
+			  </div>
+			</div>
+			<!-- Modal --> 
+		  </div>
 
     </div>
   </main>
@@ -66,19 +395,25 @@
 <!-- Bootstrap core JavaScript --> 
 <script type="text/javascript" src="../js/bootstrap.js"></script> 
 
-<!-- MDB core JavaScript 
-<script type="text/javascript" src="../js/mdb.min.js"></script> --> 
+<!-- MDB core JavaScript --> 
+<script type="text/javascript" src="../js/mdb.min.js"></script> 
 
 <!-- Open-Close Collapse --> 
 <script src="../js/plugins/open_close_all.js"></script> 
-      <script src="https://s.brightspace.com/lib/jquery/1.11.0/jquery.min.js"></script>
-      <script>window.jQuery || document.write('<script src="thirdpartylib/jquery/jquery-1.11.0.min.js"><\/script>')</script>
-      <script src="../facilitator_tools/Quiz/js/quiz.js"></script>
-   	<script>
-   		$(document).ready(function() {
-   			InlineQuizApp.setupQuiz("data/quiz-data_introduction_to_research.json", "dbox")
-   		});
-   	</script>
-      <noscript>This activity will only load in an online environment with JavaScript enabled.</noscript>
+
+<!-- OLC Custom JS --> 
+<script src="../js/plugins/olc-custom.js"></script> 
+
+<!-- Polling -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.bundle.js"></script> 
+<script>
+    var datafilename = "poll_multi_introduction_to_research.json";  
+</script> 
+<script src="../facilitator_tools/Polling/_js/thirdpartylib/global-superagent-d2l-session-auth.js"></script> 
+<script src="../facilitator_tools/Polling/_js/thirdpartylib/csval-lib.js"></script> 
+<script src="../facilitator_tools/Polling/_js/poll-maker-multi.js"></script>
+<noscript>
+This activity will only load in an online environment with JavaScript enabled.
+</noscript>
 </body>
 </html>

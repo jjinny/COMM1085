@@ -1,0 +1,281 @@
+{
+  "FieldID": 1000042,
+  "FieldName": "COMM1085-IntroductionToFeedbackAndReflection",
+  "Polls": [
+    {
+      "PollID": 1,
+      "PollContainer": "poll1",
+      "Title": "",
+      "Description": "<p>I learn better when I can ask the teacher questions and discuss the concepts or skills with other people.</p>",
+      "GraphType": "pie",
+      "PollType": "Multi",
+      "MaxSelections": 1,
+      "Scale": [
+        {
+          "Id": 1,
+          "Container": "ratingscale1",
+          "Color": "#2d112b",
+          "Descriptor": "Always True",
+          "ShortDesc": "Always True",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Id": 2,
+          "Container": "ratingscale1",
+          "Color": "#ca293e",
+          "Descriptor": "Generally True ",
+          "ShortDesc": "Generally True",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Container": "ratingscale1",
+          "Id": 3,
+          "Color": "#ff583d",
+          "Descriptor": "Sometimes True",
+          "ShortDesc": "Sometimes True",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Container": "ratingscale1",
+          "Id": 4,
+          "Color": "#ff583d",
+          "Descriptor": "Not Often",
+          "ShortDesc": "Not Often",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Container": "ratingscale1",
+          "Id": 5,
+          "Color": "#a01865",
+          "Descriptor": "Not at All",
+          "ShortDesc": "Not at All",
+          "ImageFile": "circle.png"
+        }
+      ],
+      "Feedback": "none",
+      "Features": {}
+    },
+    {
+      "PollID": 2,
+      "PollContainer": "poll2",
+      "Title": "",
+      "Description": "<p>I learn better when I can participate in a “review” session at the end of a unit that requires me to bring ideas together, look for patterns and trends, develop “flash cards”, or to complete practice quizzes or simulation exercises.</p>",
+      "GraphType": "pie",
+      "PollType": "Multi",
+      "MaxSelections": 1,
+      "Scale": [
+        {
+          "Id": 1,
+          "Container": "ratingscale2",
+          "Color": "#2d112b",
+          "Descriptor": "Always True",
+          "ShortDesc": "Always True",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Id": 2,
+          "Container": "ratingscale2",
+          "Color": "#ca293e",
+          "Descriptor": "Generally True ",
+          "ShortDesc": "Generally True",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Container": "ratingscale2",
+          "Id": 3,
+          "Color": "#ff583d",
+          "Descriptor": "Sometimes True",
+          "ShortDesc": "Sometimes True",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Container": "ratingscale2",
+          "Id": 4,
+          "Color": "#ff583d",
+          "Descriptor": "Not Often",
+          "ShortDesc": "Not Often",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Container": "ratingscale2",
+          "Id": 5,
+          "Color": "#a01865",
+          "Descriptor": "Not at All",
+          "ShortDesc": "Not at All",
+          "ImageFile": "circle.png"
+        }
+      ],
+      "Feedback": "none",
+      "Features": {}
+    },
+    {
+      "PollID": 3,
+      "PollContainer": "poll3",
+      "Title": "",
+      "Description": "<p>I can learn new things more easily when I can connect them to things I already know.</p>",
+      "GraphType": "pie",
+      "PollType": "Multi",
+      "MaxSelections": 1,
+      "Scale": [
+        {
+          "Id": 1,
+          "Container": "ratingscale3",
+          "Color": "#2d112b",
+          "Descriptor": "Always True",
+          "ShortDesc": "Always True",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Id": 2,
+          "Container": "ratingscale3",
+          "Color": "#ca293e",
+          "Descriptor": "Generally True ",
+          "ShortDesc": "Generally True",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Container": "ratingscale3",
+          "Id": 3,
+          "Color": "#ff583d",
+          "Descriptor": "Sometimes True",
+          "ShortDesc": "Sometimes True",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Container": "ratingscale3",
+          "Id": 4,
+          "Color": "#ff583d",
+          "Descriptor": "Not Often",
+          "ShortDesc": "Not Often",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Container": "ratingscale3",
+          "Id": 5,
+          "Color": "#a01865",
+          "Descriptor": "Not at All",
+          "ShortDesc": "Not at All",
+          "ImageFile": "circle.png"
+        }
+      ],
+      "Feedback": "none",
+      "Features": {}
+    },
+    {
+      "PollID": 4,
+      "PollContainer": "poll4",
+      "Title": "",
+      "Description": "<p>I have participated in a science fair, assembled a “portfolio” of completed work, or given a presentation about an important experience or project that I was a part of.</p>",
+      "GraphType": "pie",
+      "PollType": "Multi",
+      "MaxSelections": 1,
+      "Scale": [
+        {
+          "Id": 1,
+          "Container": "ratingscale4",
+          "Color": "#2d112b",
+          "Descriptor": "Always True",
+          "ShortDesc": "Always True",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Id": 2,
+          "Container": "ratingscale4",
+          "Color": "#ca293e",
+          "Descriptor": "Generally True ",
+          "ShortDesc": "Generally True",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Container": "ratingscale4",
+          "Id": 3,
+          "Color": "#ff583d",
+          "Descriptor": "Sometimes True",
+          "ShortDesc": "Sometimes True",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Container": "ratingscale4",
+          "Id": 4,
+          "Color": "#ff583d",
+          "Descriptor": "Not Often",
+          "ShortDesc": "Not Often",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Container": "ratingscale4",
+          "Id": 5,
+          "Color": "#a01865",
+          "Descriptor": "Not at All",
+          "ShortDesc": "Not at All",
+          "ImageFile": "circle.png"
+        }
+      ],
+      "Feedback": "none",
+      "Features": {}
+    },
+    {
+      "PollID": 5,
+      "PollContainer": "poll5",
+      "Title": "",
+      "Description": "<p>After I finish a difficult project, take a test, or go through a co-op placement, I prefer to move forward to the next task and never look back — especially if the experience was not as successful as I had hoped it would be.</p>",
+      "GraphType": "pie",
+      "PollType": "Multi",
+      "MaxSelections": 1,
+      "Scale": [
+        {
+          "Id": 1,
+          "Container": "ratingscale5",
+          "Color": "#2d112b",
+          "Descriptor": "Always True",
+          "ShortDesc": "Always True",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Id": 2,
+          "Container": "ratingscale5",
+          "Color": "#ca293e",
+          "Descriptor": "Generally True ",
+          "ShortDesc": "Generally True",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Container": "ratingscale5",
+          "Id": 3,
+          "Color": "#ff583d",
+          "Descriptor": "Sometimes True",
+          "ShortDesc": "Sometimes True",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Container": "ratingscale5",
+          "Id": 4,
+          "Color": "#ff583d",
+          "Descriptor": "Not Often",
+          "ShortDesc": "Not Often",
+          "ImageFile": "circle.png"
+        },
+        {
+          "Container": "ratingscale5",
+          "Id": 5,
+          "Color": "#a01865",
+          "Descriptor": "Not at All",
+          "ShortDesc": "Not at All",
+          "ImageFile": "circle.png"
+        }
+      ],
+      "Feedback": "none",
+      "Features": {}
+    }
+  ],
+  "Roles": {
+    "ModeratorView": [
+      101,
+      102,
+      126
+    ],
+    "ParticipantView": [
+      103
+    ]
+  }
+}
