@@ -25,7 +25,9 @@
   <link rel="stylesheet" href="../facilitator_tools/DiagramNext/css/diagramnext.css">
   <link rel="stylesheet" href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css">
   <link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.2.4/css/buttons.dataTables.min.css">
-  <link href="../WordCloud/_css/wordcloud.css" rel="stylesheet">
+  <link href="../facilitator_tools/WordCloud/jQCloud-master/dist/jqcloud.css" rel="stylesheet">
+  <link href="../facilitator_tools/WordCloud/_css/wordcloud.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -95,55 +97,49 @@
               <p>Which of the 6 question words (who, what, where, when, why and how) is likely to require the most interpretation and reflection? Why? Enter your answer in the text box below.</p>
               
               <!-- Nav tabs -->
-			  <ul class="nav nav-tabs" role="tablist">
-				<li role="presentation" class="active"><a href="#participantview" aria-controls="participantview" role="tab" data-toggle="tab">Your Response</a></li>
-				<li role="presentation"><a href="#resultsview" aria-controls="resultsview" role="tab" data-toggle="tab">Class Results</a></li>
-			  </ul>
+				<ul class="nav nav-tabs" id="myTab" role="tablist">
+				  <li class="nav-item">
+					<a class="nav-link active" id="participantview-tab" data-toggle="tab" href="#participantview" role="tab" aria-controls="participantview" aria-selected="true">Your Response</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" id="resultsview-tab" data-toggle="tab" href="#resultsview" role="tab" aria-controls="resultsview" aria-selected="false">Class Results</a>
+				  </li>
 
-			  <!-- Tab panes -->
-			  <div class="tab-content">
-				<div role="tabpanel" class="tab-pane active" id="participantview">
-					<div class="row">
-						<div class="col-xs-12" id="widgetdetails">
+				</ul>
+				<div class="tab-content" id="myTabContent">
+					<div class="tab-pane fade show active" id="participantview" role="tabpanel" aria-labelledby="participantview-tab">
+						<div class="row">
+							<div class="col-sm-12" id="widgetdetails"> </div>
+						</div>
+						<div class="row">
+							<div class="col-sm-12">
+								<form class="form-inline">
+								  <label class="sr-only" for="inputwordcloud">Word</label>
+								  <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="inputwordcloud" placeholder="Word Submission">
+								  <button type="button" id="wordcloudsubmit" class="btn btn-primary">Submit</button>
+								</form>
 
+							</div>
+						</div>
+						<div class="row">
+							<div id="updatetext" class="col-sm-12">
+								<p>&nbsp;</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-12">
+								<p id="wordlistheader"><strong>Your Words:</strong></p>
+								<div id="userwordlist"></div>
+							</div>
 						</div>
 					</div>
-					<div class="row">
-						<div class="col-xs-12">
-							<input type="text" class="form-control" id="inputwordcloud" placeholder="Your Word Suggestion">
-							<button id="wordcloudsubmit" class="btn btn-default">Submit</button>
-
-						</div>
+					<div class="tab-pane fade" id="resultsview" role="tabpanel" aria-labelledby="resultsview-tab">
+						<div class="row"> </div>
+						<h3 id="wordcloudtitle"></h3>
+						<p id="wordclouddescription"></p>
+						<div id="wordcloud"></div>
 					</div>
-
-					<div class="row">
-						<div class="col-xs-12">
-							<h3 id="wordlistheader">Your Words:</h3>
-							<div id="userwordlist"></div>
-						</div>
-
-					</div>
-
-
-					<div class="row">
-						<div id="updatetext" class="col-xs-12">
-							<p>Saved...</p>
-						</div>
-					</div>
-
-				</div>   
-				<div role="tabpanel" class="tab-pane" id="resultsview">
-					<div class="row">
-
-
-					</div>
-					<h3 id="wordcloudtitle">Class Results</h3>
-					<p id="wordclouddescription">You must submit at least one word before viewing class results.</p>
-
-					<div id="wordcloud"></div>
-
-				</div>
-			  </div>
+				</div>           
           </div>
             </div>
           </div>
@@ -288,17 +284,14 @@
 <script src="../facilitator_tools/Reflection/assets/js/main.min.js"></script> 
 <script src="../facilitator_tools/Reflection/assets/js/inline-feedback.js"></script>
 <!-- WordCloud -->
-<script src="../WordCloud/_js/thirdpartylib/global-superagent-d2l-session-auth.js"></script>
-    <script src="../WordCloud/_js/thirdpartylib/csval-lib.js"></script>
-
-	<script src="../WordCloud/d3-wordcloud-master/lib/d3/d3.js"></script>
-    <script src="../WordCloud/d3-wordcloud-master/lib/d3/d3.layout.cloud.js"></script>
-    <script src="../WordCloud/d3-wordcloud-master/d3.wordcloud.js"></script>  
+<script src="../facilitator_tools/WordCloud/_js/thirdpartylib/global-superagent-d2l-session-auth.js"></script>
+	<script src="../facilitator_tools/WordCloud/_js/thirdpartylib/csval-lib.js"></script>
+	<script src="../facilitator_tools/WordCloud/jQCloud-master/dist/jqcloud.js"></script>
    
     <script>
-		var wcdatafilename = "wordcloud-models_for_reflection.json";  
+		var wc_datafilename = "wordcloud-models_for_reflection.json";  
 	</script>
-    <script src="../WordCloud/_js/wordcloud-maker.js"></script> 
+    <script src="../facilitator_tools/WordCloud/_js/wordcloud-maker.js"></script> 
 <noscript>
 This activity will only load in an online environment with JavaScript enabled.
 </noscript> 
