@@ -12,7 +12,7 @@
     "allowPartial": true,
     "randomize": true,
     "subtractWrong": false,
-    "preQuizText": "This reading is for the School of Business",
+    "preQuizText": "For the following questions, choose the best answer.",
     "preQuizMedia": "none",
     "postQuizText": "none",
     "postQuizMedia": []

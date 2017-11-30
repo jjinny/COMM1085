@@ -12,7 +12,7 @@
     "allowPartial": true,
     "randomize": true,
     "subtractWrong": false,
-    "preQuizText": "This activity is for the School of Trades & Apprenticeship",
+    "preQuizText": "For the following questions, choose the best answer.",
     "preQuizMedia": "none",
     "postQuizText": "none",
     "postQuizMedia": []
