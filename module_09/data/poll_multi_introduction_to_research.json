@@ -1,6 +1,6 @@
 {
-  "FieldID": 1000042,
-  "FieldName": "COMM1085-IntroductionToResearch",
+  "FieldID": 1000045,
+  "FieldName": "COMM1085-IntroToResearch",
   "Polls": [
     {
       "PollID": 1,
@@ -38,7 +38,7 @@
         {
           "Container": "ratingscale1",
           "Id": 4,
-          "Color": "#ff583d",
+          "Color": "#abe761",
           "Descriptor": "Frequently",
           "ShortDesc": "Frequently",
           "ImageFile": "circle.png"
@@ -91,7 +91,7 @@
         {
           "Container": "ratingscale2",
           "Id": 4,
-          "Color": "#ff583d",
+          "Color": "#abe761",
           "Descriptor": "Completely satisfied",
           "ShortDesc": "Completely satisfied",
           "ImageFile": "circle.png"
@@ -136,7 +136,7 @@
         {
           "Container": "ratingscale3",
           "Id": 4,
-          "Color": "#ff583d",
+          "Color": "#abe761",
           "Descriptor": "Frequently",
           "ShortDesc": "Frequently",
           "ImageFile": "circle.png"
@@ -189,7 +189,7 @@
         {
           "Container": "ratingscale4",
           "Id": 4,
-          "Color": "#ff583d",
+          "Color": "#abe761",
           "Descriptor": "Completely satisfied",
           "ShortDesc": "Completely satisfied",
           "ImageFile": "circle.png"
@@ -234,7 +234,7 @@
         {
           "Container": "ratingscale5",
           "Id": 4,
-          "Color": "#ff583d",
+          "Color": "#abe761",
           "Descriptor": "Frequently",
           "ShortDesc": "Frequently",
           "ImageFile": "circle.png"
@@ -287,7 +287,7 @@
         {
           "Container": "ratingscale6",
           "Id": 4,
-          "Color": "#ff583d",
+          "Color": "#abe761",
           "Descriptor": "Quality of results",
           "ShortDesc": "Quality of results",
           "ImageFile": "circle.png"

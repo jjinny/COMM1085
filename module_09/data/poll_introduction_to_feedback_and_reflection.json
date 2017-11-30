@@ -1,6 +1,6 @@
 {
-  "FieldID": 1000042,
-  "FieldName": "COMM1085-IntroductionToFeedbackAndReflection",
+  "FieldID": 1000044,
+  "FieldName": "COMM1085-IntroToFeedbackAndReflection",
   "Polls": [
     {
       "PollID": 1,
@@ -38,7 +38,7 @@
         {
           "Container": "ratingscale1",
           "Id": 4,
-          "Color": "#ff583d",
+          "Color": "#abe761",
           "Descriptor": "Not Often",
           "ShortDesc": "Not Often",
           "ImageFile": "circle.png"
@@ -91,7 +91,7 @@
         {
           "Container": "ratingscale2",
           "Id": 4,
-          "Color": "#ff583d",
+          "Color": "#abe761",
           "Descriptor": "Not Often",
           "ShortDesc": "Not Often",
           "ImageFile": "circle.png"
@@ -144,7 +144,7 @@
         {
           "Container": "ratingscale3",
           "Id": 4,
-          "Color": "#ff583d",
+          "Color": "#abe761",
           "Descriptor": "Not Often",
           "ShortDesc": "Not Often",
           "ImageFile": "circle.png"
@@ -197,7 +197,7 @@
         {
           "Container": "ratingscale4",
           "Id": 4,
-          "Color": "#ff583d",
+          "Color": "#abe761",
           "Descriptor": "Not Often",
           "ShortDesc": "Not Often",
           "ImageFile": "circle.png"
@@ -250,7 +250,7 @@
         {
           "Container": "ratingscale5",
           "Id": 4,
-          "Color": "#ff583d",
+          "Color": "#abe761",
           "Descriptor": "Not Often",
           "ShortDesc": "Not Often",
           "ImageFile": "circle.png"

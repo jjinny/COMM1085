@@ -75,7 +75,7 @@
         {
           "Container": "ratingscale2",
           "Id": 4,
-          "Color": "#ff583d",
+          "Color": "#cb1e5d",
           "Descriptor": "Feeling like you are already knowledgeable in your area of interest, and feeling like your initial research questions are simply leading you to deliver information you already know or opinions you already possess ",
           "ShortDesc": "Feeling like you are already knowledgeable",
           "ImageFile": "circle.png"
