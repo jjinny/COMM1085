@@ -11,7 +11,7 @@
       "PostQuiz": "",
       "Questions": [
         {
-          "Text": "<p>Which of the following in-text citation styles – standard or split – is more appropriate for the source? If you’re not familiar with this organization, check out <a href=\"https://www.interpol.int/\" target=\"_blank\">their website.</a></p><p>Make your choice by selecting one of the quotes below.</p>",
+          "Text": "<p>Which of the following in-text citation styles – standard or split – is more appropriate for the source? If you’re not familiar with this organization, check out <a href=\"https://www.interpol.int/\" target=\"_blank\">their website <i class=\"fal fa-external-link text-third\" aria-hidden=\"true\"></i></a>.</p><p>Make your choice by selecting one of the quotes below.</p>",
           "Icon": "",
           "Image": {
             "Path": "data/img",
